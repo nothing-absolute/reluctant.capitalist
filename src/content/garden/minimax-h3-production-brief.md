@@ -1,13 +1,13 @@
 ---
 title: "MiniMax H3 — 15-Second Clip Production Brief"
-description: "A detailed production brief for creating a 15-second video clip using MiniMax H3, focusing on its unique features and requirements for the scene."
+description: "Production guide for creating a 15-second video clip using MiniMax H3"
 date: "2026-08-31"
-tags: ["antigravity","artifact"]
+tags: ["video-production","ai-video-generation","minimax-h3","content-creation"]
 source: "antigravity://09300e2c-0117-4c16-be26-9bc5671d7e42/minimax_h3_production_brief.md"
-vault: false
-draft: true
+draft: false
 clarity: 5
 quality: 5
+vault: false
 ---
 
 ### MiniMax H3 — 15-Second Clip Production Brief
@@ -125,3 +125,9 @@ Use the `H3-Base Ref2VA` model endpoint with:
 | **0:30–0:45** | **MiniMax H3** | **⬅️ THIS CLIP: Break-in & box reveal** |
 | 0:45–0:55 | LTX Studio | Close-up: tearing open box, standee unfolds |
 | 0:55–1:00 | Any | Final reaction / credits |
+
+## Related
+
+- [What kind of AI video generation could i do with local llm on a: Apple Macbook Pro 14…](/garden/what-kind-of-ai-video-generation-could-i-do/)
+- [what kind of gs milage on the highway would 1976 Winnebago chevy get?]
+- [where are files and projects from antigravity saved locally?](/garden/where-are-files-and-projects-from-antigravity-saved-locally/)

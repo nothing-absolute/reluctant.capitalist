@@ -1,14 +1,14 @@
 ---
 title: "Kickstarter Financial Model — A Plain of Jars"
-description: "A detailed analysis of Kickstarter financial models for comics, including fee structures, production costs, and campaign feasibility."
+description: "Financial model for Kickstarter campaign of A Plain of Jars"
 date: "2026-09-23"
-tags: ["Kickstarter","Comics","Financial Model","Publishing","Funding"]
+tags: ["kickstarter","financial-model","a-plain-of-jars","projects"]
 source: "Projects/a-plain-of-jars/kickstarter-financial-model.md"
-status: "concept"
-stage: "idea"
-draft: true
+draft: false
 clarity: 4
 quality: 5
+status: "concept"
+stage: "idea"
 ---
 
 ### Kickstarter Financial Model — A Plain of Jars
@@ -51,3 +51,9 @@ Fees: Kickstarter 5% + processing 3-5% (~8-10% total; ~$4-5k on $50k) — kickst
 4. **Newsletter:** one "series pauses here" post ends it; list stays an asset (email "V2 live" later).
 
 **Bottom line: GO for the right reason (the artifact). Not income — at 3-volume scale this won't pay rent. The thing it reliably produces is the book.
+
+## Related
+
+- [A Plain of Jars — Project Bible](/projects/a-plain-of-jars-bible/)
+- [A Plain of Jars — Story Bible Addendum: The MLM Truth Project](/projects/a-plain-of-jars-story-bible-addendum-the-mlm-truth-project/)
+- [The Light Field — Substack Serialization Strategy](/projects/the-light-field-substack-serialization-strategy/)

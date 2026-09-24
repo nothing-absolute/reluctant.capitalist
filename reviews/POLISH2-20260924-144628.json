@@ -1,0 +1,16 @@
+{
+  "generatedAt": "2026-09-24T14:46:25.891Z",
+  "model": "qwen3-4b",
+  "processed": [
+    {
+      "from": "blog/2026-08-23.md",
+      "to": null,
+      "title": "2026 08 23",
+      "section": "blog",
+      "verdict": "keep"
+    }
+  ],
+  "moved": [],
+  "failed": [],
+  "unchanged": 0
+}

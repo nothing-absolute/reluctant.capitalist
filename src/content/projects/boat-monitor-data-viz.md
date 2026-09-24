@@ -1,14 +1,14 @@
 ---
 title: "Boat Monitor Data Viz"
-description: "Mermaid charts and mockup graphics to support the marketing and business case for the No-Subscription Boat Monitor."
+description: "Visual representation of cost and feature comparisons for a no-subscription boat monitor"
 date: "2026-09-23"
-tags: ["type/project","concept/obsolescence","topic/content","project/kickstarter","project/openplotter","topic/ai"]
+tags: ["cost-comparison","feature-matrix","system-architecture","visual-design"]
 source: "Projects/Kickstarter/OpenPlotter-Boat-Monitor/boat_monitor_data_viz.md"
-status: "concept"
-stage: "idea"
-draft: true
+draft: false
 clarity: 4
 quality: 4
+status: "concept"
+stage: "idea"
 ---
 
 This document contains Mermaid charts and mockup graphics to support the marketing and business case for the No-Subscription Boat Monitor.

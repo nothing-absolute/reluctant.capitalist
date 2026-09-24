@@ -1,4 +1,5 @@
 ---
+draft: true
 title: "Hydration Station"
 description: "A single-page 'hydration station' concept — daily water target tracker with a deliberately over-engineered interface, built as a one-file HTML artifact."
 date: 2026-08-03

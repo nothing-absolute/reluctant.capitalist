@@ -1,0 +1,14 @@
+{
+  "generatedAt": "2026-09-24T15:14:29.339Z",
+  "model": "qwen3-4b",
+  "publish": false,
+  "applied": false,
+  "shaped": [],
+  "skipped": [],
+  "failed": [
+    {
+      "post": "projects/analyze-the-sythnesizer-midi-controller-guitar-pedal-market",
+      "error": "fetch failed"
+    }
+  ]
+}

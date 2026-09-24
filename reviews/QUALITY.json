@@ -1,0 +1,1712 @@
+{
+  "generatedAt": "2026-09-24T17:29:47.448Z",
+  "summary": {
+    "flagged": 114,
+    "narrativeLoops": 0,
+    "rawTranscriptLoops": 17,
+    "thin": 97
+  },
+  "reports": [
+    {
+      "id": "projects/android-phone-project",
+      "title": "Rugged Linux Phone Project",
+      "words": 69,
+      "rawWords": 0,
+      "worst": 1,
+      "rawWorst": 1,
+      "dupParas": 0,
+      "narrativeLoop": false,
+      "rawLoop": false,
+      "issues": [
+        "thin: 69 words"
+      ],
+      "source": "Projects/Business/Android Phone Project.md"
+    },
+    {
+      "id": "projects/build-a-midi-touch-pad-connection-from-an-ipod",
+      "title": "ipod midi osc touchpad connection",
+      "words": 389,
+      "rawWords": 420,
+      "worst": 1,
+      "rawWorst": 6,
+      "dupParas": 0,
+      "narrativeLoop": false,
+      "rawLoop": true,
+      "issues": [
+        "raw transcript loop: 8-gram x6"
+      ],
+      "source": "antigravity://ccf149f9-dc73-4499-9762-52df35591696"
+    },
+    {
+      "id": "projects/build-a-testing-application-for-the-byo-sim-boat",
+      "title": "building a react testbed for the byo sim boat monitor",
+      "words": 411,
+      "rawWords": 3307,
+      "worst": 2,
+      "rawWorst": 8,
+      "dupParas": 0,
+      "narrativeLoop": false,
+      "rawLoop": true,
+      "issues": [
+        "raw transcript loop: 8-gram x8"
+      ],
+      "source": "antigravity://4b1e8a43-35fe-4d04-bf32-5decc11add83"
+    },
+    {
+      "id": "projects/build-an-application-for-android-and-ios-it-is",
+      "title": "Family Hub App Development Plan",
+      "words": 226,
+      "rawWords": 148,
+      "worst": 2,
+      "rawWorst": 8,
+      "dupParas": 0,
+      "narrativeLoop": false,
+      "rawLoop": false,
+      "issues": [
+        "9 repeated narrative 8-grams"
+      ],
+      "source": "antigravity://a51dd36a-a2ff-436d-9ec5-9c3989439240"
+    },
+    {
+      "id": "projects/cold-storage-business",
+      "title": "Cold Storage Business",
+      "words": 45,
+      "rawWords": 0,
+      "worst": 1,
+      "rawWorst": 1,
+      "dupParas": 0,
+      "narrativeLoop": false,
+      "rawLoop": false,
+      "issues": [
+        "thin: 45 words"
+      ],
+      "source": "Projects/Business/Cold Storage Business.md"
+    },
+    {
+      "id": "projects/community-data-center-vision",
+      "title": "Community Data Center / Third-Space Cooperative — Vision",
+      "words": 59,
+      "rawWords": 0,
+      "worst": 1,
+      "rawWorst": 1,
+      "dupParas": 0,
+      "narrativeLoop": false,
+      "rawLoop": false,
+      "issues": [
+        "thin: 59 words"
+      ],
+      "source": "Projects/community-data-centers/community-data-center-vision.md"
+    },
+    {
+      "id": "projects/create-video-to-advertise-the-sale-of-lion-king",
+      "title": "Lion King Standee — Remotion Video Ads",
+      "words": 188,
+      "rawWords": 919,
+      "worst": 2,
+      "rawWorst": 9,
+      "dupParas": 0,
+      "narrativeLoop": false,
+      "rawLoop": true,
+      "issues": [
+        "raw transcript loop: 8-gram x9"
+      ],
+      "source": "antigravity://18f09793-f23d-4d54-8065-4196b348fb59"
+    },
+    {
+      "id": "projects/earthship-homes",
+      "title": "Building Earthship Homes in Struggling States",
+      "words": 47,
+      "rawWords": 0,
+      "worst": 1,
+      "rawWorst": 1,
+      "dupParas": 0,
+      "narrativeLoop": false,
+      "rawLoop": false,
+      "issues": [
+        "thin: 47 words"
+      ],
+      "source": "Projects/Housing/Earthship-Homes.md"
+    },
+    {
+      "id": "projects/free-up-disk-space",
+      "title": "free up disk space",
+      "words": 101,
+      "rawWords": 2351,
+      "worst": 1,
+      "rawWorst": 13,
+      "dupParas": 0,
+      "narrativeLoop": false,
+      "rawLoop": true,
+      "issues": [
+        "raw transcript loop: 8-gram x13",
+        "thin: 101 words"
+      ],
+      "source": "antigravity://121c185c-e397-484a-a556-2115929f8633"
+    },
+    {
+      "id": "projects/hydration-station",
+      "title": "Hydration Station",
+      "words": 86,
+      "rawWords": 0,
+      "worst": 1,
+      "rawWorst": 1,
+      "dupParas": 0,
+      "narrativeLoop": false,
+      "rawLoop": false,
+      "issues": [
+        "thin: 86 words"
+      ]
+    },
+    {
+      "id": "projects/implementation-plan-33",
+      "title": "Implementation Plan — COMMONS Landing Page & Kickstarter Refinement",
+      "words": 119,
+      "rawWords": 0,
+      "worst": 1,
+      "rawWorst": 1,
+      "dupParas": 0,
+      "narrativeLoop": false,
+      "rawLoop": false,
+      "issues": [
+        "thin: 119 words"
+      ],
+      "source": "antigravity://e0cfebda-783b-4bd1-b3c0-3f23425daaca/implementation_plan.md"
+    },
+    {
+      "id": "projects/implementation-plan",
+      "title": "Implementation Plan: Undertone Project Recovery, Pitch Deck & User Acquisition Strategy",
+      "words": 339,
+      "rawWords": 0,
+      "worst": 2,
+      "rawWorst": 1,
+      "dupParas": 0,
+      "narrativeLoop": false,
+      "rawLoop": false,
+      "issues": [
+        "11 repeated narrative 8-grams"
+      ],
+      "source": "antigravity://5a4bc721-cb05-481d-bdd6-a401492be258/implementation_plan.md"
+    },
+    {
+      "id": "projects/mushroom-grow-container",
+      "title": "Mushroom Grow Container",
+      "words": 37,
+      "rawWords": 0,
+      "worst": 1,
+      "rawWorst": 1,
+      "dupParas": 0,
+      "narrativeLoop": false,
+      "rawLoop": false,
+      "issues": [
+        "thin: 37 words"
+      ],
+      "source": "Projects/Hardware/Mushroom-Grow-Container.md"
+    },
+    {
+      "id": "projects/opendoors",
+      "title": "Opendoors",
+      "words": 89,
+      "rawWords": 0,
+      "worst": 1,
+      "rawWorst": 1,
+      "dupParas": 0,
+      "narrativeLoop": false,
+      "rawLoop": false,
+      "issues": [
+        "thin: 89 words"
+      ]
+    },
+    {
+      "id": "projects/precious-plastics-usa",
+      "title": "Precious Plastics — Machines in Every US City 50k+",
+      "words": 44,
+      "rawWords": 0,
+      "worst": 1,
+      "rawWorst": 1,
+      "dupParas": 0,
+      "narrativeLoop": false,
+      "rawLoop": false,
+      "issues": [
+        "thin: 44 words"
+      ],
+      "source": "Projects/Nonprofit/Precious-Plastics-USA.md"
+    },
+    {
+      "id": "projects/reload-localhost-3005",
+      "title": "reload localhost:3005",
+      "words": 575,
+      "rawWords": 929,
+      "worst": 1,
+      "rawWorst": 8,
+      "dupParas": 0,
+      "narrativeLoop": false,
+      "rawLoop": true,
+      "issues": [
+        "raw transcript loop: 8-gram x8"
+      ],
+      "source": "antigravity://ceabce17-c09c-4849-83bd-4247d600ee3c"
+    },
+    {
+      "id": "projects/skycrew",
+      "title": "Skycrew",
+      "words": 103,
+      "rawWords": 0,
+      "worst": 1,
+      "rawWorst": 1,
+      "dupParas": 0,
+      "narrativeLoop": false,
+      "rawLoop": false,
+      "issues": [
+        "thin: 103 words"
+      ]
+    },
+    {
+      "id": "projects/that-wasn-t-claude-code-it-was-opencode-zen-the-free",
+      "title": "That wasn't Claude Code, it was OpenCode Zen...the free open source model....haha 5",
+      "words": 6075,
+      "rawWords": 404,
+      "worst": 2,
+      "rawWorst": 15,
+      "dupParas": 0,
+      "narrativeLoop": false,
+      "rawLoop": true,
+      "issues": [
+        "raw transcript loop: 8-gram x15"
+      ],
+      "source": "antigravity://abf2de62-6e2a-48fb-80a7-6dacc23d03b4"
+    },
+    {
+      "id": "projects/user-acquisition-and-testing-plan",
+      "title": "User Acquisition & Beta Testing Plan",
+      "words": 51,
+      "rawWords": 0,
+      "worst": 1,
+      "rawWorst": 1,
+      "dupParas": 0,
+      "narrativeLoop": false,
+      "rawLoop": false,
+      "issues": [
+        "thin: 51 words"
+      ],
+      "source": "antigravity://5a4bc721-cb05-481d-bdd6-a401492be258/user_acquisition_and_testing_plan.md"
+    },
+    {
+      "id": "projects/youtube-pedal-demo-channel",
+      "title": "YouTube Pedal Demo Channel — AI-Generated Guitar Parts",
+      "words": 58,
+      "rawWords": 0,
+      "worst": 1,
+      "rawWorst": 1,
+      "dupParas": 0,
+      "narrativeLoop": false,
+      "rawLoop": false,
+      "issues": [
+        "thin: 58 words"
+      ],
+      "source": "Projects/YouTube/YouTube-Pedal-Demo-Channel.md"
+    },
+    {
+      "id": "blog/2026-05-08",
+      "title": "2026-05-08 Daily Plan and Reflection",
+      "words": 42,
+      "rawWords": 0,
+      "worst": 1,
+      "rawWorst": 1,
+      "dupParas": 0,
+      "narrativeLoop": false,
+      "rawLoop": false,
+      "issues": [
+        "thin: 42 words"
+      ],
+      "source": "Daily/2026-05-08.md"
+    },
+    {
+      "id": "blog/2026-08-03",
+      "title": "Small-Scale Biodiesel Refinery Costs (Proof of Concept)",
+      "words": 20,
+      "rawWords": 0,
+      "worst": 1,
+      "rawWorst": 1,
+      "dupParas": 0,
+      "narrativeLoop": false,
+      "rawLoop": false,
+      "issues": [
+        "thin: 20 words"
+      ],
+      "source": "Daily/2026-08-03.md"
+    },
+    {
+      "id": "blog/2026-08-09",
+      "title": "Hacking SES-imagotag VUSION 2.6 BWR GL440 e-ink tag",
+      "words": 16,
+      "rawWords": 0,
+      "worst": 1,
+      "rawWorst": 1,
+      "dupParas": 0,
+      "narrativeLoop": false,
+      "rawLoop": false,
+      "issues": [
+        "thin: 16 words"
+      ],
+      "source": "Daily/2026-08-09.md"
+    },
+    {
+      "id": "blog/2026-08-21",
+      "title": "Lion King Standee VHS Cartoon",
+      "words": 91,
+      "rawWords": 0,
+      "worst": 1,
+      "rawWorst": 1,
+      "dupParas": 0,
+      "narrativeLoop": false,
+      "rawLoop": false,
+      "issues": [
+        "thin: 91 words"
+      ],
+      "source": "Daily/2026-08-21.md"
+    },
+    {
+      "id": "blog/2026-08-24",
+      "title": "xTool O1 Omni for printed needlepoint canvases",
+      "words": 92,
+      "rawWords": 0,
+      "worst": 1,
+      "rawWorst": 1,
+      "dupParas": 0,
+      "narrativeLoop": false,
+      "rawLoop": false,
+      "issues": [
+        "thin: 92 words"
+      ],
+      "source": "Daily/2026-08-24.md"
+    },
+    {
+      "id": "blog/add-qwen2-5-3b-to-local-provider",
+      "title": "Add Qwen2.5-3B To Local Provider",
+      "words": 15,
+      "rawWords": 0,
+      "worst": 1,
+      "rawWorst": 1,
+      "dupParas": 0,
+      "narrativeLoop": false,
+      "rawLoop": false,
+      "issues": [
+        "thin: 15 words"
+      ],
+      "source": "opencode://witty-squid"
+    },
+    {
+      "id": "blog/ai-software-tool-tutorial-youtube-channel",
+      "title": "AI Software Tool Tutorial YouTube Channel",
+      "words": 15,
+      "rawWords": 0,
+      "worst": 1,
+      "rawWorst": 1,
+      "dupParas": 0,
+      "narrativeLoop": false,
+      "rawLoop": false,
+      "issues": [
+        "thin: 15 words"
+      ],
+      "source": "opencode://hidden-circuit"
+    },
+    {
+      "id": "blog/analyze-revenue-ideas-from-obsidian-notes",
+      "title": "Analyze Revenue Ideas From Obsidian Notes",
+      "words": 15,
+      "rawWords": 0,
+      "worst": 1,
+      "rawWorst": 1,
+      "dupParas": 0,
+      "narrativeLoop": false,
+      "rawLoop": false,
+      "issues": [
+        "thin: 15 words"
+      ],
+      "source": "opencode://stellar-garden"
+    },
+    {
+      "id": "blog/best-opencode-plugins-and-agents",
+      "title": "Best OpenCode Plugins And Agents",
+      "words": 16,
+      "rawWords": 0,
+      "worst": 1,
+      "rawWorst": 1,
+      "dupParas": 0,
+      "narrativeLoop": false,
+      "rawLoop": false,
+      "issues": [
+        "thin: 16 words"
+      ],
+      "source": "opencode://misty-eagle"
+    },
+    {
+      "id": "blog/build-shop-partner-pitch-html-general-subagent",
+      "title": "Build shop-partner pitch HTML",
+      "words": 15,
+      "rawWords": 0,
+      "worst": 1,
+      "rawWorst": 1,
+      "dupParas": 0,
+      "narrativeLoop": false,
+      "rawLoop": false,
+      "issues": [
+        "thin: 15 words"
+      ],
+      "source": "opencode://silent-comet"
+    },
+    {
+      "id": "blog/decentralized-social-media-redesign-for-projects-and-ideas",
+      "title": "Decentralized Social Media Redesign for Projects and Ideas",
+      "words": 15,
+      "rawWords": 0,
+      "worst": 1,
+      "rawWorst": 1,
+      "dupParas": 0,
+      "narrativeLoop": false,
+      "rawLoop": false,
+      "issues": [
+        "thin: 15 words"
+      ],
+      "source": "opencode://misty-orchid"
+    },
+    {
+      "id": "blog/develop-plan-creating-youtube-channel-https",
+      "title": "Develop Plan Creating Youtube Channel Like Absolutelyagentic",
+      "words": 15,
+      "rawWords": 0,
+      "worst": 1,
+      "rawWorst": 1,
+      "dupParas": 0,
+      "narrativeLoop": false,
+      "rawLoop": false,
+      "issues": [
+        "thin: 15 words"
+      ],
+      "source": "opencode://gentle-comet"
+    },
+    {
+      "id": "blog/examine-omniroute-db-config-general-subagent",
+      "title": "Examine OmniRoute DB & config",
+      "words": 73,
+      "rawWords": 0,
+      "worst": 1,
+      "rawWorst": 1,
+      "dupParas": 0,
+      "narrativeLoop": false,
+      "rawLoop": false,
+      "issues": [
+        "thin: 73 words"
+      ],
+      "source": "opencode://eager-squid"
+    },
+    {
+      "id": "blog/facebook-marketplace-tiny-house-pitch",
+      "title": "Facebook Marketplace Tiny House Pitch",
+      "words": 16,
+      "rawWords": 0,
+      "worst": 1,
+      "rawWorst": 1,
+      "dupParas": 0,
+      "narrativeLoop": false,
+      "rawLoop": false,
+      "issues": [
+        "thin: 16 words"
+      ],
+      "source": "opencode://nimble-sailor"
+    },
+    {
+      "id": "blog/find-large-files-and-move-flatpak-apps-to-external-drive",
+      "title": "Find Large Files and Move Flatpak Apps to External Drive",
+      "words": 15,
+      "rawWords": 0,
+      "worst": 1,
+      "rawWorst": 1,
+      "dupParas": 0,
+      "narrativeLoop": false,
+      "rawLoop": false,
+      "issues": [
+        "thin: 15 words"
+      ],
+      "source": "opencode://sunny-falcon"
+    },
+    {
+      "id": "blog/find-omniroute-codebase-explore-subagent",
+      "title": "Find OmniRoute codebase",
+      "words": 16,
+      "rawWords": 0,
+      "worst": 1,
+      "rawWorst": 1,
+      "dupParas": 0,
+      "narrativeLoop": false,
+      "rawLoop": false,
+      "issues": [
+        "thin: 16 words"
+      ],
+      "source": "opencode://misty-panda"
+    },
+    {
+      "id": "blog/find-omniroute-free-providers-general-subagent",
+      "title": "Find OmniRoute free providers",
+      "words": 16,
+      "rawWords": 0,
+      "worst": 1,
+      "rawWorst": 1,
+      "dupParas": 0,
+      "narrativeLoop": false,
+      "rawLoop": false,
+      "issues": [
+        "thin: 16 words"
+      ],
+      "source": "opencode://eager-circuit"
+    },
+    {
+      "id": "blog/fixing-obsidian-loading-issue",
+      "title": "Fixing Obsidian loading issue",
+      "words": 16,
+      "rawWords": 0,
+      "worst": 1,
+      "rawWorst": 1,
+      "dupParas": 0,
+      "narrativeLoop": false,
+      "rawLoop": false,
+      "issues": [
+        "thin: 16 words"
+      ],
+      "source": "opencode://mighty-squid"
+    },
+    {
+      "id": "blog/helium-browser-two-versions-tab-extension-issues",
+      "title": "Helium Browser Two Versions Tab Extension Issues",
+      "words": 42,
+      "rawWords": 0,
+      "worst": 1,
+      "rawWorst": 1,
+      "dupParas": 0,
+      "narrativeLoop": false,
+      "rawLoop": false,
+      "issues": [
+        "thin: 42 words"
+      ],
+      "source": "opencode://swift-mountain"
+    },
+    {
+      "id": "blog/lion-king-standee-ai-video-generation-plan",
+      "title": "Lion King standee AI video generation plan",
+      "words": 38,
+      "rawWords": 0,
+      "worst": 1,
+      "rawWorst": 1,
+      "dupParas": 0,
+      "narrativeLoop": false,
+      "rawLoop": false,
+      "issues": [
+        "thin: 38 words"
+      ],
+      "source": "opencode://restored-session"
+    },
+    {
+      "id": "blog/omniroute-free-api-and-file-based-provider-setup",
+      "title": "OmniRoute free API and file-based provider setup",
+      "words": 16,
+      "rawWords": 0,
+      "worst": 1,
+      "rawWorst": 1,
+      "dupParas": 0,
+      "narrativeLoop": false,
+      "rawLoop": false,
+      "issues": [
+        "thin: 16 words"
+      ],
+      "source": "opencode://quick-tiger"
+    },
+    {
+      "id": "blog/opencode-sessions-lost-after-update",
+      "title": "Opencode sessions lost after update",
+      "words": 42,
+      "rawWords": 0,
+      "worst": 1,
+      "rawWorst": 1,
+      "dupParas": 0,
+      "narrativeLoop": false,
+      "rawLoop": false,
+      "issues": [
+        "thin: 42 words"
+      ],
+      "source": "opencode://playful-lagoon"
+    },
+    {
+      "id": "blog/pam-oil-company-history-bill-pederson",
+      "title": "Pam Oil Company History Bill Pederson",
+      "words": 42,
+      "rawWords": 0,
+      "worst": 1,
+      "rawWorst": 1,
+      "dupParas": 0,
+      "narrativeLoop": false,
+      "rawLoop": false,
+      "issues": [
+        "thin: 42 words"
+      ],
+      "source": "opencode://brave-nebula"
+    },
+    {
+      "id": "blog/pam-oil-history-and-financials",
+      "title": "Pam Oil History and Financials",
+      "words": 20,
+      "rawWords": 0,
+      "worst": 1,
+      "rawWorst": 1,
+      "dupParas": 0,
+      "narrativeLoop": false,
+      "rawLoop": false,
+      "issues": [
+        "thin: 20 words"
+      ],
+      "source": "opencode://hidden-meadow"
+    },
+    {
+      "id": "blog/reinstall-jan-ai-on-external-drive",
+      "title": "Reinstall Jan AI on External Drive",
+      "words": 15,
+      "rawWords": 0,
+      "worst": 1,
+      "rawWorst": 1,
+      "dupParas": 0,
+      "narrativeLoop": false,
+      "rawLoop": false,
+      "issues": [
+        "thin: 15 words"
+      ],
+      "source": "opencode://playful-engine"
+    },
+    {
+      "id": "blog/resume-59",
+      "title": "Resume: Automating pnpm Installation and Configuration",
+      "words": 16,
+      "rawWords": 0,
+      "worst": 1,
+      "rawWorst": 1,
+      "dupParas": 0,
+      "narrativeLoop": false,
+      "rawLoop": false,
+      "issues": [
+        "thin: 16 words"
+      ],
+      "source": "opencode://lucky-otter"
+    },
+    {
+      "id": "blog/south-dakota-governor-financial-interest-statements",
+      "title": "South Dakota Governor Financial Interest Statements",
+      "words": 15,
+      "rawWords": 0,
+      "worst": 1,
+      "rawWorst": 1,
+      "dupParas": 0,
+      "narrativeLoop": false,
+      "rawLoop": false,
+      "issues": [
+        "thin: 15 words"
+      ],
+      "source": "opencode://hidden-moon"
+    },
+    {
+      "id": "blog/terry-dickman-missing-sioux-falls-article",
+      "title": "Terry Dickman Missing Sioux Falls Article",
+      "words": 16,
+      "rawWords": 0,
+      "worst": 1,
+      "rawWorst": 1,
+      "dupParas": 0,
+      "narrativeLoop": false,
+      "rawLoop": false,
+      "issues": [
+        "thin: 16 words"
+      ],
+      "source": "opencode://neon-moon"
+    },
+    {
+      "id": "blog/tor-and-helium-browser-keyboard-input-issues",
+      "title": "Tor And Helium Browser Keyboard Input Issues",
+      "words": 22,
+      "rawWords": 0,
+      "worst": 1,
+      "rawWorst": 1,
+      "dupParas": 0,
+      "narrativeLoop": false,
+      "rawLoop": false,
+      "issues": [
+        "thin: 22 words"
+      ],
+      "source": "opencode://curious-island"
+    },
+    {
+      "id": "blog/undertone-agent-system-prompt",
+      "title": "Undertone Agent System Prompt",
+      "words": 16,
+      "rawWords": 0,
+      "worst": 1,
+      "rawWorst": 1,
+      "dupParas": 0,
+      "narrativeLoop": false,
+      "rawLoop": false,
+      "issues": [
+        "thin: 16 words"
+      ],
+      "source": "opencode://witty-squid"
+    },
+    {
+      "id": "papers/create-a-modern-stunning-single-page-web-app-in",
+      "title": "Create a modern, stunning, single-page web app in",
+      "words": 40,
+      "rawWords": 426,
+      "worst": 1,
+      "rawWorst": 6,
+      "dupParas": 0,
+      "narrativeLoop": false,
+      "rawLoop": true,
+      "issues": [
+        "raw transcript loop: 8-gram x6",
+        "thin: 40 words"
+      ],
+      "source": "antigravity://32ce0c4c-b30e-4c39-ad04-d24335901b7e"
+    },
+    {
+      "id": "papers/set-up-the-whisper-for-odysseus-i-want-to",
+      "title": "set up the whisper for odysseus. i want to be able to input a message with voice to text, and also be able to ",
+      "words": 105,
+      "rawWords": 3902,
+      "worst": 1,
+      "rawWorst": 38,
+      "dupParas": 0,
+      "narrativeLoop": false,
+      "rawLoop": true,
+      "issues": [
+        "raw transcript loop: 8-gram x38",
+        "thin: 105 words"
+      ],
+      "source": "antigravity://96bc662a-1ad2-42ee-b8dc-36dd80d196b4"
+    },
+    {
+      "id": "papers/walkthrough-3",
+      "title": "Walkthrough - Video Graphic FX & OBS Multi-Channel Routing Engine",
+      "words": 39,
+      "rawWords": 0,
+      "worst": 1,
+      "rawWorst": 1,
+      "dupParas": 0,
+      "narrativeLoop": false,
+      "rawLoop": false,
+      "issues": [
+        "thin: 39 words"
+      ],
+      "source": "antigravity://7e8d74f9-5e41-4a79-816e-ebfc01860752/walkthrough.md"
+    },
+    {
+      "id": "art/are-any-cards-from-these-sets-valuable",
+      "title": "are any cards from these sets valuable",
+      "words": 7,
+      "rawWords": 1838,
+      "worst": 1,
+      "rawWorst": 40,
+      "dupParas": 0,
+      "narrativeLoop": false,
+      "rawLoop": true,
+      "issues": [
+        "raw transcript loop: 8-gram x40",
+        "thin: 7 words"
+      ],
+      "source": "antigravity://b5a3d17d-410d-4c36-b2e8-7c1e09db0d2a"
+    },
+    {
+      "id": "art/can-these-be-put-together-in-an-ai-generated",
+      "title": "can these be put together in an ai generated image to have the cardboard standee put together",
+      "words": 17,
+      "rawWords": 788,
+      "worst": 1,
+      "rawWorst": 25,
+      "dupParas": 0,
+      "narrativeLoop": false,
+      "rawLoop": true,
+      "issues": [
+        "raw transcript loop: 8-gram x25",
+        "thin: 17 words"
+      ],
+      "source": "antigravity://8269ec02-5161-42bb-8462-aee6322bc8d3"
+    },
+    {
+      "id": "art/fix-obsidian",
+      "title": "fix obsidian",
+      "words": 0,
+      "rawWords": 1784,
+      "worst": 1,
+      "rawWorst": 5,
+      "dupParas": 0,
+      "narrativeLoop": false,
+      "rawLoop": true,
+      "issues": [
+        "raw transcript loop: 8-gram x5",
+        "thin: 0 words"
+      ],
+      "source": "antigravity://8cf9bf0e-db57-44c9-b1c1-ce22b9f6804f"
+    },
+    {
+      "id": "art/hallucination-studies",
+      "title": "Hallucination Studies",
+      "words": 80,
+      "rawWords": 0,
+      "worst": 1,
+      "rawWorst": 1,
+      "dupParas": 0,
+      "narrativeLoop": false,
+      "rawLoop": false,
+      "issues": [
+        "thin: 80 words"
+      ]
+    },
+    {
+      "id": "art/how-can-i-hack-this-eink-tag-to-display",
+      "title": "how can i hack this eink tag to display something different",
+      "words": 11,
+      "rawWords": 497,
+      "worst": 1,
+      "rawWorst": 3,
+      "dupParas": 0,
+      "narrativeLoop": false,
+      "rawLoop": false,
+      "issues": [
+        "thin: 11 words"
+      ],
+      "source": "antigravity://f06bf556-a7e3-42b9-91c5-3f44b7aabdeb"
+    },
+    {
+      "id": "art/navigate-to-http-localhost-7000-and-check-the-current-state",
+      "title": "Navigate to http://localhost:7000/ and check the current state",
+      "words": 27,
+      "rawWords": 219,
+      "worst": 1,
+      "rawWorst": 5,
+      "dupParas": 0,
+      "narrativeLoop": false,
+      "rawLoop": false,
+      "issues": [
+        "thin: 27 words"
+      ],
+      "source": "antigravity://283d77af-6bd3-42af-b777-df9d9f2f98e7"
+    },
+    {
+      "id": "art/navigate-to-http-localhost-7000-and-take-a-screenshot-of-the",
+      "title": "Navigate to http://localhost:7000/ and take a screenshot of the current state of the page",
+      "words": 189,
+      "rawWords": 1360,
+      "worst": 2,
+      "rawWorst": 21,
+      "dupParas": 0,
+      "narrativeLoop": false,
+      "rawLoop": true,
+      "issues": [
+        "raw transcript loop: 8-gram x21"
+      ],
+      "source": "antigravity://229a4c6a-cce1-448a-bafa-f8b7e11d717f"
+    },
+    {
+      "id": "art/price-estimate-for-these-comics",
+      "title": "price estimate for these comics",
+      "words": 5,
+      "rawWords": 2606,
+      "worst": 1,
+      "rawWorst": 42,
+      "dupParas": 0,
+      "narrativeLoop": false,
+      "rawLoop": true,
+      "issues": [
+        "raw transcript loop: 8-gram x42",
+        "thin: 5 words"
+      ],
+      "source": "antigravity://b5d4fc03-8958-459f-b5dd-e3de75c06112"
+    },
+    {
+      "id": "art/what-would-renting-a-space-to-live-in-a",
+      "title": "what would renting a space to live in a unit like this one attached? it would need",
+      "words": 0,
+      "rawWords": 2384,
+      "worst": 1,
+      "rawWorst": 4,
+      "dupParas": 0,
+      "narrativeLoop": false,
+      "rawLoop": false,
+      "issues": [
+        "thin: 0 words"
+      ],
+      "source": "antigravity://cf6f427e-3c83-450f-8675-c364688237db"
+    },
+    {
+      "id": "comics/pitch-vs-prototype",
+      "title": "Pitch vs. Prototype",
+      "words": 70,
+      "rawWords": 0,
+      "worst": 1,
+      "rawWorst": 1,
+      "dupParas": 0,
+      "narrativeLoop": false,
+      "rawLoop": false,
+      "issues": [
+        "thin: 70 words"
+      ]
+    },
+    {
+      "id": "design/one-file-artifact",
+      "title": "The One-File Artifact",
+      "words": 53,
+      "rawWords": 0,
+      "worst": 1,
+      "rawWorst": 1,
+      "dupParas": 0,
+      "narrativeLoop": false,
+      "rawLoop": false,
+      "issues": [
+        "thin: 53 words"
+      ]
+    },
+    {
+      "id": "goals/garden-slice",
+      "title": "Ship the digital garden's public slice",
+      "words": 32,
+      "rawWords": 0,
+      "worst": 1,
+      "rawWorst": 1,
+      "dupParas": 0,
+      "narrativeLoop": false,
+      "rawLoop": false,
+      "issues": [
+        "thin: 32 words"
+      ]
+    },
+    {
+      "id": "goals/idea-relay-interviews",
+      "title": "Vet the Idea Relay with 20 real conversations",
+      "words": 29,
+      "rawWords": 0,
+      "worst": 1,
+      "rawWorst": 1,
+      "dupParas": 0,
+      "narrativeLoop": false,
+      "rawLoop": false,
+      "issues": [
+        "thin: 29 words"
+      ]
+    },
+    {
+      "id": "goals/two-posts-a-month",
+      "title": "Publish two journal entries a month",
+      "words": 29,
+      "rawWords": 0,
+      "worst": 1,
+      "rawWorst": 1,
+      "dupParas": 0,
+      "narrativeLoop": false,
+      "rawLoop": false,
+      "issues": [
+        "thin: 29 words"
+      ]
+    },
+    {
+      "id": "values/craft",
+      "title": "Craft over compliance",
+      "words": 32,
+      "rawWords": 0,
+      "worst": 1,
+      "rawWorst": 1,
+      "dupParas": 0,
+      "narrativeLoop": false,
+      "rawLoop": false,
+      "issues": [
+        "thin: 32 words"
+      ]
+    },
+    {
+      "id": "values/honest-economics",
+      "title": "Honest economics",
+      "words": 34,
+      "rawWords": 0,
+      "worst": 1,
+      "rawWorst": 1,
+      "dupParas": 0,
+      "narrativeLoop": false,
+      "rawLoop": false,
+      "issues": [
+        "thin: 34 words"
+      ]
+    },
+    {
+      "id": "values/ideas-are-seeds",
+      "title": "Ideas are seeds, not assets",
+      "words": 35,
+      "rawWords": 0,
+      "worst": 1,
+      "rawWorst": 1,
+      "dupParas": 0,
+      "narrativeLoop": false,
+      "rawLoop": false,
+      "issues": [
+        "thin: 35 words"
+      ]
+    },
+    {
+      "id": "values/one-venture-at-a-time",
+      "title": "One venture at a time",
+      "words": 43,
+      "rawWords": 0,
+      "worst": 1,
+      "rawWorst": 1,
+      "dupParas": 0,
+      "narrativeLoop": false,
+      "rawLoop": false,
+      "issues": [
+        "thin: 43 words"
+      ]
+    },
+    {
+      "id": "values/public-is-a-discipline",
+      "title": "Public is a discipline",
+      "words": 28,
+      "rawWords": 0,
+      "worst": 1,
+      "rawWorst": 1,
+      "dupParas": 0,
+      "narrativeLoop": false,
+      "rawLoop": false,
+      "issues": [
+        "thin: 28 words"
+      ]
+    },
+    {
+      "id": "values/relay-over-ownership",
+      "title": "Relay over ownership",
+      "words": 37,
+      "rawWords": 0,
+      "worst": 1,
+      "rawWorst": 1,
+      "dupParas": 0,
+      "narrativeLoop": false,
+      "rawLoop": false,
+      "issues": [
+        "thin: 37 words"
+      ]
+    },
+    {
+      "id": "garden/_welcome",
+      "title": "Welcome to the Garden",
+      "words": 93,
+      "rawWords": 0,
+      "worst": 1,
+      "rawWorst": 1,
+      "dupParas": 0,
+      "narrativeLoop": false,
+      "rawLoop": false,
+      "issues": [
+        "thin: 93 words"
+      ]
+    },
+    {
+      "id": "garden/build-a-video-creation-pipe-line-based-on-this",
+      "title": "build a video creation pipeline based on this channel",
+      "words": 39,
+      "rawWords": 0,
+      "worst": 2,
+      "rawWorst": 1,
+      "dupParas": 0,
+      "narrativeLoop": false,
+      "rawLoop": false,
+      "issues": [
+        "thin: 39 words"
+      ],
+      "source": "antigravity://fbb2ab99-03f3-4283-8c05-6bda9f7905d8"
+    },
+    {
+      "id": "garden/build-all-of-the-following-flutter-dart-files-for",
+      "title": "Build ALL of the following Flutter Dart files for the Family Hub app",
+      "words": 721,
+      "rawWords": 0,
+      "worst": 2,
+      "rawWorst": 1,
+      "dupParas": 0,
+      "narrativeLoop": false,
+      "rawLoop": false,
+      "issues": [
+        "61 repeated narrative 8-grams"
+      ],
+      "source": "antigravity://1136bbc1-7441-4100-bd06-bbf66e1606d8"
+    },
+    {
+      "id": "garden/build-these-flutter-screen-and-widget-files-for-the",
+      "title": "Build these Flutter screen and widget files for the Family Hub app",
+      "words": 502,
+      "rawWords": 0,
+      "worst": 2,
+      "rawWorst": 1,
+      "dupParas": 0,
+      "narrativeLoop": false,
+      "rawLoop": false,
+      "issues": [
+        "39 repeated narrative 8-grams"
+      ],
+      "source": "antigravity://5379e5fe-6a17-4265-81bf-a4e2c16a2d57"
+    },
+    {
+      "id": "garden/career-development",
+      "title": "Career Development",
+      "words": 51,
+      "rawWords": 0,
+      "worst": 1,
+      "rawWorst": 1,
+      "dupParas": 0,
+      "narrativeLoop": false,
+      "rawLoop": false,
+      "issues": [
+        "thin: 51 words"
+      ],
+      "source": "Areas/Career Development.md"
+    },
+    {
+      "id": "garden/design-a-drone-camera-set-up-for-special-events",
+      "title": "Design a drone camera set up for special events: Birthdays, Anniversaries, Weddings",
+      "words": 1570,
+      "rawWords": 1258,
+      "worst": 1,
+      "rawWorst": 15,
+      "dupParas": 0,
+      "narrativeLoop": false,
+      "rawLoop": true,
+      "issues": [
+        "raw transcript loop: 8-gram x15"
+      ],
+      "source": "antigravity://b185063d-a0ed-410e-8f5c-a4f3465c4e99"
+    },
+    {
+      "id": "garden/emai-command-guide",
+      "title": "Emai Command Guide",
+      "words": 5,
+      "rawWords": 0,
+      "worst": 1,
+      "rawWorst": 1,
+      "dupParas": 0,
+      "narrativeLoop": false,
+      "rawLoop": false,
+      "issues": [
+        "thin: 5 words"
+      ],
+      "source": "Knowledge/References/emai-Command Guide.md"
+    },
+    {
+      "id": "garden/emai-plugin-guide",
+      "title": "emai plugin guide",
+      "words": 23,
+      "rawWords": 0,
+      "worst": 1,
+      "rawWorst": 1,
+      "dupParas": 0,
+      "narrativeLoop": false,
+      "rawLoop": false,
+      "issues": [
+        "thin: 23 words"
+      ],
+      "source": "Knowledge/References/emai-Plugin Guide.md"
+    },
+    {
+      "id": "garden/emai-setup-guide",
+      "title": "Emai Setup Guide",
+      "words": 22,
+      "rawWords": 0,
+      "worst": 1,
+      "rawWorst": 1,
+      "dupParas": 0,
+      "narrativeLoop": false,
+      "rawLoop": false,
+      "issues": [
+        "thin: 22 words"
+      ],
+      "source": "Knowledge/References/emai-Setup Guide.md"
+    },
+    {
+      "id": "garden/evaluate-to-pick-which-fish-boat-technology-could-be",
+      "title": "evaluate to pick which fish boat technology could be easily recreated with open source hardware and software",
+      "words": 409,
+      "rawWords": 1399,
+      "worst": 1,
+      "rawWorst": 12,
+      "dupParas": 0,
+      "narrativeLoop": false,
+      "rawLoop": true,
+      "issues": [
+        "raw transcript loop: 8-gram x12"
+      ],
+      "source": "antigravity://11f12b5a-b923-4aa8-afd6-76dd5cbc047d"
+    },
+    {
+      "id": "garden/evulate-this-project",
+      "title": "evulate this project",
+      "words": 3,
+      "rawWords": 754,
+      "worst": 1,
+      "rawWorst": 1,
+      "dupParas": 0,
+      "narrativeLoop": false,
+      "rawLoop": false,
+      "issues": [
+        "thin: 3 words"
+      ],
+      "source": "antigravity://60c83a2b-d326-4c30-99a7-349fcf6b4975"
+    },
+    {
+      "id": "garden/explore-home-jd-prototypes-obsidian-vault-and-home-jd-protot",
+      "title": "Explore /home/jd/Prototypes/Obsidian Vault/ and /home/jd/Prototypes/ to understand the prototype/development s",
+      "words": 104,
+      "rawWords": 0,
+      "worst": 1,
+      "rawWorst": 1,
+      "dupParas": 0,
+      "narrativeLoop": false,
+      "rawLoop": false,
+      "issues": [
+        "thin: 104 words"
+      ],
+      "source": "antigravity://e1a52228-6fcd-40af-8184-3dbcd0898996"
+    },
+    {
+      "id": "garden/explore-the-main-obsidian-vault-at-home-jd-obsidianvault-to",
+      "title": "Explore the main Obsidian vault at /home/jd/ObsidianVault to understand its structure",
+      "words": 99,
+      "rawWords": 0,
+      "worst": 1,
+      "rawWorst": 1,
+      "dupParas": 0,
+      "narrativeLoop": false,
+      "rawLoop": false,
+      "issues": [
+        "thin: 99 words"
+      ],
+      "source": "antigravity://fddf69f3-d3ad-455c-a153-5d89f6709746"
+    },
+    {
+      "id": "garden/export-all-of-antigravity-chat-history-and-assets-created",
+      "title": "export antigravity chat history and assets",
+      "words": 338,
+      "rawWords": 0,
+      "worst": 2,
+      "rawWorst": 1,
+      "dupParas": 0,
+      "narrativeLoop": false,
+      "rawLoop": false,
+      "issues": [
+        "39 repeated narrative 8-grams"
+      ],
+      "source": "antigravity://8e76f31d-51a8-45eb-801d-3f43cea91a36"
+    },
+    {
+      "id": "garden/futo-notes-welcome",
+      "title": "Welcome to FUTO Notes",
+      "words": 45,
+      "rawWords": 0,
+      "worst": 1,
+      "rawWorst": 1,
+      "dupParas": 0,
+      "narrativeLoop": false,
+      "rawLoop": false,
+      "issues": [
+        "thin: 45 words"
+      ],
+      "source": "Knowledge/References/futo-notes-welcome.md"
+    },
+    {
+      "id": "garden/help-me-set-up-omniroute-http-localhost-20128-home-set-up-al",
+      "title": "Help me set up OmniRoute: http://localhost:20128/home Set up all the available free API/models that ave availa",
+      "words": 608,
+      "rawWords": 0,
+      "worst": 2,
+      "rawWorst": 1,
+      "dupParas": 0,
+      "narrativeLoop": false,
+      "rawLoop": false,
+      "issues": [
+        "33 repeated narrative 8-grams"
+      ],
+      "source": "antigravity://4e972a19-24a8-4e8d-a4cc-73426b5f6c4e"
+    },
+    {
+      "id": "garden/how-much-money-could-i-make-from-this-kickstater",
+      "title": "how much money could i make from this kickstater",
+      "words": 9,
+      "rawWords": 314,
+      "worst": 1,
+      "rawWorst": 2,
+      "dupParas": 0,
+      "narrativeLoop": false,
+      "rawLoop": false,
+      "issues": [
+        "thin: 9 words"
+      ],
+      "source": "antigravity://b42e8782-84e2-43bf-b110-189d5b3ca8fd"
+    },
+    {
+      "id": "garden/how-to-make-my-website-https-nothing-absolute-github-io-mlm",
+      "title": "how to make my website: https://nothing-absolute.github.io/mlm-truth/ come up on search",
+      "words": 285,
+      "rawWords": 639,
+      "worst": 1,
+      "rawWorst": 5,
+      "dupParas": 0,
+      "narrativeLoop": false,
+      "rawLoop": true,
+      "issues": [
+        "raw transcript loop: 8-gram x5"
+      ],
+      "source": "antigravity://7a77f340-98ff-444b-bfeb-bd7707cbcebc"
+    },
+    {
+      "id": "garden/how-would-custom-apple-mac-pro-late-2013-up",
+      "title": "how would CUSTOM Apple Mac Pro Late 2013 be for running local AI models",
+      "words": 658,
+      "rawWords": 0,
+      "worst": 2,
+      "rawWorst": 1,
+      "dupParas": 0,
+      "narrativeLoop": false,
+      "rawLoop": false,
+      "issues": [
+        "29 repeated narrative 8-grams"
+      ],
+      "source": "antigravity://b34e4b4b-4bb8-4213-a5d1-66e8b4e54dcb"
+    },
+    {
+      "id": "garden/i-have-a-apple-macbook-pro-m2-max-16",
+      "title": "I have a Apple MacBook Pro M2 Max 16” 12CPU/30GPU/64GB/1TB with Asahi Linux installed.",
+      "words": 1553,
+      "rawWords": 0,
+      "worst": 2,
+      "rawWorst": 1,
+      "dupParas": 0,
+      "narrativeLoop": false,
+      "rawLoop": false,
+      "issues": [
+        "28 repeated narrative 8-grams"
+      ],
+      "source": "antigravity://8c2562d0-d194-4621-9f3f-ed1254449ad5"
+    },
+    {
+      "id": "garden/i-have-an-original-theater-release-of-the-lion",
+      "title": "I have an original theater release of the Lion King 1994 movie cardboard standee in excellent condition",
+      "words": 763,
+      "rawWords": 0,
+      "worst": 2,
+      "rawWorst": 1,
+      "dupParas": 0,
+      "narrativeLoop": false,
+      "rawLoop": false,
+      "issues": [
+        "46 repeated narrative 8-grams"
+      ],
+      "source": "antigravity://0398a577-6f1c-456e-b2cb-498b8028ade0"
+    },
+    {
+      "id": "garden/i-have-completed-the-exploration-of-home-jd-obsidianvault-an",
+      "title": "Exploration of Obsidian Vault",
+      "words": 39,
+      "rawWords": 0,
+      "worst": 1,
+      "rawWorst": 1,
+      "dupParas": 0,
+      "narrativeLoop": false,
+      "rawLoop": false,
+      "issues": [
+        "thin: 39 words"
+      ],
+      "source": "antigravity://7626de8e-f2e1-4632-8d44-685eab81a31e"
+    },
+    {
+      "id": "garden/i-have-completed-the-exploration-of-home-jd-prototypes-and-r",
+      "title": "Exploration of Prototypes",
+      "words": 19,
+      "rawWords": 0,
+      "worst": 1,
+      "rawWorst": 1,
+      "dupParas": 0,
+      "narrativeLoop": false,
+      "rawLoop": false,
+      "issues": [
+        "thin: 19 words"
+      ],
+      "source": "antigravity://baf1c88d-f278-4d60-bf53-cfe596dc459d"
+    },
+    {
+      "id": "garden/i-have-researched-all-8-requested-topics-and-sent",
+      "title": "I have researched all 8 requested topics and sent the comprehensive report",
+      "words": 48,
+      "rawWords": 0,
+      "worst": 1,
+      "rawWorst": 1,
+      "dupParas": 0,
+      "narrativeLoop": false,
+      "rawLoop": false,
+      "issues": [
+        "thin: 48 words"
+      ],
+      "source": "antigravity://b7a34747-a295-4c0e-9d1c-d8aefea0e7e5"
+    },
+    {
+      "id": "garden/i-will-list-the-contents-of-the-brain-folder",
+      "title": "I will list the contents of the brain folder to find the history of the OdysseusAI deployment conversation",
+      "words": 0,
+      "rawWords": 0,
+      "worst": 1,
+      "rawWorst": 1,
+      "dupParas": 0,
+      "narrativeLoop": false,
+      "rawLoop": false,
+      "issues": [
+        "thin: 0 words"
+      ],
+      "source": "antigravity://13842345-732d-42e0-a2c9-131d1f12281e"
+    },
+    {
+      "id": "garden/install-an-opencode-llm-that-will-replicate-claude",
+      "title": "install an opencode llm that will replicate claudes",
+      "words": 323,
+      "rawWords": 0,
+      "worst": 2,
+      "rawWorst": 1,
+      "dupParas": 0,
+      "narrativeLoop": false,
+      "rawLoop": false,
+      "issues": [
+        "11 repeated narrative 8-grams"
+      ],
+      "source": "antigravity://4b9a1073-8c2a-425c-ac8d-abc1d1b426d4"
+    },
+    {
+      "id": "garden/off-load-some-drive-space-to-media-jd-6bff-f24f",
+      "title": "off load some drive space to /media/jd/6BFF-F24F/",
+      "words": 44,
+      "rawWords": 0,
+      "worst": 1,
+      "rawWorst": 1,
+      "dupParas": 0,
+      "narrativeLoop": false,
+      "rawLoop": false,
+      "issues": [
+        "thin: 44 words"
+      ],
+      "source": "antigravity://e41177b8-708e-48b8-8836-9c443dfb49f9"
+    },
+    {
+      "id": "garden/research-the-current-state-of-anti-mlm-content-on-youtube",
+      "title": "Research the current state of anti-MLM content on YouTube and TikTok as of 2026",
+      "words": 41,
+      "rawWords": 0,
+      "worst": 1,
+      "rawWorst": 1,
+      "dupParas": 0,
+      "narrativeLoop": false,
+      "rawLoop": false,
+      "issues": [
+        "thin: 41 words"
+      ],
+      "source": "antigravity://5e7e7594-3dd6-4f2f-a249-67321399b432"
+    },
+    {
+      "id": "garden/research-the-following-business-and-market-topics-1-event",
+      "title": "Research the following business and market topics",
+      "words": 345,
+      "rawWords": 0,
+      "worst": 2,
+      "rawWorst": 1,
+      "dupParas": 0,
+      "narrativeLoop": false,
+      "rawLoop": false,
+      "issues": [
+        "73 repeated narrative 8-grams"
+      ],
+      "source": "antigravity://74d7ae96-6316-43dd-a565-b66e24132a9e"
+    },
+    {
+      "id": "garden/sim-development-board-esp32-wireless-module-with-gps-find",
+      "title": "SIM Development Board ESP32 Wireless Module with GPS find cheapest option for kickstarter",
+      "words": 301,
+      "rawWords": 2651,
+      "worst": 1,
+      "rawWorst": 5,
+      "dupParas": 0,
+      "narrativeLoop": false,
+      "rawLoop": true,
+      "issues": [
+        "raw transcript loop: 8-gram x5"
+      ],
+      "source": "antigravity://b0fa3b8a-7515-4ba6-bd07-499f21d7b9c0"
+    },
+    {
+      "id": "garden/undertone-instagram-campaign-27",
+      "title": "Undertone Guardian Kids Phone — Instagram Ad Campaign",
+      "words": 24,
+      "rawWords": 0,
+      "worst": 1,
+      "rawWorst": 1,
+      "dupParas": 0,
+      "narrativeLoop": false,
+      "rawLoop": false,
+      "issues": [
+        "thin: 24 words"
+      ],
+      "source": "antigravity://91f9f987-340f-4b78-b424-2c3f009a5ba0/undertone_instagram_campaign.md"
+    },
+    {
+      "id": "garden/undertone-instagram-campaign",
+      "title": "Undertone Guardian Kids Phone — Instagram Ad Campaign",
+      "words": 46,
+      "rawWords": 0,
+      "worst": 1,
+      "rawWorst": 1,
+      "dupParas": 0,
+      "narrativeLoop": false,
+      "rawLoop": false,
+      "issues": [
+        "thin: 46 words"
+      ],
+      "source": "antigravity://7e8d74f9-5e41-4a79-816e-ebfc01860752/undertone_instagram_campaign.md"
+    },
+    {
+      "id": "garden/undertone-pitch-deck-23",
+      "title": "Undertone Pitch Deck",
+      "words": 118,
+      "rawWords": 0,
+      "worst": 1,
+      "rawWorst": 1,
+      "dupParas": 0,
+      "narrativeLoop": false,
+      "rawLoop": false,
+      "issues": [
+        "thin: 118 words"
+      ],
+      "source": "antigravity://7e8d74f9-5e41-4a79-816e-ebfc01860752/undertone_pitch_deck.md"
+    },
+    {
+      "id": "garden/undertone-pitch-deck",
+      "title": "Undertone — Pitch Deck",
+      "words": 26,
+      "rawWords": 0,
+      "worst": 1,
+      "rawWorst": 1,
+      "dupParas": 0,
+      "narrativeLoop": false,
+      "rawLoop": false,
+      "issues": [
+        "thin: 26 words"
+      ],
+      "source": "antigravity://5a4bc721-cb05-481d-bdd6-a401492be258/undertone_pitch_deck.md"
+    },
+    {
+      "id": "garden/vault-readme",
+      "title": "Vault Readme",
+      "words": 81,
+      "rawWords": 0,
+      "worst": 1,
+      "rawWorst": 1,
+      "dupParas": 0,
+      "narrativeLoop": false,
+      "rawLoop": false,
+      "issues": [
+        "thin: 81 words"
+      ],
+      "source": "Knowledge/Wiki/vault-readme.md"
+    },
+    {
+      "id": "garden/what-kind-of-ai-video-generation-could-i-do",
+      "title": "What kind of AI video generation could i do with local llm on a: Apple Macbook Pro 14 inch (M2 Pro)",
+      "words": 426,
+      "rawWords": 0,
+      "worst": 2,
+      "rawWorst": 1,
+      "dupParas": 0,
+      "narrativeLoop": false,
+      "rawLoop": false,
+      "issues": [
+        "36 repeated narrative 8-grams"
+      ],
+      "source": "antigravity://7f0a93d2-56d4-4d6a-8b26-bcb267418142"
+    },
+    {
+      "id": "garden/what-kind-of-gs-milage-on-the-highway-would",
+      "title": "what kind of gs mileage on the highway would 1976 winnebago chevy get",
+      "words": 41,
+      "rawWords": 0,
+      "worst": 1,
+      "rawWorst": 1,
+      "dupParas": 0,
+      "narrativeLoop": false,
+      "rawLoop": false,
+      "issues": [
+        "thin: 41 words"
+      ],
+      "source": "antigravity://6814fe35-03cf-4cba-9e49-c23d3a00b67d"
+    },
+    {
+      "id": "garden/which-is-the-better-project-to-focus-on-the",
+      "title": "which is the better project to focus on the minimal smartphone or the byo sim boat monitor",
+      "words": 363,
+      "rawWords": 0,
+      "worst": 2,
+      "rawWorst": 1,
+      "dupParas": 0,
+      "narrativeLoop": false,
+      "rawLoop": false,
+      "issues": [
+        "20 repeated narrative 8-grams"
+      ],
+      "source": "antigravity://0d55a575-1f2b-4075-ac03-79b6a0bafec7"
+    },
+    {
+      "id": "garden/write-a-comprehensive-needlepoint-inventory-database-json-fi",
+      "title": "Write a comprehensive needlepoint inventory database JSON file to…",
+      "words": 585,
+      "rawWords": 0,
+      "worst": 2,
+      "rawWorst": 1,
+      "dupParas": 0,
+      "narrativeLoop": false,
+      "rawLoop": false,
+      "issues": [
+        "50 repeated narrative 8-grams"
+      ],
+      "source": "antigravity://b0b0208b-c4ea-4a70-83aa-6962e4c6e04b"
+    },
+    {
+      "id": "garden/write-a-comprehensive-social-media-content-playbook-markdown",
+      "title": "Write a comprehensive social media content playbook markdown file to /home/jd/.gemini/antigravity/scratch/barb",
+      "words": 283,
+      "rawWords": 0,
+      "worst": 2,
+      "rawWorst": 1,
+      "dupParas": 0,
+      "narrativeLoop": false,
+      "rawLoop": false,
+      "issues": [
+        "52 repeated narrative 8-grams"
+      ],
+      "source": "antigravity://699e0749-2bcd-4522-83a6-ea80ed6bf0c1"
+    },
+    {
+      "id": "garden/you-are-helping-me-build-a-complete-kickstarter-campaign",
+      "title": "omarchy: the intergenerational, 'glass box' desktop",
+      "words": 4244,
+      "rawWords": 1823,
+      "worst": 2,
+      "rawWorst": 2,
+      "dupParas": 0,
+      "narrativeLoop": false,
+      "rawLoop": false,
+      "issues": [
+        "1703 repeated narrative 8-grams"
+      ],
+      "source": "antigravity://1a609c70-58d0-41e8-97cc-bcf07be146ec"
+    }
+  ]
+}

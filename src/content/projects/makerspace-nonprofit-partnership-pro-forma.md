@@ -1,15 +1,19 @@
 ---
 title: "Makerspace Nonprofit Partnership & Pro-Forma"
-description: "A strategic guide to establishing a makerspace nonprofit partnership and pro-forma financial planning for a makerspace in Columbus, OH."
+description: "Detailed plan for establishing a makerspace as a nonprofit with funding strategy and financial projections."
 date: "2026-09-23"
-tags: ["project/nonprofit","topic/ai","topic/solar","concept/pkm","area/makerspace","type/project","type/idea"]
+tags: ["nonprofit","makerspace","financial-projections"]
 source: "Projects/Nonprofit/Makerspace Nonprofit Partnership & Pro-Forma.md"
-status: "seed"
-stage: "idea"
-draft: true
+draft: false
 clarity: 4
 quality: 4
+status: "seed"
+stage: "idea"
 ---
+
+## projects
+
+### Makerspace Nonprofit Partnership & Pro-Forma
 
 Base market: Columbus, OH (ranked #1 in state analysis). All numbers are model assumptions — adjustable.
 

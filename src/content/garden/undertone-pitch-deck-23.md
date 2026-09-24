@@ -1,13 +1,13 @@
 ---
 title: "Undertone Pitch Deck"
-description: "Multi-Campaign Hardware Ecosystem: Acoustic Health, Open E-Ink Maker Display, Password/FIDO2 Security Key & Guardian Devices"
+description: "Pitch deck for a multi-campaign hardware ecosystem"
 date: "2026-09-05"
-tags: ["antigravity","artifact"]
+tags: ["pitch-deck","hardware-ecosystem","acoustic-wellness"]
 source: "antigravity://7e8d74f9-5e41-4a79-816e-ebfc01860752/undertone_pitch_deck.md"
-vault: false
 draft: true
 clarity: 4
 quality: 5
+vault: false
 ---
 
 ### UNDERTONE — Pitch Deck & Launch Strategy

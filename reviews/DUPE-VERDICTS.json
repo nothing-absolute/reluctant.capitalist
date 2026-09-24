@@ -1,0 +1,139 @@
+{
+  "generatedAt": "2026-09-24T14:48:57.221Z",
+  "threshold": 0.45,
+  "applied": true,
+  "decisions": [
+    {
+      "a": "garden/undertone-instagram-campaign-27.md",
+      "b": "garden/undertone-instagram-campaign.md",
+      "score": 0.929,
+      "same_topic": true,
+      "relationship": "same-topic-different-angle",
+      "keep": "garden/undertone-instagram-campaign-27.md",
+      "unique_content_in_other": true,
+      "note": "Post B includes an additional 3D engineering & security breakdown section that is not present in Post A.",
+      "drop": null
+    },
+    {
+      "a": "blog/pam-oil-company-history-bill-pederson.md",
+      "b": "blog/pam-oil-history-and-financials.md",
+      "score": 0.9,
+      "same_topic": true,
+      "relationship": "same-topic-different-angle",
+      "keep": "blog/pam-oil-history-and-financials.md",
+      "unique_content_in_other": true,
+      "note": "Post B provides a more comprehensive overview of the working session, including the number of messages and the working directory, which adds context to the discussion.",
+      "drop": null
+    },
+    {
+      "a": "projects/kickstarter-campaign-blueprint-review.md",
+      "b": "projects/openplotter-kickstarter-campaign.md",
+      "score": 0.823,
+      "same_topic": true,
+      "relationship": "same-topic-different-angle",
+      "keep": "projects/kickstarter-campaign-blueprint-review.md",
+      "unique_content_in_other": true,
+      "note": "Post A provides a more detailed and specific blueprint for the Kickstarter campaign, while Post B serves as a general guide. Post A is more comprehensive and contains specific production specs and design details that are crucial for the campaign.",
+      "drop": null
+    },
+    {
+      "a": "projects/boat-monitor-data-viz.md",
+      "b": "garden/is-this-the-most-likely-to-secceed-tech-product.md",
+      "score": 0.685,
+      "same_topic": true,
+      "relationship": "same-topic-different-angle",
+      "keep": "projects/boat-monitor-data-viz.md",
+      "unique_content_in_other": true,
+      "note": "Post A provides a more focused and detailed analysis of the no-subscription boat monitor as a product for fishing boats, while Post B includes additional context about the feasibility of the concept and the risks associated with choosing a chartplotter as a first test.",
+      "drop": null
+    },
+    {
+      "a": "projects/implementation-plan-31.md",
+      "b": "papers/walkthrough-3.md",
+      "score": 0.682,
+      "same_topic": true,
+      "relationship": "same-topic-different-angle",
+      "keep": "projects/implementation-plan-31.md",
+      "unique_content_in_other": true,
+      "note": "Post A provides a more comprehensive implementation plan with detailed architectural changes, while Post B focuses on a walkthrough of the updates with specific changes and node descriptions.",
+      "drop": null
+    },
+    {
+      "a": "projects/implementation-plan.md",
+      "b": "papers/walkthrough.md",
+      "score": 0.644,
+      "same_topic": true,
+      "relationship": "same-topic-different-angle",
+      "keep": "projects/implementation-plan.md",
+      "unique_content_in_other": true,
+      "note": "Post A provides a detailed implementation plan with specific slides and structure, while Post B offers a walkthrough of the restored project with deliverables and a beta testing strategy.",
+      "drop": null
+    },
+    {
+      "a": "blog/omniroute-free-api-and-file-based-provider-setup.md",
+      "b": "garden/help-me-set-up-omniroute-http-localhost-20128-home-set-up-al.md",
+      "score": 0.592,
+      "same_topic": true,
+      "relationship": "same-topic-different-angle",
+      "keep": "blog/omniroute-free-api-and-file-based-provider-setup.md",
+      "unique_content_in_other": true,
+      "note": "Post A provides a detailed guide on setting up OmniRoute with free APIs and importing providers from files, while Post B is a request for setup assistance with a transcript of a conversation.",
+      "drop": null
+    },
+    {
+      "a": "blog/the-idea-relay.md",
+      "b": "concepts/idea-relay.md",
+      "score": 0.561,
+      "same_topic": true,
+      "relationship": "same-topic-different-angle",
+      "keep": "blog/the-idea-relay.md",
+      "unique_content_in_other": true,
+      "note": "Post A provides a detailed explanation of the Idea Relay concept with specific mechanics and examples, while Post B offers a more concise overview with a focus on the core inversion and open problems.",
+      "drop": null
+    },
+    {
+      "a": "garden/i-have-completed-the-exploration-of-home-jd-obsidianvault-an.md",
+      "b": "garden/i-have-completed-the-exploration-of-home-jd-prototypes-and-r.md",
+      "score": 0.555,
+      "same_topic": true,
+      "relationship": "same-topic-different-angle",
+      "keep": "garden/i-have-completed-the-exploration-of-home-jd-prototypes-and-r.md",
+      "unique_content_in_other": true,
+      "note": "Post B provides more detailed findings from exploring a prototypes directory, making it more valuable for the reader.",
+      "drop": null
+    },
+    {
+      "a": "art/navigate-to-http-localhost-7000-and-check-the-current-state.md",
+      "b": "art/navigate-to-http-localhost-7000-and-take-a-screenshot-of-the-2.md",
+      "score": 0.53,
+      "same_topic": true,
+      "relationship": "same-topic-different-angle",
+      "keep": "art/navigate-to-http-localhost-7000-and-check-the-current-state.md",
+      "unique_content_in_other": true,
+      "note": "Post A provides a detailed guide on checking and configuring models, while Post B is a specific request to take a screenshot of the page state.",
+      "drop": null
+    },
+    {
+      "a": "garden/explore-home-jd-prototypes-obsidian-vault-and-home-jd-protot.md",
+      "b": "garden/explore-the-main-obsidian-vault-at-home-jd-obsidianvault-to.md",
+      "score": 0.461,
+      "same_topic": true,
+      "relationship": "same-topic-different-angle",
+      "keep": "garden/explore-the-main-obsidian-vault-at-home-jd-obsidianvault-to.md",
+      "unique_content_in_other": true,
+      "note": "Post B provides a more comprehensive overview of the Obsidian vault structure and its relationship to the EMAI Starter Vault, while Post A focuses specifically on prototype development within the EMAI project.",
+      "drop": null
+    },
+    {
+      "a": "garden/explore-home-jd-prototypes-obsidian-vault-and-home-jd-protot.md",
+      "b": "garden/thoroughly-explore-the-emai-obsidian-os-project-at-home-jd-d.md",
+      "score": 0.457,
+      "same_topic": true,
+      "relationship": "same-topic-different-angle",
+      "keep": "garden/thoroughly-explore-the-emai-obsidian-os-project-at-home-jd-d.md",
+      "unique_content_in_other": true,
+      "note": "Post B provides a more comprehensive exploration of the EMAI Obsidian OS architecture, including recursive directory listing and a focus on system purpose, while Post A focuses on prototype development and specific file exploration.",
+      "drop": null
+    }
+  ]
+}

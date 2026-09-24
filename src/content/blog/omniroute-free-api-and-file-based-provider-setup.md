@@ -1,13 +1,15 @@
 ---
 title: "OmniRoute free API and file-based provider setup"
-description: "Setup OmniRoute with all available free API/models and import providers from a CSV or JSON file."
+description: "A working session on setting up OmniRoute with free API and file-based providers"
 date: "2026-08-31"
-tags: ["opencode","session","api","omniroute","providers","file-import"]
+tags: ["opencode","omniroute","setup"]
 source: "opencode://quick-tiger"
 draft: true
 clarity: 3
 quality: 3
 ---
+
+## OmniRoute free API and file-based provider setup
 
 What this is: an opencode working session — 108 messages.
 

@@ -1,21 +1,20 @@
 ---
 title: "Boat Monitor Social Campaign"
-description: "A social media campaign promoting a no-subscription boat monitor, highlighting peace of mind, rugged reliability, and DIY freedom."
+description: "Social media campaign for a no-subscription boat monitor"
 date: "2026-09-23"
-tags: ["idea/open-source","concept/peace-of-mind","topic/content","type/project","concept/obsolescence","project/kickstarter"]
+tags: ["social-media","boat-monitor","open-hardware"]
 source: "Projects/Kickstarter/OpenPlotter-Boat-Monitor/boat_monitor_social_campaign.md"
-status: "concept"
-stage: "idea"
-draft: true
+draft: false
 clarity: 5
 quality: 5
+status: "concept"
+stage: "idea"
 ---
 
 ### Social Media Campaign: The No-Subscription Boat Monitor
 
-This campaign attacks the most hated aspect of marine electronics—the forced monthly subscription—while emphasizing peace of mind, rugged reliability, and DIY freedom.
-
 #### Post 1: The "Marine Tax" Takedown
+
 **Platform Focus:** Facebook Groups, Instagram
 **Objective:** Agitate the pain point of expensive subscriptions for basic security.
 
@@ -33,6 +32,7 @@ Link in bio to join the open-hardware revolution. 🔗
 #BoatLife #MarineElectronics #OpenSourceHardware #FishingLife #BoatSecurity
 
 #### Post 2: True Freedom (Bring Your Own SIM)
+
 **Platform Focus:** Twitter/X, Reddit (r/boating, r/diyelectronics), Instagram
 **Objective:** Highlight the open-hardware and DIY-friendly nature of the product.
 
@@ -48,6 +48,7 @@ Built rugged. Built open. Built for boaters who hate walled gardens.
 #RightToRepair #BoatMods #DIYBoating #OpenHardware
 
 #### Post 3: The Ultimate Peace of Mind
+
 **Platform Focus:** Instagram Stories, Facebook Ads
 **Objective:** Emotional appeal. Focus on the end result: relaxing instead of worrying.
 
@@ -64,3 +65,7 @@ And the best part? It doesn't cost you $240 a year in subscription fees to get t
 Relax. We're on watch. ☕🚤
 
 #MarinaLife #CenterConsole #SaltwaterFishing #BoatOwnership
+
+## Related
+
+- [Boat Monitor Data Viz](/projects/boat-monitor-data-viz/)

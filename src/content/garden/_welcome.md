@@ -1,4 +1,5 @@
 ---
+draft: true
 title: "Welcome to the Garden"
 description: "What lives here, and what never will."
 date: 2026-01-01

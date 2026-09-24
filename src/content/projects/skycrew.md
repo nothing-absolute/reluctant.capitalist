@@ -1,4 +1,5 @@
 ---
+draft: true
 title: "Skycrew"
 description: "A crew/ops coordination project — one of the many ventures tested in the weekly experiment cycle."
 date: 2026-07-28

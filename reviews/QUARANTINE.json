@@ -1,0 +1,318 @@
+{
+  "generatedAt": "2026-09-24T14:48:43.420Z",
+  "applied": true,
+  "counts": {
+    "scratch-workspace-stub": 6,
+    "shell-transcript": 1,
+    "stub-template": 3,
+    "near-empty": 18,
+    "llm-stub": 11,
+    "error-log": 1
+  },
+  "rows": [
+    {
+      "rel": "projects/commons-landing.md",
+      "abs": "/media/jd/500gb/LINUX/reluctant.capitalist/src/content/projects/commons-landing.md",
+      "reasons": [
+        "scratch-workspace-stub"
+      ],
+      "title": "Commons Landing Antigravity Project",
+      "bodyLen": 219
+    },
+    {
+      "rel": "projects/croot-1e0e86c35081-root-1e0e86c35081-ls-ngc-dl-container-lic.md",
+      "abs": "/media/jd/500gb/LINUX/reluctant.capitalist/src/content/projects/croot-1e0e86c35081-root-1e0e86c35081-ls-ngc-dl-container-lic.md",
+      "reasons": [
+        "shell-transcript"
+      ],
+      "title": "runpod gpu deployment plan",
+      "bodyLen": 23974
+    },
+    {
+      "rel": "projects/financial-model.md",
+      "abs": "/media/jd/500gb/LINUX/reluctant.capitalist/src/content/projects/financial-model.md",
+      "reasons": [
+        "scratch-workspace-stub"
+      ],
+      "title": "Financial Model Project",
+      "bodyLen": 266
+    },
+    {
+      "rel": "projects/idraw-dashboard.md",
+      "abs": "/media/jd/500gb/LINUX/reluctant.capitalist/src/content/projects/idraw-dashboard.md",
+      "reasons": [
+        "scratch-workspace-stub"
+      ],
+      "title": "idraw dashboard workspace",
+      "bodyLen": 200
+    },
+    {
+      "rel": "projects/needlepoint-financial-app.md",
+      "abs": "/media/jd/500gb/LINUX/reluctant.capitalist/src/content/projects/needlepoint-financial-app.md",
+      "reasons": [
+        "scratch-workspace-stub"
+      ],
+      "title": "Needlepoint Financial App",
+      "bodyLen": 200
+    },
+    {
+      "rel": "projects/patchbay.md",
+      "abs": "/media/jd/500gb/LINUX/reluctant.capitalist/src/content/projects/patchbay.md",
+      "reasons": [
+        "scratch-workspace-stub"
+      ],
+      "title": "Antigravity Scratch Project Workspace",
+      "bodyLen": 207
+    },
+    {
+      "rel": "projects/undertone-landing.md",
+      "abs": "/media/jd/500gb/LINUX/reluctant.capitalist/src/content/projects/undertone-landing.md",
+      "reasons": [
+        "scratch-workspace-stub"
+      ],
+      "title": "Undertone Landing",
+      "bodyLen": 277
+    },
+    {
+      "rel": "blog/2026-09-05.md",
+      "abs": "/media/jd/500gb/LINUX/reluctant.capitalist/src/content/blog/2026-09-05.md",
+      "reasons": [
+        "stub-template"
+      ],
+      "title": "daily note with focus tasks and activity logs",
+      "bodyLen": 3921
+    },
+    {
+      "rel": "blog/2026-09-20.md",
+      "abs": "/media/jd/500gb/LINUX/reluctant.capitalist/src/content/blog/2026-09-20.md",
+      "reasons": [
+        "stub-template"
+      ],
+      "title": "Daily Note — September 20, 2026",
+      "bodyLen": 1367
+    },
+    {
+      "rel": "blog/2026-09-23.md",
+      "abs": "/media/jd/500gb/LINUX/reluctant.capitalist/src/content/blog/2026-09-23.md",
+      "reasons": [
+        "stub-template"
+      ],
+      "title": "daily note on project development and progress",
+      "bodyLen": 2728
+    },
+    {
+      "rel": "blog/add-openai-compatible-llm-from-http-10-240-190-108-8080-v1.md",
+      "abs": "/media/jd/500gb/LINUX/reluctant.capitalist/src/content/blog/add-openai-compatible-llm-from-http-10-240-190-108-8080-v1.md",
+      "reasons": [
+        "near-empty"
+      ],
+      "title": "Adding OpenAI Compatible LLM from Specific HTTP Address",
+      "bodyLen": 152
+    },
+    {
+      "rel": "blog/aether-video-download-userscript.md",
+      "abs": "/media/jd/500gb/LINUX/reluctant.capitalist/src/content/blog/aether-video-download-userscript.md",
+      "reasons": [
+        "near-empty",
+        "llm-stub"
+      ],
+      "title": "Aether video download userscript",
+      "bodyLen": 196
+    },
+    {
+      "rel": "blog/android-termux-llama-cpp-local-llm-setup.md",
+      "abs": "/media/jd/500gb/LINUX/reluctant.capitalist/src/content/blog/android-termux-llama-cpp-local-llm-setup.md",
+      "reasons": [
+        "near-empty"
+      ],
+      "title": "Android Termux Llama.cpp Setup Session",
+      "bodyLen": 188
+    },
+    {
+      "rel": "blog/connect-omniroute.md",
+      "abs": "/media/jd/500gb/LINUX/reluctant.capitalist/src/content/blog/connect-omniroute.md",
+      "reasons": [
+        "near-empty"
+      ],
+      "title": "Connect OmniRoute Session",
+      "bodyLen": 152
+    },
+    {
+      "rel": "blog/external-display-brightness-alternatives.md",
+      "abs": "/media/jd/500gb/LINUX/reluctant.capitalist/src/content/blog/external-display-brightness-alternatives.md",
+      "reasons": [
+        "near-empty"
+      ],
+      "title": "Working Session on External Display Brightness",
+      "bodyLen": 184
+    },
+    {
+      "rel": "blog/find-obsidian-folders-on-hard-drive.md",
+      "abs": "/media/jd/500gb/LINUX/reluctant.capitalist/src/content/blog/find-obsidian-folders-on-hard-drive.md",
+      "reasons": [
+        "near-empty",
+        "llm-stub"
+      ],
+      "title": "Find Obsidian Folders On Hard Drive",
+      "bodyLen": 174
+    },
+    {
+      "rel": "blog/greeting.md",
+      "abs": "/media/jd/500gb/LINUX/reluctant.capitalist/src/content/blog/greeting.md",
+      "reasons": [
+        "near-empty"
+      ],
+      "title": "Opencode Working Session",
+      "bodyLen": 139
+    },
+    {
+      "rel": "blog/pam-oil-research-and-claude-capture.md",
+      "abs": "/media/jd/500gb/LINUX/reluctant.capitalist/src/content/blog/pam-oil-research-and-claude-capture.md",
+      "reasons": [
+        "near-empty"
+      ],
+      "title": "Opencode Session With Claude",
+      "bodyLen": 186
+    },
+    {
+      "rel": "blog/reluctant-capitalist-astro-project-review.md",
+      "abs": "/media/jd/500gb/LINUX/reluctant.capitalist/src/content/blog/reluctant-capitalist-astro-project-review.md",
+      "reasons": [
+        "near-empty",
+        "llm-stub"
+      ],
+      "title": "Reluctant Capitalist Astro Project Review",
+      "bodyLen": 192
+    },
+    {
+      "rel": "blog/resume.md",
+      "abs": "/media/jd/500gb/LINUX/reluctant.capitalist/src/content/blog/resume.md",
+      "reasons": [
+        "near-empty"
+      ],
+      "title": "Resume: Stalling the /btw Command in Opencode",
+      "bodyLen": 171
+    },
+    {
+      "rel": "blog/set-up-opecode-with-omniroute-models.md",
+      "abs": "/media/jd/500gb/LINUX/reluctant.capitalist/src/content/blog/set-up-opecode-with-omniroute-models.md",
+      "reasons": [
+        "near-empty"
+      ],
+      "title": "Opencode Working Session",
+      "bodyLen": 176
+    },
+    {
+      "rel": "blog/setting-up-futo-notes.md",
+      "abs": "/media/jd/500gb/LINUX/reluctant.capitalist/src/content/blog/setting-up-futo-notes.md",
+      "reasons": [
+        "near-empty",
+        "llm-stub"
+      ],
+      "title": "Setting up futo-notes",
+      "bodyLen": 192
+    },
+    {
+      "rel": "blog/sure-let-s-focus-on-what-you-need-to-do-with-the-config-it-is-a.md",
+      "abs": "/media/jd/500gb/LINUX/reluctant.capitalist/src/content/blog/sure-let-s-focus-on-what-you-need-to-do-with-the-config-it-is-a.md",
+      "reasons": [
+        "near-empty"
+      ],
+      "title": "Opencode Session: Obsidian Configuration Discussion",
+      "bodyLen": 167
+    },
+    {
+      "rel": "blog/test-45.md",
+      "abs": "/media/jd/500gb/LINUX/reluctant.capitalist/src/content/blog/test-45.md",
+      "reasons": [
+        "near-empty"
+      ],
+      "title": "Opencode Working Session",
+      "bodyLen": 137
+    },
+    {
+      "rel": "blog/test.md",
+      "abs": "/media/jd/500gb/LINUX/reluctant.capitalist/src/content/blog/test.md",
+      "reasons": [
+        "near-empty"
+      ],
+      "title": "Opencode Working Session",
+      "bodyLen": 137
+    },
+    {
+      "rel": "blog/west-mall-7-animated-conspiracy-video.md",
+      "abs": "/media/jd/500gb/LINUX/reluctant.capitalist/src/content/blog/west-mall-7-animated-conspiracy-video.md",
+      "reasons": [
+        "near-empty",
+        "llm-stub"
+      ],
+      "title": "opencode working session",
+      "bodyLen": 139
+    },
+    {
+      "rel": "garden/add-this-openai-compatible-api-to-opencode-http-10-240-190-1.md",
+      "abs": "/media/jd/500gb/LINUX/reluctant.capitalist/src/content/garden/add-this-openai-compatible-api-to-opencode-http-10-240-190-1.md",
+      "reasons": [
+        "llm-stub"
+      ],
+      "title": "opencode api integration note",
+      "bodyLen": 1184
+    },
+    {
+      "rel": "garden/business-profile.md",
+      "abs": "/media/jd/500gb/LINUX/reluctant.capitalist/src/content/garden/business-profile.md",
+      "reasons": [
+        "near-empty",
+        "llm-stub"
+      ],
+      "title": "Business Profile",
+      "bodyLen": 128
+    },
+    {
+      "rel": "garden/context-node-internal-modules-cjs-loader-1520-throw-err-erro.md",
+      "abs": "/media/jd/500gb/LINUX/reluctant.capitalist/src/content/garden/context-node-internal-modules-cjs-loader-1520-throw-err-erro.md",
+      "reasons": [
+        "error-log"
+      ],
+      "title": "error log from antigravity chat session",
+      "bodyLen": 10358
+    },
+    {
+      "rel": "garden/find-any-used-onyx-rcr-or-cty2-electric-bikes.md",
+      "abs": "/media/jd/500gb/LINUX/reluctant.capitalist/src/content/garden/find-any-used-onyx-rcr-or-cty2-electric-bikes.md",
+      "reasons": [
+        "llm-stub"
+      ],
+      "title": "finding used onyx rcr or cty2 electric bikes for sale",
+      "bodyLen": 3199
+    },
+    {
+      "rel": "garden/find-me-a-good-video-tutorial-of-setting-up.md",
+      "abs": "/media/jd/500gb/LINUX/reluctant.capitalist/src/content/garden/find-me-a-good-video-tutorial-of-setting-up.md",
+      "reasons": [
+        "llm-stub"
+      ],
+      "title": "finding a video tutorial for runpod llm deployment",
+      "bodyLen": 1523
+    },
+    {
+      "rel": "garden/navigate-to-http-localhost-7000-and-take-a-screenshot-of-the.md",
+      "abs": "/media/jd/500gb/LINUX/reluctant.capitalist/src/content/garden/navigate-to-http-localhost-7000-and-take-a-screenshot-of-the.md",
+      "reasons": [
+        "llm-stub"
+      ],
+      "title": "ui inspection task",
+      "bodyLen": 936
+    },
+    {
+      "rel": "garden/writing-style.md",
+      "abs": "/media/jd/500gb/LINUX/reluctant.capitalist/src/content/garden/writing-style.md",
+      "reasons": [
+        "near-empty",
+        "llm-stub"
+      ],
+      "title": "Writing Style Preferences",
+      "bodyLen": 103
+    }
+  ]
+}

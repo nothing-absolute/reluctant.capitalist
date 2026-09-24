@@ -1,4 +1,5 @@
 ---
+draft: true
 title: "Public is a discipline"
 description: "Writing goals down makes them harder to abandon quietly. Showing the numbers makes them harder to fudge."
 weight: 7

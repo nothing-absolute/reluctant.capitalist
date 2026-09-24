@@ -1,20 +1,21 @@
 ---
 title: "Undertone Guardian Kids Phone — Instagram Ad Campaign"
-description: "A 3-part Instagram ad campaign promoting the Undertone Guardian Phone to tech-conscious parents and digital minimalists."
+description: "Three-part Instagram ad campaign for the Undertone Guardian Phone"
 date: "2026-09-05"
-tags: ["antigravity","artifact"]
+tags: ["marketing","product-launch","digital-safety"]
 source: "antigravity://7e8d74f9-5e41-4a79-816e-ebfc01860752/undertone_instagram_campaign.md"
-vault: false
 draft: true
 clarity: 5
 quality: 5
+vault: false
 ---
+
+Undertone Guardian Kids Phone — Instagram Ad Campaign
 
 A 3-part visual Instagram ad campaign designed to market the **Undertone Guardian Phone** to tech-conscious parents, digital minimalists, and child online safety advocates.
 
-#### Post 1: Hardware & Product Design
+**Post 1: Hardware & Product Design**
 
-##### ✍️ Caption & Copy
 > **Software rules can be bypassed. Physical hardware can’t.** 🔒
 >
 > Introducing the **Undertone Guardian Phone** — the first kids phone built inside an un-tamperable, sonic-welded composite shell.
@@ -28,9 +29,8 @@ A 3-part visual Instagram ad campaign designed to market the **Undertone Guardia
 >
 > #UndertoneGuardian #KidsSafety #DigitalMinimalism #TamperProof #LoRAMesh #ParentingTech #ScreenFreeKids
 
-#### Post 2: Lifestyle & Emotional Peace of Mind
+**Post 2: Lifestyle & Emotional Peace of Mind**
 
-##### ✍️ Caption & Copy
 > **Give them freedom outdoors. Give yourself total peace of mind.** 🌲☀️
 >
 > The Undertone Guardian Phone keeps your kids connected to *you* — without exposing them to social media algorithms, online predators, or spam calls.
@@ -46,9 +46,8 @@ A 3-part visual Instagram ad campaign designed to market the **Undertone Guardia
 >
 > #ParentingHacks #ChildSafety #LoRA #ScreenTime #Dumbphone #TechForGood #Undertone
 
-#### Post 3: 3D Engineering & Security Breakdown
+**Post 3: 3D Engineering & Security Breakdown**
 
-##### ✍️ Caption & Copy
 > **Inside the Engineering of the World's Safest Kids Phone.** ⚙️📱
 >
 > Here’s why traditional parental control apps fail — and why physical hardware enforcement wins every time:
@@ -63,3 +62,8 @@ A 3-part visual Instagram ad campaign designed to market the **Undertone Guardia
 > 🚀 Kickstarter campaign launching soon! Link in bio.
 >
 > #Engineering #CyberSecurity #HardwareDesign #ProductDesign #HardwareSecurity #Meshtastic #LoRA #Undertone
+
+## Related
+
+- [Undertone Guardian Kids Phone — Instagram Ad Campaign]
+- [UNDERTONE — OpenCode Agent System Prompt](/garden/undertone-opencode-prompt/)

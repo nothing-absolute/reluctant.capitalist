@@ -1,0 +1,22 @@
+{
+  "review": "20260924-135546-notes",
+  "source": "blog-draft",
+  "generatedAt": "2026-09-24T13:55:46.022Z",
+  "notes": [
+    {
+      "section": "papers",
+      "slug": "the-rent-seeking-trap-and-how-to-walk-away",
+      "title": "The Rent-Seeking Trap (And How to Walk Away)",
+      "source": "draft_rent_seeking.md",
+      "status": "staged"
+    },
+    {
+      "section": "papers",
+      "slug": "i-automated-my-creative-brain-because-i-had-to",
+      "title": "I Automated My Creative Brain (Because I Had To)",
+      "source": "meta_content_001_building_the_machine.md",
+      "status": "staged"
+    }
+  ],
+  "redactions": {}
+}

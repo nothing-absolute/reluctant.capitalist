@@ -1,14 +1,16 @@
 ---
 title: "Assisting JD: A Neurodivergent Creator's Guide"
-description: "A comprehensive guide to supporting an ADHD creator with multiple projects and creative goals."
+description: "A guide for assisting a neurodivergent creator with productivity and organization"
 date: "2026-09-23"
-tags: ["adhd","creator","project-management","neurodiversity","business","youtube","cold-storage","android-phone"]
+tags: ["neurodivergent","productivity","organization","creator","entrepreneur"]
 source: "Knowledge/Context/assisting-user-context.md"
-vault: true
-draft: true
+draft: false
 clarity: 4
 quality: 5
+vault: true
 ---
+
+## Assisting JD: A Neurodivergent Creator's Guide
 
 Hub for understanding who you're assisting - work style, schedule, preferences, and goals.
 
@@ -19,7 +21,7 @@ Hub for understanding who you're assisting - work style, schedule, preferences, 
 **Neurotype:** ADHD (neurodivergent)
 
 **One-Sentence Summary:**
-Creative polymath with 18+ concurrent ideas, building systems to capture, organize, and actually finish the things that matter — while respecting the ADHD brain's need for novelty and hyperfocus.
+Creative polymath with 18+ concurrent ideas, building systems to capture, organize and actually finish the things that matter — while respecting the ADHD brain's need for novelty and hyperfocus.
 
 #### Work Schedule & Rhythms
 
@@ -137,3 +139,7 @@ Update this when:
 > 1. Match captures against goals for priority
 > 2. Route to appropriate project/area
 > 3. If relates to goal, mark as high priority
+
+## Related
+
+- [Undertone — Pitch Deck]

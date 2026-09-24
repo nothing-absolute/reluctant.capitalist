@@ -1,0 +1,63 @@
+{
+  "generatedAt": "2026-09-24T17:29:23.307Z",
+  "livePosts": 142,
+  "postsFixed": 9,
+  "deadLinksRemoved": 0,
+  "dead": [],
+  "report": [
+    {
+      "post": "projects/odysseus-the-local-first-agent-toolchain.md",
+      "theme": "odysseus-toolchain",
+      "deadRemoved": 0,
+      "liveLinks": 73
+    },
+    {
+      "post": "concepts/the-second-brain-and-what-it-is-actually-for.md",
+      "theme": "second-brain",
+      "deadRemoved": 0,
+      "liveLinks": 52
+    },
+    {
+      "post": "projects/openplotter-an-open-boat-monitoring-platform.md",
+      "theme": "openplotter",
+      "deadRemoved": 0,
+      "liveLinks": 48
+    },
+    {
+      "post": "projects/the-machine-a-channel-about-how-systems-capture-people.md",
+      "theme": "the-machine",
+      "deadRemoved": 0,
+      "liveLinks": 47
+    },
+    {
+      "post": "projects/the-machine.md",
+      "theme": "the-machine",
+      "deadRemoved": 0,
+      "liveLinks": 47
+    },
+    {
+      "post": "projects/undertone-a-documentary-project-on-algorithmic-reach.md",
+      "theme": "undertone",
+      "deadRemoved": 0,
+      "liveLinks": 21
+    },
+    {
+      "post": "papers/the-pipeline-that-captured-my-father.md",
+      "theme": "family-capture",
+      "deadRemoved": 0,
+      "liveLinks": 17
+    },
+    {
+      "post": "concepts/community-compute-and-the-resurrected-third-space.md",
+      "theme": "makerspace",
+      "deadRemoved": 0,
+      "liveLinks": 16
+    },
+    {
+      "post": "projects/hydration-station-free-water-community-owned.md",
+      "theme": "hydration-station",
+      "deadRemoved": 0,
+      "liveLinks": 13
+    }
+  ]
+}

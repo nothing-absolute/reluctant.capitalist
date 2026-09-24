@@ -1,43 +1,43 @@
 ---
 title: "Precious Plastics — Machines in Every US City 50k+"
-description: "A plan to deploy open-source plastic recycling machines in every US city with over 50,000 residents, supported by a YouTube presence to educate and engage communities."
+description: "Proposes deploying open-source plastic recycling machines in every US city with over 50,000 residents."
 date: "2026-09-23"
-tags: ["type/project","makerlab","recycling","youtube","community","local-economy"]
+tags: ["plastic-recycling","open-source","community-deployment"]
 source: "Projects/Nonprofit/Precious-Plastics-USA.md"
-status: "seed"
-stage: "idea"
 draft: true
 clarity: 4
 quality: 4
+status: "seed"
+stage: "idea"
 ---
 
-### Precious Plastics — Machines in Every US City 50k+
+## Precious Plastics — Machines in Every US City 50k+
 
-#### Core Idea
+### Core Idea
 Reboot Precious Plastics (the open-source plastic recycling project — shredder, injection machine, compression, extrusion). Goal: one of each machine design in a fab/makers/hacker/lab/space in every US city over 50,000 people, with a strong YouTube presence to document, teach, and spread it.
 
-#### The Plan
+### The Plan
 - Restore/refresh the classic Precious Plastics machine designs (open source, low-cost, DIY).
 - Place a full machine set (all designs) in a makerspace/fab lab/hackerspace in every US city with population > 50,000.
 - YouTube as the engine: build guides, machine demos, recycling workflows, community spotlights, and the 'what you can make' story that pulls people in.
 - Community foundation → local recycling capability in every mid-size city → feedstock for the alternative economy.
 
-#### Why It Matters
+### Why It Matters
 - Plastic waste is ubiquitous; most cities have no local recycling for small-scale makers.
 - Precious Plastics is the perfect open-source disruption case: it already exists, it's proven, it just needs a deployment network.
 - Aligns with the big-picture mission: local, community-owned production replacing extractive systems.
 
-#### Scale Numbers
+### Scale Numbers
 - US cities with 50,000+ population: roughly 800+ (need exact count).
 - Makerspaces/fab labs/hackerspaces: find the existing map — many cities already have one, which lowers the bar from 'build from scratch' to 'equip + train.'
 
-#### Next Actions
+### Next Actions
 - Get the exact count of US cities over 50k and the existing makerspace coverage map
 - Audit current Precious Plastics designs (machine set, BOM, license, community status)
 - Start the YouTube channel: pick the first machine build as the flagship video
 - Define the 'one set per city' partnership model for makerspaces (funding, training, kit)
 
-#### Someday/Maybe
+### Someday/Maybe
 - Machine kits (locally sourced, recycled-materials builds)
 - Certification/training program for makerspace stewards
 - Cities that finish their set → next tier: local product lines

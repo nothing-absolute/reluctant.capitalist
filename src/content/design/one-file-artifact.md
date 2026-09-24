@@ -1,4 +1,5 @@
 ---
+draft: true
 title: "The One-File Artifact"
 description: "A design discipline: whole interfaces shipped as a single HTML file — the constraint that keeps scope honest."
 date: 2026-08-03

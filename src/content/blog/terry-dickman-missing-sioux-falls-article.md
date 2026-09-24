@@ -1,13 +1,15 @@
 ---
 title: "Terry Dickman Missing Sioux Falls Article"
-description: "A search for a 1950s article about a boy from Sioux Falls, SD who went missing for about a month, believed to be Terry Dickman, the speaker's grandfather."
+description: "A working session to find a missing persons article from the 1950s"
 date: "2026-09-19"
-tags: ["opencode","search","newspaper"]
+tags: ["missing-persons","local-history","sioux-falls"]
 source: "opencode://neon-moon"
 draft: true
 clarity: 3
 quality: 3
 ---
+
+## Terry Dickman Missing Sioux Falls Article
 
 What this is: an opencode working session — 18 messages.
 
@@ -20,3 +22,7 @@ Opened with:
 > I'm not finding it through web searches, which makes sense — a 1950s local newspaper story would really only live in digitized newspaper archives. Let me try one more angle targeting those directly.
 >
 > Big search for boy at falls : missing since Tuesday,
+
+## Related
+
+- [2026 09 19](/blog/2026-09-19/)

@@ -1,0 +1,580 @@
+{
+  "generatedAt": "2026-09-24T17:29:01.813Z",
+  "totals": {
+    "posts": 224,
+    "drafts": 82,
+    "withTranscript": 58,
+    "bodyBytes": 1552925
+  },
+  "bySection": {
+    "projects": 61,
+    "blog": 50,
+    "papers": 12,
+    "art": 10,
+    "comics": 1,
+    "concepts": 6,
+    "design": 1,
+    "goals": 3,
+    "values": 6,
+    "garden": 74
+  },
+  "bySource": {
+    "Projects/a-plain-of-jars/a-plain-of-jars-bible.md": 1,
+    "project-docs://story_bible_addendum_mlm_truth.md": 1,
+    "synthesis://a-plain-of-jars": 1,
+    "Projects/AI/AI-Task-Concierge.md": 1,
+    "antigravity": 98,
+    "Projects/Business/Android Phone Project.md": 1,
+    "Projects/a-plain-of-jars/artist-partnership-term-sheet.md": 1,
+    "Projects/Kickstarter/OpenPlotter-Boat-Monitor/boat_monitor_data_viz.md": 1,
+    "Projects/Kickstarter/OpenPlotter-Boat-Monitor/boat_monitor_social_campaign.md": 1,
+    "Projects/Business/Cold Storage Business.md": 1,
+    "Projects/community-data-centers/community-data-center-vision.md": 1,
+    "Projects/Housing/Earthship-Homes.md": 1,
+    "Projects/Kickstarter/OpenPlotter-Boat-Monitor/fishing-boat-concept.md": 1,
+    "Projects/Kickstarter/OpenPlotter-Boat-Monitor/founder-video-script.md": 1,
+    "synthesis://hydration-station": 1,
+    "Projects/Kickstarter/hydration-station-kickstarter.md": 1,
+    "none": 21,
+    "Projects/a-plain-of-jars/kickstarter-financial-model.md": 1,
+    "Projects/Nonprofit/Makerspace Nonprofit Partnership & Pro-Forma.md": 1,
+    "synthesis://mlm-truth": 1,
+    "Projects/Hardware/Mushroom-Grow-Container.md": 1,
+    "synthesis://odysseus-toolchain": 1,
+    "synthesis://openplotter": 1,
+    "Projects/Kickstarter/OpenPlotter-Boat-Monitor/OpenPlotter_Kickstarter_Campaign_Plan.md": 1,
+    "Projects/Kickstarter/OpenPlotter-Boat-Monitor/openplotter-kickstarter-campaign.md": 1,
+    "Projects/Nonprofit/Precious-Plastics-USA.md": 1,
+    "Projects/a-plain-of-jars/substack-launch-plan.md": 1,
+    "project-docs://substack_serialization_strategy.md": 1,
+    "synthesis://the-machine": 2,
+    "project-docs://the_machine_channel_strategy.md": 1,
+    "Projects/The Off-Ramp - Channel Plan.md": 1,
+    "Projects/Music/Tour-Calendar-Monitor.md": 1,
+    "synthesis://undertone": 1,
+    "Projects/Planning/Weekly-Plan-2026-08-03.md": 1,
+    "Projects/YouTube/YouTube Channel.md": 1,
+    "Projects/YouTube/YouTube-Pedal-Demo-Channel.md": 1,
+    "Projects/a-plain-of-jars/youtube-process-channel.md": 1,
+    "Daily/2026-05-08.md": 1,
+    "Daily/2026-07-28.md": 1,
+    "Daily/2026-07-29.md": 1,
+    "Daily/2026-07-30.md": 1,
+    "Daily/2026-08-01.md": 1,
+    "Daily/2026-08-02.md": 1,
+    "Daily/2026-08-03.md": 1,
+    "Daily/2026-08-04.md": 1,
+    "Daily/2026-08-05.md": 1,
+    "Daily/2026-08-06.md": 1,
+    "Daily/2026-08-09.md": 1,
+    "Daily/2026-08-20.md": 1,
+    "Daily/2026-08-21.md": 1,
+    "Daily/2026-08-23.md": 1,
+    "Daily/2026-08-24.md": 1,
+    "Daily/2026-08-27.md": 1,
+    "Daily/2026-08-31.md": 1,
+    "Daily/2026-09-03.md": 1,
+    "Daily/2026-09-04.md": 1,
+    "Daily/2026-09-18.md": 1,
+    "Daily/2026-09-19.md": 1,
+    "opencode://witty-squid": 2,
+    "opencode://hidden-circuit": 1,
+    "opencode://stellar-garden": 1,
+    "opencode://misty-eagle": 1,
+    "opencode://silent-comet": 1,
+    "opencode://misty-orchid": 1,
+    "opencode://gentle-comet": 1,
+    "opencode://eager-squid": 1,
+    "opencode://nimble-sailor": 1,
+    "opencode://sunny-falcon": 1,
+    "opencode://misty-panda": 1,
+    "opencode://eager-circuit": 1,
+    "opencode://mighty-squid": 1,
+    "opencode://swift-mountain": 1,
+    "opencode://restored-session": 1,
+    "opencode://kind-otter": 1,
+    "opencode://quick-tiger": 1,
+    "opencode://playful-lagoon": 1,
+    "opencode://brave-nebula": 1,
+    "opencode://hidden-meadow": 1,
+    "opencode://neon-comet": 1,
+    "opencode://playful-engine": 1,
+    "opencode://lucky-otter": 1,
+    "opencode://hidden-moon": 1,
+    "opencode://neon-moon": 1,
+    "opencode://curious-island": 1,
+    "blog-draft://meta_content_001_building_the_machine.md": 1,
+    "synthesis://family-capture": 1,
+    "blog-draft://draft_rent_seeking.md": 1,
+    "synthesis://addiction-recovery": 1,
+    "synthesis://makerspace": 1,
+    "synthesis://music-hardware": 1,
+    "Knowledge/Concepts/proprietary-obsolescence-analysis.md": 1,
+    "Knowledge/Concepts/second-brain.md": 1,
+    "synthesis://second-brain": 1,
+    "Knowledge/References/ai-setup-guide.md": 1,
+    "Knowledge/Context/assisting-user-context.md": 1,
+    "Areas/Career Development.md": 1,
+    "Knowledge/References/emai-Command Guide.md": 1,
+    "Knowledge/References/emai-Plugin Guide.md": 1,
+    "Knowledge/References/emai-Setup Guide.md": 1,
+    "Knowledge/References/futo-notes-welcome.md": 1,
+    "Knowledge/References/runpod-setup-guide.md": 1,
+    "Knowledge/References/start-here-tasknotes.md": 1,
+    "Knowledge/Wiki/vault-readme.md": 1,
+    "Knowledge/Wiki/Welcome to Karpathy LLM Wiki.md": 1,
+    "Knowledge/Wiki/workflow-guide.md": 1
+  },
+  "issues": {
+    "schema": [],
+    "titles": [
+      {
+        "post": "projects/business-plan-renting-out-this-rv-same-idea-as.md",
+        "why": "truncated title",
+        "title": "business plan: renting out this RV, same idea as the previous road tri"
+      },
+      {
+        "post": "projects/i-have-found-a-highly-relevant-and-analogous-open-hardware.md",
+        "why": "over 90 chars (110)",
+        "title": "I have found a highly relevant and analogous open-hardware and open-so"
+      },
+      {
+        "post": "blog/2026-08-02.md",
+        "why": "ALL CAPS",
+        "title": "2026 08 02"
+      },
+      {
+        "post": "blog/2026-08-04.md",
+        "why": "ALL CAPS",
+        "title": "2026 08 04"
+      },
+      {
+        "post": "blog/2026-08-23.md",
+        "why": "ALL CAPS",
+        "title": "2026 08 23"
+      },
+      {
+        "post": "blog/2026-09-03.md",
+        "why": "truncated title",
+        "title": "Infra notes (survive restarts…"
+      },
+      {
+        "post": "blog/2026-09-18.md",
+        "why": "ALL CAPS",
+        "title": "2026 09 18"
+      },
+      {
+        "post": "blog/2026-09-19.md",
+        "why": "ALL CAPS",
+        "title": "2026 09 19"
+      },
+      {
+        "post": "papers/all-my-opencode-projects-are-no-longer-connected-all.md",
+        "why": "truncated title",
+        "title": "all my opencode projects are no longer connected. all the tabs from th"
+      },
+      {
+        "post": "papers/opencode-session-working-on-a-busniess-for-fixing-cars.md",
+        "why": "over 90 chars (110)",
+        "title": "opencode session working on a business for fixing cars that have a bug"
+      },
+      {
+        "post": "papers/set-up-the-whisper-for-odysseus-i-want-to.md",
+        "why": "over 90 chars (110)",
+        "title": "set up the whisper for odysseus. i want to be able to input a message "
+      },
+      {
+        "post": "art/can-these-be-put-together-in-an-ai-generated.md",
+        "why": "over 90 chars (93)",
+        "title": "can these be put together in an ai generated image to have the cardboa"
+      },
+      {
+        "post": "garden/can-gps-work-indoors-if-not-is-there-a.md",
+        "why": "over 90 chars (110)",
+        "title": "can gps work indoors? if not is there a way to simulate or create a me"
+      },
+      {
+        "post": "garden/evaluate-to-pick-which-fish-boat-technology-could-be.md",
+        "why": "over 90 chars (108)",
+        "title": "evaluate to pick which fish boat technology could be easily recreated "
+      },
+      {
+        "post": "garden/explore-home-jd-prototypes-obsidian-vault-and-home-jd-protot.md",
+        "why": "over 90 chars (110)",
+        "title": "Explore /home/jd/Prototypes/Obsidian Vault/ and /home/jd/Prototypes/ t"
+      },
+      {
+        "post": "garden/find-a-computer-with-16-24gb-gpu-for-sale-in.md",
+        "why": "over 90 chars (110)",
+        "title": "find a computer with 16-24gb gpu for sale in sioux falls on craigslist"
+      },
+      {
+        "post": "garden/help-me-set-up-omniroute-http-localhost-20128-home-set-up-al.md",
+        "why": "over 90 chars (110)",
+        "title": "Help me set up OmniRoute: http://localhost:20128/home Set up all the a"
+      },
+      {
+        "post": "garden/how-can-i-use-a-tp-link-ac1900-dual-band.md",
+        "why": "over 90 chars (110)",
+        "title": "how can i use a tp-link ac1900 dual band router and motorola model sbg"
+      },
+      {
+        "post": "garden/i-have-an-original-theater-release-of-the-lion.md",
+        "why": "over 90 chars (103)",
+        "title": "I have an original theater release of the Lion King 1994 movie cardboa"
+      },
+      {
+        "post": "garden/i-will-list-the-contents-of-the-brain-folder.md",
+        "why": "over 90 chars (106)",
+        "title": "I will list the contents of the brain folder to find the history of th"
+      },
+      {
+        "post": "garden/what-kind-of-ai-video-generation-could-i-do.md",
+        "why": "over 90 chars (99)",
+        "title": "What kind of AI video generation could i do with local llm on a: Apple"
+      },
+      {
+        "post": "garden/write-a-comprehensive-needlepoint-inventory-database-json-fi.md",
+        "why": "truncated title",
+        "title": "Write a comprehensive needlepoint inventory database JSON file to…"
+      },
+      {
+        "post": "garden/write-a-comprehensive-social-media-content-playbook-markdown.md",
+        "why": "over 90 chars (110)",
+        "title": "Write a comprehensive social media content playbook markdown file to /"
+      }
+    ],
+    "descriptions": [],
+    "bodies": [
+      {
+        "post": "projects/build-an-application-for-android-and-ios-it-is.md",
+        "why": "3 H1 in body"
+      },
+      {
+        "post": "projects/install-rapberry-pi-os-on-the-sd-card-with.md",
+        "why": "2 H1 in body"
+      },
+      {
+        "post": "projects/set-up-a-claude-code-alternative-on-runpod-gpu.md",
+        "why": "3 H1 in body"
+      },
+      {
+        "post": "projects/that-wasn-t-claude-code-it-was-opencode-zen-the-free.md",
+        "why": "very large body (68747)"
+      },
+      {
+        "post": "goals/garden-slice.md",
+        "why": "near-empty body (187)"
+      },
+      {
+        "post": "goals/garden-slice.md",
+        "why": "almost no prose outside transcript"
+      },
+      {
+        "post": "goals/idea-relay-interviews.md",
+        "why": "near-empty body (177)"
+      },
+      {
+        "post": "goals/idea-relay-interviews.md",
+        "why": "almost no prose outside transcript"
+      },
+      {
+        "post": "goals/two-posts-a-month.md",
+        "why": "near-empty body (153)"
+      },
+      {
+        "post": "goals/two-posts-a-month.md",
+        "why": "almost no prose outside transcript"
+      },
+      {
+        "post": "values/craft.md",
+        "why": "near-empty body (176)"
+      },
+      {
+        "post": "values/craft.md",
+        "why": "almost no prose outside transcript"
+      },
+      {
+        "post": "values/honest-economics.md",
+        "why": "near-empty body (191)"
+      },
+      {
+        "post": "values/honest-economics.md",
+        "why": "almost no prose outside transcript"
+      },
+      {
+        "post": "values/ideas-are-seeds.md",
+        "why": "near-empty body (197)"
+      },
+      {
+        "post": "values/ideas-are-seeds.md",
+        "why": "almost no prose outside transcript"
+      },
+      {
+        "post": "values/public-is-a-discipline.md",
+        "why": "near-empty body (163)"
+      },
+      {
+        "post": "values/public-is-a-discipline.md",
+        "why": "almost no prose outside transcript"
+      },
+      {
+        "post": "values/relay-over-ownership.md",
+        "why": "near-empty body (196)"
+      },
+      {
+        "post": "values/relay-over-ownership.md",
+        "why": "almost no prose outside transcript"
+      },
+      {
+        "post": "garden/build-a-video-creation-pipe-line-based-on-this.md",
+        "why": "almost no prose outside transcript"
+      },
+      {
+        "post": "garden/can-gps-work-indoors-if-not-is-there-a.md",
+        "why": "7 H1 in body"
+      },
+      {
+        "post": "garden/you-are-helping-me-build-a-complete-kickstarter-campaign.md",
+        "why": "very large body (71186)"
+      }
+    ]
+  },
+  "duplicates": [
+    {
+      "a": "garden/undertone-instagram-campaign-27.md",
+      "b": "garden/undertone-instagram-campaign.md",
+      "score": 0.901
+    },
+    {
+      "a": "blog/pam-oil-company-history-bill-pederson.md",
+      "b": "blog/pam-oil-history-and-financials.md",
+      "score": 0.886
+    },
+    {
+      "a": "projects/implementation-plan-31.md",
+      "b": "papers/walkthrough-3.md",
+      "score": 0.683
+    },
+    {
+      "a": "garden/i-have-completed-the-exploration-of-home-jd-obsidianvault-an.md",
+      "b": "garden/i-have-completed-the-exploration-of-home-jd-prototypes-and-r.md",
+      "score": 0.657
+    },
+    {
+      "a": "projects/implementation-plan.md",
+      "b": "papers/walkthrough.md",
+      "score": 0.643
+    },
+    {
+      "a": "blog/the-idea-relay.md",
+      "b": "concepts/idea-relay.md",
+      "score": 0.559
+    },
+    {
+      "a": "garden/explore-home-jd-prototypes-obsidian-vault-and-home-jd-protot.md",
+      "b": "garden/explore-the-main-obsidian-vault-at-home-jd-obsidianvault-to.md",
+      "score": 0.544
+    },
+    {
+      "a": "art/navigate-to-http-localhost-7000-and-check-the-current-state.md",
+      "b": "art/navigate-to-http-localhost-7000-and-take-a-screenshot-of-the-2.md",
+      "score": 0.529
+    },
+    {
+      "a": "blog/omniroute-free-api-and-file-based-provider-setup.md",
+      "b": "garden/help-me-set-up-omniroute-http-localhost-20128-home-set-up-al.md",
+      "score": 0.524
+    },
+    {
+      "a": "blog/tor-and-helium-browser-keyboard-input-issues.md",
+      "b": "garden/tor-browser-and-a-few-helium-browser-windows-are.md",
+      "score": 0.493
+    },
+    {
+      "a": "art/navigate-to-http-localhost-7000-and-take-a-screenshot-of-the-2.md",
+      "b": "art/navigate-to-http-localhost-7000-and-take-a-screenshot-of-the.md",
+      "score": 0.483
+    },
+    {
+      "a": "art/navigate-to-http-localhost-7000-and-check-the-current-state.md",
+      "b": "art/navigate-to-http-localhost-7000-and-take-a-screenshot-of-the.md",
+      "score": 0.466
+    },
+    {
+      "a": "blog/helium-browser-two-versions-tab-extension-issues.md",
+      "b": "blog/tor-and-helium-browser-keyboard-input-issues.md",
+      "score": 0.462
+    },
+    {
+      "a": "blog/find-omniroute-free-providers-general-subagent.md",
+      "b": "blog/omniroute-free-api-and-file-based-provider-setup.md",
+      "score": 0.448
+    },
+    {
+      "a": "projects/implementation-plan-33.md",
+      "b": "papers/walkthrough-5.md",
+      "score": 0.437
+    },
+    {
+      "a": "garden/explore-home-jd-prototypes-obsidian-vault-and-home-jd-protot.md",
+      "b": "garden/i-have-completed-the-exploration-of-home-jd-prototypes-and-r.md",
+      "score": 0.421
+    },
+    {
+      "a": "garden/help-me-set-up-omniroute-http-localhost-20128-home-set-up-al.md",
+      "b": "garden/set-up-omniroute-with-all-the-free-models.md",
+      "score": 0.414
+    },
+    {
+      "a": "projects/implementation-plan.md",
+      "b": "garden/undertone-pitch-deck.md",
+      "score": 0.413
+    },
+    {
+      "a": "garden/explore-home-jd-prototypes-obsidian-vault-and-home-jd-protot.md",
+      "b": "garden/i-have-completed-the-exploration-of-home-jd-obsidianvault-an.md",
+      "score": 0.405
+    },
+    {
+      "a": "garden/undertone-opencode-prompt.md",
+      "b": "garden/undertone-pitch-deck-23.md",
+      "score": 0.398
+    },
+    {
+      "a": "projects/the-machine-a-channel-about-how-systems-capture-people.md",
+      "b": "projects/the-machine.md",
+      "score": 0.394
+    },
+    {
+      "a": "blog/find-omniroute-codebase-explore-subagent.md",
+      "b": "blog/find-omniroute-free-providers-general-subagent.md",
+      "score": 0.394
+    },
+    {
+      "a": "projects/opendoors.md",
+      "b": "papers/honest-campaign-notes.md",
+      "score": 0.391
+    },
+    {
+      "a": "blog/undertone-agent-system-prompt.md",
+      "b": "garden/undertone-opencode-prompt.md",
+      "score": 0.384
+    },
+    {
+      "a": "garden/undertone-pitch-deck-23.md",
+      "b": "garden/undertone-pitch-deck.md",
+      "score": 0.372
+    },
+    {
+      "a": "blog/opencode-sessions-lost-after-update.md",
+      "b": "papers/all-my-opencode-projects-are-no-longer-connected-all.md",
+      "score": 0.369
+    },
+    {
+      "a": "garden/undertone-opencode-prompt.md",
+      "b": "garden/undertone-pitch-deck.md",
+      "score": 0.368
+    },
+    {
+      "a": "garden/explore-the-main-obsidian-vault-at-home-jd-obsidianvault-to.md",
+      "b": "garden/i-have-completed-the-exploration-of-home-jd-obsidianvault-an.md",
+      "score": 0.362
+    },
+    {
+      "a": "blog/2026-08-21.md",
+      "b": "blog/lion-king-standee-ai-video-generation-plan.md",
+      "score": 0.35
+    },
+    {
+      "a": "garden/explore-home-jd-prototypes-obsidian-vault-and-home-jd-protot.md",
+      "b": "garden/thoroughly-explore-the-emai-obsidian-os-project-at-home-jd-d.md",
+      "score": 0.346
+    },
+    {
+      "a": "blog/examine-omniroute-db-config-general-subagent.md",
+      "b": "blog/find-omniroute-codebase-explore-subagent.md",
+      "score": 0.345
+    },
+    {
+      "a": "blog/ai-software-tool-tutorial-youtube-channel.md",
+      "b": "blog/analyze-revenue-ideas-from-obsidian-notes.md",
+      "score": 0.344
+    },
+    {
+      "a": "garden/explore-the-main-obsidian-vault-at-home-jd-obsidianvault-to.md",
+      "b": "garden/thoroughly-explore-the-emai-obsidian-os-project-at-home-jd-d.md",
+      "score": 0.339
+    },
+    {
+      "a": "blog/examine-omniroute-db-config-general-subagent.md",
+      "b": "blog/omniroute-free-api-and-file-based-provider-setup.md",
+      "score": 0.338
+    },
+    {
+      "a": "garden/build-all-of-the-following-flutter-dart-files-for.md",
+      "b": "garden/build-these-flutter-screen-and-widget-files-for-the.md",
+      "score": 0.337
+    },
+    {
+      "a": "garden/explore-the-main-obsidian-vault-at-home-jd-obsidianvault-to.md",
+      "b": "garden/i-have-completed-the-exploration-of-home-jd-prototypes-and-r.md",
+      "score": 0.334
+    },
+    {
+      "a": "papers/walkthrough.md",
+      "b": "garden/undertone-pitch-deck.md",
+      "score": 0.327
+    },
+    {
+      "a": "blog/2026-09-19.md",
+      "b": "blog/pam-oil-company-history-bill-pederson.md",
+      "score": 0.324
+    },
+    {
+      "a": "projects/weekly-plan-2026-08-03.md",
+      "b": "blog/2026-08-02.md",
+      "score": 0.321
+    },
+    {
+      "a": "blog/examine-omniroute-db-config-general-subagent.md",
+      "b": "blog/find-omniroute-free-providers-general-subagent.md",
+      "score": 0.315
+    },
+    {
+      "a": "garden/how-would-custom-apple-mac-pro-late-2013-up.md",
+      "b": "garden/what-kind-of-ai-video-generation-could-i-do.md",
+      "score": 0.315
+    },
+    {
+      "a": "blog/2026-05-08.md",
+      "b": "garden/workflow-guide.md",
+      "score": 0.314
+    },
+    {
+      "a": "blog/2026-09-19.md",
+      "b": "blog/pam-oil-history-and-financials.md",
+      "score": 0.312
+    },
+    {
+      "a": "blog/find-large-files-and-move-flatpak-apps-to-external-drive.md",
+      "b": "blog/reinstall-jan-ai-on-external-drive.md",
+      "score": 0.307
+    },
+    {
+      "a": "projects/openplotter-kickstarter-campaign-plan.md",
+      "b": "projects/openplotter-kickstarter-campaign.md",
+      "score": 0.305
+    },
+    {
+      "a": "blog/omniroute-free-api-and-file-based-provider-setup.md",
+      "b": "garden/set-up-omniroute-with-all-the-free-models.md",
+      "score": 0.305
+    },
+    {
+      "a": "garden/emai-command-guide.md",
+      "b": "garden/emai-setup-guide.md",
+      "score": 0.303
+    }
+  ]
+}

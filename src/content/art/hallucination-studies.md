@@ -1,4 +1,5 @@
 ---
+draft: true
 title: "Hallucination Studies"
 description: "A short video experiment probing how image models invent the absent — frames where the machine confidently renders what was never in the prompt's world."
 date: 2026-07-27

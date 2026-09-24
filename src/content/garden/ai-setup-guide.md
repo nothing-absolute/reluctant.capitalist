@@ -1,13 +1,13 @@
 ---
 title: "AI Setup Guide"
-description: "A guide to configuring AI-powered features in your Obsidian vault for enhanced productivity and knowledge management."
+description: "Guide to configuring AI plugins in Obsidian for knowledge management"
 date: "2026-09-23"
-tags: ["ai","obsidian","plugins","setup","productivity","knowledge management","automation","configuration"]
+tags: ["ai","obsidian","knowledge","setup","tools"]
 source: "Knowledge/References/ai-setup-guide.md"
-vault: true
-draft: true
+draft: false
 clarity: 5
 quality: 5
+vault: true
 ---
 
 ### AI Assistance Setup Guide

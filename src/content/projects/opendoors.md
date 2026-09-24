@@ -1,4 +1,5 @@
 ---
+draft: true
 title: "Opendoors"
 description: "A door-stopper/holder concept developed as a Kickstarter campaign mock — including a full landing page, reward tiers, and pricing teardown."
 date: 2026-07-25

@@ -1,4 +1,5 @@
 ---
+draft: true
 title: "Ship the digital garden's public slice"
 description: "Keep the vault private, but publish and maintain a curated slice of it on this site."
 status: "active"

@@ -1,14 +1,14 @@
 ---
 title: "Weekly Plan 2026 08 03"
-description: "A detailed weekly plan for August 3–9, 2026, focusing on project milestones, daily tasks, and recovery strategies for the ADHD project."
+description: "Weekly project planning with micro-tasks and flow tasks"
 date: "2026-09-23"
-tags: ["project/focus-guardian","micro-task","daily-plan","adhd","planning","project/kickstarter"]
+tags: ["project-planning","task-management","flow-work","micro-tasks","focus-guardian"]
 source: "Projects/Planning/Weekly-Plan-2026-08-03.md"
-status: "concept"
-stage: "idea"
-draft: true
+draft: false
 clarity: 4
 quality: 4
+status: "concept"
+stage: "idea"
 ---
 
 Weekly Plan — Aug 3–9, 2026

@@ -1,4 +1,5 @@
 ---
+draft: true
 title: "One venture at a time"
 description: "Test one idea per cycle with full attention. Half-finished everything ships nothing."
 weight: 5

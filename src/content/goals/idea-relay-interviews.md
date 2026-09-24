@@ -1,4 +1,5 @@
 ---
+draft: true
 title: "Vet the Idea Relay with 20 real conversations"
 description: "Talk to 20 people who abandoned a project for lack of skill, time, funds, or drive. If 20 strangers say the pain is real, the concept deserves a prototype."
 status: "active"

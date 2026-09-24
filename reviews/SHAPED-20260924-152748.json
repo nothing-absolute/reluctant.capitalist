@@ -1,0 +1,33 @@
+{
+  "generatedAt": "2026-09-24T15:27:31.281Z",
+  "model": "qwen3-4b",
+  "publish": false,
+  "applied": false,
+  "shaped": [
+    {
+      "from": "projects/build-a-midi-touch-pad-connection-from-an-ipod",
+      "to": null,
+      "verdict": "keep",
+      "title": "ipod midi osc touchpad connection",
+      "goal": "Create a MIDI/OSC touchpad connection from an iPod Touch for use with TouchDesigner",
+      "outcome": "Successfully built a WebSocket-to-OSC bridge server and iPod Touch-friendly web interface for MIDI/OSC touchpad control",
+      "related": [
+        "projects/ai-task-concierge",
+        "projects/analyze-the-sythnesizer-midi-controller-guitar-pedal-market",
+        "projects/build-a-midi-touch-pad-connection-from-an-ipod"
+      ],
+      "confidence": 0.95,
+      "kind": "substance",
+      "kindDetail": "2 code blocks, 0 table rows, 14 numbered steps",
+      "beforeChars": 9555,
+      "afterChars": 9797,
+      "shrink": -0.025,
+      "factPreserved": 1,
+      "factsChecked": 43,
+      "missingSignals": [],
+      "possibleContentLoss": false
+    }
+  ],
+  "skipped": [],
+  "failed": []
+}

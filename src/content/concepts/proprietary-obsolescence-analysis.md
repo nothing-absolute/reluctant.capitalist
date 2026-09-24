@@ -1,14 +1,16 @@
 ---
 title: "Proprietary Obsolescence Analysis"
-description: "Physical goods are being artificially obsoleted by their own software ecosystems, creating a market opportunity for open-source alternatives."
+description: "Analysis of how proprietary software obsolesces hardware and opportunities for open-source alternatives."
 date: "2026-09-23"
-tags: ["analysis","concept/obsolescence","open-source","right-to-repair","business/model","concept/pkm"]
+tags: ["proprietary","obsolescence","open-source","software","hardware"]
 source: "Knowledge/Concepts/proprietary-obsolescence-analysis.md"
-status: "developing"
-draft: true
+draft: false
 clarity: 4
 quality: 5
+status: "developing"
 ---
+
+## Proprietary Obsolescence Analysis
 
 Physical goods are being artificially obsoleted by their own software ecosystems. The hardware still works. The user owns it. But the manufacturer's proprietary software — through abandonware, forced upgrades, DRM, subscription gating, or platform lockout — renders it partially or totally unusable.
 
@@ -163,3 +165,9 @@ Ranking matrix:
 | CNC Controller | Medium | Medium | Very High | Low | Low | ⭐⭐ |
 
 Recommendation: Ship Maschine MK2 first (you're 80% there). Then either JD data platform or Open Printer depending on whether you want B2B/agri or B2C/hardware.
+
+## Related
+
+- [Second Brain: A Personal Knowledge Management System](/concepts/second-brain/)
+- [AI Task Concierge Concept](/projects/ai-task-concierge/)
+- [The Honest Campaign: Notes on Pricing Physical Things](/papers/honest-campaign-notes/)

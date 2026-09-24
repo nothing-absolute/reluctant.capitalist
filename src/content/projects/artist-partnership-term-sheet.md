@@ -1,14 +1,14 @@
 ---
 title: "Artist Partnership Term Sheet Draft"
-description: "Pre-negotiation draft for an artist partnership, outlining key terms, compensation, rights, and exit strategies."
+description: "A draft term sheet for an artist partnership in the A Plain of Jars project"
 date: "2026-09-23"
-tags: ["artist partnership","term sheet","graphic novel","compensation","net revenue"]
+tags: ["artist-partnership","term-sheet","a-plain-of-jars"]
 source: "Projects/a-plain-of-jars/artist-partnership-term-sheet.md"
-status: "seed"
-stage: "idea"
-draft: true
+draft: false
 clarity: 4
 quality: 4
+status: "seed"
+stage: "idea"
 ---
 
 Artist Partnership — Term Sheet Draft (A Plain of Jars)

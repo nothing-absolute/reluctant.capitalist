@@ -1,14 +1,14 @@
 ---
 title: "OpenPlotter Kickstarter Campaign Plan"
-description: "A detailed plan for a Kickstarter campaign for OpenPlotter, an open-source marine chartplotter built on a Raspberry Pi with free NOAA charts and repairable hardware."
+description: "Detailed plan for launching a Kickstarter campaign for an open-source marine chartplotter."
 date: "2026-09-23"
-tags: ["project/kickstarter","project/openplotter","topic/ai","type/concept","concept/obsolescence","concept/pkm"]
+tags: ["kickstarter","open-source","marine-electronics","campaign-planning"]
 source: "Projects/Kickstarter/OpenPlotter-Boat-Monitor/OpenPlotter_Kickstarter_Campaign_Plan.md"
-status: "concept"
-stage: "idea"
-draft: true
+draft: false
 clarity: 5
 quality: 5
+status: "concept"
+stage: "idea"
 ---
 
 ### OpenPlotter — Kickstarter Campaign Plan
@@ -142,3 +142,8 @@ Two of your input assumptions are directionally correct and worth flagging up fr
 |---|---|---|---|---|
 | Raspberry Pi 5 4GB | $105 | $98 | $92 | Distributor pricing improves modestly with volume but is capped by the DRAM market, not by your order size. Model at $100 avg through 2026. |
 | 7
+
+## Related
+
+- [OpenPlotter — Kickstarter Campaign Package](/projects/openplotter-kickstarter-campaign/)
+- [AI Task Concierge Concept](/projects/ai-task-concierge/)

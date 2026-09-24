@@ -1,8 +1,8 @@
 ---
 title: "Analyze Revenue Ideas From Obsidian Notes"
-description: "An opencode session to analyze revenue ideas from obsidian notes and chat history, listing the top 5 most profitable ones with start time breakdowns."
+description: "A working session analyzing revenue ideas from Obsidian notes and opencode chat history"
 date: "2026-09-18"
-tags: ["opencode","session"]
+tags: ["revenue","obsidian","opencode","analysis","ideas"]
 source: "opencode://stellar-garden"
 draft: true
 clarity: 4
@@ -15,3 +15,9 @@ When: 2026-09-18 · Working directory: /home/jd/Prototypes
 
 Opened with:
 > analyze all my ideas for creating revenue in my obsidian notes, and opencode chat history. List the top 5 most profitable ones, while also breaking down the time to start producing revenue for each one.
+
+## Related
+
+- [2026 09 18](/blog/2026-09-18/)
+- [2026 09 19](/blog/2026-09-19/)
+- [2026-09-04 Daily Notes](/blog/2026-09-04/)

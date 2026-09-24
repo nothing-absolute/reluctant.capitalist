@@ -1,35 +1,35 @@
 ---
 title: "Emai Setup Guide"
-description: "A guide on setting up the Emai system with required and recommended tools."
+description: "Guide for setting up Emai with Obsidian and AI harness"
 date: "2026-09-23"
-tags: ["setup","ai","obsidian","workflow","youtube"]
+tags: ["emai","obsidian","ai-setup","knowledge-management","workflow"]
 source: "Knowledge/References/emai-Setup Guide.md"
-vault: true
 draft: true
 clarity: 4
 quality: 4
+vault: true
 ---
 
-### Setup Guide
+## Emai Setup Guide
 
-#### Required
+### Required
 - Obsidian
 - An AI harness that can read this vault and use the command/workflow files
 
-#### Recommended
+### Recommended
 - Claude Code or another harness that respects `.claude/commands/`
 - Python 3 for script-backed workflows
 - `yt-dlp` for YouTube/media workflows
 - FFmpeg for caption or media processing workflows
 
-#### Open-as-vault flow
+### Open-as-vault flow
 1. Extract the folder anywhere.
 2. Open Obsidian.
 3. Choose **Open folder as vault**.
 4. Select this folder.
 5. Open your AI harness from the same folder.
 
-#### First run
+### First run
 - `/start` = orientation
 - `/interview` = personalization
 - `/today` = plan your day

@@ -1,4 +1,5 @@
 ---
+draft: true
 title: "Publish two journal entries a month"
 description: "Writing is how the projects become coherent. Two real entries, not two filler posts."
 status: "active"

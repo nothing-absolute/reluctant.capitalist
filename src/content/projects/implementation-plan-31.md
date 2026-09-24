@@ -1,31 +1,29 @@
 ---
 title: "Implementation Plan: Video Graphic FX & Multi-Channel OBS-Style Routing Engine"
-description: "Focus Patchbay on real-time video graphic effects, multi-channel video routing (OBS-style architecture), and Processing sketch filters/masks, while disabling default MPC audio play"
+description: "Detailed plan for implementing video graphic effects and multi-channel routing."
 date: "2026-09-05"
-tags: ["antigravity","artifact"]
+tags: ["video","fx","routing","obs","implementation"]
 source: "antigravity://7e8d74f9-5e41-4a79-816e-ebfc01860752/implementation_plan.md"
-status: "seed"
-stage: "idea"
-draft: true
+draft: false
 clarity: 4
 quality: 4
+status: "seed"
+stage: "idea"
 ---
 
-### Implementation Plan: Video Graphic FX & Multi-Channel OBS-Style Routing Engine
+## Implementation Plan: Video Graphic FX & Multi-Channel OBS-Style Routing Engine
 
-Focus Patchbay on real-time video graphic effects, multi-channel video routing (OBS-style architecture), and Processing sketch filters/masks, while disabling default MPC audio playback.
-
-#### User Review Required
+### User Review Required
 
 > [!IMPORTANT]
 > - **MPC Audio Disabled by Default**: MPC drum pads will trigger visual modulation and pad index/velocity events for visual nodes, but will NOT trigger audio synth playback unless audio synthesis is explicitly enabled.
 > - **Expanded Video Node API**: Processing code signatures will be expanded from `function(ctx, w, h, time, mod, padIdx, padVel)` to `function(ctx, w, h, time, mod, padIdx, padVel, inVideoA, inVideoB)` so Processing sketches can directly read, transform, mask, and blend incoming video streams.
 
-#### Proposed Changes
+### Proposed Changes
 
-##### Core Engine & Routing Architecture
+#### Core Engine & Routing Architecture
 
-###### [MODIFY] [App.jsx](file:///home/jd/.gemini/antigravity-ide/scratch/patchbay/src/App.jsx)
+[MODIFY] [App.jsx](file:///home/jd/.gemini/antigravity-ide/scratch/patchbay/src/App.jsx)
 
 - **Audio Defaults**:
   - Update initial state and pad trigger logic so MPC pads do not output audio by default.
@@ -52,7 +50,7 @@ Focus Patchbay on real-time video graphic effects, multi-channel video routing (
 
 - **UI & Workspace Enhancements**:
   - Add quick action buttons for adding OBS-style sources, blend/mask nodes, and keyer nodes.
-  - Update node canvas styles and port color coding (Video Channels: Teal `#12A5A5`, Mask/Alpha: Purple `#9B7FE8`, Control/Mod: Amber `#D9A400`).
+  - Update node canvas styles and port color coding (Video Channels: Teal `#12A5A5`, Mask/Alpha: Purple `#9B7FE8`, Control/Mod: Amber `#D9A000`).
 
 #### Verification Plan
 
@@ -62,3 +60,8 @@ Focus Patchbay on real-time video graphic effects, multi-channel video routing (
 3. **Multi-Channel Blend & Mask**: Wire two video sources into a `video-blend` node and `video-mask` node, adjusting crossfade and mask threshold.
 4. **Processing Sketch Video Filter**: Generate or apply a Processing code sketch that receives `inVideoA` and renders a live graphic filter (e.g., pixelation, edge detection, color thresholding).
 5. **Program Monitor**: Confirm live preview on the main output canvas at 60 FPS.
+
+## Related
+
+- [Implementation Plan — COMMONS Landing Page & Kickstarter Refinement]
+- [Implementation Plan: Undertone Project Recovery, Pitch Deck & User Acquisition Strategy](/projects/implementation-plan/)

@@ -1,14 +1,14 @@
 ---
 title: "User Acquisition & Beta Testing Plan"
-description: "A plan to acquire 1,000 active alpha/beta testers for the Undertone ecosystem before the Kickstarter campaign."
+description: "A plan to acquire 1,000 beta testers for the Undertone project."
 date: "2026-09-05"
-tags: ["user_acquisition","beta_testing","product_validation"]
+tags: ["user-acquisition","beta-testing","project-planning"]
 source: "antigravity://5a4bc721-cb05-481d-bdd6-a401492be258/user_acquisition_and_testing_plan.md"
-status: "seed"
-stage: "idea"
 draft: true
 clarity: 4
 quality: 5
+status: "seed"
+stage: "idea"
 ---
 
 ### Undertone — User Acquisition & Beta Testing Plan
@@ -31,3 +31,9 @@ To validate the **Undertone** ecosystem before launching the Kickstarter campaig
 ```mermaid
 graph TD
     A[
+
+## Related
+
+- [Implementation Plan: Video Graphic FX & Multi-Channel OBS-Style Routing Engine](/projects/implementation-plan-31/)
+- [Implementation Plan — COMMONS Landing Page & Kickstarter Refinement]
+- [Implementation Plan: Undertone Project Recovery, Pitch Deck & User Acquisition Strategy](/projects/implementation-plan/)

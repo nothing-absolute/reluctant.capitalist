@@ -1,23 +1,23 @@
 ---
 title: "Welcome to FUTO Notes"
-description: "FUTO Notes keeps everything as plain Markdown files on your device. There's no account to create and nothing to sign in to — your notes are just files you own."
+description: "Introduction to FUTO Notes, a plain Markdown note-taking system"
 date: "2026-09-23"
-tags: ["type/task","topic/ai"]
+tags: ["note-taking","markdown","device-ownership"]
 source: "Knowledge/References/futo-notes-welcome.md"
-vault: true
 draft: true
 clarity: 5
 quality: 5
+vault: true
 ---
 
 Welcome to FUTO Notes
 
 FUTO Notes keeps everything as plain Markdown files on your device. There's no account to create and nothing to sign in to — your notes are just files you own.
 
-#### Getting started
+## Getting started
 - Open a note to edit it; changes save as you type.
 
-#### Markdown you can use
+## Markdown you can use
 - **Bold**, *italic*, and `inline code`
 - Bulleted and numbered lists
 - [ ] Checklists — tap a box to toggle it

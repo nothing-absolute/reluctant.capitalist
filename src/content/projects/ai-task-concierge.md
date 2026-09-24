@@ -1,15 +1,17 @@
 ---
 title: "AI Task Concierge Concept"
-description: "An AI task concierge designed to help ADHD/neurodivergent users manage anxiety-inducing phone and paperwork tasks by automating the process and providing emotional support through "
+description: "Concept for AI task management system for neurodivergent users"
 date: "2026-09-23"
-tags: ["type/idea","project/ai-task-concierge","type/task","adhd","ai","kickstarter"]
+tags: ["ai","task-management","neurodivergent","executive-function"]
 source: "Projects/AI/AI-Task-Concierge.md"
-status: "concept"
-stage: "idea"
-draft: true
+draft: false
 clarity: 5
 quality: 5
+status: "concept"
+stage: "idea"
 ---
+
+## AI Task Concierge Concept
 
 An AI "task concierge" that completes anxiety-inducing phone-and-paperwork tasks for ADHD/neurodivergent users, absorbing the executive-function and emotional load so the user never has to start (or re-start) the task.
 
@@ -104,3 +106,8 @@ The engine runs any recipe: same call orchestration, same records pipeline, same
 - [ ] Design the time/effort visualization + encouragement dashboard
 - [ ] Map provider authorization-form variations (the human-step orchestration)
 - [ ] Research subscription pricing + Kickstarter campaign structure
+
+## Related
+
+- [Music Hardware Market Analysis & Kickstarter Blueprint](/projects/analyze-the-sythnesizer-midi-controller-guitar-pedal-market/)
+- [develop the into production schedule, shot lists, screen play, assests needed, vidsual…]

@@ -1,17 +1,19 @@
 ---
 title: "Building Earthship Homes in Struggling States"
-description: "Explore opportunities to build Earthship homes in struggling states using incentives and local materials."
+description: "Exploring opportunities to build Earthship homes in struggling states using local incentives and materials."
 date: "2026-09-23"
-tags: ["construction","earthship","housing","incentives","sustainability","type/project"]
+tags: ["earthship","incentives","localization","homebuilding","community"]
 source: "Projects/Housing/Earthship-Homes.md"
-status: "seed"
-stage: "idea"
 draft: true
 clarity: 4
 quality: 4
+status: "seed"
+stage: "idea"
 ---
 
-Build an Earthship home by leveraging incentives to build in struggling states. Find opportunities across the US and abroad, and design each home to fit the location's weather and available materials.
+**Building Earthship Homes in Struggling States**
+
+Build Earthship homes by leveraging incentives to build in struggling states. Find opportunities across the US and abroad, and design each home to fit the location's weather and available materials.
 
 **The Angle**
 - Struggling states offer incentives like land grants, tax breaks, and grants for homebuilding. Leverage these programs.

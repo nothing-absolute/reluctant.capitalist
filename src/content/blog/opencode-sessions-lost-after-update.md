@@ -1,8 +1,8 @@
 ---
 title: "Opencode sessions lost after update"
-description: "User reports that all opencode projects are disconnected after an update, with tabs pointing to unavailable sessions."
+description: "A post about opencode sessions being lost after an update"
 date: "2026-08-30"
-tags: ["opencode","session","update","disconnection"]
+tags: ["opencode","update","session"]
 source: "opencode://playful-lagoon"
 draft: true
 clarity: 4

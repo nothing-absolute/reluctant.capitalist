@@ -1,14 +1,14 @@
 ---
 title: "Community Data Center / Third-Space Cooperative — Vision"
-description: "A vision for locally owned data centers and community cooperatives in dead malls, combining compute, manufacturing, and third-space spaces."
+description: "A vision for locally owned data centers and third-space co-ops in dead malls."
 date: "2026-09-23"
-tags: ["project/vision","solar punk","cooperative","infrastructure"]
+tags: ["community","data-center","third-space"]
 source: "Projects/community-data-centers/community-data-center-vision.md"
-status: "seed"
-stage: "idea"
 draft: true
 clarity: 4
 quality: 5
+status: "seed"
+stage: "idea"
 ---
 
 ### Community Data Center / Third-Space Cooperative — Vision (JD, 2026)
@@ -59,3 +59,8 @@ The long dream (surfaced fully in the 2026-09-19 Claude session): every city/reg
 - Legal architecture for physical GPL / open-what-you-build.
 - Governance guardrails against the Free Geek drift (consensus → ED capture) at scale.
 - Initial capitalization without a patron while staying unattached (see funding above).
+
+## Related
+
+- [Precious Plastics — Machines in Every US City 50k+]
+- [Makerspace Nonprofit Partnership & Pro-Forma](/projects/makerspace-nonprofit-partnership-pro-forma/)

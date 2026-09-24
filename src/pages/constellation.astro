@@ -1,0 +1,72 @@
+---
+import Base from '../layouts/Base.astro';
+import { SECTION_BY_KEY } from '../consts';
+import { pageUrl } from '../lib/url';
+import themes from '../data/themes.json';
+
+const label: Record<string, string> = {
+  'odysseus-toolchain': 'Odysseus toolchain',
+  'second-brain': 'Second brain',
+  openplotter: 'OpenPlotter',
+  'the-machine': 'The Machine',
+  'addiction-recovery': 'Addiction and recovery',
+  undertone: 'Undertone',
+  makerspace: 'Makerspaces and community compute',
+  'music-hardware': 'Open music hardware',
+  'family-capture': 'Family capture',
+  'hydration-station': 'Hydration Station',
+  'a-plain-of-jars': 'A Plain of Jars',
+  'mlm-truth': 'MLM Truth',
+};
+---
+
+<Base title="Constellation" description="How the work relates — the themes the archive actually has.">
+  <div class="container">
+    <section class="section-head">
+      <p class="kicker">/constellation</p>
+      <h1>Constellation</h1>
+      <p>
+        The archive is not a list. These are the bodies of work the posts actually fall into, and how
+        many pieces each one has. Follow a thread; that is the point.
+      </p>
+    </section>
+
+    {
+      <>
+          <p class="staging-note">
+            {themes.totalPosts} posts mapped into {themes.themes.length} bodies of work. Posts that
+            belong to none of these are durable notes, one-offs, or genuinely standalone.
+          </p>
+
+          {themes.themes.map((theme: any) => (
+            <section style="margin-bottom:2.4rem">
+              <h2 style="text-transform:none;letter-spacing:0;display:flex;align-items:baseline;gap:.6rem;flex-wrap:wrap">
+                {label[theme.name] ?? theme.name}
+                <span class="staging-meta">
+                  {theme.count} posts · {theme.sections.length} sections
+                </span>
+              </h2>
+              <p class="staging-meta" style="margin:0 0 .6rem">
+                in {theme.sections.map((s: string) => SECTION_BY_KEY[s as keyof typeof SECTION_BY_KEY]?.title ?? s).join(', ')}
+              </p>
+              <ul style="list-style:none;padding:0;margin:0;display:flex;flex-wrap:wrap;gap:.35rem .5rem">
+                {theme.members.slice(0, 40).map((m: any) => (
+                  <li>
+                    <a
+                      class="btn btn-sm"
+                      href={pageUrl(`/${m.id}/`)}
+                      title={m.title}
+                      style="max-width:22rem;overflow:hidden;text-overflow:ellipsis;white-space:nowrap"
+                    >
+                      {m.title}
+                    </a>
+                  </li>
+                ))}
+                {theme.members.length > 40 && <li class="staging-meta">+{theme.members.length - 40} more</li>}
+              </ul>
+            </section>
+          ))}
+      </>
+    }
+  </div>
+</Base>

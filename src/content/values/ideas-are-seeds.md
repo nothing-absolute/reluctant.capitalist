@@ -1,4 +1,5 @@
 ---
+draft: true
 title: "Ideas are seeds, not assets"
 description: "The value of an idea is that someone carries it forward. Hoarding one is like holding a seed in your fist and calling it a garden."
 weight: 8

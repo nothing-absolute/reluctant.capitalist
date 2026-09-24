@@ -1,17 +1,19 @@
 ---
 title: "Pam Oil History and Financials"
-description: "Discussion about Pam Oil's history and financials, including relocation from Sioux Falls to Utah and connection to CEO Bill Pederson."
+description: "Exploration of Pam Oil's history and financials in Sioux Falls, SD"
 date: "2026-09-19"
-tags: ["opencode","session"]
+tags: ["oil","financials","sioux-falls","history"]
 source: "opencode://hidden-meadow"
 draft: true
 clarity: 3
 quality: 3
 ---
 
-What this is: an opencode working session — 32 messages.
+Pam Oil History and Financials
 
-When: 2026-09-19 · Working directory: /home/jd/Prototypes
+This is an opencode working session — 32 messages.
+
+Date: 2026-09-19 · Working directory: /home/jd/Prototypes
 
 Opened with:
 

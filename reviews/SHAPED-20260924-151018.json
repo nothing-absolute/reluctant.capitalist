@@ -1,0 +1,874 @@
+{
+  "generatedAt": "2026-09-24T15:10:16.767Z",
+  "model": "qwen3-4b",
+  "publish": false,
+  "applied": false,
+  "shaped": [],
+  "skipped": [],
+  "failed": [
+    {
+      "post": "projects/a-plain-of-jars-bible",
+      "error": "fetch failed"
+    },
+    {
+      "post": "projects/a-plain-of-jars-story-bible-addendum-the-mlm-truth-project",
+      "error": "fetch failed"
+    },
+    {
+      "post": "projects/ai-task-concierge",
+      "error": "fetch failed"
+    },
+    {
+      "post": "projects/analyze-the-sythnesizer-midi-controller-guitar-pedal-market",
+      "error": "fetch failed"
+    },
+    {
+      "post": "projects/android-phone-project",
+      "error": "fetch failed"
+    },
+    {
+      "post": "projects/artist-partnership-term-sheet",
+      "error": "fetch failed"
+    },
+    {
+      "post": "projects/boat-monitor-data-viz",
+      "error": "fetch failed"
+    },
+    {
+      "post": "projects/boat-monitor-social-campaign",
+      "error": "fetch failed"
+    },
+    {
+      "post": "projects/browserhttps-www-youtube-com-watch-v-xrop9rtkvqq-this-video",
+      "error": "fetch failed"
+    },
+    {
+      "post": "projects/build-a-midi-touch-pad-connection-from-an-ipod",
+      "error": "fetch failed"
+    },
+    {
+      "post": "projects/build-a-testing-application-for-the-byo-sim-boat",
+      "error": "fetch failed"
+    },
+    {
+      "post": "projects/build-an-application-for-android-and-ios-it-is",
+      "error": "fetch failed"
+    },
+    {
+      "post": "projects/business-plan-renting-out-this-rv-same-idea-as",
+      "error": "fetch failed"
+    },
+    {
+      "post": "projects/cold-storage-business",
+      "error": "fetch failed"
+    },
+    {
+      "post": "projects/community-data-center-vision",
+      "error": "fetch failed"
+    },
+    {
+      "post": "projects/create-a-youtube-thumbnail-for-this-video-3-the",
+      "error": "fetch failed"
+    },
+    {
+      "post": "projects/create-video-to-advertise-the-sale-of-lion-king",
+      "error": "fetch failed"
+    },
+    {
+      "post": "projects/develop-the-into-production-schedule-shot-lists-screen-play",
+      "error": "fetch failed"
+    },
+    {
+      "post": "projects/earthship-homes",
+      "error": "fetch failed"
+    },
+    {
+      "post": "projects/export-all-of-gemini-sessions-and-projects-into-odysseus",
+      "error": "fetch failed"
+    },
+    {
+      "post": "projects/find-any-sign-up-bonus-codes-for-runpod-io",
+      "error": "fetch failed"
+    },
+    {
+      "post": "projects/fishing-boat-concept",
+      "error": "fetch failed"
+    },
+    {
+      "post": "projects/founder-video-script",
+      "error": "fetch failed"
+    },
+    {
+      "post": "projects/free-up-disk-space",
+      "error": "fetch failed"
+    },
+    {
+      "post": "projects/https-www-thebalancephone-com-products-balance-phone-pro-com",
+      "error": "fetch failed"
+    },
+    {
+      "post": "projects/hydration-station-kickstarter",
+      "error": "fetch failed"
+    },
+    {
+      "post": "projects/i-have-246-credits-on-https-modelscope-ai-come-with-a",
+      "error": "fetch failed"
+    },
+    {
+      "post": "projects/i-have-found-a-highly-relevant-and-analogous-open-hardware",
+      "error": "fetch failed"
+    },
+    {
+      "post": "projects/i-need-help-developing-a-youtube-channel-from-scratch",
+      "error": "fetch failed"
+    },
+    {
+      "post": "projects/implementation-plan-31",
+      "error": "fetch failed"
+    },
+    {
+      "post": "projects/implementation-plan-33",
+      "error": "fetch failed"
+    },
+    {
+      "post": "projects/implementation-plan",
+      "error": "fetch failed"
+    },
+    {
+      "post": "projects/install-rapberry-pi-os-on-the-sd-card-with",
+      "error": "fetch failed"
+    },
+    {
+      "post": "projects/is-there-a-way-to-reverse-engineer-the-firmware",
+      "error": "fetch failed"
+    },
+    {
+      "post": "projects/kickstarter-campaign-blueprint-review",
+      "error": "fetch failed"
+    },
+    {
+      "post": "projects/kickstarter-financial-model",
+      "error": "fetch failed"
+    },
+    {
+      "post": "projects/look-up-price-estimates-for-each-lego-set-pictured",
+      "error": "fetch failed"
+    },
+    {
+      "post": "projects/make-a-android-based-browser-using-an-open-source-mozilla",
+      "error": "fetch failed"
+    },
+    {
+      "post": "projects/makerspace-nonprofit-partnership-pro-forma",
+      "error": "fetch failed"
+    },
+    {
+      "post": "projects/mushroom-grow-container",
+      "error": "fetch failed"
+    },
+    {
+      "post": "projects/open-source-hardware-software-reference-guide-for-looper-ped",
+      "error": "fetch failed"
+    },
+    {
+      "post": "projects/openplotter-kickstarter-campaign-plan",
+      "error": "fetch failed"
+    },
+    {
+      "post": "projects/openplotter-kickstarter-campaign",
+      "error": "fetch failed"
+    },
+    {
+      "post": "projects/precious-plastics-usa",
+      "error": "fetch failed"
+    },
+    {
+      "post": "projects/reload-localhost-3005",
+      "error": "fetch failed"
+    },
+    {
+      "post": "projects/set-up-a-claude-code-alternative-on-runpod-gpu",
+      "error": "fetch failed"
+    },
+    {
+      "post": "projects/set-up-away-to-us-tor-as-a-way",
+      "error": "fetch failed"
+    },
+    {
+      "post": "projects/substack-launch-plan",
+      "error": "fetch failed"
+    },
+    {
+      "post": "projects/that-wasn-t-claude-code-it-was-opencode-zen-the-free",
+      "error": "fetch failed"
+    },
+    {
+      "post": "projects/the-light-field-substack-serialization-strategy",
+      "error": "fetch failed"
+    },
+    {
+      "post": "projects/the-machine-content-channel-strategy",
+      "error": "fetch failed"
+    },
+    {
+      "post": "projects/the-off-ramp-channel-plan",
+      "error": "fetch failed"
+    },
+    {
+      "post": "projects/tour-calendar-monitor",
+      "error": "fetch failed"
+    },
+    {
+      "post": "projects/user-acquisition-and-testing-plan",
+      "error": "fetch failed"
+    },
+    {
+      "post": "projects/weekly-plan-2026-08-03",
+      "error": "fetch failed"
+    },
+    {
+      "post": "projects/wireless-looper-pedal-phone-tablet-control-surface-design-pr",
+      "error": "fetch failed"
+    },
+    {
+      "post": "projects/you-are-a-senior-creator-economy-business-strategist-and-com",
+      "error": "fetch failed"
+    },
+    {
+      "post": "projects/youtube-channel",
+      "error": "fetch failed"
+    },
+    {
+      "post": "projects/youtube-pedal-demo-channel",
+      "error": "fetch failed"
+    },
+    {
+      "post": "projects/youtube-process-channel",
+      "error": "fetch failed"
+    },
+    {
+      "post": "projects/youtube-script-write-5-different-concept-ideas-for-video-10i",
+      "error": "fetch failed"
+    },
+    {
+      "post": "blog/2026-05-08",
+      "error": "fetch failed"
+    },
+    {
+      "post": "blog/2026-07-28",
+      "error": "fetch failed"
+    },
+    {
+      "post": "blog/2026-07-29",
+      "error": "fetch failed"
+    },
+    {
+      "post": "blog/2026-07-30",
+      "error": "fetch failed"
+    },
+    {
+      "post": "blog/2026-08-01",
+      "error": "fetch failed"
+    },
+    {
+      "post": "blog/2026-08-02",
+      "error": "fetch failed"
+    },
+    {
+      "post": "blog/2026-08-03",
+      "error": "fetch failed"
+    },
+    {
+      "post": "blog/2026-08-04",
+      "error": "fetch failed"
+    },
+    {
+      "post": "blog/2026-08-05",
+      "error": "fetch failed"
+    },
+    {
+      "post": "blog/2026-08-06",
+      "error": "fetch failed"
+    },
+    {
+      "post": "blog/2026-08-09",
+      "error": "fetch failed"
+    },
+    {
+      "post": "blog/2026-08-20",
+      "error": "fetch failed"
+    },
+    {
+      "post": "blog/2026-08-21",
+      "error": "fetch failed"
+    },
+    {
+      "post": "blog/2026-08-23",
+      "error": "fetch failed"
+    },
+    {
+      "post": "blog/2026-08-24",
+      "error": "fetch failed"
+    },
+    {
+      "post": "blog/2026-08-27",
+      "error": "fetch failed"
+    },
+    {
+      "post": "blog/2026-08-31",
+      "error": "fetch failed"
+    },
+    {
+      "post": "blog/2026-09-03",
+      "error": "fetch failed"
+    },
+    {
+      "post": "blog/2026-09-04",
+      "error": "fetch failed"
+    },
+    {
+      "post": "blog/2026-09-18",
+      "error": "fetch failed"
+    },
+    {
+      "post": "blog/2026-09-19",
+      "error": "fetch failed"
+    },
+    {
+      "post": "blog/add-qwen2-5-3b-to-local-provider",
+      "error": "fetch failed"
+    },
+    {
+      "post": "blog/ai-software-tool-tutorial-youtube-channel",
+      "error": "fetch failed"
+    },
+    {
+      "post": "blog/analyze-revenue-ideas-from-obsidian-notes",
+      "error": "fetch failed"
+    },
+    {
+      "post": "blog/best-opencode-plugins-and-agents",
+      "error": "fetch failed"
+    },
+    {
+      "post": "blog/build-shop-partner-pitch-html-general-subagent",
+      "error": "fetch failed"
+    },
+    {
+      "post": "blog/decentralized-social-media-redesign-for-projects-and-ideas",
+      "error": "fetch failed"
+    },
+    {
+      "post": "blog/develop-plan-creating-youtube-channel-https",
+      "error": "fetch failed"
+    },
+    {
+      "post": "blog/examine-omniroute-db-config-general-subagent",
+      "error": "fetch failed"
+    },
+    {
+      "post": "blog/facebook-marketplace-tiny-house-pitch",
+      "error": "fetch failed"
+    },
+    {
+      "post": "blog/find-large-files-and-move-flatpak-apps-to-external-drive",
+      "error": "fetch failed"
+    },
+    {
+      "post": "blog/find-omniroute-codebase-explore-subagent",
+      "error": "fetch failed"
+    },
+    {
+      "post": "blog/find-omniroute-free-providers-general-subagent",
+      "error": "fetch failed"
+    },
+    {
+      "post": "blog/fixing-obsidian-loading-issue",
+      "error": "fetch failed"
+    },
+    {
+      "post": "blog/helium-browser-two-versions-tab-extension-issues",
+      "error": "fetch failed"
+    },
+    {
+      "post": "blog/lion-king-standee-ai-video-generation-plan",
+      "error": "fetch failed"
+    },
+    {
+      "post": "blog/music",
+      "error": "fetch failed"
+    },
+    {
+      "post": "blog/omniroute-free-api-and-file-based-provider-setup",
+      "error": "fetch failed"
+    },
+    {
+      "post": "blog/opencode-sessions-lost-after-update",
+      "error": "fetch failed"
+    },
+    {
+      "post": "blog/pam-oil-company-history-bill-pederson",
+      "error": "fetch failed"
+    },
+    {
+      "post": "blog/pam-oil-history-and-financials",
+      "error": "fetch failed"
+    },
+    {
+      "post": "blog/podcast-script-review-for-money-making-plans",
+      "error": "fetch failed"
+    },
+    {
+      "post": "blog/reinstall-jan-ai-on-external-drive",
+      "error": "fetch failed"
+    },
+    {
+      "post": "blog/resume-59",
+      "error": "fetch failed"
+    },
+    {
+      "post": "blog/south-dakota-governor-financial-interest-statements",
+      "error": "fetch failed"
+    },
+    {
+      "post": "blog/terry-dickman-missing-sioux-falls-article",
+      "error": "fetch failed"
+    },
+    {
+      "post": "blog/tor-and-helium-browser-keyboard-input-issues",
+      "error": "fetch failed"
+    },
+    {
+      "post": "blog/undertone-agent-system-prompt",
+      "error": "fetch failed"
+    },
+    {
+      "post": "papers/all-my-opencode-projects-are-no-longer-connected-all",
+      "error": "fetch failed"
+    },
+    {
+      "post": "papers/create-a-modern-stunning-single-page-web-app-in",
+      "error": "fetch failed"
+    },
+    {
+      "post": "papers/i-automated-my-creative-brain-because-i-had-to",
+      "error": "fetch failed"
+    },
+    {
+      "post": "papers/make-a-list-of-ebay-monome-midi-sold-prices",
+      "error": "fetch failed"
+    },
+    {
+      "post": "papers/opencode-session-working-on-a-busniess-for-fixing-cars",
+      "error": "fetch failed"
+    },
+    {
+      "post": "papers/set-up-the-whisper-for-odysseus-i-want-to",
+      "error": "fetch failed"
+    },
+    {
+      "post": "papers/the-rent-seeking-trap-and-how-to-walk-away",
+      "error": "fetch failed"
+    },
+    {
+      "post": "papers/walkthrough-3",
+      "error": "fetch failed"
+    },
+    {
+      "post": "papers/walkthrough-5",
+      "error": "fetch failed"
+    },
+    {
+      "post": "papers/walkthrough",
+      "error": "fetch failed"
+    },
+    {
+      "post": "art/are-any-cards-from-these-sets-valuable",
+      "error": "fetch failed"
+    },
+    {
+      "post": "art/can-these-be-put-together-in-an-ai-generated",
+      "error": "fetch failed"
+    },
+    {
+      "post": "art/fix-obsidian",
+      "error": "fetch failed"
+    },
+    {
+      "post": "art/how-can-i-hack-this-eink-tag-to-display",
+      "error": "fetch failed"
+    },
+    {
+      "post": "art/information-on-how-to-handle-the-mdm-profile-checking",
+      "error": "fetch failed"
+    },
+    {
+      "post": "art/navigate-to-http-localhost-7000-and-check-the-current-state",
+      "error": "fetch failed"
+    },
+    {
+      "post": "art/navigate-to-http-localhost-7000-and-take-a-screenshot-of-the-2",
+      "error": "fetch failed"
+    },
+    {
+      "post": "art/navigate-to-http-localhost-7000-and-take-a-screenshot-of-the",
+      "error": "fetch failed"
+    },
+    {
+      "post": "art/price-estimate-for-these-comics",
+      "error": "fetch failed"
+    },
+    {
+      "post": "art/so-i-had-an-idea-for-an-animated-video",
+      "error": "fetch failed"
+    },
+    {
+      "post": "art/what-would-renting-a-space-to-live-in-a",
+      "error": "fetch failed"
+    },
+    {
+      "post": "concepts/proprietary-obsolescence-analysis",
+      "error": "fetch failed"
+    },
+    {
+      "post": "concepts/second-brain",
+      "error": "fetch failed"
+    },
+    {
+      "post": "garden/add-a-coding-terminal-prompt-panel-at-the",
+      "error": "fetch failed"
+    },
+    {
+      "post": "garden/ai-setup-guide",
+      "error": "fetch failed"
+    },
+    {
+      "post": "garden/assisting-jd",
+      "error": "fetch failed"
+    },
+    {
+      "post": "garden/browserhttp-localhost-7000-troubleshooting",
+      "error": "fetch failed"
+    },
+    {
+      "post": "garden/build-a-video-creation-pipe-line-based-on-this",
+      "error": "fetch failed"
+    },
+    {
+      "post": "garden/build-all-of-the-following-flutter-dart-files-for",
+      "error": "fetch failed"
+    },
+    {
+      "post": "garden/build-graphic-with-map-plotting-out-the-locations-with",
+      "error": "fetch failed"
+    },
+    {
+      "post": "garden/build-these-flutter-screen-and-widget-files-for-the",
+      "error": "fetch failed"
+    },
+    {
+      "post": "garden/campaign-performance-projection-our-data-shows-that-scarcity",
+      "error": "fetch failed"
+    },
+    {
+      "post": "garden/can-gps-work-indoors-if-not-is-there-a",
+      "error": "fetch failed"
+    },
+    {
+      "post": "garden/career-development",
+      "error": "fetch failed"
+    },
+    {
+      "post": "garden/cheapest-photorelalistic-video-gen-llm-option-either-a-subsc",
+      "error": "fetch failed"
+    },
+    {
+      "post": "garden/cheapest-way-to-get-fcc-certification-for-boat-monitor",
+      "error": "fetch failed"
+    },
+    {
+      "post": "garden/create-a-visually-exciting-kickstarter-campaign-page-with-pr",
+      "error": "fetch failed"
+    },
+    {
+      "post": "garden/design-a-drone-camera-set-up-for-special-events",
+      "error": "fetch failed"
+    },
+    {
+      "post": "garden/emai-command-guide",
+      "error": "fetch failed"
+    },
+    {
+      "post": "garden/emai-plugin-guide",
+      "error": "fetch failed"
+    },
+    {
+      "post": "garden/emai-setup-guide",
+      "error": "fetch failed"
+    },
+    {
+      "post": "garden/evaluate-to-pick-which-fish-boat-technology-could-be",
+      "error": "fetch failed"
+    },
+    {
+      "post": "garden/evulate-this-project",
+      "error": "fetch failed"
+    },
+    {
+      "post": "garden/explore-home-jd-prototypes-obsidian-vault-and-home-jd-protot",
+      "error": "fetch failed"
+    },
+    {
+      "post": "garden/explore-the-main-obsidian-vault-at-home-jd-obsidianvault-to",
+      "error": "fetch failed"
+    },
+    {
+      "post": "garden/export-all-of-antigravity-chat-history-and-assets-created",
+      "error": "fetch failed"
+    },
+    {
+      "post": "garden/find-a-computer-with-16-24gb-gpu-for-sale-in",
+      "error": "fetch failed"
+    },
+    {
+      "post": "garden/find-a-macbook-pro-with-at-least-16gb-ram",
+      "error": "fetch failed"
+    },
+    {
+      "post": "garden/fix-bluetooth-mouse-from-disconnecting",
+      "error": "fetch failed"
+    },
+    {
+      "post": "garden/founder-profile-name-background-solo-entrepreneur-associate",
+      "error": "fetch failed"
+    },
+    {
+      "post": "garden/free-up-ram-and-cpu",
+      "error": "fetch failed"
+    },
+    {
+      "post": "garden/futo-notes-welcome",
+      "error": "fetch failed"
+    },
+    {
+      "post": "garden/grandpa-pitch-letter",
+      "error": "fetch failed"
+    },
+    {
+      "post": "garden/help-me-come-up-with-ways-to-measure-to",
+      "error": "fetch failed"
+    },
+    {
+      "post": "garden/help-me-pick-out-a-computer-for-running-local",
+      "error": "fetch failed"
+    },
+    {
+      "post": "garden/help-me-set-up-omniroute-http-localhost-20128-home-set-up-al",
+      "error": "fetch failed"
+    },
+    {
+      "post": "garden/how-can-i-connect-an-external-drive-to-my",
+      "error": "fetch failed"
+    },
+    {
+      "post": "garden/how-can-i-use-a-tp-link-ac1900-dual-band",
+      "error": "fetch failed"
+    },
+    {
+      "post": "garden/how-much-is-is-a-train-trip-from-los",
+      "error": "fetch failed"
+    },
+    {
+      "post": "garden/how-much-money-could-i-make-from-this-kickstater",
+      "error": "fetch failed"
+    },
+    {
+      "post": "garden/how-to-install-android-of-linux-on-amazon-fire",
+      "error": "fetch failed"
+    },
+    {
+      "post": "garden/how-to-make-my-website-https-nothing-absolute-github-io-mlm",
+      "error": "fetch failed"
+    },
+    {
+      "post": "garden/how-would-custom-apple-mac-pro-late-2013-up",
+      "error": "fetch failed"
+    },
+    {
+      "post": "garden/i-have-a-apple-macbook-pro-m2-max-16",
+      "error": "fetch failed"
+    },
+    {
+      "post": "garden/i-have-an-original-theater-release-of-the-lion",
+      "error": "fetch failed"
+    },
+    {
+      "post": "garden/i-have-completed-the-exploration-of-home-jd-obsidianvault-an",
+      "error": "fetch failed"
+    },
+    {
+      "post": "garden/i-have-completed-the-exploration-of-home-jd-prototypes-and-r",
+      "error": "fetch failed"
+    },
+    {
+      "post": "garden/i-have-researched-all-8-requested-topics-and-sent",
+      "error": "fetch failed"
+    },
+    {
+      "post": "garden/i-will-list-the-contents-of-the-brain-folder",
+      "error": "fetch failed"
+    },
+    {
+      "post": "garden/install-an-opencode-llm-that-will-replicate-claude",
+      "error": "fetch failed"
+    },
+    {
+      "post": "garden/install-gnome-network-displays-from-debian",
+      "error": "fetch failed"
+    },
+    {
+      "post": "garden/is-this-the-most-likely-to-secceed-tech-product",
+      "error": "fetch failed"
+    },
+    {
+      "post": "garden/it-is-not-working-proporrly",
+      "error": "fetch failed"
+    },
+    {
+      "post": "garden/minimax-h3-production-brief",
+      "error": "fetch failed"
+    },
+    {
+      "post": "garden/missing-authentication-header-for-opencode-using-openrouter",
+      "error": "fetch failed"
+    },
+    {
+      "post": "garden/off-load-some-drive-space-to-media-jd-6bff-f24f",
+      "error": "fetch failed"
+    },
+    {
+      "post": "garden/open-source-hardware-kickstater-project-for-a-ring",
+      "error": "fetch failed"
+    },
+    {
+      "post": "garden/podcast-script",
+      "error": "fetch failed"
+    },
+    {
+      "post": "garden/product-requirements-document",
+      "error": "fetch failed"
+    },
+    {
+      "post": "garden/reddit-hide-active-green-dot",
+      "error": "fetch failed"
+    },
+    {
+      "post": "garden/research-the-current-state-of-anti-mlm-content-on-youtube",
+      "error": "fetch failed"
+    },
+    {
+      "post": "garden/research-the-following-business-and-market-topics-1-event",
+      "error": "fetch failed"
+    },
+    {
+      "post": "garden/runpod-setup-guide",
+      "error": "fetch failed"
+    },
+    {
+      "post": "garden/set-up-omniroute-with-all-the-free-models",
+      "error": "fetch failed"
+    },
+    {
+      "post": "garden/sim-development-board-esp32-wireless-module-with-gps-find",
+      "error": "fetch failed"
+    },
+    {
+      "post": "garden/start-here-tasknotes",
+      "error": "fetch failed"
+    },
+    {
+      "post": "garden/these-scripts-are-based-on-my-website-https-nothing-absolute",
+      "error": "fetch failed"
+    },
+    {
+      "post": "garden/thoroughly-explore-the-emai-obsidian-os-project-at-home-jd-d",
+      "error": "fetch failed"
+    },
+    {
+      "post": "garden/tor-browser-and-a-few-helium-browser-windows-are",
+      "error": "fetch failed"
+    },
+    {
+      "post": "garden/undertone-instagram-campaign-27",
+      "error": "fetch failed"
+    },
+    {
+      "post": "garden/undertone-instagram-campaign",
+      "error": "fetch failed"
+    },
+    {
+      "post": "garden/undertone-opencode-prompt",
+      "error": "fetch failed"
+    },
+    {
+      "post": "garden/undertone-pitch-deck-23",
+      "error": "fetch failed"
+    },
+    {
+      "post": "garden/undertone-pitch-deck",
+      "error": "fetch failed"
+    },
+    {
+      "post": "garden/use-thunar-to-see-what-is-taking-up-disk",
+      "error": "fetch failed"
+    },
+    {
+      "post": "garden/vault-readme",
+      "error": "fetch failed"
+    },
+    {
+      "post": "garden/west-mall-7-tiktok-prompts",
+      "error": "fetch failed"
+    },
+    {
+      "post": "garden/what-kind-of-ai-video-generation-could-i-do",
+      "error": "fetch failed"
+    },
+    {
+      "post": "garden/what-kind-of-gs-milage-on-the-highway-would",
+      "error": "fetch failed"
+    },
+    {
+      "post": "garden/where-are-files-and-projects-from-antigravity-saved-locally",
+      "error": "fetch failed"
+    },
+    {
+      "post": "garden/which-is-the-better-project-to-focus-on-the",
+      "error": "fetch failed"
+    },
+    {
+      "post": "garden/wiki-founding-note",
+      "error": "fetch failed"
+    },
+    {
+      "post": "garden/workflow-guide",
+      "error": "fetch failed"
+    },
+    {
+      "post": "garden/write-a-comprehensive-needlepoint-inventory-database-json-fi",
+      "error": "fetch failed"
+    },
+    {
+      "post": "garden/write-a-comprehensive-social-media-content-playbook-markdown",
+      "error": "fetch failed"
+    },
+    {
+      "post": "garden/yakuake-shortcuts",
+      "error": "fetch failed"
+    },
+    {
+      "post": "garden/you-are-helping-me-build-a-complete-kickstarter-campaign",
+      "error": "fetch failed"
+    }
+  ]
+}

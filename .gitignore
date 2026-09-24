@@ -21,3 +21,12 @@ snapshots/
 .DS_Store
 *.log
 *.swp
+
+# private source material (personal conversations, memoir drafts) — never commit
+.private-imports/
+
+# derived assets copied out of the Antigravity brain (145M of screenshots, media and
+# scratch files). Not source: regenerate with `node scripts/import-antigravity.mjs --prune`.
+# They still ship into dist/ on every build, so anything sensitive must be blocked in the
+# importer's SENSITIVE_ARTIFACT list, not hidden by ignoring it here.
+public/antigravity/

@@ -1,14 +1,14 @@
 ---
 title: "Hydration Station Kickstarter"
-description: "The Tier 1 host-donation model is smart — it also solves a real logistics problem for you (siting, power, some baseline security just from being on someone's property)."
+description: "Breakdown of costs and logistics for a hydration station Kickstarter campaign"
 date: "2026-09-23"
-tags: ["project/kickstarter","topic/open-source","type/project","topic/ai","topic/solar","type/idea"]
+tags: ["kickstarter","cost-breakdown","logistics","hydration-station"]
 source: "Projects/Kickstarter/hydration-station-kickstarter.md"
-status: "concept"
-stage: "idea"
-draft: true
+draft: false
 clarity: 4
 quality: 4
+status: "concept"
+stage: "idea"
 ---
 
 The Tier 1 host-donation model is smart — it also solves a real logistics problem for you (siting, power, some baseline security just from being on someone's property). One quick correction before I get into numbers: **donated time from professionals isn't tax-deductible for the donor** under IRS rules — only out-of-pocket materials/expenses are. Worth knowing before you pitch it that way to senior engineers; they can still write off mileage, materials they buy, etc., just not their labor hours. It doesn't kill the ask, just reframe it as "give us your expertise for the mission" rather than "for the write-off.".
@@ -40,3 +40,8 @@ That certification line is the one people skip and shouldn't — it's an unatten
 |Custom control PCB(s) — bare board + SMT assembly at 20–50 unit volume|$80–200|
 |Off-the-shelf SBC for UI logic (Raspberry Pi-class)|$50–100|
 |Touchscreen (10–15
+
+## Related
+
+- [Hydration Station]
+- [AI Task Concierge Concept](/projects/ai-task-concierge/)

@@ -1,13 +1,13 @@
 ---
 title: "Second Brain Workflow Guide"
-description: "A comprehensive guide to organizing and optimizing your second brain workflow with daily, weekly, and project-specific steps."
+description: "A guide to organizing and managing knowledge with a second brain system"
 date: "2026-09-23"
-tags: ["concept/pkm","topic/ai","type/concept","type/idea","type/reference","topic/content"]
+tags: ["second-brain","knowledge-management","workflow","obsidian","zettelkasten"]
 source: "Knowledge/Wiki/workflow-guide.md"
-vault: true
-draft: true
+draft: false
 clarity: 5
 quality: 5
+vault: true
 ---
 
 ### Second Brain Workflow Guide

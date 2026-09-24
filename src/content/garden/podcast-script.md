@@ -1,13 +1,13 @@
 ---
-title: "Podcast Script: \"The Blueprint — JD's Plan to Build a Life That Works"
-description: "An interview-style podcast discussing JD's plans to build a life that works through various business ventures, revenue streams, and a community makerspace."
+title: "Podcast Script: 'The Blueprint — JD's Plan to Build a Life That Works"
+description: "Podcast script detailing JD's plans, revenue streams, and path to independence"
 date: "2026-09-04"
-tags: ["antigravity","artifact"]
+tags: ["podcast","business-plan","revenue-model"]
 source: "antigravity://82785748-6a13-4164-9f27-7ffdd95e4df5/podcast_script.md"
-vault: false
-draft: true
+draft: false
 clarity: 5
 quality: 5
+vault: false
 ---
 
 ### 🎙️ Podcast Script: "The Blueprint — JD's Plan to Build a Life That Works"

@@ -1,13 +1,13 @@
 ---
 title: "RunPod Setup Guide for Video Generation"
-description: "Step-by-step guide to setting up RunPod for video generation with models like LTX-2.3, Wan 2.2, and HunyuanVideo 1.5."
+description: "Detailed guide for setting up video generation models on RunPod"
 date: "2026-09-23"
-tags: ["type/concept","topic/ai","concept/pkm","idea/project","task/setup","topic/content"]
+tags: ["video-generation","runpod","gpu-setup","ai-setup"]
 source: "Knowledge/References/runpod-setup-guide.md"
-vault: true
-draft: true
+draft: false
 clarity: 5
 quality: 5
+vault: true
 ---
 
 ### RunPod Setup Guide for Video Generation (2026)
@@ -33,7 +33,7 @@ RunPod is a cloud GPU rental platform offering per-second billing with access to
 
 **Why?** Without a network volume, your model weights and outputs are deleted when the pod stops.
 
-**Steps:**
+**Steps:*
 1. Navigate to **Storage → Network Volumes**
 2. Click **Create Network Volume**
 3. Set size based on model:
@@ -100,31 +100,31 @@ If using a community template, models + ComfyUI may already be installed.
 
 **Step 2: Install ComfyUI**
 ```bash
-cd /workspace
- git clone https://github.com/comfyui/ComfyUI.git
- cd ComfyUI
- pip install -r requirements.txt
-```
+ cd /workspace
+  git clone https://github.com/comfyui/ComfyUI.git
+  cd ComfyUI
+  pip install -r requirements.txt
+``` 
 
 **Step 3: Download Model Weights**
 
 **For Wan 2.2:**
 ```bash
- huggingface-cli download alimama-creative/Wan-2.2
-  --cache-dir /workspace/models
-```
+  huggingface-cli download alimama-creative/Wan-2.2
+   --cache-dir /workspace/models
+``` 
 
 **For LTX-2.3:**
 ```bash
- huggingface-cli download Lightricks/LTX-2.3-full
-  --cache-dir /workspace/models
-```
+  huggingface-cli download Lightricks/LTX-2.3-full
+   --cache-dir /workspace/models
+``` 
 
 **For HunyuanVideo 1.5:**
 ```bash
- huggingface-cli download Tencent-Hunyuan/HunyuanVideo
-  --cache-dir /workspace/models
-```
+  huggingface-cli download Tencent-Hunyuan/HunyuanVideo
+   --cache-dir /workspace/models
+``` 
 
 *Note: First download may take 10-20 min depending on model size and internet speed.*
 
@@ -134,35 +134,35 @@ Video models require specific ComfyUI nodes:
 
 **For Wan 2.2:**
 ```bash
- cd /workspace/ComfyUI/custom_nodes
- git clone https://github.com/comfyui/nodes-wan-2.2.git
- cd nodes-wan-2.2 && pip install -r requirements.txt
-```
+  cd /workspace/ComfyUI/custom_nodes
+  git clone https://github.com/comfyui/nodes-wan-2.2.git
+  cd nodes-wan-2.2 && pip install -r requirements.txt
+``` 
 
 **For LTX-2.3:**
 ```bash
- cd /workspace/ComfyUI/custom_nodes
- git clone https://github.com/Lightricks/ComfyUI-LTX-2.3.git
- cd ComfyUI-LTX-2.3 && pip install -r requirements.txt
-```
+  cd /workspace/ComfyUI/custom_nodes
+  git clone https://github.com/Lightricks/ComfyUI-LTX-2.3.git
+  cd ComfyUI-LTX-2.3 && pip install -r requirements.txt
+``` 
 
 **For HunyuanVideo:**
 ```bash
- cd /workspace/ComfyUI/custom_nodes
- git clone https://github.com/kijai/ComfyUI-HunyuanVideoWrapper.git
- cd ComfyUI-HunyuanVideoWrapper && pip install -r requirements.txt
-```
+  cd /workspace/ComfyUI/custom_nodes
+  git clone https://github.com/kijai/ComfyUI-HunyuanVideoWrapper.git
+  cd ComfyUI-HunyuanVideoWrapper && pip install -r requirements.txt
+``` 
 
 **Step 5: Start ComfyUI Server**
 ```bash
- cd /workspace/ComfyUI
- python main.py --listen 0.0.0.0 --port 8188
-```
+  cd /workspace/ComfyUI
+  python main.py --listen 0.0.0.0 --port 8188
+``` 
 
 Output should show:
 ```
 To see the GUI go to: http://127.0.0.1:8188
-```
+``` 
 
 **Step 6: Access Web Interface**
 - Go back to RunPod pod details
@@ -188,7 +188,7 @@ A slow dolly push through a misty forest at dawn,
 soft golden light filtering through tall pine trees,
 gentle fog rising from the ground, birds chirping,
 cinematic camera movement, 24fps, 720p
-```
+``` 
 
 **Prompt tips:**
 - Include camera angle (wide shot, close-up, dolly push, pan left)
@@ -274,92 +274,4 @@ If RunPod setup feels overwhelming, LTX-2.3 also runs in the browser:
 #### Troubleshooting
 
 ##### Pod Won't Start
-- **Issue:** "Pod creation failed"
-- **Solution:** That GPU type might be out of stock. Choose different GPU or wait 5 minutes
-
-##### CUDA Out of Memory (OOM)
-- **Issue:** "RuntimeError: CUDA out of memory"
-- **Solutions:**
-  - Reduce video duration (8 sec → 5 sec)
-  - Lower resolution (1080p → 720p)
-  - Use a larger GPU (A100 → H100)
-  - Enable quantization (FP8 instead of FP16)
-
-##### ComfyUI won't start
-- **Issue:** "ModuleNotFoundError: No module named 'custom_nodes'"
-- **Solution:** Ensure you're in "/workspace/ComfyUI" directory before running "python main.py"
-
-##### Models not found
-- **Issue:** ComfyUI error "Model not found"
-- **Solution:**
-  - Verify model downloaded to correct path
-  - Check network volume is attached and mounted
-  - Re-download model if corrupted
-
-##### Slow inference (20+ minutes for 5 sec)
-- **Issue:** Generation taking too long
-- **Solutions:**
-  - Using RTX 4090? This is normal (15-20 min expected)
-  - Upgrade to A100/H100 for 5-8 minute speeds
-  - Reduce resolution/duration
-  - Check if other processes consuming GPU memory
-
-##### Can't connect to web interface
-- **Issue:** HTTP link shows "Connection refused"
-- **Solutions:**
-  - Wait 2-3 minutes for ComfyUI server to start
-  - Verify port 8188 is exposed in pod config
-  - Check SSH terminal to confirm "python main.py" running without errors
-
-#### Quick Reference Commands
-
-##### SSH into Pod
-```bash
- ssh -p [PORT] root@[POD_IP]
-``` (Copy from RunPod Connect → SSH)
-
-##### Monitor GPU Usage
-```bash
- nvidia-smi -l 1  # Updates every 1 second
-```
-
-##### Check Model Disk Usage
-```bash
- du -sh /workspace/models/
-```
-
-##### Stop ComfyUI Server
-```bash
- Ctrl+C  # In terminal where python main.py runs
-```
-
-##### Restart ComfyUI
-```bash
- cd /workspace/ComfyUI
- python main.py --listen 0.0.0.0 --port 8188
-```
-
-##### View Running Processes
-```bash
- ps aux | grep python
-```
-
-#### Next Steps
-
-1. **Start with community template** for easiest setup
-2. **Test with RTX 4090** to dial in your prompts (cheap iteration)
-3. **Upgrade to H100** for final production renders
-4. **Batch multiple videos** to amortize setup overhead
-5. **Keep network volume** (costs $0.07/GB/month) to avoid re-downloading weights
-
-#### Resources
-
-- **RunPod Docs:** https://docs.runpod.io
-- **ComfyUI:** https://github.com/comfyui/ComfyUI
-- **Wan 2.2 Model:** https://huggingface.co/alimama-creative/Wan-2.2
-- **LTX-2.3 Model:** https://huggingface.co/Lightricks/LTX-2.3-full
-- **HunyuanVideo Model:** https://huggingface.co/Tencent-Hunyuan/HunyuanVideo
-- **Community Workflows:** Search GitHub for `[model-name]-comfyui-workflow`
-
-**Last updated:** August 2026
-**GPU availability & pricing subject to change—check RunPod dashboard for current rates
+- **Issue:**

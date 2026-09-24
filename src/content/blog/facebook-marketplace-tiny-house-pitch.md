@@ -1,13 +1,15 @@
 ---
 title: "Facebook Marketplace Tiny House Pitch"
-description: "A pitch for a grandpa to sell a tiny house for 25,000 on Facebook Marketplace."
+description: "A working session to build a pitch for a grandpa to buy a tiny house for 25,000"
 date: "2026-09-20"
-tags: ["opencode","marketplace","tiny house","pitch","sale"]
+tags: ["facebook","marketplace","pitch","tiny-house","opencode"]
 source: "opencode://nimble-sailor"
 draft: true
 clarity: 4
 quality: 3
 ---
+
+## Facebook Marketplace Tiny House Pitch
 
 What this is: an opencode working session — 35 messages.
 

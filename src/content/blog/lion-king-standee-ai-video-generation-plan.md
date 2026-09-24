@@ -1,13 +1,15 @@
 ---
 title: "Lion King standee AI video generation plan"
-description: "An opencode session from 2026-08-31 focused on planning AI video generation for a Lion King standee."
+description: "AI video generation plan for a Lion King standee"
 date: "2026-08-31"
-tags: ["opencode","session","ai","video","lion king","standee"]
+tags: ["ai","video","standee"]
 source: "opencode://restored-session"
 draft: true
 clarity: 3
 quality: 3
 ---
+
+## Lion King Standee AI Video Generation Plan
 
 This is an opencode working session from 2026-08-31. The working directory is /home/jd/Prototypes. The session was recovered from previous messages.
 

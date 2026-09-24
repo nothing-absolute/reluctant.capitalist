@@ -1,14 +1,16 @@
 ---
 title: "Start Here with TaskNotes"
-description: "A guide to using TaskNotes with Obsidian, covering setup, task creation, and view customization."
+description: "Guide to setting up TaskNotes in Obsidian"
 date: "2026-09-23"
-tags: ["tasknotes","obsidian","bases","productivity","workflow","markdown","task management"]
+tags: ["tasknotes","obsidian","productivity"]
 source: "Knowledge/References/start-here-tasknotes.md"
-vault: true
-draft: true
+draft: false
 clarity: 5
 quality: 5
+vault: true
 ---
+
+Start Here with TaskNotes
 
 This note is a small tour of TaskNotes inside your own vault. Work through it in place, then keep it as a reference or delete it when you no longer need it.
 

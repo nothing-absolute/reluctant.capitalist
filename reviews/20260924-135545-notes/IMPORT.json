@@ -1,0 +1,29 @@
+{
+  "review": "20260924-135545-notes",
+  "source": "project-docs",
+  "generatedAt": "2026-09-24T13:55:45.806Z",
+  "notes": [
+    {
+      "section": "projects",
+      "slug": "a-plain-of-jars-story-bible-addendum-the-mlm-truth-project",
+      "title": "A Plain of Jars — Story Bible Addendum: The MLM Truth Project",
+      "source": "story_bible_addendum_mlm_truth.md",
+      "status": "staged"
+    },
+    {
+      "section": "projects",
+      "slug": "the-machine-content-channel-strategy",
+      "title": "The Machine — Content Channel Strategy",
+      "source": "the_machine_channel_strategy.md",
+      "status": "staged"
+    },
+    {
+      "section": "projects",
+      "slug": "the-light-field-substack-serialization-strategy",
+      "title": "The Light Field — Substack Serialization Strategy",
+      "source": "substack_serialization_strategy.md",
+      "status": "staged"
+    }
+  ],
+  "redactions": {}
+}

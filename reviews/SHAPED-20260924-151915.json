@@ -1,0 +1,26 @@
+{
+  "generatedAt": "2026-09-24T15:18:53.022Z",
+  "model": "qwen3-4b",
+  "publish": false,
+  "applied": false,
+  "shaped": [
+    {
+      "from": "projects/analyze-the-sythnesizer-midi-controller-guitar-pedal-market",
+      "to": null,
+      "verdict": "keep",
+      "title": "Music Hardware Market Analysis & Kickstarter Blueprint",
+      "goal": "Provide a roadmap for developing successful Kickstarter campaigns for music hardware projects.",
+      "outcome": "A detailed blueprint for launching music hardware projects on Kickstarter with a focus on open-source hardware and market trends.",
+      "related": [
+        "projects/analyze-the-sythnesizer-midi-controller-guitar-pedal-market"
+      ],
+      "confidence": 0.95,
+      "beforeChars": 26860,
+      "afterChars": 11499,
+      "shrink": 0.572,
+      "possibleContentLoss": false
+    }
+  ],
+  "skipped": [],
+  "failed": []
+}

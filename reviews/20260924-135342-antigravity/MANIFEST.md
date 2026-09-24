@@ -1,0 +1,115 @@
+# Antigravity import — 20260924-135342-antigravity
+
+Source: `antigravity`
+
+- [ ]	garden	i-have-an-original-theater-release-of-the-lion.md	I have an original theater release of the Lion King 1994 movie cardboard standee in…	antigravity:0398a577-6f1c-456e-b2cb-498b8028ade0
+- [ ]	garden	can-gps-work-indoors-if-not-is-there-a.md	can gps work indoors? if not is there a way to simulate or create a mesh network that…	antigravity:06ba1b33-e0e6-40ea-8318-ff5fc9c9deef
+- [ ]	garden	campaign-performance-projection-our-data-shows-that-scarcity.md	Campaign Performance Projection Our data shows that "Scarcity" driven content…	antigravity:070887a9-85aa-427a-8c52-4f19f4c95cd5
+- [ ]	papers	make-a-list-of-ebay-monome-midi-sold-prices.md	make a list of ebay monome midi sold prices	antigravity:08bd1d17-671f-4f62-9079-1b22206c77c3
+- [ ]	garden	how-much-is-is-a-train-trip-from-los.md	how much is is a train trip from Los Angels to Vancourver BC?	antigravity:09b5d8e7-7da1-4a17-9546-0e042954b454
+- [ ]	garden	which-is-the-better-project-to-focus-on-the.md	which is the better project to focus on the minimal smartphone or the BYO sim boat…	antigravity:0d55a575-1f2b-4075-ac03-79b6a0bafec7
+- [ ]	garden	build-all-of-the-following-flutter-dart-files-for.md	Build ALL of the following Flutter Dart files for the Family Hub app at…	antigravity:1136bbc1-7441-4100-bd06-bbf66e1606d8
+- [ ]	garden	evaluate-to-pick-which-fish-boat-technology-could-be.md	evaluate to pick which fish boat technology could be easily recreated with open source…	antigravity:11f12b5a-b923-4aa8-afd6-76dd5cbc047d
+- [ ]	projects	free-up-disk-space.md	free up disk space	antigravity:121c185c-e397-484a-a556-2115929f8633
+- [ ]	garden	free-up-ram-and-cpu.md	free up ram and cpu	antigravity:13759a5f-a4c4-4334-bb03-60276f5a42fa
+- [ ]	garden	i-will-list-the-contents-of-the-brain-folder.md	I will list the contents of the brain folder to find the history of the OdysseusAI…	antigravity:13842345-732d-42e0-a2c9-131d1f12281e
+- [ ]	garden	these-scripts-are-based-on-my-website-https-nothing-absolute.md	These scripts are based on my website: https://nothing-absolute.github.io/mlm-truth/ 5…	antigravity:1723e474-df1d-4e2a-aa23-86abae3079ac
+- [ ]	projects	create-video-to-advertise-the-sale-of-lion-king.md	Create video to advertise the sale of Lion King cardboard standee. Use photos, and the…	antigravity:18f09793-f23d-4d54-8065-4196b348fb59
+- [ ]	garden	create-a-visually-exciting-kickstarter-campaign-page-with-pr.md	Create a visually exciting Kickstarter campaign page with product mockups and graphics…	antigravity:1a22fe8e-382a-4a0d-92a0-70a0f0e2d348
+- [ ]	garden	how-can-i-use-a-tp-link-ac1900-dual-band.md	how can i use a tp-link ac1900 dual band router and motorola model SBG6580 along with…	antigravity:1a5fc988-2736-4f5f-ab4d-2e78334918fe
+- [ ]	garden	you-are-helping-me-build-a-complete-kickstarter-campaign.md	You are helping me build a complete Kickstarter campaign (copy, page structure, and…	antigravity:1a609c70-58d0-41e8-97cc-bcf07be146ec
+- [ ]	projects	find-any-sign-up-bonus-codes-for-runpod-io.md	find any sign up bonus codes for runpod.io	antigravity:2163af39-ee81-4fad-a665-92194e6e6f77
+- [ ]	projects	i-have-246-credits-on-https-modelscope-ai-come-with-a.md	I have 246 credits on https://modelscope.ai. Come with a plan to go generate: # "THE…	antigravity:22697cdb-0f37-4e29-b6fc-415299b788ed
+- [ ]	art	navigate-to-http-localhost-7000-and-take-a-screenshot-of-the.md	Navigate to http://localhost:7000/ and take a screenshot of the current state of the…	antigravity:229a4c6a-cce1-448a-bafa-f8b7e11d717f
+- [ ]	art	navigate-to-http-localhost-7000-and-check-the-current-state.md	Navigate to http://localhost:7000/ and check the current state. Open settings, go to…	antigravity:283d77af-6bd3-42af-b777-df9d9f2f98e7
+- [ ]	papers	create-a-modern-stunning-single-page-web-app-in.md	Create a modern, stunning, single-page web app in…	antigravity:32ce0c4c-b30e-4c39-ad04-d24335901b7e
+- [ ]	garden	it-is-not-working-proporrly.md	it is not working proporrly	antigravity:3690e19d-b1c3-4813-a6af-5da17cf56753
+- [ ]	projects	develop-the-into-production-schedule-shot-lists-screen-play.md	develop the into production schedule, shot lists, screen play, assests needed, vidsual…	antigravity:415fa53b-310d-46ac-8a7e-314999bcd2c0
+- [ ]	projects	look-up-price-estimates-for-each-lego-set-pictured.md	look up price estimates for each lego set pictured	antigravity:432a8e0e-9923-47c2-9bb5-296992ac4880
+- [ ]	projects	you-are-a-senior-creator-economy-business-strategist-and-com.md	You are a senior creator-economy business strategist and compliance advisor. You coach…	antigravity:47c031a8-0492-4ed7-8da3-282987c01132
+- [ ]	garden	help-me-come-up-with-ways-to-measure-to.md	help me come up with ways to measure to possible market fot the BYO boat monitor. like…	antigravity:49068812-fa3e-4625-92fa-d4a65a287ac8
+- [ ]	garden	build-graphic-with-map-plotting-out-the-locations-with.md	Build graphic with map plotting out the locations with dates laid out in the following…	antigravity:4a1fc688-deb4-48d8-9141-bbb0b3d7308f
+- [ ]	projects	build-a-testing-application-for-the-byo-sim-boat.md	build a testing application for the BYO sim boat monitor. Designing the front end…	antigravity:4b1e8a43-35fe-4d04-bf32-5decc11add83
+- [ ]	garden	install-an-opencode-llm-that-will-replicate-claude.md	install an opencode llm that will replicate Claude	antigravity:4b9a1073-8c2a-425c-ac8d-abc1d1b426d4
+- [ ]	garden	help-me-set-up-omniroute-http-localhost-20128-home-set-up-al.md	Help me set up OmniRoute: http://localhost:20128/home Set up all the available free…	antigravity:4e972a19-24a8-4e8d-a4cc-73426b5f6c4e
+- [ ]	garden	build-these-flutter-screen-and-widget-files-for-the.md	Build these Flutter screen and widget files for the Family Hub app at…	antigravity:5379e5fe-6a17-4265-81bf-a4e2c16a2d57
+- [ ]	garden	reddit-hide-active-green-dot.md	reddit hide active green dot	antigravity:541c1b5d-4c14-46c1-aca8-6108411a6123
+- [ ]	projects	business-plan-renting-out-this-rv-same-idea-as.md	business plan: renting out this RV, same idea as the previous road trip to high rent…	antigravity:56a8918e-da0b-4dee-90ae-7ed23260ef78
+- [ ]	garden	founder-profile-name-background-solo-entrepreneur-associate.md	FOUNDER PROFILE **Name/Background:** Solo entrepreneur, associate's degree (applied…	antigravity:5c53b548-fde9-44f2-b22f-7ac0fc1ff06a
+- [ ]	garden	research-the-current-state-of-anti-mlm-content-on-youtube.md	Research the current state of anti-MLM content on YouTube and TikTok as of 2026. I…	antigravity:5e7e7594-3dd6-4f2f-a249-67321399b432
+- [ ]	garden	evulate-this-project.md	evulate this project	antigravity:60c83a2b-d326-4c30-99a7-349fcf6b4975
+- [ ]	garden	find-a-computer-with-16-24gb-gpu-for-sale-in.md	find a computer with 16-24gb gpu for sale in sioux falls on craigslist or facebook…	antigravity:65d47a89-30ef-4ce9-aa03-e0e05fa999ea
+- [ ]	garden	what-kind-of-gs-milage-on-the-highway-would.md	what kind of gs milage on the highway would 1976 Winnebago chevy get?	antigravity:6814fe35-03cf-4cba-9e49-c23d3a00b67d
+- [ ]	garden	write-a-comprehensive-social-media-content-playbook-markdown.md	Write a comprehensive social media content playbook markdown file to…	antigravity:699e0749-2bcd-4522-83a6-ea80ed6bf0c1
+- [ ]	projects	analyze-the-sythnesizer-midi-controller-guitar-pedal-market.md	analyze the sythnesizer, midi controller, guitar pedal market along with open source /…	antigravity:6bba9e60-d5ce-4e8c-afd8-7343265c9055
+- [ ]	projects	set-up-a-claude-code-alternative-on-runpod-gpu.md	set up a claude code alternative on runpod gpu	antigravity:6c553727-5874-47fa-a9b3-ed293325d5e1
+- [ ]	garden	research-the-following-business-and-market-topics-1-event.md	Research the following business and market topics: 1. **Event videography market…	antigravity:74d7ae96-6316-43dd-a565-b66e24132a9e
+- [ ]	projects	make-a-android-based-browser-using-an-open-source-mozilla.md	Make a Android-based browser using an open source Mozilla Firefox as the base. It…	antigravity:750b0b62-4e01-46ef-b4f0-6772e34267d6
+- [ ]	projects	set-up-away-to-us-tor-as-a-way.md	set up away to us tor as a way to hide IP on firefox for a given domain	antigravity:7599b5ab-1520-447a-9350-e507991a1f8d
+- [ ]	garden	i-have-completed-the-exploration-of-home-jd-obsidianvault-an.md	I have completed the exploration of `/home/jd/ObsidianVault` and delivered the…	antigravity:7626de8e-f2e1-4632-8d44-685eab81a31e
+- [ ]	garden	set-up-omniroute-with-all-the-free-models.md	set up omniroute with all the free models	antigravity:77b5c87c-60a4-4083-8935-9bf9ec5c1e0d
+- [ ]	garden	cheapest-way-to-get-fcc-certification-for-boat-monitor.md	cheapest way to get FCC certification for Boat Monitor project	antigravity:78efbf38-8ce4-4fff-b84e-ad5df093d5a2
+- [ ]	projects	i-need-help-developing-a-youtube-channel-from-scratch.md	I need help developing a YouTube channel from scratch? I have a first video idea…	antigravity:799046e9-72e2-404a-9a27-03e2a5eacfcf
+- [ ]	art	so-i-had-an-idea-for-an-animated-video.md	So I had an idea for an animated video. It would be some clips of people on tiktok…	antigravity:7a752ae6-6ab1-4189-86d5-cc56e370a701
+- [ ]	garden	how-to-make-my-website-https-nothing-absolute-github-io-mlm.md	how to make my website: https://nothing-absolute.github.io/mlm-truth/ come up on search	antigravity:7a77f340-98ff-444b-bfeb-bd7707cbcebc
+- [ ]	garden	what-kind-of-ai-video-generation-could-i-do.md	What kind of AI video generation could i do with local llm on a: Apple Macbook Pro 14…	antigravity:7f0a93d2-56d4-4d6a-8b26-bcb267418142
+- [ ]	garden	context-node-internal-modules-cjs-loader-1520-throw-err-erro.md	context: node:internal/modules/cjs/loader:1520 throw err; ^ Error: Cannot find module…	antigravity:7f8b5ce6-1726-4b81-89fc-3b95d48f6fdb
+- [ ]	art	can-these-be-put-together-in-an-ai-generated.md	can these be put together in an AI generated image to have the cardboard standee put…	antigravity:8269ec02-5161-42bb-8462-aee6322bc8d3
+- [ ]	garden	where-are-files-and-projects-from-antigravity-saved-locally.md	where are files and projects from antigravity saved locally?	antigravity:865374d7-a148-4ebd-a14d-5012d825be20
+- [ ]	projects	i-have-found-a-highly-relevant-and-analogous-open-hardware.md	I have found a highly relevant and analogous open-hardware and open-source project…	antigravity:89468503-5d2e-41f7-9538-2ba62a789a13
+- [ ]	projects	is-there-a-way-to-reverse-engineer-the-firmware.md	is there a way to reverse engineer the firmware for Teenage Engineering OP-1?	antigravity:8c1126b3-99b2-4d39-9f1d-ba0338e592d8
+- [ ]	garden	i-have-a-apple-macbook-pro-m2-max-16.md	I have a Apple MacBook Pro M2 Max 16” 12CPU/30GPU/64GB/1TB with Asahi Linux installed.…	antigravity:8c2562d0-d194-4621-9f3f-ed1254449ad5
+- [ ]	garden	tor-browser-and-a-few-helium-browser-windows-are.md	Tor browser and a few helium browser windows are not getting text input from keyboard	antigravity:8c643968-f888-46b5-b326-daf880bef6cc
+- [ ]	art	fix-obsidian.md	fix obsidian	antigravity:8cf9bf0e-db57-44c9-b1c1-ce22b9f6804f
+- [ ]	garden	export-all-of-antigravity-chat-history-and-assets-created.md	export all of Antigravity chat history and assets created to a single file. This…	antigravity:8e76f31d-51a8-45eb-801d-3f43cea91a36
+- [ ]	projects	https-www-thebalancephone-com-products-balance-phone-pro-com.md	https://www.thebalancephone.com/products/balance-phone-pro come up with a similar…	antigravity:8f375cad-7eea-4f66-a512-45f283d23f67
+- [ ]	garden	open-source-hardware-kickstater-project-for-a-ring.md	open source / hardware kickstater project for a Ring doorbell replacement. using…	antigravity:91fbcd74-1c9b-4cfb-be38-fe99f60e1b9b
+- [ ]	garden	how-can-i-connect-an-external-drive-to-my.md	how can i connect an external drive to my linux laptop so it will behave as an…	antigravity:92461444-94df-46f4-86eb-5692916fda10
+- [ ]	garden	cheapest-photorelalistic-video-gen-llm-option-either-a-subsc.md	cheapest photorelalistic video gen LLM option, either a subscription model, API, or…	antigravity:954a7586-c297-4100-afde-d1d3826f1c3b
+- [ ]	garden	install-gnome-network-displays-from-debian.md	install gnome network displays from debian	antigravity:956d1092-f75c-4083-ab35-95eaa8b8c233
+- [ ]	papers	set-up-the-whisper-for-odysseus-i-want-to.md	set up the whisper for Odysseus. I want to be able to input a message with voice to…	antigravity:96bc662a-1ad2-42ee-b8dc-36dd80d196b4
+- [ ]	garden	fix-bluetooth-mouse-from-disconnecting.md	🔍 Fix Bluetooth Mouse From Disconnecting	antigravity:a258bb94-e87d-46f0-af78-3dd512a93615
+- [ ]	garden	browserhttp-localhost-7000-troubleshooting.md	/browserhttp://localhost:7000/ /troubleshooting…	antigravity:a38447ef-2a2f-4b65-9627-8ab3a9e20ab4
+- [ ]	projects	build-an-application-for-android-and-ios-it-is.md	Build an application for android and ios. It is just for my family. We can post about…	antigravity:a51dd36a-a2ff-436d-9ec5-9c3989439240
+- [ ]	garden	add-a-coding-terminal-prompt-panel-at-the.md	Add a coding terminal / prompt panel at the bottom of the MPC web app. 1. The panel…	antigravity:aacd384e-3289-4d33-9eb1-fb12335d388c
+- [ ]	projects	that-wasn-t-claude-code-it-was-opencode-zen-the-free.md	That wasn't Claude Code, it was OpenCode Zen...the free open source model....haha 5…	antigravity:abf2de62-6e2a-48fb-80a7-6dacc23d03b4
+- [ ]	garden	add-this-openai-compatible-api-to-opencode-http-10-240-190-1.md	add this OpenAI compatible api to opencode: http://10.240.190.108:8080/v1/	antigravity:ad374ebe-6939-4cc3-8077-e12ca6414e87
+- [ ]	garden	find-me-a-good-video-tutorial-of-setting-up.md	find me a good video tutorial of setting up runpod to deploy local llms	antigravity:af4a3f57-1510-4f56-9cf1-76cd87956ba2
+- [ ]	garden	write-a-comprehensive-needlepoint-inventory-database-json-fi.md	Write a comprehensive needlepoint inventory database JSON file to…	antigravity:b0b0208b-c4ea-4a70-83aa-6962e4c6e04b
+- [ ]	garden	sim-development-board-esp32-wireless-module-with-gps-find.md	SIM Development Board ESP32 Wireless Module with GPS find cheapest option for kickstarter	antigravity:b0fa3b8a-7515-4ba6-bd07-499f21d7b9c0
+- [ ]	garden	design-a-drone-camera-set-up-for-special-events.md	Design a drone camera set up for special events: Birthdays, Anneversaries, Weddings,…	antigravity:b185063d-a0ed-410e-8f5c-a4f3465c4e99
+- [ ]	art	navigate-to-http-localhost-7000-and-take-a-screenshot-of-the-2.md	Navigate to http://localhost:7000/ and take a screenshot of the current state of the…	antigravity:b1bfbdc5-0d4d-4fd2-b072-c06f78f0d967
+- [ ]	garden	how-would-custom-apple-mac-pro-late-2013-up.md	how would CUSTOM Apple Mac Pro Late 2013 UP TO 2.7GHz 12-Core 128GB RAM 1TB SSD D500…	antigravity:b34e4b4b-4bb8-4213-a5d1-66e8b4e54dcb
+- [ ]	garden	how-much-money-could-i-make-from-this-kickstater.md	how much money could i make from this kickstater	antigravity:b42e8782-84e2-43bf-b110-189d5b3ca8fd
+- [ ]	art	are-any-cards-from-these-sets-valuable.md	are any cards from these sets valuable?	antigravity:b5a3d17d-410d-4c36-b2e8-7c1e09db0d2a
+- [ ]	art	price-estimate-for-these-comics.md	price estimate for these comics	antigravity:b5d4fc03-8958-459f-b5dd-e3de75c06112
+- [ ]	garden	i-have-researched-all-8-requested-topics-and-sent.md	I have researched all 8 requested topics and sent the comprehensive report to the…	antigravity:b7a34747-a295-4c0e-9d1c-d8aefea0e7e5
+- [ ]	garden	i-have-completed-the-exploration-of-home-jd-prototypes-and-r.md	I have completed the exploration of `/home/jd/Prototypes/` and reported all findings…	antigravity:baf1c88d-f278-4d60-bf53-cfe596dc459d
+- [ ]	garden	navigate-to-http-localhost-7000-and-take-a-screenshot-of-the.md	Navigate to http://localhost:7000/ and take a screenshot of the current state of the…	antigravity:bb44c016-2469-4065-9ede-4b5aa9606e79
+- [ ]	art	information-on-how-to-handle-the-mdm-profile-checking.md	information on how to handle the MDM profile, checking its activation status,	antigravity:c09dd356-bfdf-404e-ac79-932beac364e2
+- [ ]	projects	youtube-script-write-5-different-concept-ideas-for-video-10i.md	Youtube script write 5 different concept/ideas for video 10ish minutes. Based on a…	antigravity:c707bb2e-c8bb-4b97-84ce-9052e663a132
+- [ ]	projects	croot-1e0e86c35081-root-1e0e86c35081-ls-ngc-dl-container-lic.md	^Croot@1e0e86c35081:/# root@1e0e86c35081:/# ls NGC-DL-CONTAINER-LICENSE boot dev…	antigravity:c799c91d-b879-4167-8f74-37513cd037c2
+- [ ]	garden	how-to-install-android-of-linux-on-amazon-fire.md	how to install android of linux on amazon fire stick and the apple tv a1469	antigravity:c89f1db1-48dc-4474-bdb6-e5d874e698b3
+- [ ]	garden	find-a-macbook-pro-with-at-least-16gb-ram.md	find a macbook pro with at least 16gb ram on facebook marketplace in sioux falls, sd	antigravity:caee4b56-2ec1-4c99-8bf0-4848d5c9ae96
+- [ ]	projects	build-a-midi-touch-pad-connection-from-an-ipod.md	build a midi touch pad connection from an iPod mini 32 bit. Touch designer, osc, web app	antigravity:ccf149f9-dc73-4499-9762-52df35591696
+- [ ]	projects	wireless-looper-pedal-phone-tablet-control-surface-design-pr.md	Wireless Looper Pedal: Phone/Tablet Control Surface Design Project Status: Design…	antigravity:cd88f891-9c56-4afd-be41-2aeb75ac8f26
+- [ ]	projects	reload-localhost-3005.md	reload localhost:3005	antigravity:ceabce17-c09c-4849-83bd-4247d600ee3c
+- [ ]	art	what-would-renting-a-space-to-live-in-a.md	what would renting a space to live in a unit like this one attached? it would need…	antigravity:cf6f427e-3c83-450f-8675-c364688237db
+- [ ]	garden	is-this-the-most-likely-to-secceed-tech-product.md	is this the most likely to secceed tech product for fishing boats to try this concept…	antigravity:d1c02eb0-64ae-4009-aa5f-0d2de5aea15a
+- [ ]	papers	all-my-opencode-projects-are-no-longer-connected-all.md	all my opencode projects are no longer connected. all the tabs from the sessions…	antigravity:d32df412-845f-4435-b812-365f51a48b46
+- [ ]	garden	missing-authentication-header-for-opencode-using-openrouter.md	Missing Authentication header for opencode using OpenRouter how to fix	antigravity:d45b2767-da0a-4f86-8d21-79779354c90d
+- [ ]	garden	thoroughly-explore-the-emai-obsidian-os-project-at-home-jd-d.md	Thoroughly explore the EMAI Obsidian OS project at /home/jd/Documents/Obsidian…	antigravity:d4eff798-ccd6-4ce0-b556-f0e9832238c9
+- [ ]	projects	browserhttps-www-youtube-com-watch-v-xrop9rtkvqq-this-video.md	/browserhttps://www.youtube.com/watch?v=xroP9rTkvqQ this video has the type of…	antigravity:dc18a22d-3e7f-482a-b8d6-c65b87569ee6
+- [ ]	projects	open-source-hardware-software-reference-guide-for-looper-ped.md	Open-Source Hardware & Software Reference Guide for Looper Pedal Design **Goal:**…	antigravity:ddcc6c7d-a107-4868-b8d7-08e620a1b427
+- [ ]	garden	find-any-used-onyx-rcr-or-cty2-electric-bikes.md	find any used Onyx RCR or CTY2 electric bikes for sale	antigravity:e1970dea-9816-48a6-a361-67207896f4c1
+- [ ]	garden	explore-home-jd-prototypes-obsidian-vault-and-home-jd-protot.md	Explore /home/jd/Prototypes/Obsidian Vault/ and /home/jd/Prototypes/ to understand the…	antigravity:e1a52228-6fcd-40af-8184-3dbcd0898996
+- [ ]	papers	opencode-session-working-on-a-busniess-for-fixing-cars.md	opencode session working on a busniess for fixing cars that have a bug that can be…	antigravity:e2ad6295-91b6-43be-aba1-be665bd6d30c
+- [ ]	garden	off-load-some-drive-space-to-media-jd-6bff-f24f.md	off load some drive space to /media/jd/6BFF-F24F/	antigravity:e41177b8-708e-48b8-8836-9c443dfb49f9
+- [ ]	garden	use-thunar-to-see-what-is-taking-up-disk.md	use thunar to see what is taking up disk space	antigravity:ec6c2cc5-af4e-427d-b276-b5a4843af4cd
+- [ ]	projects	export-all-of-gemini-sessions-and-projects-into-odysseus.md	export all of gemini sessions and projects into odysseus	antigravity:ed987cec-b5ae-4b61-8ac9-7862e843d76c
+- [ ]	art	how-can-i-hack-this-eink-tag-to-display.md	how can i hack this eink tag to display something different	antigravity:f06bf556-a7e3-42b9-91c5-3f44b7aabdeb
+- [ ]	projects	create-a-youtube-thumbnail-for-this-video-3-the.md	Create a youtube thumbnail for this: Video 3: The Algorithm's Mind Control Concept:…	antigravity:fb00c89d-1490-4d00-be01-29cb76bff4b6
+- [ ]	garden	build-a-video-creation-pipe-line-based-on-this.md	build a video creation pipe line based on this channel…	antigravity:fbb2ab99-03f3-4283-8c05-6bda9f7905d8
+- [ ]	garden	help-me-pick-out-a-computer-for-running-local.md	help me pick out a computer for running local llm on. I am thinking about a Mac Pro…	antigravity:fc9af648-4195-40f7-a36a-cb7c211f4643
+- [ ]	garden	explore-the-main-obsidian-vault-at-home-jd-obsidianvault-to.md	Explore the main Obsidian vault at /home/jd/ObsidianVault to understand its structure…	antigravity:fddf69f3-d3ad-455c-a153-5d89f6709746
+- [ ]	projects	install-rapberry-pi-os-on-the-sd-card-with.md	install rapberry pi os on the sd card with set up for using XPT2046 Touch controller…	antigravity:fe19778d-d897-4696-bd65-eba910cb342f

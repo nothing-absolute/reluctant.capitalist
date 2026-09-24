@@ -1,14 +1,14 @@
 ---
 title: "A Plain of Jars — Project Bible"
-description: "A 3-volume literary memoir graphic novel exploring themes of class, information access, and systems failure through the lens of a hyperreal-recall narrator's journey."
+description: "Detailed project bible for the three-volume literary memoir graphic novel"
 date: "2026-09-23"
-tags: ["project/active","creative/graphic-novel","memoir"]
+tags: ["project-bible","graphic-novel","literary-memoir"]
 source: "Projects/a-plain-of-jars/a-plain-of-jars-bible.md"
-status: "seed"
-stage: "idea"
-draft: true
+draft: false
 clarity: 4
 quality: 5
+status: "seed"
+stage: "idea"
 ---
 
 A Plain of Jars — Project Bible

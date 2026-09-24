@@ -1,14 +1,14 @@
 ---
 title: "Substack Launch Plan — A Plain of Jars"
-description: "A 12-week plan to launch a Substack newsletter as a pre-launch strategy for a Kickstarter campaign, including content strategy, publication schedule, and hard rules for content cre"
+description: "A detailed plan for launching a Substack series to build demand for the A Plain of Jars project."
 date: "2026-09-23"
-tags: ["Substack","Kickstarter","Newsletter","Content Strategy","Graphic Novel","Publication Plan"]
+tags: ["substack","launch","series","content","planning"]
 source: "Projects/a-plain-of-jars/substack-launch-plan.md"
-status: "seed"
-stage: "idea"
-draft: true
+draft: false
 clarity: 4
 quality: 4
+status: "seed"
+stage: "idea"
 ---
 
 ### Substack Launch Plan — A Plain of Jars
@@ -17,7 +17,7 @@ Status: **BUILT 2026-09-19.** Working files live at `/home/jd/Prototypes/Graphic
 
 #### The strategy in one paragraph
 
-Substack is the top of the funnel for the Kickstarter, not the business itself. Six chapters are drafted in JD's voice (the launch sprint), published weekly (Sundays 9 AM CT), all free while building. The newsletter proves demand, builds the artist-outreach credibility base, and serializes the an unwritten arc (The Road Home) as a way to develop it. At weeks 10-12 the turn: Kickstarter pre-launch page → $40-55k campaign. Realistic numbers: 500-1,000 subs by month 4 is a win; paid tier ($5/mo) at 2-5% conversion = $50-175/mo (tip jar, not income).
+Substack is the top of the funnel for the Kickstarter, not the business itself. Six chapters are drafted in JD's voice (the launch sprint), published weekly (Sundays 9 AM CT), all free while building. The newsletter proves demand, builds the artist-outreach credibility base, and serializes the unwritten arc (The Road Home) as a way to develop it. At weeks 10-12 the turn: Kickstarter pre-launch page → $40-55k campaign. Realistic numbers: 500-1,000 subs by month 4 is a win; paid tier ($5/mo) at 2-5% conversion = $50-175/mo (tip jar, not income).
 
 #### File map (Prototypes)
 
@@ -47,3 +47,8 @@ W1-6: six drafted posts. W7-8: Road Home parts 1-2 (requires JD's voice memos �
 3. Publish post 01 (The Fork) Sunday 9:00 AM CT.
 4. Voice-memo the Road Home drive first (prompts in `arc-road-home.md`) — arc can't be drafted without it.
 5. Turn on referrals; post 1-2 Notes/day; recommend 3-5 comparable pubs; update `tracker.csv` weekly.
+
+## Related
+
+- [The Light Field — Substack Serialization Strategy](/projects/the-light-field-substack-serialization-strategy/)
+- [A Plain of Jars — Project Bible](/projects/a-plain-of-jars-bible/)

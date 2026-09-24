@@ -1,14 +1,14 @@
 ---
 title: "The Off-Ramp — YouTube Channel Plan"
-description: "Help average computer users see how open-source tools can replace paid subscription AI models — save money, avoid corporate walled gardens, and extend the life of hardware they alr"
+description: "A detailed plan for a YouTube channel focused on open-source AI alternatives for average users."
 date: "2026-09-23"
-tags: ["project","youtube","foss","content-creation"]
+tags: ["youtube-channel","open-source","ai-alternatives","normie-tech","subscription-cancellation"]
 source: "Projects/The Off-Ramp - Channel Plan.md"
-status: "seed"
-stage: "idea"
-draft: true
+draft: false
 clarity: 5
 quality: 5
+status: "seed"
+stage: "idea"
 ---
 
 The Off-Ramp — YouTube Channel Plan
@@ -26,7 +26,7 @@ Help average computer users (normies, all ages) see how open-source tools can re
 - Never scolding, always evoking: you don't *need* to keep paying, you don't *need* to keep upgrading
 - **LLM as tech support (flagship)**: show normies how a free/local LLM replaces endless web searching and blog reading. It audits their current computer + software + needs, then outputs a clear, non-jargon migration plan. The model is the tech-support desk; the channel is the guide.
 - The "Switch" journey is the flagship series: audit what you have → state what you want to do → get a simple step-by-step path — per user type, starting from absolute zero.
-- **Brand structure:** The Off-Ramp is the channel + store brand. "The $0 Swap" is the flagship **series** within it — every comparison video is "another $0 Swap," and the public rerunnable benchmarks are "The $0 Swap Benchmarks.">
+- **Brand structure:** The Off-Ramp is the channel + store brand. "The $0 Swap" is the flagship **series** within it — every comparison video is "another $0 Swap," and the public rerunnable benchmarks are "The $0 Swap Benchmarks.>
 
 #### Why This Gap Exists (validation, Sept 2026)
 - Existing "local AI" YouTube is developer-shaped: 111 creators, 200+ indexed Ollama videos, mostly terminal/coding content (top video: 588K views, "Claude Code FREE Forever via Ollama")
@@ -198,7 +198,10 @@ Every swap is another $0 Swap. Subscribe and take the off-ramp.
 1. **Hook (0:00–0:06)** — "My AI tools cost me $84 a month. I just canceled them. And I can do everything they did for $0."
 2. **The problem (0:06–0:22)** — subscription bills stacking; the upgrade treadmill; "your computer isn't obsolete — the plan is."
 3. **The premise (0:22–0:40)** — free open-source tools + the hardware you already own; "I run paid vs free through the same tests and show the receipts."
-4. **Show, don't tell (0:40–1:10)** — fast cuts: a free ChatGPT-class model downloaded in 15 minutes · Whisper transcribing a meeting · a 2015 MacBook running Linux smooth · a $400 used-PC AI rig · "and when a free app quietly uploads your data, we're the ones who'll say it."
-5. **The push (1:10–1:30)** — "Still renting your software? The off-ramp is right here. Subscribe."
+4. **Show, don't tell (0:40–1:10)** — fast cuts: a free ChatGPT-class model downloaded in 15 minutes · Whisper transcribing a meeting · a 2015 MacBook running Linux smooth · a $400 used-PC AI rig · "and when a free app
 
-**Handle check (before creating the channel):** youtube.com/@theofframp, @offramp … — claim early; trademark search "The Off-Ramp" + "Off-Ramp" (store naming) before any merch/storefront.
+## Related
+
+- [Substack Launch Plan — A Plain of Jars](/projects/substack-launch-plan/)
+- [Implementation Plan: Video Graphic FX & Multi-Channel OBS-Style Routing Engine](/projects/implementation-plan-31/)
+- [Implementation Plan — COMMONS Landing Page & Kickstarter Refinement]

@@ -1,4 +1,5 @@
 ---
+draft: true
 title: "Craft over compliance"
 description: "A thing worth making is worth making well, even when nobody is watching the details."
 weight: 10

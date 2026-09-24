@@ -1,14 +1,14 @@
 ---
 title: "Implementation Plan — COMMONS Landing Page & Kickstarter Refinement"
-description: "Refine the COMMONS public-good GPU network landing page to launch an open community funding pool, recruit developers, showcase interactive UI mockups, and detail an initial compute"
+description: "Refines the COMMONS landing page and Kickstarter campaign for open community funding and developer recruitment."
 date: "2026-09-05"
-tags: ["antigravity","artifact","gpu","funding","community","development","ui","public_good"]
+tags: ["implementation","landing-page","kickstarter","community-funding","ui-mockups"]
 source: "antigravity://e0cfebda-783b-4bd1-b3c0-3f23425daaca/implementation_plan.md"
-status: "seed"
-stage: "idea"
 draft: true
 clarity: 4
 quality: 4
+status: "seed"
+stage: "idea"
 ---
 
 ### Implementation Plan — COMMONS Landing Page & Kickstarter Refinement
@@ -57,3 +57,8 @@ Refine the **COMMONS** public-good GPU network landing page to launch an open co
 
 ##### Manual Verification
 - Launch local HTTP server (`python3 -m http.server 3456`) and inspect all interactive UI mockups, tab switches, modal popups, and Kickstarter funding track toggles in browser.
+
+## Related
+
+- [Implementation Plan: Undertone Project Recovery, Pitch Deck & User Acquisition Strategy](/projects/implementation-plan/)
+- [Implementation Plan: Video Graphic FX & Multi-Channel OBS-Style Routing Engine](/projects/implementation-plan-31/)

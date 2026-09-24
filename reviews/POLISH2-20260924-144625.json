@@ -1,0 +1,16 @@
+{
+  "generatedAt": "2026-09-24T14:46:23.102Z",
+  "model": "qwen3-4b",
+  "processed": [
+    {
+      "from": "blog/2026-08-04.md",
+      "to": null,
+      "title": "makerspace costs and vehicle security business analysis",
+      "section": "blog",
+      "verdict": "keep"
+    }
+  ],
+  "moved": [],
+  "failed": [],
+  "unchanged": 0
+}

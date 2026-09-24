@@ -10,6 +10,26 @@
 - **Review → promote** is the only way content reaches the served site: a classified review tree (`reviews/<ts>/` + `MANIFEST.md`) is checked by the owner, and `npm run promote` copies only `[x]`-approved entries into `src/content/<section>/`.
 - `draft: true` (set automatically on journal/blog entries) keeps a published file off the public pages until the owner flips it. GitHub Pages deploys happen via the `deploy.yml` workflow; never deploy outside that path.
 
+## Beta stage: LLM owns the editorial decisions (owner directive, 2026-09-24)
+
+**This section deliberately overrides "never auto-publish" above, for the shaping pass only.**
+
+- JD's instruction: for this beta prototype, **the LLM decides everything about how content is
+  formatted, categorized, titled, focused and backlinked.** Do not ask for per-post approval and do
+  not hold results as `draft: true` awaiting sign-off. JD will curate *afterwards* — altering or
+  excluding any post from the public build is his prerogative, not a precondition for the work.
+- This is an explicit test of capability: can a cloud-GPU LLM take a large, non-uniform, badly
+  formatted corpus and mold it into this site's constrained blog format, from first principles and
+  the creator's own writing, without hand-holding?
+- The work runs on **RunPod** (provision only while processing; stop immediately after — see the
+  RunPod cost guard in `/home/jd/Prototypes/AGENTS.md`).
+- **What this does NOT change:** deploying to the public internet. There is no deploy path in this
+  repo. `draft: false` means "included in the local build and on localhost", not "pushed to GitHub
+  Pages". Any real publish remains a manual, owner-initiated step.
+- **Revert path:** everything is regenerable from `reviews/` plus `.staging-backups/`, and
+  `baseline-staging-2026-09-24` is the pre-beta tag. `scripts/shape-posts.mjs` is idempotent-ish:
+  re-running it reshapes whatever is currently in `src/content`.
+
 ## Commands
 - Build: `npm run build` (local) else the GitHub Actions workflow `pnpm build` (CI). Preview: `npm run dev` (localhost) / `npm run preview` (built output).
 - Review loop (the daily flow):

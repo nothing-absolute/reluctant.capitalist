@@ -1,4 +1,5 @@
 ---
+draft: true
 title: "Relay over ownership"
 description: "If I can't carry a project forward, the next best thing is handing it to someone who can — with the credit intact."
 weight: 6

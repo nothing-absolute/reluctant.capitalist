@@ -1,14 +1,16 @@
 ---
 title: "Undertone Project Restoration & Deliverables Walkthrough"
-description: "The lost Undertone project context has been fully recovered, with a comprehensive pitch deck and user acquisition plans generated."
+description: "Walkthrough of restored Undertone project with pitch deck and user acquisition plans"
 date: "2026-09-05"
-tags: ["antigravity","artifact","pitch_deck","user_acquisition","kickstarter","undertone"]
+tags: ["project-restoration","pitch-deck","user-acquisition"]
 source: "antigravity://5a4bc721-cb05-481d-bdd6-a401492be258/walkthrough.md"
-type: "notes"
-draft: true
+draft: false
 clarity: 4
 quality: 4
+type: "notes"
 ---
+
+## papers
 
 The lost **Undertone** project context from conversation `39a111a2-ccbd-402d-8470-db9a6c8faca4` has been fully recovered, and the pending pitch deck and user acquisition plans have been generated.
 

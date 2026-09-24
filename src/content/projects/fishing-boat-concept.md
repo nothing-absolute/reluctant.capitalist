@@ -1,14 +1,14 @@
 ---
 title: "Fishing Boat Concept: Choosing the Right Tech Product to Test"
-description: "Evaluating the feasibility of a chartplotter versus alternative tech products for fishing boats, focusing on risk, production, and market appeal."
+description: "Evaluates the feasibility of different tech products for testing on fishing boats."
 date: "2026-09-23"
-tags: ["project/kickstarter","topic/ai","type/concept","type/idea","concept/obsolescence","concept/pkm"]
+tags: ["fishing-boat","tech-product","kickstarter","marine-electronics","open-source"]
 source: "Projects/Kickstarter/OpenPlotter-Boat-Monitor/fishing-boat-concept.md"
-status: "concept"
-stage: "idea"
-draft: true
+draft: false
 clarity: 4
 quality: 5
+status: "concept"
+stage: "idea"
 ---
 
 is this the most likely to succeed tech product for fishing boats to try this concept out on or is there something else on boats that would be easier to produce or have higher margins?
@@ -18,7 +18,7 @@ Honestly? A full chartplotter is probably the hardest thing you could pick to pi
 **Why the chartplotter tier is high-risk as a first test:**
 - Custom PCB + CNC aluminum enclosure + NMEA 2000 transceiver + GPS module means real tooling costs and long lead times before you ship a single unit — this is exactly the profile of Kickstarter hardware campaigns that blow their timelines by 12-18 months.
 - It has to survive salt spray, vibration, sun glare, and be trusted for actual navigation — that's a much higher reliability bar (and liability exposure) than most gadgets.
-- You're going head-to-head with Garmin/Raymarine/Simrad's entrenched multi-function-display ecosystem, so the sales pitch has to overcome real switching costs, not just "here's a cool new thing."
+- You're going head-to-head with Garmin/Raymarine/Simrad's entrenched multi-function-display ecosystem, so the sales pitch has to overcome real switching costs, not just "here's a cool new thing." 
 - Margins on complex hardware with a custom enclosure are typically thin once you account for BOM, tooling amortization, and inevitable rework/returns.
 
 **What would validate the "open-source, no-VC, no subscriptions" mission with far less execution risk:**
@@ -49,7 +49,7 @@ So a typical boater is looking at roughly **$250-350 upfront** plus **$50-150 ev
 **Your open concept (Signal K box)**
 
 - Hardware: a Pi Zero/ESP 32-class board + CAN transceiver in an off-the-shelf enclosure — no custom PCB tooling, no CNC. BOM is likely in the $15-35 range depending on which board you use.
-- Software: OpenCPN and Signal K are free, open-source, forever — no subscription, no feature paywall, no "your data goes stale if you don't pay."
+- Software: OpenCPN and Signal K are free, open-source, forever — no subscription, no feature paywall, no "your data goes stale if you don't pay." 
 - Charts: NOAA raster/vector charts (US waters) are free and public; the trade-off is you don't get Navionics' proprietary SonarChart crowd-sourced depth data, which is genuinely a nice feature people pay for.
 
 If you price the gateway at, say, **$99-149** one-time, you're likely clearing 60-75%+ gross margin on hardware alone, and the pitch to backers is stark: "$120 once, forever" vs. "$250 + $50-150/year forever." That's a clean, easy-to-understand contrast that does a lot of the selling for you — much easier to message than the chartplotter's more nuanced value prop (which competes on hardware quality/reliability against Garmin, not on subscription economics).

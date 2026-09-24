@@ -1,34 +1,36 @@
 ---
-title: "Android Phone Project"
-description: "Develop a rugged 5-inch Android phone with unlocked bootloader, 512GB ROM, 8GB RAM, running a Linux-based OS with a curated minimal app set."
+title: "Rugged Linux Phone Project"
+description: "Developing a rugged 5-inch Android phone with Linux-based OS and minimal app set"
 date: "2026-09-23"
-tags: ["project/android-phone","project/business","project/cold-storage","topic/ai","topic/content","type/project"]
+tags: ["rugged-phone","linux-os","privacy-focused"]
 source: "Projects/Business/Android Phone Project.md"
-status: "seed"
-stage: "idea"
 draft: true
 clarity: 4
 quality: 4
+status: "seed"
+stage: "idea"
 ---
 
-Develop/design a rugged 5-inch Android phone with unlocked bootloader, 512GB ROM, 8GB RAM, running a Linux-based OS with a curated minimal app set.
+Rugged Linux Phone Project
 
-Fills a niche for users who want a powerful, privacy-focused, minimal phone — not bloated with apps they don't need.
+Develop a rugged 5-inch Android phone with an unlocked bootloader, 512GB ROM, and 8GB RAM that runs a Linux-based OS with a curated set of minimal apps.
+
+This project targets a niche market of users who value privacy and minimalism, seeking a powerful, uncluttered device that isn't burdened by unnecessary software.
 
 **Connects to Area:** Career Development
 
-High priority next actions:
+Next steps:
 - Research existing rugged phone manufacturers (Doogee, Unihertz, etc.)
 - Investigate Linux phone OS options (postmarketOS, Mobian, Ubuntu Touch)
 
-Next actions:
+Additional actions:
 - Research 5-inch form factor availability
-- Look into 512GB storage options for phones
-- Explore white-label/ODM phone manufacturers
+- Explore 512GB storage options for phones
+- Look into white-label/ODM phone manufacturers
 - Investigate certification requirements (FCC, etc.)
-- Create spec sheet for desired phone
+- Create a spec sheet for the desired phone
 
-Target specs:
+Target specifications:
 - Screen: 5 inches
 - Storage: 512GB ROM
 - RAM: 8GB

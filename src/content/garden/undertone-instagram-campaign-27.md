@@ -1,16 +1,16 @@
 ---
 title: "Undertone Guardian Kids Phone — Instagram Ad Campaign"
-description: "A 3-part visual Instagram ad campaign designed to market the Undertone Guardian Phone to tech-conscious parents, digital minimalists, and child online safety advocates."
+description: "Instagram ad campaign for a new kids phone focused on safety and security"
 date: "2026-09-05"
-tags: ["antigravity","artifact","parenting","technology","safety","design","security","kids"]
+tags: ["marketing","ad-campaign","product-launch","safety","technology"]
 source: "antigravity://91f9f987-340f-4b78-b424-2c3f009a5ba0/undertone_instagram_campaign.md"
-vault: false
 draft: true
 clarity: 5
 quality: 5
+vault: false
 ---
 
-### UNDERTONE Guardian Kids Phone — Instagram Ad Campaign
+### Undertone Guardian Kids Phone — Instagram Ad Campaign
 
 A 3-part visual Instagram ad campaign designed to market the **Undertone Guardian Phone** to tech-conscious parents, digital minimalists, and child online safety advocates.
 
@@ -78,3 +78,7 @@ A 3-part visual Instagram ad campaign designed to market the **Undertone Guardia
 > 🚀 Kickstarter campaign launching soon! Link in bio.
 >
 > `#Engineering #CyberSecurity #HardwareDesign #ProductDesign #HardwareSecurity #Meshtastic #LoRA #Undertone`
+
+## Related
+
+- [Undertone Guardian Kids Phone — Instagram Ad Campaign]

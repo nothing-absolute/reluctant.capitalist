@@ -1,18 +1,17 @@
 ---
 title: "A Proposal for Grandpa from JD"
-description: "JD proposes purchasing a travel trailer as a financial investment and seeks grandpa's support and guidance."
+description: "JD proposes a financial investment opportunity to his grandfather involving a travel trailer purchase"
 date: "2026-09-20"
-tags: ["antigravity","artifact","investment","financial","home"]
+tags: ["financial","investment","rv","ownership","home"]
 source: "antigravity://dbdcf6c1-0717-4d68-82d2-da05ab7e142e/grandpa_pitch_letter.md"
-vault: false
-draft: true
+draft: false
 clarity: 4
 quality: 4
+vault: false
 ---
 
-A Smart Investment in Independence & Ownership
+A Proposal for Grandpa from JD
 
-**A Proposal for Grandpa from JD**
 Date: September 20, 2026
 
 Dear Grandpa,

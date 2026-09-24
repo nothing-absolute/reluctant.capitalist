@@ -1,15 +1,17 @@
 ---
-title: "Build shop-partner pitch HTML (@general subagent)"
-description: "You are building the shop-partner pitch page. Read the authoritative prompt file first, with full care:"
+title: "Build shop-partner pitch HTML"
+description: "A working session on building an HTML pitch page for shop partners"
 date: "2026-09-20"
-tags: ["opencode","session"]
+tags: ["opencode","html","pitch-page"]
 source: "opencode://silent-comet"
 draft: true
 clarity: 4
 quality: 4
 ---
 
-What this is: an opencode working session — 12 messages.
+## Build shop-partner pitch html (@general subagent)
+
+This is an opencode working session — 12 messages.
 
 When: 2026-09-20 · Working directory: /home/jd/Prototypes
 

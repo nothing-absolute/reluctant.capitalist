@@ -1,15 +1,17 @@
 ---
 title: "Tour Calendar Monitor: Automating Music Tour Tracking"
-description: "A project to automatically track tour dates of independent bands through their websites, email lists, and social media."
+description: "Automated system to track tour dates of independent artists"
 date: "2026-09-23"
-tags: ["calendar","monitoring","music","project","kickstarter","music"]
+tags: ["calendar","monitor","music","automation","tracking"]
 source: "Projects/Music/Tour-Calendar-Monitor.md"
-status: "concept"
-stage: "idea"
-draft: true
+draft: false
 clarity: 4
 quality: 4
+status: "concept"
+stage: "idea"
 ---
+
+Tour Calendar Monitor: Automating Music Tour Tracking
 
 A calendar that automatically monitors favorite bands' websites and email lists for upcoming tour announcements. Most of these bands are independent, so their shows never appear on the popular aggregator apps (Bandsintown, Songkick, Ticketmaster). The system watches the channels the bands actually control, extracts tour dates, and feeds them into a calendar.
 

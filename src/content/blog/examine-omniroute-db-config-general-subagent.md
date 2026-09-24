@@ -1,13 +1,15 @@
 ---
 title: "Examine OmniRoute DB & config"
-description: "A working session to thoroughly examine the current OmniRoute setup."
+description: "A working session to examine OmniRoute setup and configuration"
 date: "2026-08-31"
-tags: ["opencode","session"]
+tags: ["opencode","omniroute","configuration"]
 source: "opencode://eager-squid"
 draft: true
 clarity: 4
 quality: 4
 ---
+
+## Examine OmniRoute DB & config
 
 This is an opencode working session — 9 messages.
 

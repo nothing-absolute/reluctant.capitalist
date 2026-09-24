@@ -1,13 +1,13 @@
 ---
 title: "UNDERTONE — OpenCode Agent System Prompt"
-description: "A detailed prompt for initializing the UNDERTONE ecosystem, covering research, hardware/software architecture, and multi-campaign roadmap."
+description: "AI agent system prompt for the UNDERTONE project"
 date: "2026-09-05"
-tags: ["antigravity","artifact"]
+tags: ["ai-prompt","project-prompt","open-source","hardware-security"]
 source: "antigravity://7e8d74f9-5e41-4a79-816e-ebfc01860752/undertone_opencode_prompt.md"
-vault: false
-draft: true
+draft: false
 clarity: 5
 quality: 5
+vault: false
 ---
 
 ### UNDERTONE — OpenCode Agent System Prompt

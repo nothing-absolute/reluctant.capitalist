@@ -1,15 +1,17 @@
 ---
 title: "Launching a YouTube Channel: Xennial Stories and Indie Content"
-description: "A project to launch a YouTube channel focusing on Xennial generation stories and expanding to indie music and history content, with a goal of publishing the first video within 60 d"
+description: "Project to launch a YouTube channel focused on Xennial generation stories and indie content."
 date: "2026-09-23"
-tags: ["project/youtube","topic/content","type/project","project/android-phone","project/cold-storage","project/documentary"]
+tags: ["youtube","content-creation","video-production"]
 source: "Projects/YouTube/YouTube Channel.md"
-status: "seed"
-stage: "idea"
-draft: true
+draft: false
 clarity: 4
 quality: 4
+status: "seed"
+stage: "idea"
 ---
+
+## Launching a YouTube Channel: Xennial Stories and Indie Content
 
 Launch a YouTube channel with consistent content, starting with Xennial generation stories and expanding to indie music/history content. First video published within 60 days.
 
@@ -88,3 +90,9 @@ This is a core creative outlet and potential income stream. JD can clearly see t
 - The Xennial angle is compelling — bridges Gen X and Millennial experiences
 
 **Next sprint focus:** Script the first video and outline 5 concepts formally.
+
+## Related
+
+- [2026 08 01 - Project Updates and Valuation Insights](/blog/2026-08-01/)
+- [2026 08 02](/blog/2026-08-02/)
+- [Small-Scale Biodiesel Refinery Costs (Proof of Concept)]

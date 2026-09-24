@@ -1,14 +1,14 @@
 ---
 title: "YouTube Process Channel — The Making of A Plain of Jars"
-description: "A YouTube channel documenting the creation of a graphic novel, with content that also generates revenue outside the book project."
+description: "YouTube channel documenting the creation of the graphic novel"
 date: "2026-09-23"
-tags: ["YouTube","Graphic Novel","Content Creation","Revenue Streams","Documentary"]
+tags: ["youtube","graphic-novel","documentary","content-creation"]
 source: "Projects/a-plain-of-jars/youtube-process-channel.md"
-status: "seed"
-stage: "idea"
-draft: true
+draft: false
 clarity: 4
 quality: 5
+status: "seed"
+stage: "idea"
 ---
 
 YouTube Process Channel — "The Making of A Plain of Jars"
@@ -65,3 +65,9 @@ This is where the actual income of the whole project lives — not the KS surplu
 - KPI at month 6: 1k subs OR 50k views/mo OR 200+ newsletter signups via channel. If none, revise format before burning year 2.
 
 *Link: projects/a-plain-of-jars/kickstarter-financial-model.md (production/tail money) — the channel is now modeled as the primary income engine alongside it.*
+
+## Related
+
+- [A Plain of Jars — Project Bible](/projects/a-plain-of-jars-bible/)
+- [A Plain of Jars — Story Bible Addendum: The MLM Truth Project](/projects/a-plain-of-jars-story-bible-addendum-the-mlm-truth-project/)
+- [The Light Field — Substack Serialization Strategy](/projects/the-light-field-substack-serialization-strategy/)

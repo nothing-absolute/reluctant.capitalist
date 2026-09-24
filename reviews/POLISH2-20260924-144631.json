@@ -1,0 +1,16 @@
+{
+  "generatedAt": "2026-09-24T14:46:28.897Z",
+  "model": "qwen3-4b",
+  "processed": [
+    {
+      "from": "blog/2026-09-03.md",
+      "to": null,
+      "title": "obsidian vault consolidation and tagging strategy",
+      "section": "blog",
+      "verdict": "keep"
+    }
+  ],
+  "moved": [],
+  "failed": [],
+  "unchanged": 0
+}

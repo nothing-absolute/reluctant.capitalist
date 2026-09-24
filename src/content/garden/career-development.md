@@ -1,47 +1,49 @@
 ---
 title: "Career Development"
-description: "Building sustainable income streams through content creation, entrepreneurship, and creative projects."
+description: "Strategic planning for sustainable income through content creation and entrepreneurship"
 date: "2026-09-23"
-tags: ["project/android-phone","project/cold-storage","project/youtube","topic/adhd","topic/ai","topic/content"]
+tags: ["career-planning","income-streams","project-management","entrepreneurship"]
 source: "Areas/Career Development.md"
-vault: true
 draft: true
 clarity: 4
 quality: 4
+vault: true
 ---
+
+career-development
 
 Building sustainable income streams through content creation, entrepreneurship, and creative projects.
 
-#### Purpose & Standards
+Purpose & Standards
 
-**What I'm maintaining:**
-Multiple career tracks: YouTube content, business ventures, tech projects.
+What I'm maintaining:
+- Multiple career tracks: YouTube content, business ventures, tech projects.
 
-**Standards to uphold:**
+Standards to uphold:
 - Consistent progress on at least one project per week
 - Monthly review of all projects
 - Capture all new ideas immediately
 
-#### Active Projects
+Active Projects
 
 - YouTube Channel - Status: active
 - Cold Storage Business - Status: active
 - Android Phone Project - Status: active
 
-#### High Priority Tasks
+High Priority Tasks
 
 > Scanned FIRST during daily planning
 
 (none currently — tasks live in projects)
 
-#### Next Actions
+Next Actions
 
 > Regular priority one-off tasks for this area
 
 - [ ] Set up weekly project review ritual
 - [ ] Create "project parking lot" for ideas that don't fit existing projects
 
-#### Someday/Maybe
+Someday/Maybe
 
 > Lower priority - SKIPPED during daily planning
 
@@ -49,26 +51,30 @@ Multiple career tracks: YouTube content, business ventures, tech projects.
 - [ ] Build passive income streams
 - [ ] Create online course about ADHD productivity
 
-#### Waiting On
+Waiting On
 
 > Blocked items
 
 (none currently)
 
-#### Recurring Responsibilities
+Recurring Responsibilities
 
-**Weekly:**
+Weekly:
 - [ ] Review all active projects (Sunday)
 
-**Monthly:**
+Monthly:
 - [ ] Update goals and priorities
 - [ ] Archive completed projects
 
-#### Completed This Week
+Completed This Week
 
 (none yet)
 
-#### Resources & References
-
+Resources & References
 - Assisting-User-Context - Goals and priorities
 - AI Setup Guide - Technical setup reference
+
+## Related
+
+- [Cold Storage Business]
+- [Launching a YouTube Channel: Xennial Stories and Indie Content](/projects/youtube-channel/)

@@ -1,4 +1,5 @@
 ---
+draft: true
 title: "Pitch vs. Prototype"
 description: "Four panels on the gap between what I imagine shipping and what actually ships."
 series: "The Gap"

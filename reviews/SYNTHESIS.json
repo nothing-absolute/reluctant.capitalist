@@ -1,0 +1,140 @@
+{
+  "generatedAt": "2026-09-24T17:00:40.114Z",
+  "model": "qwen14b",
+  "applied": true,
+  "posts": [
+    {
+      "theme": "odysseus-toolchain",
+      "section": "projects",
+      "slug": "odysseus-the-local-first-agent-toolchain",
+      "title": "Odysseus: The Local-first Agent Toolchain",
+      "goal": "To provide a comprehensive guide on setting up and utilizing Odysseus as a robust personal AI stack that prioritizes local processing while leveraging cloud resources when needed.",
+      "outcome": "The posts detail various aspects of building and maintaining Odysseus, from installing open-source models to troubleshooting setup issues and optimizing performance.",
+      "members": 86,
+      "linksEmitted": 86,
+      "confidence": 0.95
+    },
+    {
+      "theme": "second-brain",
+      "section": "concepts",
+      "slug": "the-second-brain-and-what-it-is-actually-for",
+      "title": "The Second Brain, and What It Is Actually For",
+      "goal": "To clarify the purpose and structure of JD’s digital ecosystem designed to support his creative and professional endeavors through knowledge management and automation.",
+      "outcome": "JD has built an interconnected system of tools and workflows—his 'second brain'—that allows him to manage ideas, projects, and daily tasks with precision and efficiency. This post outlines the components of this system and explains its significance in facilitating his work without compromising on depth or integrity.",
+      "members": 66,
+      "linksEmitted": 66,
+      "confidence": 1
+    },
+    {
+      "theme": "openplotter",
+      "section": "projects",
+      "slug": "openplotter-an-open-boat-monitoring-platform",
+      "title": "OpenPlotter — an open boat-monitoring platform",
+      "goal": "To create a comprehensive, community-driven monitoring system for boats using open-source technology.",
+      "outcome": "Working means having a fully functional prototype that can be tested on real-world conditions with clear user feedback loops.",
+      "members": 55,
+      "linksEmitted": 55,
+      "confidence": 0.95
+    },
+    {
+      "theme": "the-machine",
+      "section": "projects",
+      "slug": "the-machine-a-channel-about-how-systems-capture-people",
+      "title": "The Machine: A Channel About How Systems Capture People",
+      "goal": "To create an educational platform that exposes the mechanisms behind system manipulation, particularly focusing on Multi-Level Marketing (MLM) schemes and deceptive self-improvement practices.",
+      "outcome": "Working means having a clear thesis, defined pillars, a structured release plan, and a functioning publishing pipeline to produce consistent content.",
+      "members": 49,
+      "linksEmitted": 49,
+      "confidence": 1
+    },
+    {
+      "theme": "addiction-recovery",
+      "section": "papers",
+      "slug": "the-tunnel-and-the-way-out",
+      "title": "The Tunnel and the Way Out",
+      "goal": "To provide an unsentimental account of JD's journey through opioid use and eventual recovery, focusing on concrete steps that led to a better life.",
+      "outcome": "Working looks like sharing honest reflections without glorifying or romanticizing any part of the experience. The goal is clarity and utility for those navigating similar paths.",
+      "members": 44,
+      "linksEmitted": 44,
+      "confidence": 1
+    },
+    {
+      "theme": "undertone",
+      "section": "projects",
+      "slug": "undertone-a-documentary-project-on-algorithmic-reach",
+      "title": "Undertone — a documentary project on algorithmic reach",
+      "goal": "To create a comprehensive documentary film called Undertone that delves into the mechanisms behind algorithmic influence over social media platforms, particularly focusing on TikTok and YouTube.",
+      "outcome": "Working means having completed all necessary content creation tasks such as writing scripts, designing thumbnails, planning campaigns, and implementing technical solutions to support the production process.",
+      "members": 28,
+      "linksEmitted": 28,
+      "confidence": 0.95
+    },
+    {
+      "theme": "makerspace",
+      "section": "concepts",
+      "slug": "community-compute-and-the-resurrected-third-space",
+      "title": "Community Compute and the Resurrected Third Space",
+      "goal": "To outline a clear path towards establishing cooperative data centers and makerspaces that serve communities while addressing key governance issues.",
+      "outcome": "A cohesive narrative on the concept hub's development, current state, and future direction, emphasizing the importance of community involvement and open-source models.",
+      "members": 19,
+      "linksEmitted": 19,
+      "confidence": 0.95
+    },
+    {
+      "theme": "music-hardware",
+      "section": "concepts",
+      "slug": "open-music-hardware-and-the-crowdfunding-trap",
+      "title": "Open Music Hardware and the Crowdfunding Trap",
+      "goal": "To provide insights into creating sustainable and community-driven open-source music hardware products while avoiding common pitfalls such as reliance on unsustainable crowdfunding models.",
+      "outcome": "A comprehensive understanding of the current state of open-source music hardware development, including market research, design considerations, and potential pathways forward that prioritize long-term sustainability over short-lived success through crowdfunding campaigns.",
+      "members": 16,
+      "linksEmitted": 16,
+      "confidence": 1
+    },
+    {
+      "theme": "family-capture",
+      "section": "papers",
+      "slug": "the-pipeline-that-captured-my-father",
+      "title": "The pipeline that captured my father",
+      "goal": "To expose the mechanics of self-help-to-extraction pipelines through personal experience and data analysis, aiming to help those ensnared within them find their way out.",
+      "outcome": "Working means understanding the mechanisms behind these systems, recognizing patterns, and providing actionable insights for escape.",
+      "members": 13,
+      "linksEmitted": 13,
+      "confidence": 1
+    },
+    {
+      "theme": "hydration-station",
+      "section": "projects",
+      "slug": "hydration-station-free-water-community-owned",
+      "title": "Hydration Station — Free Water, Community Owned",
+      "goal": "To create sustainable, accessible hydration stations powered by renewable energy that are owned and maintained by local communities.",
+      "outcome": "The outcome of Hydration Station will be a network of free, clean drinking fountains across Sioux Falls and beyond, supported by both individual contributions and cooperative funding models.",
+      "members": 13,
+      "linksEmitted": 13,
+      "confidence": 95
+    },
+    {
+      "theme": "a-plain-of-jars",
+      "section": "projects",
+      "slug": "a-plain-of-jars",
+      "title": "A Plain of Jars",
+      "goal": "To create an honest, deeply personal narrative about growth, addiction, and redemption, presented both visually and textually with clear goals for distribution and impact.",
+      "outcome": "This body of work outlines the structure and release plan for A Plain of Jars, including research notes, financial models, serialization strategies, and artist partnerships. It aims to ensure transparency in every aspect of the creative process while maintaining artistic integrity.",
+      "members": 12,
+      "linksEmitted": 12,
+      "confidence": 1
+    },
+    {
+      "theme": "mlm-truth",
+      "section": "projects",
+      "slug": "mlm-truth-an-instrument-not-an-argument",
+      "title": "MLM Truth — an instrument, not an argument",
+      "goal": "To create a clear, mathematically sound resource that exposes the economic realities of multi-level marketing (MLM) schemes without resorting to emotional appeals or personal attacks.",
+      "outcome": "The MLM Truth Project aims to provide users with tools and information to understand how MLMs function financially, thereby enabling informed decisions about participation.",
+      "members": 10,
+      "linksEmitted": 10,
+      "confidence": 90
+    }
+  ],
+  "failed": []
+}
