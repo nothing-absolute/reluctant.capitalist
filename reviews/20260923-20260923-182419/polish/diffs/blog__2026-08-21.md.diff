@@ -1,0 +1,9 @@
+--- a/blog/2026-08-21.md
++++ b/blog/2026-08-21.md
+@@ -1,3 +1,3 @@
+-### Captures
++#### Captures
+ **00:05 - Lion King Standee VHS Cartoon (full animatic)**
+-Built complete Home Movies / 90s VHS vintage cartoon of the full 1994 Lion King theatrical standee unboxing script. 30 shots, 3:28, local PIL+FFmpeg animatic with VHS overlays + per-shot camera motion. Output: `/home/jd/Prototypes/video-pipeline/scripts/output/lion_king_standee/lion_king_standee_vhs_full.mp4`. Pod-ready manifest: `animation_frames/animation_manifest_full.json`. True AI diffusion version still pending: needs `wan_t2v_api_workflow.json` exported from ComfyUI on the RunPod pod + `COMFYUI_URL` set, then `generate_home_movies_video.py`.
++Built complete Home Movies / 90s VHS vintage cartoon of the full 1994 Lion King theatrical standee unboxing script. 30 shots, 3:28, local PIL+FFmpeg animatic with VHS overlays + per-shot camera motion. Output: `/home/jd/Prototypes/video-pipeline/scripts/output/lion_king_standee/lion_king_standee_vhs_full.mp4`. Pod-ready manifest: `animation_frames/animation_manifest_full.json`. True AI diffusion version still pending: needs `wan_t2v_api_workflow.json` exported from ComfyUI on the RunPod pod + `COMFYUI_URL` set, then `generate_home_movies_video.py`.
+\ No newline at end of file

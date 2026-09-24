@@ -1,0 +1,15 @@
+--- a/blog/tor-and-helium-browser-keyboard-input-issues.md
++++ b/blog/tor-and-helium-browser-keyboard-input-issues.md
+@@ -1,7 +1,6 @@
+-**What this is:** an opencode working session — 13 messages.
++What this is: an opencode working session — 13 messages.
+ 
+-**When:** 2026-09-19 · **Working directory:** `/home/jd/Prototypes`
++When: 2026-09-19 · Working directory: /home/jd/Prototypes
+ 
+-**Opened with:**
+-
+-> Tor browser and a few helium browser windows are not getting text input from keyboard
++Opened with:
++> Tor browser and a few helium browser windows are not getting text input from keyboard
+\ No newline at end of file

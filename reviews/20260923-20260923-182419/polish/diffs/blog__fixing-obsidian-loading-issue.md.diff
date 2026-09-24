@@ -1,0 +1,15 @@
+--- a/blog/fixing-obsidian-loading-issue.md
++++ b/blog/fixing-obsidian-loading-issue.md
+@@ -1,7 +1,7 @@
+-**What this is:** an opencode working session — 27 messages.
++What this is: an opencode working session — 27 messages.
+ 
+-**When:** 2026-08-31 · **Working directory:** `/home/jd/Prototypes`
++When: 2026-08-31 · Working directory: /home/jd/Prototypes
+ 
+-**Opened with:**
++Opened with:
+ 
+-> Obsidian is not able to open and load correctly. Help find the problem and fix it.
++> Obsidian is not able to open and load correctly. Help find the problem and fix it.
+\ No newline at end of file

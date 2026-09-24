@@ -1,0 +1,115 @@
+--- a/projects/weekly-plan-2026-08-03.md
++++ b/projects/weekly-plan-2026-08-03.md
+@@ -1,11 +1,11 @@
+-## Weekly Plan — Aug 3–9, 2026
++Weekly Plan — Aug 3–9, 2026
+ 
+ > Built by the ADHD project guru from everything in the vault + `Prototypes/`. Rules:
+ > - **3 micro-tasks/day**, each ≤ 60 min, each with a visible finish (dopamine hit).
+ > - **1 big task/day** for flow/hyperfocus. It rolls over with **zero pressure** — only do it if you're mentally up for it. Started but not finished? Write a **saved state** line; resume anywhere.
+ > - Micro-tasks roll over too. **Refocus Guardian** (Prototypes/focus-guardian) is the notification: when it detects you scattered, it asks how you feel and offers today's easiest micro-task.
+ 
+-### 🎯 This Week's Goals (ranked)
++#### 🎯 This Week's Goals (ranked)
+ 
+ 1. **Sentinel → launch-track.** Finish the last validation boxes, kick off hardware + FCC, produce campaign assets. (KS launch Oct 1 — 8 weeks out.)
+ 2. **Refocus Guardian v0.1.** Build the full-screen refocus/notification system so the schedule enforces itself.
+@@ -13,9 +13,9 @@
+ 4. **Passive income:** LEGO top-4 + Lion King standee listed on eBay.
+ 5. **Passion project (no deadline):** pedal demo channel — contact 3 boutique makers.
+ 
+-### 📌 Daily Plan
++#### 📌 Daily Plan
+ 
+-#### Monday — Aug 3 · *Sentinel engine day*
++##### Monday — Aug 3 · *Sentinel engine day*
+ 
+ **Micro-tasks (≤1hr each):**
+ - [ ] **[30m]** Update `Prototypes/sentinel/index.html` story copy → bundled 1NCE SIM ("10 years of connectivity included"). *Done when: hero + connectivity section mention 1NCE.*
+@@ -26,7 +26,7 @@
+ - *Saved state:* ____________________
+ - *Skip without guilt. Carry to Tue.*
+ 
+-#### Tuesday — Aug 4 · *Validation + campaign assets*
++##### Tuesday — Aug 4 · *Validation + campaign assets*
+ 
+ **Micro-tasks:**
+ - [ ] **[20m]** Post the survey → r/boating, r/sailing, r/liveaboard + The Hull Truth / Cruisers Forum. *Done when: 4+ posts live, links tracked.*
+@@ -36,7 +36,7 @@
+ **Big task (flow):** 🏄 **Write the 60-second campaign video script + shot list** (hook: "Your boat sank last night. You found out at 7am.").
+ - *Saved state:* ____________________
+ 
+-#### Wednesday — Aug 5 · *Hardware + pricing*
++##### Wednesday — Aug 5 · *Hardware + pricing*
+ 
+ **Micro-tasks:**
+ - [ ] **[30m]** Compare FCC lab quotes → pick winner, lock cost ($6k–12k) + 4–8wk timeline into `business-plan.md`. *Done when: decision + date written down.*
+@@ -46,7 +46,7 @@
+ **Big task (flow):** 🏄 **ValueLens — full collection re-import + real sold-price pipeline** (Groq budget-aware: downscale + retry failed rows).
+ - *Saved state:* ____________________
+ 
+-#### Thursday — Aug 6 · *Prototype build*
++##### Thursday — Aug 6 · *Prototype build*
+ 
+ **Micro-tasks:**
+ - [ ] **[30m]** Start KiCad schematic: ESP32-S3 + SIM7080G + power regulation. *Done when: first sheet has MCU + modem + rails.*
+@@ -56,7 +56,7 @@
+ **Big task (flow):** 🏄 **KiCad schematic → PCB placement** (Sentinel v0.1).
+ - *Saved state:* ____________________
+ 
+-#### Friday — Aug 7 · *Build the Guardian*
++##### Friday — Aug 7 · *Build the Guardian*
+ 
+ **Micro-tasks:**
+ - [ ] **[45m]** Guardian: activity detection (active window via `xprop` + Firefox history entropy). *Done when: terminal logs scatter score.*
+@@ -66,7 +66,7 @@
+ **Big task (flow):** 🏄 **Guardian: win-memory + "win clip" recording** (after a task completes, record a 15s webcam clip; replay it at future distraction prompts).
+ - *Saved state:* ____________________
+ 
+-#### Saturday — Aug 8 · *Money day*
++##### Saturday — Aug 8 · *Money day*
+ 
+ **Micro-tasks:**
+ - [ ] **[30m]** LEGO: verify top-4 sets vs Bricklink parts lists + photograph. *Done when: 4 sets verified & shot.*
+@@ -76,7 +76,7 @@
+ **Big task (flow):** 🏄 **eBay listing marathon** — Tier 2/3 LEGO + shipping terms (or skip → take the day off; both are wins).
+ - *Saved state:* ____________________
+ 
+-#### Sunday — Aug 9 · *Recovery / passion*
++##### Sunday — Aug 9 · *Recovery / passion*
+ 
+ **Micro-tasks:**
+ - [ ] **[30m]** Pedal channel: identify 5 boutique makers → contact 3 (email/IG). *Done when: 3 messages sent.*
+@@ -86,14 +86,14 @@
+ **Big task (flow):** 🏄 *Optional:* pedal demo experiment (local LLM-generated demo audio). Or rest. No pressure either way.
+ - *Saved state:* ____________________
+ 
+-### 🔁 Rollover Rules
++#### 🔁 Rollover Rules
+ 
+ - **Big task** → moves to next day automatically. No guilt, no penalty. Skipped 2+ days in a row → either breaks into micro-chunks or goes to a weekend flow slot.
+ - **Started big task but didn't finish?** Write the *saved state* line (where you are + the next 5-minute action). Resume picks up from there instantly.
+ - **Micro-task** → rolls over, and Guardian features it first when it catches you scattered.
+ - **Rolled over twice** → promoted to top of tomorrow's list + Guardian's featured suggestion.
+ 
+-### 🤖 Refocus Guardian (the notification)
++#### 🤖 Refocus Guardian (the notification)
+ 
+ Built this week in `Prototypes/focus-guardian/`. When browser/desktop activity looks scattered:
+ 
+@@ -103,7 +103,7 @@
+ 4. Shows past wins: "Last Tue you stopped a scroll, finished the survey draft — that felt good." Later: plays a **win clip** you recorded after finishing a task.
+ 5. **No time limits, no blocking.** Lockouts only exist as an *opt-in* extreme mode (e.g. 4+ hr porn/binge streak, or hours of "how do I code X" without picking a roadmap).
+ 
+-### 📚 Projects referenced
++#### 📚 Projects referenced
+ 
+ - Sentinel: `Prototypes/sentinel/` (README = master plan, `plan/` = business/cert/tech)
+ - ValueLens: `Prototypes/value-lens/` (Flask app, :5000)
+@@ -112,4 +112,4 @@
+ - RunPod video-gen: `Prototypes/runpod-video-gen/` (blocked on RunPod account — decide Sunday)
+ - TikTok funnel: `Prototypes/tiktok-funnel/` (posting API still stubbed — backburner)
+ - Pedal channel: `Documents/01-Projects/YouTube-Pedal-Demo-Channel.md` + `Pitch-for-Mom.md`
+-- LEGO/Lion King: `Documents/temp/lego_selling_plan.md`, `lego_price_estimates.md`
++- LEGO/Lion King: `Documents/temp/lego_selling_plan.md`, `lego_price_estimates.md`
+\ No newline at end of file

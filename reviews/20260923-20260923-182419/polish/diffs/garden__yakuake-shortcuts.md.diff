@@ -1,0 +1,663 @@
+--- a/garden/yakuake-shortcuts.md
++++ b/garden/yakuake-shortcuts.md
+@@ -1,441 +1,281 @@
+-## Shortcuts	for	Yakuake
++### Shortcuts for Yakuake
+ 
+-### Konsolepart
++#### Konsolepart
++
++Action Name Shortcuts Description
++
++Adjust Scrollback...
++
++Allow Mouse Tracking
++
++Auto Save Output As...
++
++Clear Scrollback
++
++Clear Scrollback and Reset Main: Ctrl+Shift+K
++
++Close Session
++
++Copy Main: Ctrl+Shift+C Alternate: Ctrl+Ins
+ 
+-```
+-Action	Name Shortcuts Description
+-```
+-```
+-Adjust	Scrollback...
+-```
+-```
+-Allow	Mouse	Tracking
+-```
+-```
+-Auto	Save	Output	As...
+-```
+-```
+-Clear	Scrollback
+-```
+-```
+-Clear	Scrollback	and	Reset
+-Main: Ctrl+Shift+K
+-```
+-```
+-Close	Session
+-```
+-```
+-Copy
+-Main: Ctrl+Shift+C
+-```
+-```
+-Alternate: Ctrl+Ins
+-```
+-```
+ Copy
+-```
+-```
+-Copy	command	output
+-```
+-```
+-Copy	except	prompts
+-```
+-```
+-Copy	user	input
+-```
+-```
+-Edit	Current	Profile...
+-```
+-```
+-Find	Next
+-Main: F
+-```
+-```
+-Find	Previous
+-Main: Shift+F
+-```
+-```
+-Find...
+-Main: Ctrl+Shift+F
+-```
+-```
+-Next	Profile
+-Main: Ctrl+Alt+N
+-```
+-```
+-Open	File	Manager
+-```
+-```
+-Paste
+-Main: Ctrl+Shift+V
+-```
+-```
+-Alternate: Shift+Ins
+-```
+-```
+-Paste	Selection
+-Main: Ctrl+Shift+Ins
+-```
+-```
+-Previous	Profile
+-Main: Ctrl+Alt+M
+-```
+-```
+-Print	Screen...
+-Main: Ctrl+Shift+P
+-```
+-```
++
++Copy command output
++
++Copy except prompts
++
++Copy user input
++
++Edit Current Profile...
++
++Find Next Main: F
++
++Find Previous Main: Shift+F
++
++Find... Main: Ctrl+Shift+F
++
++Next Profile Main: Ctrl+Alt+N
++
++Open File Manager
++
++Paste Main: Ctrl+Shift+V Alternate: Shift+Ins
++
++Paste Selection Main: Ctrl+Shift+Ins
++
++Print Screen... Main: Ctrl+Shift+P
++
+ Read-Only
+-```
+-```
+-Save	Output	As...
+-Main: Ctrl+Shift+S
+-```
+-```
+-Select	All
+-```
+-```
+-Select	Line
+-```
+-```
+-Select	Mode
+-Main: Ctrl+Shift+D
+-```
+ 
+-**Action	Name Shortcuts Description**
++Save Output As... Main: Ctrl+Shift+S
+ 
+-Set	Encoding
++Select All
+ 
+-Split	View	Left-Right
++Select Line
+ 
+-Split	View	Top-Bottom
++Select Mode Main: Ctrl+Shift+D
+ 
+-Stop	Auto	Save
++**Action Name Shortcuts Description**
+ 
+-About	KDE
++Set Encoding
+ 
+-About	Yakuake
++Split View Left-Right
+ 
+-Close	Active	Terminal
+-Main: Ctrl+Shift+R
++Split View Top-Bottom
+ 
+-Close	Session
+-Main: Ctrl+Shift+W
++Stop Auto Save
+ 
+-Configure	Keyboard	Shortcuts...
+-Main: Ctrl+Alt+,
++About KDE
+ 
+-Configure	Notifications...
++About Yakuake
+ 
+-Configure	Yakuake...
+-Main: Ctrl+Shift+,
++Close Active Terminal Main: Ctrl+Shift+R
+ 
+-Decrease	Window	Height
+-Main: Alt+Shift+Up
++Close Session Main: Ctrl+Shift+W
+ 
+-Decrease	Window	Width
+-Main: Alt+Shift+Left
++Configure Keyboard Shortcuts... Main: Ctrl+Alt+,
+ 
+-Disable	Keyboard	Input
++Configure Notifications...
+ 
+-Edit	Current	Profile...
++Configure Yakuake... Main: Ctrl+Shift+,
+ 
+-Four	Terminals,	Grid
++Decrease Window Height Main: Alt+Shift+Up
+ 
+-Full	Screen	Mode
+-Main: Ctrl+Shift+F
++Decrease Window Width Main: Alt+Shift+Left
+ 
+-Grow	Terminal	to	the	Bottom
+-Main: Ctrl+Alt+Down
++Disable Keyboard Input
+ 
+-Grow	Terminal	to	the	Left
+-Main: Ctrl+Alt+Left
++Edit Current Profile...
+ 
+-Grow	Terminal	to	the	Right
+-Main: Ctrl+Alt+Right
++Four Terminals, Grid
+ 
+-Grow	Terminal	to	the	Top
+-Main: Ctrl+Alt+Up
++Full Screen Mode Main: Ctrl+Shift+F
+ 
+-Increase	Window	Height
+-Main: Alt+Shift+Down
++Grow Terminal to the Bottom Main: Ctrl+Alt+Down
+ 
+-Increase	Window	Width
+-Main: Alt+Shift+Right
++Grow Terminal to the Left Main: Ctrl+Alt+Left
+ 
+-Keep	window	open	when	it	loses	focus
++Grow Terminal to the Right Main: Ctrl+Alt+Right
+ 
+-Manage	Profiles...
++Grow Terminal to the Top Main: Ctrl+Alt+Up
+ 
+-Monitor	for	Activity
+-Main: Ctrl+Shift+A
++Increase Window Height Main: Alt+Shift+Down
+ 
+-Monitor	for	Silence
+-Main: Ctrl+Shift+I
++Increase Window Width Main: Alt+Shift+Right
+ 
+-Move	Session	Left
+-Main: Ctrl+Shift+Left
++Keep window open when it loses focus
+ 
+-Move	Session	Right
+-Main: Ctrl+Shift+Right
++Manage Profiles...
+ 
+-New	Session
++Monitor for Activity Main: Ctrl+Shift+A
+ 
+-**Action	Name Shortcuts Description**
++Monitor for Silence Main: Ctrl+Shift+I
++
++Move Session Left Main: Ctrl+Shift+Left
++
++Move Session Right Main: Ctrl+Shift+Right
++
++New Session
++
++**Action Name Shortcuts Description**
+ 
+-```
+-Main: Ctrl+Shift+T
+-```
+-Next	Session
+-Main: Shift+Right
+-
+-Next	Terminal
+-Main: Ctrl+Tab
+-
+-Open/Retract	Yakuake
+-Global: F
+-
+-Prevent	Closing
+-
+-Previous	Session
+-Main: Shift+Left
+-
+-Previous	Terminal
+-Main: Ctrl+Shift+Tab
+-
+-Quit
+-Main: Ctrl+Shift+Q
+-
+-Rename	Session...
+-Main: Ctrl+Alt+S
+-
+-Report	Bug...
+-
+-Split	Automatically
+-Main: Ctrl+*
+-
+-Split	Left/Right
+-Main: Ctrl+(
+-
+-Split	Top/Bottom
+-Main: Ctrl+)
+-
+-Switch	to	Session
+-Main: Alt+
+-
+-Switch	to	Session
+-Main: Alt+
+-
+-Switch	to	Session
+-Main: Alt+
+-
+-Switch	to	Session
+-Main: Alt+
+-
+-Switch	to	Session
+-Main: Alt+
+-
+-Switch	to	Session
+-Main: Alt+
+-
+-Switch	to	Session
+-Main: Alt+
+-
+-Switch	to	Session
+-Main: Alt+
+-
+-Switch	to	Session
+-Main: Alt+
+-
+-Switch	to	Session
+-Main: Alt+
+-
+-Toggle	Titlebar
+-Main: Ctrl+Shift+M
+-
+-Two	Terminals,	Horizontally
+-
+-Two	Terminals,	Vertically
+-
+-What's	This?
+-Main: Shift+F
+-
+-### Yakuake
+-
+-```
+-Action	Name Shortcuts Description
+-```
+-```
+-About	KDE
+-```
+-```
+-About	Yakuake
+-```
+-```
+-Close	Active	Terminal
+-Main: Ctrl+Shift+R
+-```
+-```
+-Close	Session
+-Main: Ctrl+Shift+W
+-```
+-```
+-Configure	Keyboard	Shortcuts...
+-Main: Ctrl+Alt+,
+-```
+-```
+-Configure	Notifications...
+-```
+-```
+-Configure	Yakuake...
+-Main: Ctrl+Shift+,
+-```
+-```
+-Decrease	Window	Height
+-Main: Alt+Shift+Up
+-```
+-```
+-Decrease	Window	Width
+-Main: Alt+Shift+Left
+-```
+-```
+-Disable	Keyboard	Input
+-```
+-```
+-Edit	Current	Profile...
+-```
+-```
+-Four	Terminals,	Grid
+-```
+-```
+-Full	Screen	Mode
+-Main: Ctrl+Shift+F
+-```
+-```
+-Grow	Terminal	to	the	Bottom
+-Main: Ctrl+Alt+Down
+-```
+-```
+-Grow	Terminal	to	the	Left
+-Main: Ctrl+Alt+Left
+-```
+-```
+-Grow	Terminal	to	the	Right
+-Main: Ctrl+Alt+Right
+-```
+-```
+-Grow	Terminal	to	the	Top
+-Main: Ctrl+Alt+Up
+-```
+-```
+-Increase	Window	Height
+-Main: Alt+Shift+Down
+-```
+-```
+-Increase	Window	Width
+-Main: Alt+Shift+Right
+-```
+-```
+-Keep	window	open	when	it	loses	focus
+-```
+-```
+-Manage	Profiles...
+-```
+-```
+-Monitor	for	Activity
+-Main: Ctrl+Shift+A
+-```
+-```
+-Monitor	for	Silence
+-Main: Ctrl+Shift+I
+-```
+-```
+-Move	Session	Left
+-Main: Ctrl+Shift+Left
+-```
+-```
+-Move	Session	Right
+-Main: Ctrl+Shift+Right
+-```
+-```
+-New	Session
+ Main: Ctrl+Shift+T
+-```
+-```
+-Next	Session
+-Main: Shift+Right
+-```
+-```
+-Next	Terminal
+-Main: Ctrl+Tab
+-```
+ 
+-**Action	Name Shortcuts Description**
++Next Session Main: Shift+Right
++
++Next Terminal Main: Ctrl+Tab
++
++Open/Retract Yakuake Global: F
++
++Prevent Closing
++
++Previous Session Main: Shift+Left
++
++Previous Terminal Main: Ctrl+Shift+Tab
++
++Quit Main: Ctrl+Shift+Q
++
++Rename Session... Main: Ctrl+Alt+S
++
++Report Bug...
++
++Split Automatically Main: Ctrl+*
++
++Split Left/Right Main: Ctrl+(
++
++Split Top/Bottom Main: Ctrl+)
++
++Switch to Session Main: Alt+
++
++Switch to Session Main: Alt+
++
++Switch to Session Main: Alt+
++
++Switch to Session Main: Alt+
++
++Switch to Session Main: Alt+
++
++Switch to Session Main: Alt+
++
++Switch to Session Main: Alt+
++
++Switch to Session Main: Alt+
++
++Switch to Session Main: Alt+
++
++Switch to Session Main: Alt+
++
++Toggle Titlebar Main: Ctrl+Shift+M
++
++Two Terminals, Horizontally
++
++Two Terminals, Vertically
++
++What's This? Main: Shift+F
++
++#### Yakuake
++
++**Action Name Shortcuts Description**
++
++About KDE
++
++About Yakuake
++
++Close Active Terminal Main: Ctrl+Shift+R
++
++Close Session Main: Ctrl+Shift+W
++
++Configure Keyboard Shortcuts... Main: Ctrl+Alt+,
++
++Configure Notifications...
++
++Configure Yakuake... Main: Ctrl+Shift+,
++
++Decrease Window Height Main: Alt+Shift+Up
++
++Decrease Window Width Main: Alt+Shift+Left
++
++Disable Keyboard Input
++
++Edit Current Profile...
++
++Four Terminals, Grid
++
++Full Screen Mode Main: Ctrl+Shift+F
++
++Grow Terminal to the Bottom Main: Ctrl+Alt+Down
++
++Grow Terminal to the Left Main: Ctrl+Alt+Left
++
++Grow Terminal to the Right Main: Ctrl+Alt+Right
++
++Grow Terminal to the Top Main: Ctrl+Alt+Up
++
++Increase Window Height Main: Alt+Shift+Down
++
++Increase Window Width Main: Alt+Shift+Right
++
++Keep window open when it loses focus
++
++Manage Profiles...
++
++Monitor for Activity Main: Ctrl+Shift+A
++
++Monitor for Silence Main: Ctrl+Shift+I
++
++Move Session Left Main: Ctrl+Shift+Left
++
++Move Session Right Main: Ctrl+Shift+Right
++
++New Session Main: Ctrl+Shift+T
++
++Next Session Main: Shift+Right
++
++Next Terminal Main: Ctrl+Tab
+ 
+-Open/Retract	Yakuake
+-Global: F
++Open/Retract Yakuake Global: F
+ 
+-Prevent	Closing
++Prevent Closing
+ 
+-Previous	Session
+-Main: Shift+Left
++Previous Session Main: Shift+Left
+ 
+-Previous	Terminal
+-Main: Ctrl+Shift+Tab
++Previous Terminal Main: Ctrl+Shift+Tab
+ 
+-Quit
+-Main: Ctrl+Shift+Q
++Quit Main: Ctrl+Shift+Q
+ 
+-Rename	Session...
+-Main: Ctrl+Alt+S
++Rename Session... Main: Ctrl+Alt+S
+ 
+-Report	Bug...
++Report Bug...
+ 
+-Split	Automatically
+-Main: Ctrl+*
++Split Automatically Main: Ctrl+*
+ 
+-Split	Left/Right
+-Main: Ctrl+(
++Split Left/Right Main: Ctrl+(
+ 
+-Split	Top/Bottom
+-Main: Ctrl+)
++Split Top/Bottom Main: Ctrl+)
+ 
+-Switch	to	Session
+-Main: Alt+
++Switch to Session Main: Alt+
+ 
+-Switch	to	Session
+-Main: Alt+
++Switch to Session Main: Alt+
+ 
+-Switch	to	Session
+-Main: Alt+
++Switch to Session Main: Alt+
+ 
+-Switch	to	Session
+-Main: Alt+
++Switch to Session Main: Alt+
+ 
+-Switch	to	Session
+-Main: Alt+
++Switch to Session Main: Alt+
+ 
+-Switch	to	Session
+-Main: Alt+
++Switch to Session Main: Alt+
+ 
+-Switch	to	Session
+-Main: Alt+
++Switch to Session Main: Alt+
+ 
+-Switch	to	Session
+-Main: Alt+
++Switch to Session Main: Alt+
+ 
+-Switch	to	Session
+-Main: Alt+
++Switch to Session Main: Alt+
+ 
+-Switch	to	Session
+-Main: Alt+
++Switch to Session Main: Alt+
+ 
+-Toggle	Titlebar
+-Main: Ctrl+Shift+M
++Toggle Titlebar Main: Ctrl+Shift+M
+ 
+-Two	Terminals,	Horizontally
++Two Terminals, Horizontally
+ 
+-Two	Terminals,	Vertically
++Two Terminals, Vertically
+ 
+-What's	This?
+-Main: Shift+F
++What's This? Main: Shift+F
+\ No newline at end of file

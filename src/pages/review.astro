@@ -1,0 +1,182 @@
+---
+import fs from 'node:fs';
+import path from 'node:path';
+import Base from '../layouts/Base.astro';
+import { parseFrontmatter } from '../../scripts/lib/normalize.mjs';
+import { SECTION_KEYS } from '../../scripts/lib/staging.mjs';
+
+const ROOT = new URL('../../', import.meta.url).pathname;
+const REVIEWS = path.join(ROOT, 'reviews');
+
+type Item = {
+  file: string;
+  reason: string;
+  section: string;
+  title: string;
+  body: string;
+  size: number;
+  recoverable: boolean;
+};
+
+let reviewName: string | null = null;
+let items: Item[] = [];
+let rejected: Item[] = [];
+let stagedCount = 0;
+let totalCandidates = 0;
+
+if (import.meta.env.DEV && fs.existsSync(REVIEWS)) {
+  const dirs = fs
+    .readdirSync(REVIEWS)
+    .filter((d) => fs.statSync(path.join(REVIEWS, d)).isDirectory() && fs.existsSync(path.join(REVIEWS, d, 'MANIFEST.md')))
+    .sort()
+    .reverse();
+  reviewName = dirs[0] ?? null;
+
+  if (reviewName) {
+    const base = path.join(REVIEWS, reviewName);
+    const stateFile = path.join(base, 'polish', 'STAGING.json');
+    const state = fs.existsSync(stateFile) ? JSON.parse(fs.readFileSync(stateFile, 'utf8')) : null;
+    stagedCount = state?.counts?.staged ?? 0;
+
+    const manifest = fs
+      .readFileSync(path.join(base, 'MANIFEST.md'), 'utf8')
+      .split(/\r?\n/)
+      .map((line) => line.match(/^-\s+\[[ xX]\]\t(.+?)\t(.+?)\t/))
+      .filter(Boolean)
+      .map((m) => ({ section: m[1].trim(), file: m[2].trim() }));
+    totalCandidates = manifest.length;
+
+    for (const entry of manifest) {
+      const polished = path.join(base, entry.section, entry.file.replace(/\.md$/i, '.polished.md'));
+      if (fs.existsSync(polished)) continue;
+      const candidate = path.join(base, entry.section, entry.file);
+      if (!fs.existsSync(candidate)) continue;
+      const raw = fs.readFileSync(candidate, 'utf8');
+      const { data, body } = parseFrontmatter(raw);
+      const reason = !SECTION_KEYS.includes(entry.section)
+        ? 'no category matched this note'
+        : body.length > 20000
+          ? `too large to polish (${body.length} chars)`
+          : 'the model could not format this into valid site JSON';
+      items.push({
+        file: entry.file,
+        section: entry.section,
+        title: data.title ?? entry.file.replace(/\.md$/, ''),
+        body,
+        size: body.length,
+        reason,
+        recoverable: body.length <= 20000,
+      });
+    }
+
+    const skippedDir = path.join(base, 'skipped');
+    if (fs.existsSync(skippedDir)) {
+      for (const f of fs.readdirSync(skippedDir).filter((f) => f.endsWith('.md'))) {
+        const raw = fs.readFileSync(path.join(skippedDir, f), 'utf8');
+        const { data, body } = parseFrontmatter(raw);
+        items.push({
+          file: f,
+          section: 'skipped',
+          title: data.title ?? f.replace(/\.md$/, ''),
+          body,
+          size: body.length,
+          reason: 'quarantined during classify — not a publishable note',
+          recoverable: false,
+        });
+      }
+    }
+
+    const rdir = path.join(base, 'polish', 'rejected');
+    if (fs.existsSync(rdir)) {
+      for (const f of fs.readdirSync(rdir).filter((f) => f.endsWith('.md'))) {
+        const m = f.match(/^(.+?)__(.+)\.md$/);
+        if (!m) continue;
+        const raw = fs.readFileSync(path.join(rdir, f), 'utf8');
+        const { data, body } = parseFrontmatter(raw);
+        rejected.push({
+          file: f,
+          section: m[1],
+          title: data.title ?? m[2],
+          body,
+          size: body.length,
+          reason: 'sent back from staging',
+          recoverable: true,
+        });
+      }
+    }
+  }
+}
+
+const humanPath = (f: string) => f.replace(/\.md$/, '').replace(/[-_]/g, ' ');
+---
+
+<Base title="Review" description="Notes that could not be staged automatically.">
+  <div class="container">
+    <section class="section-head">
+      <p class="kicker">/review</p>
+      <h1>Review</h1>
+      <p>
+        The catch-all. Notes that landed in a category are on <a href="/staging/">/staging</a>; everything that could not
+        be categorised, or could not be formatted into the site, ends up here.
+      </p>
+    </section>
+
+    {
+      !import.meta.env.DEV && (
+        <p class="staging-note">Review is a local-only tool. Start it with <code>npm run dev</code>.</p>
+      )
+    }
+
+    {
+      import.meta.env.DEV && (
+        <>
+          <p class="staging-note">
+            Review run <code>{reviewName ?? 'none'}</code> · {stagedCount} of {totalCandidates} candidates staged into
+            categories · {items.length} here.
+          </p>
+
+          {items.length === 0 && rejected.length === 0 && <p class="staging-note">Nothing waiting. Nice.</p>}
+
+          {items.length > 0 && (
+            <section>
+              <h2 style="text-transform:none;letter-spacing:0">Could not be staged</h2>
+              {items.map((item) => (
+                <details class="staging-row">
+                  <summary style="cursor:pointer;display:flex;flex-wrap:wrap;gap:0.4rem 1rem;justify-content:space-between">
+                    <span class="staging-title">{item.title}</span>
+                    <span class="staging-meta">
+                      {item.section}/{item.file} · {item.reason}
+                    </span>
+                  </summary>
+                  <p class="staging-meta" style="margin:0.6rem 0">
+                    {item.size} chars of body. {item.recoverable ? 'Small enough to retry.' : 'Needs a human decision — it is not prose.'}
+                  </p>
+                  <pre class="staging-editor" style="min-height:14rem;overflow:auto;white-space:pre-wrap">{item.body.slice(0, 4000)}</pre>
+                </details>
+              ))}
+            </section>
+          )}
+
+          {rejected.length > 0 && (
+            <section style="margin-top:2.5rem">
+              <h2 style="text-transform:none;letter-spacing:0">
+                Sent back from staging <span class="staging-meta">{rejected.length}</span>
+              </h2>
+              {rejected.map((item) => (
+                <details class="staging-row">
+                  <summary style="cursor:pointer">
+                    <span class="staging-title">{item.title}</span>{' '}
+                    <span class="staging-meta">
+                      {item.section}/{humanPath(item.file)}
+                    </span>
+                  </summary>
+                  <pre class="staging-editor" style="min-height:12rem;overflow:auto;white-space:pre-wrap">{item.body.slice(0, 4000)}</pre>
+                </details>
+              ))}
+            </section>
+          )}
+        </>
+      )
+    }
+  </div>
+</Base>

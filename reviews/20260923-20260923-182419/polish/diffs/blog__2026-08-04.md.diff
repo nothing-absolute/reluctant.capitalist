@@ -1,0 +1,15 @@
+--- a/blog/2026-08-04.md
++++ b/blog/2026-08-04.md
+@@ -1,4 +1,4 @@
+-### Captures
++#### Captures
+ 
+ **21:22 - Makerspace Operating Costs Research**
+ Evaluating a 4,200 sq ft space (510 S 1st Ave: $15 PSF + $5 NNN = $84k/yr occupancy). Research findings on maker/hacker space operating costs:
+@@ -48,4 +48,4 @@
+ 2. `02-dealer-pitch.md` — one-page dealer/used-lot pitch: news hook, liability (FTC add-on rule + CFPB), $20–40 audit / $120–200 removal, free 10-car lot pilot offer
+ 3. `03-shop-partnership-pager.md` — one-pager for repair shops: free 5-min scan add-on, $20–40 lead fee or 50/50, volume math (~3 jobs/wk per shop), 60-day pilot
+ 4. `04-startup-financials.md` — startup tiers: lean $8k / recommended $21k / comfortable $40k; ~$2k/mo opex; avg ticket $130–160, 70–90% margins; break-even ~16–20 jobs/mo; Year-1 revenue $145–240k, net $70–165k owner-operator; B2B pricing
+-5. `05-pilot-plan.md` — 8–10 week pilot at friend's used-car shop: 6 hypotheses (find-rate ≥10%, opt-in ≥30%, revenue ≥$2.5k), MVP tooling (Android BLE scanner + nRF Connect/custom Flutter app + signature DB + OBD), 3 phases (scan/measure → sell → iterate), $1.5–3.5k budget, friend-pitch checklist (live lot demo is the killer move), legal notes (don't remove SIDs on active loans)
++5. `05-pilot-plan.md` — 8–10 week pilot at friend's used-car shop: 6 hypotheses (find-rate ≥10%, opt-in ≥30%, revenue ≥$2.5k), MVP tooling (Android BLE scanner + nRF Connect/custom Flutter app + signature DB + OBD), 3 phases (scan/measure → sell → iterate), $1.5–3.5k budget, friend-pitch checklist (live lot demo is the killer move), legal notes (don't remove SIDs on active loans)
+\ No newline at end of file

@@ -1,0 +1,71 @@
+--- a/projects/implementation-plan.md
++++ b/projects/implementation-plan.md
+@@ -1,8 +1,8 @@
+-## Implementation Plan: Undertone Project Recovery, Pitch Deck & User Acquisition Strategy
++### Implementation Plan: Undertone Project Recovery, Pitch Deck & User Acquisition Strategy
+ 
+ This plan recovers the lost **Undertone** project context from conversation `39a111a2-ccbd-402d-8470-db9a6c8faca4` and fulfills the pending user request to build a **Pitch Deck** and **User Acquisition/Testing Plan** for the sub-harmonic audio monitoring and E-ink phone case ecosystem.
+ 
+-### User Review Required
++#### User Review Required
+ 
+ > [!IMPORTANT]
+ > The Undertone project ecosystem covers two primary verticals:
+@@ -11,16 +11,16 @@
+ >
+ > The proposed Pitch Deck and User Growth Strategy address both verticals, leveraging the Kickstarter landing page at [`undertone-landing/index.html`](file:///home/jd/.gemini/antigravity-ide/scratch/undertone-landing/index.html).
+ 
+-### Proposed Changes
++#### Proposed Changes
+ 
+-#### 1. Context Restoration & Asset Audit
++##### 1. Context Restoration & Asset Audit
+ 
+ - Re-index restored Product Requirements Document: [`Product_Requirements_Document.md`](file:///home/jd/.gemini/antigravity-ide/brain/39a111a2-ccbd-402d-8470-db9a6c8faca4/Product_Requirements_Document.md).
+ - Validate existing Kickstarter Landing Page: [`index.html`](file:///home/jd/.gemini/antigravity-ide/scratch/undertone-landing/index.html).
+ 
+-#### 2. Pitch Deck Creation
++##### 2. Pitch Deck Creation
+ 
+-##### [NEW] [undertone_pitch_deck.md](file:///home/jd/.gemini/antigravity-ide/brain/5a4bc721-cb05-481d-bdd6-a401492be258/undertone_pitch_deck.md)
++###### [NEW] [undertone_pitch_deck.md](file:///home/jd/.gemini/antigravity-ide/brain/5a4bc721-cb05-481d-bdd6-a401492be258/undertone_pitch_deck.md)
+ Create a 10-slide presentation deck formatted in Markdown with visual layout structures, slide notes, and investor messaging:
+ - **Slide 1: Title & Hook** — *UNDERTONE: Hear What You Can't, Control What You See.*
+ - **Slide 2: The Problem** — Unseen sub-harmonic noise pollution + hyper-stimulating mobile screen addiction.
+@@ -33,9 +33,9 @@
+ - **Slide 9: User Growth & Community Engine** — Open-source maker hooks + community plugin repository.
+ - **Slide 10: The Ask & Kickstarter Targets** — Funding goals ($100k target), unit economics, and team execution.
+ 
+-#### 3. User Acquisition & Beta Testing Plan
++##### 3. User Acquisition & Beta Testing Plan
+ 
+-##### [NEW] [user_acquisition_and_testing_plan.md](file:///home/jd/.gemini/antigravity-ide/brain/5a4bc721-cb05-481d-bdd6-a401492be258/user_acquisition_and_testing_plan.md)
++###### [NEW] [user_acquisition_and_testing_plan.md](file:///home/jd/.gemini/antigravity-ide/brain/5a4bc721-cb05-481d-bdd6-a401492be258/user_acquisition_and_testing_plan.md)
+ Create an actionable strategy for acquiring, onboarding, and gathering feedback from initial beta testers:
+ - **Target Persona Breakdown**:
+   - *Persona A*: Audio Engineers & Sub-Harmonic Sensitivity Sufferers
+@@ -49,17 +49,17 @@
+   4. *VIP Kickstarter Waitlist*: Converting tester feedback into pre-orders and referral loops.
+ - **Feedback Loops & Telemetry**: Quantitative analytics, Discord channel setup, structured feedback surveys.
+ 
+-#### 4. Interactive Pitch Deck & Presentation View
++##### 4. Interactive Pitch Deck & Presentation View
+ 
+-##### [NEW] [pitch_deck.html](file:///home/jd/.gemini/antigravity-ide/scratch/undertone-landing/pitch_deck.html)
++###### [NEW] [pitch_deck.html](file:///home/jd/.gemini/antigravity-ide/scratch/undertone-landing/pitch_deck.html)
+ Create an interactive HTML slide viewer matching the Undertone brand aesthetic (dark mode, sub-frequency pulse animations, responsive controls) so the user can present the pitch deck in a browser.
+ 
+-### Verification Plan
++#### Verification Plan
+ 
+-#### Automated Verification
++##### Automated Verification
+ - Validate markdown syntax and file links across created artifacts.
+ - Verify HTML validity and responsive rendering of `pitch_deck.html` and `index.html`.
+ 
+-#### Manual Verification
++##### Manual Verification
+ - Test interactive keyboard navigation (Arrow keys / Space) in `pitch_deck.html`.
+-- Confirm pitch deck content aligns with PRD specifications.
++- Confirm pitch deck content aligns with PRD specifications.
+\ No newline at end of file

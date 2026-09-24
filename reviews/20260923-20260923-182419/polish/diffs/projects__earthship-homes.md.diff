@@ -1,0 +1,62 @@
+--- a/projects/earthship-homes.md
++++ b/projects/earthship-homes.md
+@@ -1,32 +1,27 @@
+-### Core Idea
+-Build an **Earthship home** by taking advantage of **incentives to build a home in struggling states**. Find as many opportunities as possible across the **US and abroad**, and design an Earthship adapted to **each location's weather and available local materials**.
++Build an Earthship home by leveraging incentives to build in struggling states. Find opportunities across the US and abroad, and design each home to fit the location's weather and available materials.
+ 
+-### The Angle
+-- Struggling states offer incentives (land, tax breaks, grants, revitalization programs) for building homes — leverage them.
+-- Scan for incentive programs across the US, then expand abroad where conditions fit.
+-- Each build is a **localized design**: Earthship principles adapted to that climate (thermal mass, water, power) and to locally available materials — no two builds are identical.
+-- **Partner with the Earthship Academy** and other Earthship builders in the US and abroad for methodology, training, and credibility.
+-
+-### Why It Matters
+-- Earthships = self-sufficient, off-grid, largely free-to-maintain homes built from waste/earth materials.
+-- Home ownership in struggling areas can transform communities — and demonstrates the alternative (non-capitalist) way of building, aligning with the big-picture mission.
+-
+-### Research Areas
+-- State/local incentive programs for homebuilding in struggling regions (land grants, homestead programs, tax abatements, rural development).
+-- Earthship Academy + established builders (US and international) — partnership/credentialing.
+-- Climate-specific design variants (cold, hot-arid, humid, heavy-precip) and their material palettes.
+-- Local material availability per candidate location (tires, glass, earth, timber, straw, etc.).
+-
+-### Next Actions
+-- [ ] Map struggling-state homebuilding incentives (start with a shortlist of states)
+-- [ ] Contact Earthship Academy / a builder about methodology + collaboration
+-- [ ] Define the design matrix: climate zones × available materials × incentive programs
+-- [ ] Pick one pilot location and produce a localized Earthship design
+-
+-### Someday/Maybe
+-- Open-source the location-adaptive designs (feeds Open-Source-Hardware-Blog)
+-- Community build crews (training + collective ownership)
+-
+-### Related
+-- Open-Source-Hardware-Blog
+-#project/earthship #housing #sustainability #construction
++**The Angle**
++- Struggling states offer incentives like land grants, tax breaks, and grants for homebuilding. Leverage these programs.
++- Scan for incentive programs across the US and expand abroad where conditions fit.
++- Each build is a localized design: Earthship principles adapted to the climate and local materials. No two builds are identical.
++- Partner with the Earthship Academy and other builders for methodology, training, and credibility.
++
++**Why It Matters**
++- Earthships are self-sufficient, off-grid homes built from waste and earth materials.
++- Home ownership in struggling areas can transform communities and demonstrate an alternative way of building.
++
++**Research Areas**
++- State/local incentive programs for homebuilding in struggling regions.
++- Earthship Academy and established builders for partnership and credibility.
++- Climate-specific design variants and material palettes.
++- Local material availability per location.
++
++**Next Actions**
++- Map struggling-state homebuilding incentives.
++- Contact Earthship Academy and builders for collaboration.
++- Define design matrix based on climate, materials, and incentives.
++- Pick a pilot location and create a localized Earthship design.
++
++**Someday/Maybe**
++- Open-source location-adaptive designs.
++- Community build crews with training and collective ownership.
+\ No newline at end of file

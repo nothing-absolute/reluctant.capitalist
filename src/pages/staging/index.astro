@@ -1,0 +1,262 @@
+---
+import fs from 'node:fs';
+import path from 'node:path';
+import { getCollection } from 'astro:content';
+import Base from '../../layouts/Base.astro';
+import { SECTIONS, SECTION_BY_KEY } from '../../consts';
+import { pageUrl } from '../../lib/url';
+
+const ROOT = new URL('../../', import.meta.url).pathname;
+
+type Row = {
+  section: string;
+  slug: string;
+  title: string;
+  date: string;
+  description: string;
+  draft: boolean;
+  clarity?: number;
+  quality?: number;
+};
+
+const rows: Row[] = [];
+if (import.meta.env.DEV) {
+  for (const section of SECTIONS) {
+    const entries = await getCollection(section.key);
+    for (const entry of entries) {
+      const { data } = entry;
+      const touched = data.clarity !== undefined || data.quality !== undefined || data.draft === true;
+      if (!touched) continue;
+      rows.push({
+        section: section.key,
+        slug: entry.id.replace(/\.(md|mdx)$/, ''),
+        title: data.title,
+        date: data.date ? data.date.toISOString().slice(0, 10) : '—',
+        description: data.description ?? '',
+        draft: data.draft === true,
+        clarity: data.clarity,
+        quality: data.quality,
+      });
+    }
+  }
+}
+
+const pending = rows.filter((r) => r.draft);
+const approved = rows.filter((r) => !r.draft);
+
+const rejectedDir = path.join(ROOT, 'reviews');
+let rejected: { file: string; section: string; slug: string }[] = [];
+try {
+  const dirs = fs
+    .readdirSync(rejectedDir)
+    .filter((d) => fs.statSync(path.join(rejectedDir, d)).isDirectory())
+    .sort()
+    .reverse();
+  for (const d of dirs) {
+    const rdir = path.join(rejectedDir, d, 'polish', 'rejected');
+    if (!fs.existsSync(rdir)) continue;
+    for (const f of fs.readdirSync(rdir).filter((f) => f.endsWith('.md'))) {
+      const m = f.match(/^(.+?)__(.+)\.md$/);
+      if (m) rejected.push({ file: f, section: m[1], slug: m[2] });
+    }
+    break;
+  }
+} catch {
+  rejected = [];
+}
+
+const bySection = SECTIONS.map((s) => ({
+  section: s,
+  items: rows.filter((r) => r.section === s.key).sort((a, b) => (a.date < b.date ? 1 : -1)),
+})).filter((g) => g.items.length);
+
+const score = (n?: number) => (n === undefined ? '—' : `${n}/5`);
+---
+
+<Base title="Staging" description="LLM-polished posts awaiting review.">
+  <div class="container">
+    <section class="section-head">
+      <p class="kicker">/staging</p>
+      <h1>Staging</h1>
+      <p>
+        {pending.length} pending · {approved.length} approved. Pending posts sit in their own category as drafts, so they
+        stay out of the build until you approve them.
+      </p>
+    </section>
+
+    {
+      !import.meta.env.DEV && (
+        <p class="staging-note">Staging is a local-only tool. Start it with <code>npm run dev</code>.</p>
+      )
+    }
+
+    {
+      import.meta.env.DEV && (
+        <>
+          <p class="staging-note">
+            Buttons talk to <code>npm run dev</code> over <code>/api/staging/*</code>. Every write backs up the previous
+            file to <code>.staging-backups/</code> — this project is not in git, so that folder is your undo history.
+            Approving only makes a post buildable; publishing is still a manual step you do yourself.
+          </p>
+
+          {bySection.length === 0 && <p class="staging-note">Nothing staged yet. Run <code>npm run stage</code>.</p>}
+
+          {bySection.map((group) => (
+            <section style="margin-bottom:2.5rem">
+              <h2 style="text-transform:none;letter-spacing:0">
+                <a href={pageUrl(`/${group.section.key}/`)} style="color:var(--ink);text-decoration:none">
+                  {group.section.title}
+                </a>{' '}
+                <span class="staging-meta">
+                  {group.items.filter((i) => i.draft).length} pending / {group.items.length}
+                </span>
+              </h2>
+
+              {group.items.map((item) => (
+                <article class:list={['staging-row', item.draft ? 'is-pending' : 'is-approved']} data-section={item.section} data-slug={item.slug}>
+                  <div class="staging-head">
+                    <span class="staging-title">
+                      <a href={pageUrl(`/staging/${item.section}/${item.slug}/`)}>{item.title}</a>
+                    </span>
+                    <span class="staging-meta">
+                      {item.date} · clarity {score(item.clarity)} · quality {score(item.quality)} ·{' '}
+                      {item.draft ? 'pending' : 'approved'}
+                    </span>
+                  </div>
+                  {item.description && <p style="margin:0.4rem 0 0;color:var(--muted);font-size:0.88rem">{item.description}</p>}
+                  <div class="staging-actions">
+                    <a class="btn btn-sm" href={pageUrl(`/staging/${item.section}/${item.slug}/`)}>
+                      Open &amp; edit
+                    </a>
+                    {item.draft ? (
+                      <button class="btn btn-sm btn-primary" data-action="approve">
+                        Approve
+                      </button>
+                    ) : (
+                      <>
+                        <a class="btn btn-sm" href={pageUrl(`/${item.section}/${item.slug}/`)}>
+                          View live page
+                        </a>
+                        <button class="btn btn-sm" data-action="unpublish">
+                          Unpublish
+                        </button>
+                      </>
+                    )}
+                    <button class="btn btn-sm" data-action="polish">
+                      Re-polish with LLM
+                    </button>
+                    <button class="btn btn-sm btn-danger" data-action="reject">
+                      Reject
+                    </button>
+                  </div>
+                  <p class="staging-log" data-log hidden></p>
+                </article>
+              ))}
+            </section>
+          ))}
+
+          {rejected.length > 0 && (
+            <section>
+              <h2 style="text-transform:none;letter-spacing:0">
+                Rejected <span class="staging-meta">{rejected.length}</span>
+              </h2>
+              <p class="staging-meta" style="margin-bottom:0.8rem">
+                Kept at <code>reviews/*/polish/rejected/</code> — removed from the site, not deleted.
+              </p>
+              {rejected.map((r) => (
+                <div class="staging-row">
+                  <span class="staging-title">{r.slug}</span>
+                  <span class="staging-meta"> {r.section}</span>
+                </div>
+              ))}
+            </section>
+          )}
+        </>
+      )
+    }
+  </div>
+</Base>
+
+<script>
+  type Action = 'approve' | 'unpublish' | 'reject' | 'polish';
+
+  const toast = (message: string, kind: 'ok' | 'error' = 'ok') => {
+    document.querySelector('.staging-toast')?.remove();
+    const el = document.createElement('div');
+    el.className = 'staging-toast';
+    el.dataset.kind = kind;
+    el.textContent = message;
+    document.body.appendChild(el);
+    setTimeout(() => el.remove(), 4200);
+  };
+
+  const post = async (action: string, payload: Record<string, unknown>) => {
+    const res = await fetch(`/api/staging/${action}`, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify(payload),
+    });
+    const data = await res.json().catch(() => ({ error: res.statusText }));
+    if (!res.ok || data.error) throw new Error(data.error ?? res.statusText);
+    return data;
+  };
+
+  const setBusy = (row: HTMLElement, busy: boolean) => {
+    row.querySelectorAll('button').forEach((b) => ((b as HTMLButtonElement).disabled = busy));
+  };
+
+  const log = (row: HTMLElement, message: string) => {
+    const el = row.querySelector<HTMLElement>('[data-log]');
+    if (!el) return;
+    el.textContent = message;
+    el.hidden = false;
+  };
+
+  const pollJob = async (row: HTMLElement, jobId: string) => {
+    for (let i = 0; i < 180; i++) {
+      await new Promise((r) => setTimeout(r, 3000));
+      const res = await fetch(`/api/staging/polish-status?job=${encodeURIComponent(jobId)}`);
+      const data = await res.json().catch(() => null);
+      if (!data?.job) continue;
+      const job = data.job;
+      log(row, `${job.state}${job.detail ? ` — ${job.detail}` : ''}`);
+      if (job.state === 'done' || job.state === 'failed') {
+        setBusy(row, false);
+        toast(job.state === 'done' ? 'Re-polished. Reload to see the new draft.' : `Re-polish failed: ${job.error ?? 'see log'}`, job.state === 'done' ? 'ok' : 'error');
+        if (job.state === 'done') setTimeout(() => location.reload(), 1200);
+        return;
+      }
+    }
+    setBusy(row, false);
+    toast('Re-polish is taking too long — check .staging-jobs/', 'error');
+  };
+
+  document.addEventListener('click', async (event) => {
+    const button = (event.target as HTMLElement).closest<HTMLButtonElement>('button[data-action]');
+    if (!button) return;
+    const row = button.closest<HTMLElement>('.staging-row');
+    if (!row) return;
+
+    const action = button.dataset.action as Action;
+    const payload = { section: row.dataset.section, slug: row.dataset.slug };
+    setBusy(row, true);
+    button.textContent = 'Working…';
+
+    try {
+      if (action === 'polish') {
+        button.textContent = 'Starting pod…';
+        log(row, 'Requesting a RunPod GPU (this takes a minute, and it is stopped again right after).');
+        const data = await post('polish', payload);
+        void pollJob(row, data.jobId);
+        return;
+      }
+      await post(action, payload);
+      toast(`${action} done`);
+      setTimeout(() => location.reload(), 500);
+    } catch (err) {
+      setBusy(row, false);
+      button.textContent = action[0].toUpperCase() + action.slice(1);
+      toast(err instanceof Error ? err.message : String(err), 'error');
+    }
+  });
+</script>

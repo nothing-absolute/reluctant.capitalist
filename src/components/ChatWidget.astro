@@ -1,0 +1,128 @@
+---
+const starters = [
+  'What should I build next?',
+  'Stress-test the "Idea Relay" concept — a marketplace for handing off unfinished projects.',
+  'What did I get wrong in my latest journal entry?',
+  'Give me the hardest counter-argument to my current project plan.',
+];
+
+const demoLine = (q: string) =>
+  `That is exactly the kind of question this box is for. Right now the chat is a **static demo** — ` +
+  `nothing leaves this page. When it is wired to a real model, I would answer "${q.replace(/"/g, '\\"')}" ` +
+  `by pulling from the notes, projects, and journals on this site and thinking out loud here.`;
+---
+
+<div class="chat-shell">
+  <div class="chat-log" id="chat-log" aria-live="polite">
+    <div class="msg assistant">
+      Hi — I'm whatever model this site is configured to run. Ask me anything (this build replies with a
+      demo), or use a starter below.
+    </div>
+  </div>
+  <div class="chat-inputbar">
+    <textarea id="chat-input" rows="1" placeholder="Ask anything… (Enter to send, Shift+Enter for newline)" aria-label="Message"></textarea>
+    <button id="send-btn" type="button">Send</button>
+  </div>
+</div>
+
+<div class="mono" style="font-size: 0.75rem; color: var(--muted); margin-top: 0.6rem">
+  static demo chat — nothing leaves your browser until real model endpoints are wired up
+</div>
+
+<div style="margin-top: 1.2rem" id="starter-row">
+  {starters.map((s) => (
+    <button class="tag" data-starter style="cursor:pointer; font-size:0.8rem">{s}</button>
+  ))}
+</div>
+
+<script>
+  // ---- tiny markdown-lite renderer (safe: input is HTML-escaped first) ----
+  function esc(s: string): string {
+    return s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+  }
+  function render(md: string): string {
+    const lines = esc(md).split('\n');
+    let out = '';
+    let inCode = false;
+    let codeBuf: string[] = [];
+    let inList = false;
+    for (const raw of lines) {
+      const line = raw.replace(/\r$/, '');
+      if (line.startsWith('```')) {
+        if (inCode) {
+          out += '<pre><code>' + codeBuf.join('\n') + '</code></pre>';
+          codeBuf = [];
+          inCode = false;
+        } else inCode = true;
+        continue;
+      }
+      if (inCode) { codeBuf.push(line); continue; }
+      if (inList && !/^(\s*[-*+]|\s*\d+\.)\s/.test(line) && line.trim() !== '') { out += '</ul>'; inList = false; }
+      if (/^(\s*[-*+]|\s*\d+\.)\s/.test(line)) {
+        if (!inList) { out += '<ul>'; inList = true; }
+        out += '<li>' + inline(line.replace(/^(\s*[-*+]|\s*\d+\.)\s/, '')) + '</li>';
+        continue;
+      }
+      if (/^#{1,4}\s/.test(line)) {
+        const lvl = line.match(/^(#{1,4})/)[1].length;
+        out += `<h${lvl + 2}>` + inline(line.replace(/^#{1,4}\s/, '')) + `</h${lvl + 2}>`;
+        continue;
+      }
+      if (line.trim() === '---') { out += '<hr/>'; continue; }
+      if (line.trim() === '') continue;
+      out += '<p>' + inline(line) + '</p>';
+    }
+    if (inCode) out += '<pre><code>' + codeBuf.join('\n') + '</code></pre>';
+    if (inList) out += '</ul>';
+    return out;
+  }
+  function inline(s: string): string {
+    return s
+      .replace(/`([^`]+)`/g, '<code>$1</code>')
+      .replace(/\*\*([^*]+)\*\*/g, '<strong>$1</strong>')
+      .replace(/(^|\s)_([^_]+)_(\s|$)/g, '$1<em>$2</em>$3');
+  }
+
+  // ---- state ----
+  const log = document.getElementById('chat-log')!;
+  const input = document.getElementById('chat-input') as HTMLTextAreaElement;
+  const send = document.getElementById('send-btn') as HTMLButtonElement;
+
+  function addMsg(role: 'user' | 'assistant', html: string) {
+    const el = document.createElement('div');
+    el.className = 'msg ' + role;
+    el.innerHTML = html;
+    log.appendChild(el);
+    log.scrollTop = log.scrollHeight;
+    return el;
+  }
+
+  async function sendMessage(text: string) {
+    if (!text.trim() || send.disabled) return;
+    input.value = '';
+    input.style.height = 'auto';
+    addMsg('user', '<p>' + esc(text).replace(/\n/g, '<br/>') + '</p>');
+    const bubble = addMsg('assistant', '<p class="err">…</p>');
+    send.disabled = true;
+    setTimeout(() => {
+      bubble.innerHTML = render(demoLine(text));
+      send.disabled = false;
+      input.focus();
+    }, 500);
+  }
+
+  send.addEventListener('click', () => sendMessage(input.value));
+  input.addEventListener('keydown', (e) => {
+    if (e.key === 'Enter' && !e.shiftKey) {
+      e.preventDefault();
+      sendMessage(input.value);
+    }
+  });
+  input.addEventListener('input', () => {
+    input.style.height = 'auto';
+    input.style.height = Math.min(input.scrollHeight, 160) + 'px';
+  });
+  document.querySelectorAll<HTMLButtonElement>('[data-starter]').forEach((b) =>
+    b.addEventListener('click', () => sendMessage(b.textContent ?? '')),
+  );
+</script>

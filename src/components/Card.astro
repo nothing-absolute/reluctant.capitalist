@@ -1,0 +1,37 @@
+---
+import type { CollectionEntry } from 'astro:content';
+import type { SectionKey } from '../consts';
+import { pageUrl } from '../lib/url';
+
+interface Props {
+  entry: CollectionEntry<SectionKey>;
+  section: SectionKey;
+  showDate?: boolean;
+  showStatus?: boolean;
+}
+
+const { entry, section, showDate = true, showStatus = true } = Astro.props;
+const data = entry.data as any;
+
+const fmtDate = (d?: Date) =>
+  d ? new Intl.DateTimeFormat('en', { year: 'numeric', month: 'short', day: 'numeric' }).format(d) : '';
+
+const statusClass = data.status || data.stage || (data.draft ? 'draft' : null);
+const statusLabel =
+  data.status ??
+  data.stage ??
+  (data.draft ? 'draft' : null) ??
+  (section === 'values' && data.weight ? '' : null);
+---
+
+<a class="card" href={pageUrl(`/${section}/${entry.id.replace(/\.(md|mdx)$/, '')}/`)}>
+  <div class="card-meta">
+    {showDate && fmtDate(data.date)}
+    {showStatus && statusLabel && <span class="status {statusClass}">{statusLabel}</span>}
+    {(data.tags ?? []).slice(0, 3).map((t: string) => (
+      <span>#{t}</span>
+    ))}
+  </div>
+  <h3>{data.title}</h3>
+  <p>{data.description}</p>
+</a>

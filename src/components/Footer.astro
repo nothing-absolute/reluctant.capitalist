@@ -1,0 +1,16 @@
+---
+import { SITE } from '../consts';
+import { pageUrl } from '../lib/url';
+const year = new Date().getFullYear();
+---
+
+<footer class="site-footer">
+  <div class="container">
+    <span>
+      © {year} {SITE.author} · <em>{SITE.title}</em>
+    </span>
+    <span class="mono">
+      ideas are seeds · shipping is a skill · <a href={pageUrl('/chat/')}>ask the models</a>
+    </span>
+  </div>
+</footer>

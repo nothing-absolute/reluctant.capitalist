@@ -1,0 +1,22 @@
+---
+import Base from '../layouts/Base.astro';
+import ChatWidget from '../components/ChatWidget.astro';
+---
+
+<Base
+  title="Chat with my models"
+  description="A chat window into custom-built and fine-tuned models — same interface as a research partner, pointed at whatever I am running."
+>
+  <div class="container">
+    <section class="section-head">
+      <p class="kicker">/chat</p>
+      <h1>Ask the models</h1>
+      <p>
+        This box connects to whatever model I point it at — hosted or local, off-the-shelf or
+        custom-built. It is the same interface I use as a research partner: it is allowed to
+        disagree with me. If a model is unconfigured you will see a demo reply instead.
+      </p>
+    </section>
+    <ChatWidget />
+  </div>
+</Base>

@@ -1,0 +1,45 @@
+---
+import Base from '../../layouts/Base.astro';
+import Card from '../../components/Card.astro';
+import { SECTIONS, type SectionKey } from '../../consts';
+import { getCollection } from 'astro:content';
+
+export async function getStaticPaths() {
+  return SECTIONS.map((s) => ({
+    params: { section: s.key },
+    props: { section: s },
+  }));
+}
+
+const { section } = Astro.props;
+const entries = (await getCollection(section.key as SectionKey, ({ data }) => !('draft' in data && data.draft)))
+  .sort((a, b) => (b.data.date?.getTime?.() ?? 0) - (a.data.date?.getTime?.() ?? 0))
+  .sort((a, b) => {
+    // values are ordered by weight
+    if (section.key === 'values') return (b.data.weight ?? 0) - (a.data.weight ?? 0);
+    return 0;
+  });
+---
+
+<Base title={section.title} description={section.blurb}>
+  <div class="container">
+    <section class="section-head">
+      <p class="kicker">/{section.key}</p>
+      <h1>{section.title}</h1>
+      <p>{section.blurb}</p>
+      <p class="mono" style="font-size:0.78rem;color:var(--muted)">{entries.length} {section.collectionLabel.toLowerCase()}</p>
+    </section>
+
+    {
+      entries.length > 0 ? (
+        <div class="card-grid">
+          {entries.map((e) => <Card entry={e} section={section.key as any} />)}
+        </div>
+      ) : (
+        <p style="color:var(--muted)">
+          Nothing here yet. Drop a markdown file in <code>src/content/{section.key}/</code> and it appears.
+        </p>
+      )
+    }
+  </div>
+</Base>

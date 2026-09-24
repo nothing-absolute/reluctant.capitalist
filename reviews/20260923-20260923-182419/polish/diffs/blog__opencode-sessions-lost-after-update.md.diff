@@ -1,0 +1,14 @@
+--- a/blog/opencode-sessions-lost-after-update.md
++++ b/blog/opencode-sessions-lost-after-update.md
+@@ -1,7 +1,5 @@
+-**What this is:** an opencode working session — 16 messages.
++all my opencode projects are no longer connected. all the tabs from the sessions before updating say they point to session that is no longer available on this server
+ 
+-**When:** 2026-08-30 · **Working directory:** `/home/jd`
++**what this is:** an opencode working session — 16 messages.
+ 
+-**Opened with:**
+-
+-> all my opencode projects are no longer connected. all the tabs from the sessions before updating say they point to session that is no longer available on this server
++**when:** 2026-08-30 · **working directory:** /home/jd
+\ No newline at end of file

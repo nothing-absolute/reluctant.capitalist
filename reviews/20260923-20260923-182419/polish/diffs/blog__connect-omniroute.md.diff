@@ -1,0 +1,13 @@
+--- a/blog/connect-omniroute.md
++++ b/blog/connect-omniroute.md
+@@ -1,7 +1,5 @@
+ **What this is:** an opencode working session — 37 messages.
+ 
+-**When:** 2026-08-31 · **Working directory:** `/home/jd/.antigravity`
++**When:** 2026-08-31 · **Working directory:** /home/jd/.antigravity
+ 
+-**Opened with:**
+-
+-> connect omniroute
++> connect omniroute
+\ No newline at end of file

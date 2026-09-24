@@ -1,0 +1,179 @@
+---
+import fs from 'node:fs';
+import path from 'node:path';
+import { getCollection, render } from 'astro:content';
+import Base from '../../../layouts/Base.astro';
+import { SECTIONS, SECTION_BY_KEY } from '../../../consts';
+import { pageUrl } from '../../../lib/url';
+import type { SectionKey } from '../../../consts';
+
+const ROOT = new URL('../../../../', import.meta.url).pathname;
+
+export async function getStaticPaths() {
+  if (!import.meta.env.DEV) return [];
+  const paths = [];
+  for (const section of SECTIONS) {
+    const entries = await getCollection(section.key);
+    for (const entry of entries) {
+      paths.push({
+        params: { section: section.key, slug: entry.id.replace(/\.(md|mdx)$/, '') },
+        props: { entry, section: section.key as SectionKey },
+      });
+    }
+  }
+  return paths;
+}
+
+const { entry, section } = Astro.props;
+const { Content } = await render(entry);
+const meta = SECTION_BY_KEY[section as SectionKey];
+
+const id = entry.id.replace(/\.(md|mdx)$/, '');
+const candidates = [path.join(ROOT, 'src/content', section, `${id}.md`), path.join(ROOT, 'src/content', section, `${id}.mdx`)];
+const sourceFile = candidates.find((p) => fs.existsSync(p)) ?? candidates[0];
+const raw = fs.existsSync(sourceFile) ? fs.readFileSync(sourceFile, 'utf8') : '';
+const rel = path.relative(ROOT, sourceFile);
+const size = Buffer.byteLength(raw);
+
+const diffPath = (() => {
+  const dir = path.join(ROOT, 'reviews');
+  if (!fs.existsSync(dir)) return null;
+  for (const d of fs.readdirSync(dir).sort().reverse()) {
+    const p = path.join(dir, d, 'polish', 'diffs', `${section}__${id}.md.diff`);
+    if (fs.existsSync(p)) return p;
+  }
+  return null;
+})();
+---
+
+<Base title={`${entry.data.title} — staging`} description={entry.data.description}>
+  <div class="container" data-section={section} data-slug={id}>
+    <p style="margin:1.5rem 0 0"><a class="back-link" href={pageUrl('/staging/')}>← All staged posts</a></p>
+
+    <section class="section-head" style="padding-top:1.2rem">
+      <p class="kicker">/staging/{section}</p>
+      <h1>{entry.data.title}</h1>
+      <p class="staging-meta">
+        {entry.data.date ? entry.data.date.toISOString().slice(0, 10) : 'no date'} · clarity{' '}
+        {entry.data.clarity ?? '—'}/5 · quality {entry.data.quality ?? '—'}/5 ·{' '}
+        {entry.data.draft ? 'pending — excluded from the build' : 'approved — will be built'}
+      </p>
+    </section>
+
+    <div class="staging-actions" style="margin:1.2rem 0">
+      <button class="btn btn-primary" id="save">Save edits</button>
+      {
+        entry.data.draft ? (
+          <button class="btn btn-primary" id="approve">
+            Approve
+          </button>
+        ) : (
+          <>
+            <a class="btn" href={pageUrl(`/${section}/${id}/`)}>
+              View live page
+            </a>
+            <button class="btn" id="unpublish">Unpublish</button>
+          </>
+        )
+      }
+      <button class="btn" id="polish">Re-polish with LLM</button>
+      <button class="btn btn-danger" id="reject">Reject</button>
+      {diffPath && <span class="staging-meta">diff: {path.relative(ROOT, diffPath)}</span>}
+    </div>
+
+    <p class="staging-toast-slot"><span id="status" class="staging-meta"></span></p>
+
+    <h2 style="text-transform:none;letter-spacing:0;margin-top:2rem">Edit in place</h2>
+    <p class="staging-meta" style="margin:0.3rem 0 0.7rem">
+      {size} bytes. Saving rewrites this file and copies the old version into <code>.staging-backups/</code>.
+    </p>
+    <textarea id="editor" class="staging-editor" spellcheck="false">{raw}</textarea>
+
+    <h2 style="text-transform:none;letter-spacing:0;margin-top:2rem">Edit in your terminal instead</h2>
+    <p class="staging-path" id="path">{sourceFile}</p>
+    <p class="staging-meta" style="margin-top:0.5rem">
+      Click the path to select it, then paste into <code>code {rel}</code>, <code>vim {rel}</code>, or
+      <code>nvim {rel}</code>. Reload this page when you are done.
+    </p>
+
+    <h2 style="text-transform:none;letter-spacing:0;margin-top:2.5rem">Rendered preview</h2>
+    <article class="prose" style="border-top:1px solid var(--line);padding-top:1.5rem">
+      <Content />
+    </article>
+  </div>
+</Base>
+
+<script>
+  const scope = document.querySelector<HTMLElement>('[data-section]');
+  const section = scope?.dataset.section;
+  const slug = scope?.dataset.slug;
+  const editor = document.getElementById('editor') as HTMLTextAreaElement;
+  const status = document.getElementById('status');
+
+  const say = (message: string, kind: 'ok' | 'error' = 'ok') => {
+    if (!status) return;
+    status.textContent = message;
+    status.style.color = kind === 'error' ? '#8a2b2b' : 'var(--muted)';
+  };
+
+  const post = async (action: string, payload: Record<string, unknown>) => {
+    const res = await fetch(`/api/staging/${action}`, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify(payload),
+    });
+    const data = await res.json().catch(() => ({ error: res.statusText }));
+    if (!res.ok || data.error) throw new Error(data.error ?? res.statusText);
+    return data;
+  };
+
+  const on = (id: string, fn: () => Promise<void>) => {
+    document.getElementById(id)?.addEventListener('click', async () => {
+      try {
+        await fn();
+      } catch (err) {
+        say(err instanceof Error ? err.message : String(err), 'error');
+      }
+    });
+  };
+
+  on('save', async () => {
+    say('Saving…');
+    await post('save', { section, slug, markdown: editor.value });
+    say('Saved. Reload to see the rebuilt preview.');
+  });
+
+  for (const action of ['approve', 'unpublish', 'reject'] as const) {
+    on(action, async () => {
+      say(`${action}…`);
+      await post(action, { section, slug });
+      location.reload();
+    });
+  }
+
+  on('polish', async () => {
+    say('Starting a RunPod GPU — this takes a minute and the pod is stopped again right after.');
+    const data = await post('polish', { section, slug });
+    for (let i = 0; i < 180; i++) {
+      await new Promise((r) => setTimeout(r, 3000));
+      const res = await fetch(`/api/staging/polish-status?job=${encodeURIComponent(data.jobId)}`);
+      const payload = await res.json().catch(() => null);
+      if (!payload?.job) continue;
+      const job = payload.job;
+      say(`${job.state}${job.detail ? ` — ${job.detail}` : ''}`);
+      if (job.state === 'done' || job.state === 'failed') {
+        if (job.state === 'done') location.reload();
+        return;
+      }
+    }
+    say('Still running — check .staging-jobs/', 'error');
+  });
+
+  document.getElementById('path')?.addEventListener('click', (event) => {
+    const range = document.createRange();
+    range.selectNodeContents(event.currentTarget as Node);
+    const selection = window.getSelection();
+    selection?.removeAllRanges();
+    selection?.addRange(range);
+  });
+</script>

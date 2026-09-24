@@ -1,0 +1,47 @@
+---
+import Content from '../../layouts/Content.astro';
+import { SECTION_BY_KEY, type SectionKey } from '../../consts';
+import { getCollection, render } from 'astro:content';
+import { pageUrl } from '../../lib/url';
+
+export async function getStaticPaths() {
+  const keys = Object.keys(SECTION_BY_KEY) as SectionKey[];
+  const paths = [];
+  for (const key of keys) {
+    const entries = await getCollection(key, ({ data }) => !('draft' in data && data.draft));
+    for (const entry of entries) {
+      paths.push({
+        params: { section: key, slug: entry.id.replace(/\.(md|mdx)$/, '') },
+        props: { entry, section: key },
+      });
+    }
+  }
+  return paths;
+}
+
+const { entry, section } = Astro.props;
+const { Content: Body } = await render(entry);
+const meta = SECTION_BY_KEY[section];
+const d = entry.data as any;
+
+const fmtDate = (x?: Date) =>
+  x ? new Intl.DateTimeFormat('en', { year: 'numeric', month: 'long', day: 'numeric' }).format(x) : null;
+---
+
+<Content title={d.title} description={d.description} section={section} backLabel={`All ${meta.title}`}>
+  <p class="byline">
+    <span>{section === 'blog' ? 'Journal entry' : meta.title}</span>
+    {fmtDate(d.date) && <span>{fmtDate(d.date)}</span>}
+    {d.status && <span class="status {d.status}">{d.status}</span>}
+    {d.tags && d.tags.map((t: string) => <a href={pageUrl(`/${section}/#${t}`)}>#{t}</a>)}
+    {d.source && <span class="mono">vault: {d.source}</span>}
+    {d.stack && d.stack.length > 0 && <span>stack: {d.stack.join(' / ')}</span>}
+  </p>
+
+  <Body />
+
+  <hr />
+  <p class="mono" style="font-size:0.78rem;color:var(--muted)">
+    &larr; <a href={pageUrl(`/${section}/`)}>More {meta.title.toLowerCase()}</a>
+  </p>
+</Content>

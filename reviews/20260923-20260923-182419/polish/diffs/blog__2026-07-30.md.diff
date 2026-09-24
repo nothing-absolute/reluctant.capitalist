@@ -1,0 +1,99 @@
+--- a/blog/2026-07-30.md
++++ b/blog/2026-07-30.md
+@@ -1,14 +1,12 @@
+-### Captures
++#### Captures
+ 
+ **14:26 - "Smoner Boberst" — PRODUCTION SCRIPT**
+ 
+-```
+ TITLE: Smoner Boberst: Lite Bright Forever
+ FORMAT: Mockumentary / Sitcom / Handheld
+ TONE: Nirvana the Band the Show meets InfoWars meets Shark Tank
+-```
+ 
+-### CHARTERS
++#### CHARTERS
+ 
+ **SMONER BOBERST** — 40s, washed indie rocker from Mahaoma, NJ. Ex-frontman of Lite Bright. Conor Oberst parody. Sweating through a blazer that was cool in 2005.
+ 
+@@ -18,7 +16,7 @@
+ 
+ **THE SHARKS** — Mark Cuban, Mr. Wonderful, Lori Greiner, etc. Playing themselves but existentially terrified.
+ 
+-### SCENE 1 — INT. SMONER'S VAN — DAY
++#### SCENE 1 — INT. SMONER'S VAN — DAY
+ 
+ HANDHELD. POV FAN is in the passenger seat. SMONER drives. Coffee-stained dashboard. Lite Bright demo plays faintly on a blown speaker.
+ 
+@@ -46,7 +44,7 @@
+ (to camera, barely audible)
+ He's been like this since Tuesday.
+ 
+-### SCENE 2 — INT. GREEN ROOM / SHARK TANK STUDIO — DAY
++#### SCENE 2 — INT. GREEN ROOM / SHARK TANK STUDIO — DAY
+ 
+ SMONER is getting mic'd up. POV FAN films through a crack in the door. SMONER is pale. Sweating through the makeup.
+ 
+@@ -63,7 +61,7 @@
+ 
+ He zooms in on SMONER's hand. Shaking.
+ 
+-### SCENE 3 — INT. SHARK TANK SET — CONTINUOUS
++#### SCENE 3 — INT. SHARK TANK SET — CONTINUOUS
+ 
+ WIDE: The classic Shark Tank set. The SHARKS are ready.
+ 
+@@ -117,7 +115,7 @@
+ 
+ They all look, despite themselves.
+ 
+-### SCENE 4 — SPLIT SCREEN / VHS EFFECT
++#### SCENE 4 — SPLIT SCREEN / VHS EFFECT
+ 
+ We see over SMONER's shoulder: on the monitors behind him, video feed of:
+ 
+@@ -133,7 +131,7 @@
+ SMONER (V.O.)
+ Capitalism.
+ 
+-### SCENE 5 — INT. SHARK TANK SET — CONTINUOUS
++#### SCENE 5 — INT. SHARK TANK SET — CONTINUOUS
+ 
+ SMONER
+ (distant)
+@@ -150,7 +148,7 @@
+ SMONER
+ Now I know what you're thinking. "Probably has a huge subscription fee." And I would say—you are a big dumb no-nothing loser. Because it is free.99 for the rest of your life.
+ 
+-### SCENE 6 — STUDIO MELTDOWN
++#### SCENE 6 — STUDIO MELTDOWN
+ 
+ A LOUD CRASH. A lighting rig falls off-camera. The camera whips around. POV FAN's handheld catches:
+ 
+@@ -160,7 +158,7 @@
+ 
+ The feed cuts to black.
+ 
+-### SCENE 7 — INT. NEWS DESK — NIGHT
++#### SCENE 7 — INT. NEWS DESK — NIGHT
+ 
+ NEWS ANCHOR (Ron Burgundy type, dead serious)
+ 
+@@ -181,7 +179,7 @@
+ NEWS ANCHOR
+ Oh yeah. And he shot himself.
+ 
+-### CLOSING SHOT
++#### CLOSING SHOT
+ 
+ POV FAN's handheld, sitting on a desk. The camera is off. Just audio.
+ 
+@@ -199,5 +197,4 @@
+ 
+ The title card is slightly crooked. The font is wrong. A VO actor tries to say "Capitalism" and stumbles. Takes two more tries. They leave the third take in.
+ 
+-FADE OUT.
+-```
++FADE OUT.
+\ No newline at end of file

@@ -1,0 +1,52 @@
+--- a/garden/undertone-instagram-campaign.md
++++ b/garden/undertone-instagram-campaign.md
+@@ -1,10 +1,8 @@
+-## UNDERTONE Guardian Kids Phone — Instagram Ad Campaign
+-
+ A 3-part visual Instagram ad campaign designed to market the **Undertone Guardian Phone** to tech-conscious parents, digital minimalists, and child online safety advocates.
+ 
+-### Post 1: Hardware & Product Design (Feed / Carousel 1:1)
++#### Post 1: Hardware & Product Design
+ 
+-#### ✍️ Caption & Copy
++##### ✍️ Caption & Copy
+ > **Software rules can be bypassed. Physical hardware can’t.** 🔒
+ >
+ > Introducing the **Undertone Guardian Phone** — the first kids phone built inside an un-tamperable, sonic-welded composite shell.
+@@ -16,11 +14,11 @@
+ >
+ > Tap the link in bio to join the Kickstarter launch waitlist! 🚀
+ >
+-> `#UndertoneGuardian #KidsSafety #DigitalMinimalism #TamperProof #LoRAMesh #ParentingTech #ScreenFreeKids`
++> #UndertoneGuardian #KidsSafety #DigitalMinimalism #TamperProof #LoRAMesh #ParentingTech #ScreenFreeKids
+ 
+-### Post 2: Lifestyle & Emotional Peace of Mind (Feed 4:5)
++#### Post 2: Lifestyle & Emotional Peace of Mind
+ 
+-#### ✍️ Caption & Copy
++##### ✍️ Caption & Copy
+ > **Give them freedom outdoors. Give yourself total peace of mind.** 🌲☀️
+ >
+ > The Undertone Guardian Phone keeps your kids connected to *you* — without exposing them to social media algorithms, online predators, or spam calls.
+@@ -34,11 +32,11 @@
+ >
+ > Tap link in bio to reserve early-bird pricing! 🔗
+ >
+-> `#ParentingHacks #ChildSafety #LoRA #ScreenTime #Dumbphone #TechForGood #Undertone`
++> #ParentingHacks #ChildSafety #LoRA #ScreenTime #Dumbphone #TechForGood #Undertone
+ 
+-### Post 3: 3D Engineering & Security Breakdown (Feed / Carousel 1:1)
++#### Post 3: 3D Engineering & Security Breakdown
+ 
+-#### ✍️ Caption & Copy
++##### ✍️ Caption & Copy
+ > **Inside the Engineering of the World's Safest Kids Phone.** ⚙️📱
+ >
+ > Here’s why traditional parental control apps fail — and why physical hardware enforcement wins every time:
+@@ -52,4 +50,4 @@
+ >
+ > 🚀 Kickstarter campaign launching soon! Link in bio.
+ >
+-> `#Engineering #CyberSecurity #HardwareDesign #ProductDesign #HardwareSecurity #Meshtastic #LoRA #Undertone`
++> #Engineering #CyberSecurity #HardwareDesign #ProductDesign #HardwareSecurity #Meshtastic #LoRA #Undertone
+\ No newline at end of file

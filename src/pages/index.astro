@@ -1,0 +1,66 @@
+---
+import Base from '../layouts/Base.astro';
+import Card from '../components/Card.astro';
+import { SECTIONS, SITE } from '../consts';
+import { pageUrl } from '../lib/url';
+import { getCollection, getEntries } from 'astro:content';
+
+const latest: { section: string; entry: any }[] = [];
+for (const s of SECTIONS) {
+  const entries = (await getCollection(s.key, ({ data }) => !('draft' in data && data.draft))).sort(
+    (a, b) => (b.data.date?.getTime?.() ?? 0) - (a.data.date?.getTime?.() ?? 0),
+  );
+  for (const e of entries.slice(0, 4)) latest.push({ section: s.key, entry: e });
+}
+latest.sort((a, b) => (b.entry.data.date?.getTime?.() ?? 0) - (a.entry.data.date?.getTime?.() ?? 0));
+---
+
+<Base>
+  <div class="container">
+    <section class="masthead">
+      <p class="kicker">an independent maker's field notes</p>
+      <h1>The Reluctant Capitalist</h1>
+      <p class="tagline">{SITE.tagline}</p>
+      <p class="lede">
+        Everything here is public on purpose: {SECTIONS.map((s) => s.title.toLowerCase()).join(', ')},
+        a <a href={pageUrl('/garden/')}>limited slice of my second brain</a>, and a{' '}
+        <a href={pageUrl('/chat/')}>chat with my own models</a>.
+      </p>
+    </section>
+
+    <div class="home-grid">
+      <div>
+        <h2 style="margin-top:0">Latest</h2>
+        <div class="card-grid" style="grid-template-columns:repeat(auto-fill,minmax(260px,1fr))">
+          {latest.slice(0, 6).map(({ section, entry }) => <Card entry={entry} section={section as any} />)}
+        </div>
+        <p class="kv"><strong>Explore:</strong> each section below is a full collection.</p>
+        <ul class="section-list">
+          {SECTIONS.map((s) => (
+            <li>
+              <a href={pageUrl(`/${s.key}/`)}>
+                <span>
+                  <strong>{s.title}</strong> <span style="color:var(--muted)">— {s.blurb}</span>
+                </span>
+                <span class="date">/&#8202;{s.key}</span>
+              </a>
+            </li>
+          ))}
+        </ul>
+      </div>
+
+      <aside class="sidebar">
+        <h3 style="margin-top:0">Why "reluctant"?</h3>
+        <p style="font-size:0.95rem;color:var(--ink-soft)">
+          I would rather build than sell, explain than pitch, and make once than repeat.
+          But craft doesn't fund itself. This site is the compromise: build honestly,
+          publish the receipts, and let the work ask for the money instead of me.
+        </p>
+        <p class="mono" style="font-size:0.78rem;color:var(--muted)">
+          This is a template. Clone it, fill the folders under <code>src/content/</code>,
+          and you have a site. See the README.
+        </p>
+      </aside>
+    </div>
+  </div>
+</Base>

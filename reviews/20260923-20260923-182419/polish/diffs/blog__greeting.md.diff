@@ -1,0 +1,15 @@
+--- a/blog/greeting.md
++++ b/blog/greeting.md
+@@ -1,7 +1,6 @@
+-**What this is:** an opencode working session — 528 messages.
++What this is: an opencode working session — 528 messages.
+ 
+-**When:** 2026-09-04 · **Working directory:** `/home/jd/Prototypes`
++When: 2026-09-04 · Working directory: /home/jd/Prototypes
+ 
+-**Opened with:**
+-
+-> test
++Opened with:
++> test
+\ No newline at end of file

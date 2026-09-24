@@ -1,0 +1,24 @@
+---
+import { SITE, SECTIONS } from '../consts';
+import { pageUrl, localPath } from '../lib/url';
+const path = localPath(Astro.url.pathname);
+const active = SECTIONS.find((s) => path.startsWith(`/${s.key}`));
+---
+
+<header class="site-header">
+  <div class="container site-header__inner">
+    <a class="wordmark" href={pageUrl('/')}>
+      <span class="dollar">$</span>{SITE.title}
+    </a>
+    <nav class="site-nav" aria-label="Sections">
+      {
+        SECTIONS.map((s) => (
+          <a href={pageUrl(`/${s.key}/`)} aria-current={active?.key === s.key ? 'page' : undefined}>
+            {s.title}
+          </a>
+        ))
+      }
+      <a href={pageUrl('/chat/')} aria-current={path === '/chat/' ? 'page' : undefined}>Chat</a>
+    </nav>
+  </div>
+</header>

@@ -1,0 +1,14 @@
+{
+  "$comment": "Publishing pipeline config. `npm run snapshot` copies the vault into snapshots/<ts>/ (markdown only). `npm run ingest` extracts opencode + antigravity candidates into reviews/src/. `npm run classify` normalizes + routes snapshot + ingest into reviews/<ts>/<section>/ + MANIFEST.md. The owner edits MANIFEST.md, then `npm run promote` copies approved entries into src/content/<section>/. The vault itself is never read directly by the build.",
+  "source": "~/Documents/UnifiedVault",
+  "snapshotsDir": "snapshots",
+  "excludeFile": ".garden-exclude.json",
+  "output": "src/content/garden",
+  "includeFolders": ["Projects", "projects", "Areas", "Knowledge", "Daily", "Goals", "Inbox"],
+  "includeTags": [],
+  "excludePaths": ["Templates", "Attachments", "Archive", "Tags", "Content", "copilot", "Opencode"],
+  "maxNotes": 250,
+  "maxBytesPerNote": 120000,
+  "stripFrontmatterKeys": ["aliases", "cssclasses", "excalidraw-plugin", "obsidianUIMode", "file-created", "uuid"],
+  "welcomeNote": true
+}

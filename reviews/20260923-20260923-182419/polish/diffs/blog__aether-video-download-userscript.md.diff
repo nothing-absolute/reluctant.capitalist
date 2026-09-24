@@ -1,0 +1,15 @@
+--- a/blog/aether-video-download-userscript.md
++++ b/blog/aether-video-download-userscript.md
+@@ -1,7 +1,6 @@
+-**What this is:** an opencode working session — 29 messages.
++This is an opencode working session — 29 messages.
+ 
+-**When:** 2026-09-01 · **Working directory:** `/home/jd/Prototypes`
++When: 2026-09-01 · Working directory: /home/jd/Prototypes
+ 
+-**Opened with:**
+-
+-> create a userscript for downloading videos from: https://aether.ist/
++Opened with:
++> create a userscript for downloading videos from: https://aether.ist/
+\ No newline at end of file

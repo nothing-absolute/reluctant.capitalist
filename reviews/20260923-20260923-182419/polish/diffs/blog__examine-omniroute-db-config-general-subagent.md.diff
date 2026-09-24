@@ -1,0 +1,25 @@
+--- a/blog/examine-omniroute-db-config-general-subagent.md
++++ b/blog/examine-omniroute-db-config-general-subagent.md
+@@ -1,12 +1,12 @@
+-**What this is:** an opencode working session — 9 messages.
++This is an opencode working session — 9 messages.
+ 
+-**When:** 2026-08-31 · **Working directory:** `/home/jd/Prototypes`
++When: 2026-08-31 · Working directory: /home/jd/Prototypes
+ 
+-**Opened with:**
++Opened with:
+ 
+-> I need to examine the current OmniRoute setup thoroughly. Please do the following:
+->
+-> 1. Read `/home/jd/.opencode/opencode.json` to see the current OmniRoute provider config
+-> 2. Read `/home/jd/Prototypes/opencode.json` to see the prototypes config
+-> 3. Look at `/home/jd/.omniroute/` directory listing
+-> 4. Read the application log at `/home/jd/.omniroute/logs/application/app.log` (last 200 lines)
++I need to examine the current OmniRoute setup thoroughly. Please do the following:
++
++1. Read /home/jd/.opencode/opencode.json to see the current OmniRoute provider config
++2. Read /home/jd/Prototypes/opencode.json to see the prototypes config
++3. Look at /home/jd/.omniroute/ directory listing
++4. Read the application log at /home/jd/.omniroute/logs/application/app.log (last 200 lines)
+\ No newline at end of file

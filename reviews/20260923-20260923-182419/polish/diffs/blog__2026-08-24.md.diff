@@ -1,0 +1,11 @@
+--- a/blog/2026-08-24.md
++++ b/blog/2026-08-24.md
+@@ -1,5 +1,3 @@
+-### Captures
++00:15 - xTool O1 Omni for printed needlepoint canvases
+ 
+-**00:15 - xTool O1 Omni for printed needlepoint canvases**
+-
+-Verdict: workable but not ideal. Flatbed UV (330×420mm bed, ±0.2mm vision system) can print on 13/18-mesh canvas, but UV ink cures as a rigid layer that can crack/flake when flexible mesh bends during stitching/blocking; heavy coverage risks bridging the open mesh holes. Dual-Head edition's flexible white ink would help adhesion on flexible substrates. Better-fit alternatives for this niche: sublimation onto polyester mesh canvas (cheap, known to work), or hand-painting with acrylics.
++Verdict: workable but not ideal. Flatbed UV (330×420mm bed, ±0.2mm vision system) can print on 13/18-mesh canvas, but UV ink cures as a rigid layer that can crack/flake when flexible mesh bends during stitching/blocking; heavy coverage risks bridging the open mesh holes. Dual-Head edition's flexible white ink would help adhesion on flexible substrates. Better-fit alternatives for this niche: sublimation onto polyester mesh canvas (cheap, known to work), or hand-painting with acrylics.
+\ No newline at end of file

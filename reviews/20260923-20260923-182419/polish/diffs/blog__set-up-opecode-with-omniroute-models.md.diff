@@ -1,0 +1,15 @@
+--- a/blog/set-up-opecode-with-omniroute-models.md
++++ b/blog/set-up-opecode-with-omniroute-models.md
+@@ -1,7 +1,6 @@
+-**What this is:** an opencode working session — 13 messages.
++What this is: an opencode working session — 13 messages.
+ 
+-**When:** 2026-08-31 · **Working directory:** `/home/jd/Prototypes`
++When: 2026-08-31 · Working directory: /home/jd/Prototypes
+ 
+-**Opened with:**
+-
+-> Set up opecode to use the OmniRoute models
++Opened with:
++> Set up opecode to use the OmniRoute models
+\ No newline at end of file

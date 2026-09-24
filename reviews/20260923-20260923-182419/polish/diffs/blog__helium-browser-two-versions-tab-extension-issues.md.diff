@@ -1,0 +1,16 @@
+--- a/blog/helium-browser-two-versions-tab-extension-issues.md
++++ b/blog/helium-browser-two-versions-tab-extension-issues.md
+@@ -1,7 +1,8 @@
+-**What this is:** an opencode working session — 31 messages.
++I have two versions of the Helium browser GUI installed. I can't move tabs between windows and extensions are not working correctly in one of the windows.
+ 
+-**When:** 2026-09-19 · **Working directory:** `/home/jd/Prototypes`
++What this is: an opencode working session — 31 messages.
+ 
+-**Opened with:**
++When: 2026-09-19 · Working directory: /home/jd/Prototypes
+ 
+-> do I have two versions on Helium browser GUI installed? I can't move tabs from on window to the other and extensions are not working correctly for on of the windows
++Opened with:
++> do I have two versions on Helium browser GUI installed? I can't move tabs from on window to the other and extensions are not working correctly for on of the windows
+\ No newline at end of file

@@ -1,0 +1,27 @@
+{
+  "name": "reluctant-capitalist",
+  "type": "module",
+  "version": "0.1.0",
+  "private": true,
+  "description": "The Reluctant Capitalist — personal blog, project index, and limited digital garden. A template for turning a polymath's scattered ideas into a public presence.",
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "snapshot": "node scripts/snapshot-notes.mjs",
+    "ingest": "node scripts/ingest-opencode.mjs && node scripts/ingest-antigravity.mjs",
+    "classify": "node scripts/review-notes.mjs",
+    "promote": "node scripts/promote.mjs",
+    "polish": "node scripts/polish.mjs",
+    "stage": "node scripts/import-polished.mjs",
+    "stage:dry": "node scripts/import-polished.mjs --dry-run",
+    "repolish": "node scripts/repolish-one.mjs",
+    "seed": "npm run ingest"
+  },
+  "dependencies": {
+    "@astrojs/mdx": "^4.0.0",
+    "@astrojs/rss": "^4.0.0",
+    "astro": "^5.0.0"
+  },
+  "packageManager": "pnpm@12.3.0"
+}

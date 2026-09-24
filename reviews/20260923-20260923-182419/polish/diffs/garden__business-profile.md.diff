@@ -1,0 +1,16 @@
+--- a/garden/business-profile.md
++++ b/garden/business-profile.md
+@@ -1,8 +1,8 @@
+-### What I do
++#### What I do
+ > Fill this in with `/interview`.
+ 
+-### Who I help
++#### Who I help
+ > Fill this in with `/interview`.
+ 
+-### Current priorities
+--
++#### Current priorities
++-
+\ No newline at end of file

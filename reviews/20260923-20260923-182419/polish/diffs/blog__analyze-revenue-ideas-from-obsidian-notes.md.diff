@@ -1,0 +1,15 @@
+--- a/blog/analyze-revenue-ideas-from-obsidian-notes.md
++++ b/blog/analyze-revenue-ideas-from-obsidian-notes.md
+@@ -1,7 +1,6 @@
+-**What this is:** an opencode working session — 38 messages.
++This is an opencode working session — 38 messages.
+ 
+-**When:** 2026-09-18 · **Working directory:** `/home/jd/Prototypes`
++When: 2026-09-18 · Working directory: /home/jd/Prototypes
+ 
+-**Opened with:**
+-
+-> analyze all my ideas for creating revenue in my obsidian notes, and opencode chat history. List the top 5 most profitable ones, while also breaking down the time to start producing revenue for each one.
++Opened with:
++> analyze all my ideas for creating revenue in my obsidian notes, and opencode chat history. List the top 5 most profitable ones, while also breaking down the time to start producing revenue for each one.
+\ No newline at end of file

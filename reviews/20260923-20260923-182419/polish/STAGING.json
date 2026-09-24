@@ -1,0 +1,1363 @@
+{
+  "review": "20260923-20260923-182419",
+  "generatedAt": "2026-09-24T10:53:25.089Z",
+  "dryRun": false,
+  "counts": {
+    "manifest": 135,
+    "staged": 133,
+    "conflicts": 0,
+    "leftovers": 7
+  },
+  "staged": [
+    {
+      "section": "garden",
+      "file": "ai-setup-guide.md",
+      "status": "staged",
+      "draft": true,
+      "clarity": 5,
+      "quality": 5,
+      "dest": "src/content/garden/ai-setup-guide.md"
+    },
+    {
+      "section": "garden",
+      "file": "assisting-jd.md",
+      "status": "staged",
+      "draft": true,
+      "clarity": 4,
+      "quality": 5,
+      "dest": "src/content/garden/assisting-jd.md"
+    },
+    {
+      "section": "garden",
+      "file": "business-profile.md",
+      "status": "staged",
+      "draft": true,
+      "clarity": 3,
+      "quality": 3,
+      "dest": "src/content/garden/business-profile.md"
+    },
+    {
+      "section": "garden",
+      "file": "career-development.md",
+      "status": "staged",
+      "draft": true,
+      "clarity": 4,
+      "quality": 4,
+      "dest": "src/content/garden/career-development.md"
+    },
+    {
+      "section": "garden",
+      "file": "emai-command-guide.md",
+      "status": "staged",
+      "draft": true,
+      "clarity": 4,
+      "quality": 4,
+      "dest": "src/content/garden/emai-command-guide.md"
+    },
+    {
+      "section": "garden",
+      "file": "emai-plugin-guide.md",
+      "status": "staged",
+      "draft": true,
+      "clarity": 4,
+      "quality": 4,
+      "dest": "src/content/garden/emai-plugin-guide.md"
+    },
+    {
+      "section": "garden",
+      "file": "emai-setup-guide.md",
+      "status": "staged",
+      "draft": true,
+      "clarity": 4,
+      "quality": 4,
+      "dest": "src/content/garden/emai-setup-guide.md"
+    },
+    {
+      "section": "garden",
+      "file": "futo-notes-welcome.md",
+      "status": "staged",
+      "draft": true,
+      "clarity": 5,
+      "quality": 5,
+      "dest": "src/content/garden/futo-notes-welcome.md"
+    },
+    {
+      "section": "garden",
+      "file": "product-requirements-document.md",
+      "status": "staged",
+      "draft": true,
+      "clarity": 5,
+      "quality": 5,
+      "dest": "src/content/garden/product-requirements-document.md"
+    },
+    {
+      "section": "garden",
+      "file": "runpod-setup-guide.md",
+      "status": "staged",
+      "draft": true,
+      "clarity": 5,
+      "quality": 5,
+      "dest": "src/content/garden/runpod-setup-guide.md"
+    },
+    {
+      "section": "garden",
+      "file": "start-here-tasknotes.md",
+      "status": "staged",
+      "draft": true,
+      "clarity": 5,
+      "quality": 5,
+      "dest": "src/content/garden/start-here-tasknotes.md"
+    },
+    {
+      "section": "garden",
+      "file": "vault-readme.md",
+      "status": "staged",
+      "draft": true,
+      "clarity": 5,
+      "quality": 5,
+      "dest": "src/content/garden/vault-readme.md"
+    },
+    {
+      "section": "garden",
+      "file": "wiki-founding-note.md",
+      "status": "staged",
+      "draft": true,
+      "clarity": 5,
+      "quality": 5,
+      "dest": "src/content/garden/wiki-founding-note.md"
+    },
+    {
+      "section": "garden",
+      "file": "workflow-guide.md",
+      "status": "staged",
+      "draft": true,
+      "clarity": 5,
+      "quality": 5,
+      "dest": "src/content/garden/workflow-guide.md"
+    },
+    {
+      "section": "garden",
+      "file": "writing-style.md",
+      "status": "staged",
+      "draft": true,
+      "clarity": 3,
+      "quality": 2,
+      "dest": "src/content/garden/writing-style.md"
+    },
+    {
+      "section": "garden",
+      "file": "yakuake-shortcuts.md",
+      "status": "staged",
+      "draft": true,
+      "clarity": 3,
+      "quality": 3,
+      "dest": "src/content/garden/yakuake-shortcuts.md"
+    },
+    {
+      "section": "garden",
+      "file": "grandpa-pitch-letter.md",
+      "status": "staged",
+      "draft": true,
+      "clarity": 4,
+      "quality": 4,
+      "dest": "src/content/garden/grandpa-pitch-letter.md"
+    },
+    {
+      "section": "garden",
+      "file": "minimax-h3-production-brief.md",
+      "status": "staged",
+      "draft": true,
+      "clarity": 5,
+      "quality": 5,
+      "dest": "src/content/garden/minimax-h3-production-brief.md"
+    },
+    {
+      "section": "garden",
+      "file": "podcast-script.md",
+      "status": "staged",
+      "draft": true,
+      "clarity": 5,
+      "quality": 5,
+      "dest": "src/content/garden/podcast-script.md"
+    },
+    {
+      "section": "garden",
+      "file": "undertone-instagram-campaign-27.md",
+      "status": "staged",
+      "draft": true,
+      "clarity": 5,
+      "quality": 5,
+      "dest": "src/content/garden/undertone-instagram-campaign-27.md"
+    },
+    {
+      "section": "garden",
+      "file": "undertone-instagram-campaign.md",
+      "status": "staged",
+      "draft": true,
+      "clarity": 5,
+      "quality": 5,
+      "dest": "src/content/garden/undertone-instagram-campaign.md"
+    },
+    {
+      "section": "garden",
+      "file": "undertone-opencode-prompt.md",
+      "status": "staged",
+      "draft": true,
+      "clarity": 5,
+      "quality": 5,
+      "dest": "src/content/garden/undertone-opencode-prompt.md"
+    },
+    {
+      "section": "garden",
+      "file": "undertone-pitch-deck-23.md",
+      "status": "staged",
+      "draft": true,
+      "clarity": 4,
+      "quality": 5,
+      "dest": "src/content/garden/undertone-pitch-deck-23.md"
+    },
+    {
+      "section": "garden",
+      "file": "undertone-pitch-deck.md",
+      "status": "staged",
+      "draft": true,
+      "clarity": 4,
+      "quality": 4,
+      "dest": "src/content/garden/undertone-pitch-deck.md"
+    },
+    {
+      "section": "garden",
+      "file": "west-mall-7-tiktok-prompts.md",
+      "status": "staged",
+      "draft": true,
+      "clarity": 4,
+      "quality": 5,
+      "dest": "src/content/garden/west-mall-7-tiktok-prompts.md"
+    },
+    {
+      "section": "blog",
+      "file": "2026-05-08.md",
+      "status": "staged",
+      "draft": true,
+      "clarity": 4,
+      "quality": 4,
+      "dest": "src/content/blog/2026-05-08.md"
+    },
+    {
+      "section": "blog",
+      "file": "2026-07-28.md",
+      "status": "staged",
+      "draft": true,
+      "clarity": 4,
+      "quality": 4,
+      "dest": "src/content/blog/2026-07-28.md"
+    },
+    {
+      "section": "blog",
+      "file": "2026-07-29.md",
+      "status": "staged",
+      "draft": true,
+      "clarity": 5,
+      "quality": 5,
+      "dest": "src/content/blog/2026-07-29.md"
+    },
+    {
+      "section": "blog",
+      "file": "2026-07-30.md",
+      "status": "staged",
+      "draft": true,
+      "clarity": 4,
+      "quality": 5,
+      "dest": "src/content/blog/2026-07-30.md"
+    },
+    {
+      "section": "blog",
+      "file": "2026-08-01.md",
+      "status": "staged",
+      "draft": true,
+      "clarity": 4,
+      "quality": 4,
+      "dest": "src/content/blog/2026-08-01.md"
+    },
+    {
+      "section": "blog",
+      "file": "2026-08-02.md",
+      "status": "staged",
+      "draft": true,
+      "clarity": 4,
+      "quality": 4,
+      "dest": "src/content/blog/2026-08-02.md"
+    },
+    {
+      "section": "blog",
+      "file": "2026-08-03.md",
+      "status": "staged",
+      "draft": true,
+      "clarity": 4,
+      "quality": 4,
+      "dest": "src/content/blog/2026-08-03.md"
+    },
+    {
+      "section": "blog",
+      "file": "2026-08-04.md",
+      "status": "staged",
+      "draft": true,
+      "clarity": 4,
+      "quality": 4,
+      "dest": "src/content/blog/2026-08-04.md"
+    },
+    {
+      "section": "blog",
+      "file": "2026-08-05.md",
+      "status": "staged",
+      "draft": true,
+      "clarity": 4,
+      "quality": 4,
+      "dest": "src/content/blog/2026-08-05.md"
+    },
+    {
+      "section": "blog",
+      "file": "2026-08-06.md",
+      "status": "staged",
+      "draft": true,
+      "clarity": 4,
+      "quality": 5,
+      "dest": "src/content/blog/2026-08-06.md"
+    },
+    {
+      "section": "blog",
+      "file": "2026-08-09.md",
+      "status": "staged",
+      "draft": true,
+      "clarity": 4,
+      "quality": 4,
+      "dest": "src/content/blog/2026-08-09.md"
+    },
+    {
+      "section": "blog",
+      "file": "2026-08-20.md",
+      "status": "staged",
+      "draft": true,
+      "clarity": 4,
+      "quality": 4,
+      "dest": "src/content/blog/2026-08-20.md"
+    },
+    {
+      "section": "blog",
+      "file": "2026-08-21.md",
+      "status": "staged",
+      "draft": true,
+      "clarity": 4,
+      "quality": 4,
+      "dest": "src/content/blog/2026-08-21.md"
+    },
+    {
+      "section": "blog",
+      "file": "2026-08-23.md",
+      "status": "staged",
+      "draft": true,
+      "clarity": 4,
+      "quality": 4,
+      "dest": "src/content/blog/2026-08-23.md"
+    },
+    {
+      "section": "blog",
+      "file": "2026-08-24.md",
+      "status": "staged",
+      "draft": true,
+      "clarity": 4,
+      "quality": 4,
+      "dest": "src/content/blog/2026-08-24.md"
+    },
+    {
+      "section": "blog",
+      "file": "2026-08-27.md",
+      "status": "staged",
+      "draft": true,
+      "clarity": 4,
+      "quality": 4,
+      "dest": "src/content/blog/2026-08-27.md"
+    },
+    {
+      "section": "blog",
+      "file": "2026-08-31.md",
+      "status": "staged",
+      "draft": true,
+      "clarity": 4,
+      "quality": 4,
+      "dest": "src/content/blog/2026-08-31.md"
+    },
+    {
+      "section": "blog",
+      "file": "2026-09-03.md",
+      "status": "staged",
+      "draft": true,
+      "clarity": 4,
+      "quality": 4,
+      "dest": "src/content/blog/2026-09-03.md"
+    },
+    {
+      "section": "blog",
+      "file": "2026-09-04.md",
+      "status": "staged",
+      "draft": true,
+      "clarity": 4,
+      "quality": 4,
+      "dest": "src/content/blog/2026-09-04.md"
+    },
+    {
+      "section": "blog",
+      "file": "2026-09-05.md",
+      "status": "staged",
+      "draft": true,
+      "clarity": 4,
+      "quality": 4,
+      "dest": "src/content/blog/2026-09-05.md"
+    },
+    {
+      "section": "blog",
+      "file": "2026-09-18.md",
+      "status": "staged",
+      "draft": true,
+      "clarity": 4,
+      "quality": 4,
+      "dest": "src/content/blog/2026-09-18.md"
+    },
+    {
+      "section": "blog",
+      "file": "2026-09-19.md",
+      "status": "staged",
+      "draft": true,
+      "clarity": 4,
+      "quality": 4,
+      "dest": "src/content/blog/2026-09-19.md"
+    },
+    {
+      "section": "blog",
+      "file": "2026-09-20.md",
+      "status": "staged",
+      "draft": true,
+      "clarity": 4,
+      "quality": 4,
+      "dest": "src/content/blog/2026-09-20.md"
+    },
+    {
+      "section": "blog",
+      "file": "2026-09-23.md",
+      "status": "staged",
+      "draft": true,
+      "clarity": 4,
+      "quality": 4,
+      "dest": "src/content/blog/2026-09-23.md"
+    },
+    {
+      "section": "blog",
+      "file": "aether-video-download-userscript.md",
+      "status": "staged",
+      "draft": true,
+      "clarity": 3,
+      "quality": 2,
+      "dest": "src/content/blog/aether-video-download-userscript.md"
+    },
+    {
+      "section": "blog",
+      "file": "build-shop-partner-pitch-html-general-subagent.md",
+      "status": "staged",
+      "draft": true,
+      "clarity": 4,
+      "quality": 4,
+      "dest": "src/content/blog/build-shop-partner-pitch-html-general-subagent.md"
+    },
+    {
+      "section": "blog",
+      "file": "examine-omniroute-db-config-general-subagent.md",
+      "status": "staged",
+      "draft": true,
+      "clarity": 4,
+      "quality": 4,
+      "dest": "src/content/blog/examine-omniroute-db-config-general-subagent.md"
+    },
+    {
+      "section": "blog",
+      "file": "find-omniroute-codebase-explore-subagent.md",
+      "status": "staged",
+      "draft": true,
+      "clarity": 4,
+      "quality": 4,
+      "dest": "src/content/blog/find-omniroute-codebase-explore-subagent.md"
+    },
+    {
+      "section": "blog",
+      "file": "find-omniroute-free-providers-general-subagent.md",
+      "status": "staged",
+      "draft": true,
+      "clarity": 4,
+      "quality": 4,
+      "dest": "src/content/blog/find-omniroute-free-providers-general-subagent.md"
+    },
+    {
+      "section": "blog",
+      "file": "fixing-obsidian-loading-issue.md",
+      "status": "staged",
+      "draft": true,
+      "clarity": 3,
+      "quality": 3,
+      "dest": "src/content/blog/fixing-obsidian-loading-issue.md"
+    },
+    {
+      "section": "blog",
+      "file": "greeting.md",
+      "status": "staged",
+      "draft": true,
+      "clarity": 3,
+      "quality": 3,
+      "dest": "src/content/blog/greeting.md"
+    },
+    {
+      "section": "blog",
+      "file": "lion-king-standee-ai-video-generation-plan.md",
+      "status": "staged",
+      "draft": true,
+      "clarity": 3,
+      "quality": 3,
+      "dest": "src/content/blog/lion-king-standee-ai-video-generation-plan.md"
+    },
+    {
+      "section": "blog",
+      "file": "omniroute-free-api-and-file-based-provider-setup.md",
+      "status": "staged",
+      "draft": true,
+      "clarity": 3,
+      "quality": 3,
+      "dest": "src/content/blog/omniroute-free-api-and-file-based-provider-setup.md"
+    },
+    {
+      "section": "blog",
+      "file": "opencode-sessions-lost-after-update.md",
+      "status": "staged",
+      "draft": true,
+      "clarity": 4,
+      "quality": 4,
+      "dest": "src/content/blog/opencode-sessions-lost-after-update.md"
+    },
+    {
+      "section": "blog",
+      "file": "podcast-script-review-for-money-making-plans.md",
+      "status": "staged",
+      "draft": true,
+      "clarity": 3,
+      "quality": 3,
+      "dest": "src/content/blog/podcast-script-review-for-money-making-plans.md"
+    },
+    {
+      "section": "blog",
+      "file": "set-up-opecode-with-omniroute-models.md",
+      "status": "staged",
+      "draft": true,
+      "clarity": 3,
+      "quality": 3,
+      "dest": "src/content/blog/set-up-opecode-with-omniroute-models.md"
+    },
+    {
+      "section": "blog",
+      "file": "setting-up-futo-notes.md",
+      "status": "staged",
+      "draft": true,
+      "clarity": 3,
+      "quality": 3,
+      "dest": "src/content/blog/setting-up-futo-notes.md"
+    },
+    {
+      "section": "blog",
+      "file": "sure-let-s-focus-on-what-you-need-to-do-with-the-config-it-is-a.md",
+      "status": "staged",
+      "draft": true,
+      "clarity": 3,
+      "quality": 3,
+      "dest": "src/content/blog/sure-let-s-focus-on-what-you-need-to-do-with-the-config-it-is-a.md"
+    },
+    {
+      "section": "blog",
+      "file": "west-mall-7-animated-conspiracy-video.md",
+      "status": "staged",
+      "draft": true,
+      "clarity": 3,
+      "quality": 3,
+      "dest": "src/content/blog/west-mall-7-animated-conspiracy-video.md"
+    },
+    {
+      "section": "blog",
+      "file": "ai-software-tool-tutorial-youtube-channel.md",
+      "status": "staged",
+      "draft": true,
+      "clarity": 4,
+      "quality": 4,
+      "dest": "src/content/blog/ai-software-tool-tutorial-youtube-channel.md"
+    },
+    {
+      "section": "blog",
+      "file": "add-qwen2-5-3b-to-local-provider.md",
+      "status": "staged",
+      "draft": true,
+      "clarity": 4,
+      "quality": 4,
+      "dest": "src/content/blog/add-qwen2-5-3b-to-local-provider.md"
+    },
+    {
+      "section": "blog",
+      "file": "analyze-revenue-ideas-from-obsidian-notes.md",
+      "status": "staged",
+      "draft": true,
+      "clarity": 4,
+      "quality": 4,
+      "dest": "src/content/blog/analyze-revenue-ideas-from-obsidian-notes.md"
+    },
+    {
+      "section": "blog",
+      "file": "android-termux-llama-cpp-local-llm-setup.md",
+      "status": "staged",
+      "draft": true,
+      "clarity": 3,
+      "quality": 3,
+      "dest": "src/content/blog/android-termux-llama-cpp-local-llm-setup.md"
+    },
+    {
+      "section": "blog",
+      "file": "best-opencode-plugins-and-agents.md",
+      "status": "staged",
+      "draft": true,
+      "clarity": 4,
+      "quality": 4,
+      "dest": "src/content/blog/best-opencode-plugins-and-agents.md"
+    },
+    {
+      "section": "blog",
+      "file": "connect-omniroute.md",
+      "status": "staged",
+      "draft": true,
+      "clarity": 3,
+      "quality": 3,
+      "dest": "src/content/blog/connect-omniroute.md"
+    },
+    {
+      "section": "blog",
+      "file": "decentralized-social-media-redesign-for-projects-and-ideas.md",
+      "status": "staged",
+      "draft": true,
+      "clarity": 4,
+      "quality": 3,
+      "dest": "src/content/blog/decentralized-social-media-redesign-for-projects-and-ideas.md"
+    },
+    {
+      "section": "blog",
+      "file": "external-display-brightness-alternatives.md",
+      "status": "staged",
+      "draft": true,
+      "clarity": 3,
+      "quality": 3,
+      "dest": "src/content/blog/external-display-brightness-alternatives.md"
+    },
+    {
+      "section": "blog",
+      "file": "facebook-marketplace-tiny-house-pitch.md",
+      "status": "staged",
+      "draft": true,
+      "clarity": 4,
+      "quality": 3,
+      "dest": "src/content/blog/facebook-marketplace-tiny-house-pitch.md"
+    },
+    {
+      "section": "blog",
+      "file": "find-large-files-and-move-flatpak-apps-to-external-drive.md",
+      "status": "staged",
+      "draft": true,
+      "clarity": 4,
+      "quality": 4,
+      "dest": "src/content/blog/find-large-files-and-move-flatpak-apps-to-external-drive.md"
+    },
+    {
+      "section": "blog",
+      "file": "find-obsidian-folders-on-hard-drive.md",
+      "status": "staged",
+      "draft": true,
+      "clarity": 3,
+      "quality": 3,
+      "dest": "src/content/blog/find-obsidian-folders-on-hard-drive.md"
+    },
+    {
+      "section": "blog",
+      "file": "helium-browser-two-versions-tab-extension-issues.md",
+      "status": "staged",
+      "draft": true,
+      "clarity": 4,
+      "quality": 3,
+      "dest": "src/content/blog/helium-browser-two-versions-tab-extension-issues.md"
+    },
+    {
+      "section": "blog",
+      "file": "pam-oil-research-and-claude-capture.md",
+      "status": "staged",
+      "draft": true,
+      "clarity": 3,
+      "quality": 3,
+      "dest": "src/content/blog/pam-oil-research-and-claude-capture.md"
+    },
+    {
+      "section": "blog",
+      "file": "pam-oil-company-history-bill-pederson.md",
+      "status": "staged",
+      "draft": true,
+      "clarity": 3,
+      "quality": 3,
+      "dest": "src/content/blog/pam-oil-company-history-bill-pederson.md"
+    },
+    {
+      "section": "blog",
+      "file": "pam-oil-history-and-financials.md",
+      "status": "staged",
+      "draft": true,
+      "clarity": 3,
+      "quality": 3,
+      "dest": "src/content/blog/pam-oil-history-and-financials.md"
+    },
+    {
+      "section": "blog",
+      "file": "reinstall-jan-ai-on-external-drive.md",
+      "status": "staged",
+      "draft": true,
+      "clarity": 3,
+      "quality": 3,
+      "dest": "src/content/blog/reinstall-jan-ai-on-external-drive.md"
+    },
+    {
+      "section": "blog",
+      "file": "reluctant-capitalist-astro-project-review.md",
+      "status": "staged",
+      "draft": true,
+      "clarity": 3,
+      "quality": 3,
+      "dest": "src/content/blog/reluctant-capitalist-astro-project-review.md"
+    },
+    {
+      "section": "blog",
+      "file": "south-dakota-governor-financial-interest-statements.md",
+      "status": "staged",
+      "draft": true,
+      "clarity": 3,
+      "quality": 3,
+      "dest": "src/content/blog/south-dakota-governor-financial-interest-statements.md"
+    },
+    {
+      "section": "blog",
+      "file": "terry-dickman-missing-sioux-falls-article.md",
+      "status": "staged",
+      "draft": true,
+      "clarity": 3,
+      "quality": 3,
+      "dest": "src/content/blog/terry-dickman-missing-sioux-falls-article.md"
+    },
+    {
+      "section": "blog",
+      "file": "test-45.md",
+      "status": "staged",
+      "draft": true,
+      "clarity": 3,
+      "quality": 3,
+      "dest": "src/content/blog/test-45.md"
+    },
+    {
+      "section": "blog",
+      "file": "tor-and-helium-browser-keyboard-input-issues.md",
+      "status": "staged",
+      "draft": true,
+      "clarity": 3,
+      "quality": 3,
+      "dest": "src/content/blog/tor-and-helium-browser-keyboard-input-issues.md"
+    },
+    {
+      "section": "blog",
+      "file": "undertone-agent-system-prompt.md",
+      "status": "staged",
+      "draft": true,
+      "clarity": 4,
+      "quality": 4,
+      "dest": "src/content/blog/undertone-agent-system-prompt.md"
+    },
+    {
+      "section": "blog",
+      "file": "add-openai-compatible-llm-from-http-10-240-190-108-8080-v1.md",
+      "status": "staged",
+      "draft": true,
+      "clarity": 3,
+      "quality": 3,
+      "dest": "src/content/blog/add-openai-compatible-llm-from-http-10-240-190-108-8080-v1.md"
+    },
+    {
+      "section": "blog",
+      "file": "develop-plan-creating-youtube-channel-https.md",
+      "status": "staged",
+      "draft": true,
+      "clarity": 3,
+      "quality": 3,
+      "dest": "src/content/blog/develop-plan-creating-youtube-channel-https.md"
+    },
+    {
+      "section": "blog",
+      "file": "music.md",
+      "status": "staged",
+      "draft": true,
+      "clarity": 3,
+      "quality": 3,
+      "dest": "src/content/blog/music.md"
+    },
+    {
+      "section": "blog",
+      "file": "resume-59.md",
+      "status": "staged",
+      "draft": true,
+      "clarity": 4,
+      "quality": 4,
+      "dest": "src/content/blog/resume-59.md"
+    },
+    {
+      "section": "blog",
+      "file": "resume.md",
+      "status": "staged",
+      "draft": true,
+      "clarity": 3,
+      "quality": 3,
+      "dest": "src/content/blog/resume.md"
+    },
+    {
+      "section": "blog",
+      "file": "test.md",
+      "status": "staged",
+      "draft": true,
+      "clarity": 3,
+      "quality": 3,
+      "dest": "src/content/blog/test.md"
+    },
+    {
+      "section": "concepts",
+      "file": "proprietary-obsolescence-analysis.md",
+      "status": "staged",
+      "draft": true,
+      "clarity": 4,
+      "quality": 5,
+      "dest": "src/content/concepts/proprietary-obsolescence-analysis.md"
+    },
+    {
+      "section": "concepts",
+      "file": "second-brain.md",
+      "status": "staged",
+      "draft": true,
+      "clarity": 5,
+      "quality": 5,
+      "dest": "src/content/concepts/second-brain.md"
+    },
+    {
+      "section": "projects",
+      "file": "a-plain-of-jars-bible.md",
+      "status": "staged",
+      "draft": true,
+      "clarity": 4,
+      "quality": 5,
+      "dest": "src/content/projects/a-plain-of-jars-bible.md"
+    },
+    {
+      "section": "projects",
+      "file": "ai-task-concierge.md",
+      "status": "staged",
+      "draft": true,
+      "clarity": 5,
+      "quality": 5,
+      "dest": "src/content/projects/ai-task-concierge.md"
+    },
+    {
+      "section": "projects",
+      "file": "android-phone-project.md",
+      "status": "staged",
+      "draft": true,
+      "clarity": 4,
+      "quality": 4,
+      "dest": "src/content/projects/android-phone-project.md"
+    },
+    {
+      "section": "projects",
+      "file": "artist-partnership-term-sheet.md",
+      "status": "staged",
+      "draft": true,
+      "clarity": 4,
+      "quality": 4,
+      "dest": "src/content/projects/artist-partnership-term-sheet.md"
+    },
+    {
+      "section": "projects",
+      "file": "boat-monitor-data-viz.md",
+      "status": "staged",
+      "draft": true,
+      "clarity": 4,
+      "quality": 4,
+      "dest": "src/content/projects/boat-monitor-data-viz.md"
+    },
+    {
+      "section": "projects",
+      "file": "boat-monitor-social-campaign.md",
+      "status": "staged",
+      "draft": true,
+      "clarity": 5,
+      "quality": 5,
+      "dest": "src/content/projects/boat-monitor-social-campaign.md"
+    },
+    {
+      "section": "projects",
+      "file": "cold-storage-business.md",
+      "status": "staged",
+      "draft": true,
+      "clarity": 4,
+      "quality": 4,
+      "dest": "src/content/projects/cold-storage-business.md"
+    },
+    {
+      "section": "projects",
+      "file": "commons-landing.md",
+      "status": "staged",
+      "draft": true,
+      "clarity": 4,
+      "quality": 3,
+      "dest": "src/content/projects/commons-landing.md"
+    },
+    {
+      "section": "projects",
+      "file": "community-data-center-vision.md",
+      "status": "staged",
+      "draft": true,
+      "clarity": 4,
+      "quality": 5,
+      "dest": "src/content/projects/community-data-center-vision.md"
+    },
+    {
+      "section": "projects",
+      "file": "earthship-homes.md",
+      "status": "staged",
+      "draft": true,
+      "clarity": 4,
+      "quality": 4,
+      "dest": "src/content/projects/earthship-homes.md"
+    },
+    {
+      "section": "projects",
+      "file": "financial-model.md",
+      "status": "staged",
+      "draft": true,
+      "clarity": 4,
+      "quality": 4,
+      "dest": "src/content/projects/financial-model.md"
+    },
+    {
+      "section": "projects",
+      "file": "fishing-boat-concept.md",
+      "status": "staged",
+      "draft": true,
+      "clarity": 4,
+      "quality": 5,
+      "dest": "src/content/projects/fishing-boat-concept.md"
+    },
+    {
+      "section": "projects",
+      "file": "founder-video-script.md",
+      "status": "staged",
+      "draft": true,
+      "clarity": 5,
+      "quality": 5,
+      "dest": "src/content/projects/founder-video-script.md"
+    },
+    {
+      "section": "projects",
+      "file": "hydration-station-kickstarter.md",
+      "status": "staged",
+      "draft": true,
+      "clarity": 4,
+      "quality": 4,
+      "dest": "src/content/projects/hydration-station-kickstarter.md"
+    },
+    {
+      "section": "projects",
+      "file": "idraw-dashboard.md",
+      "status": "staged",
+      "draft": true,
+      "clarity": 4,
+      "quality": 3,
+      "dest": "src/content/projects/idraw-dashboard.md"
+    },
+    {
+      "section": "projects",
+      "file": "kickstarter-campaign-blueprint-review.md",
+      "status": "staged",
+      "draft": true,
+      "clarity": 5,
+      "quality": 5,
+      "dest": "src/content/projects/kickstarter-campaign-blueprint-review.md"
+    },
+    {
+      "section": "projects",
+      "file": "kickstarter-financial-model.md",
+      "status": "staged",
+      "draft": true,
+      "clarity": 4,
+      "quality": 5,
+      "dest": "src/content/projects/kickstarter-financial-model.md"
+    },
+    {
+      "section": "projects",
+      "file": "makerspace-nonprofit-partnership-pro-forma.md",
+      "status": "staged",
+      "draft": true,
+      "clarity": 4,
+      "quality": 4,
+      "dest": "src/content/projects/makerspace-nonprofit-partnership-pro-forma.md"
+    },
+    {
+      "section": "projects",
+      "file": "mushroom-grow-container.md",
+      "status": "staged",
+      "draft": true,
+      "clarity": 4,
+      "quality": 4,
+      "dest": "src/content/projects/mushroom-grow-container.md"
+    },
+    {
+      "section": "projects",
+      "file": "needlepoint-financial-app.md",
+      "status": "staged",
+      "draft": true,
+      "clarity": 4,
+      "quality": 3,
+      "dest": "src/content/projects/needlepoint-financial-app.md"
+    },
+    {
+      "section": "projects",
+      "file": "openplotter-kickstarter-campaign-plan.md",
+      "status": "staged",
+      "draft": true,
+      "clarity": 5,
+      "quality": 5,
+      "dest": "src/content/projects/openplotter-kickstarter-campaign-plan.md"
+    },
+    {
+      "section": "projects",
+      "file": "openplotter-kickstarter-campaign.md",
+      "status": "staged",
+      "draft": true,
+      "clarity": 4,
+      "quality": 5,
+      "dest": "src/content/projects/openplotter-kickstarter-campaign.md"
+    },
+    {
+      "section": "projects",
+      "file": "patchbay.md",
+      "status": "staged",
+      "draft": true,
+      "clarity": 4,
+      "quality": 3,
+      "dest": "src/content/projects/patchbay.md"
+    },
+    {
+      "section": "projects",
+      "file": "precious-plastics-usa.md",
+      "status": "staged",
+      "draft": true,
+      "clarity": 4,
+      "quality": 4,
+      "dest": "src/content/projects/precious-plastics-usa.md"
+    },
+    {
+      "section": "projects",
+      "file": "substack-launch-plan.md",
+      "status": "staged",
+      "draft": true,
+      "clarity": 4,
+      "quality": 4,
+      "dest": "src/content/projects/substack-launch-plan.md"
+    },
+    {
+      "section": "projects",
+      "file": "the-off-ramp-channel-plan.md",
+      "status": "staged",
+      "draft": true,
+      "clarity": 5,
+      "quality": 5,
+      "dest": "src/content/projects/the-off-ramp-channel-plan.md"
+    },
+    {
+      "section": "projects",
+      "file": "tour-calendar-monitor.md",
+      "status": "staged",
+      "draft": true,
+      "clarity": 4,
+      "quality": 4,
+      "dest": "src/content/projects/tour-calendar-monitor.md"
+    },
+    {
+      "section": "projects",
+      "file": "undertone-landing.md",
+      "status": "staged",
+      "draft": true,
+      "clarity": 4,
+      "quality": 4,
+      "dest": "src/content/projects/undertone-landing.md"
+    },
+    {
+      "section": "projects",
+      "file": "weekly-plan-2026-08-03.md",
+      "status": "staged",
+      "draft": true,
+      "clarity": 4,
+      "quality": 4,
+      "dest": "src/content/projects/weekly-plan-2026-08-03.md"
+    },
+    {
+      "section": "projects",
+      "file": "youtube-channel.md",
+      "status": "staged",
+      "draft": true,
+      "clarity": 4,
+      "quality": 4,
+      "dest": "src/content/projects/youtube-channel.md"
+    },
+    {
+      "section": "projects",
+      "file": "youtube-pedal-demo-channel.md",
+      "status": "staged",
+      "draft": true,
+      "clarity": 4,
+      "quality": 5,
+      "dest": "src/content/projects/youtube-pedal-demo-channel.md"
+    },
+    {
+      "section": "projects",
+      "file": "youtube-process-channel.md",
+      "status": "staged",
+      "draft": true,
+      "clarity": 4,
+      "quality": 5,
+      "dest": "src/content/projects/youtube-process-channel.md"
+    },
+    {
+      "section": "projects",
+      "file": "implementation-plan-33.md",
+      "status": "staged",
+      "draft": true,
+      "clarity": 4,
+      "quality": 4,
+      "dest": "src/content/projects/implementation-plan-33.md"
+    },
+    {
+      "section": "projects",
+      "file": "implementation-plan-31.md",
+      "status": "staged",
+      "draft": true,
+      "clarity": 4,
+      "quality": 4,
+      "dest": "src/content/projects/implementation-plan-31.md"
+    },
+    {
+      "section": "projects",
+      "file": "implementation-plan.md",
+      "status": "staged",
+      "draft": true,
+      "clarity": 4,
+      "quality": 4,
+      "dest": "src/content/projects/implementation-plan.md"
+    },
+    {
+      "section": "projects",
+      "file": "user-acquisition-and-testing-plan.md",
+      "status": "staged",
+      "draft": true,
+      "clarity": 4,
+      "quality": 5,
+      "dest": "src/content/projects/user-acquisition-and-testing-plan.md"
+    },
+    {
+      "section": "papers",
+      "file": "walkthrough-5.md",
+      "status": "staged",
+      "draft": true,
+      "clarity": 4,
+      "quality": 5,
+      "dest": "src/content/papers/walkthrough-5.md"
+    },
+    {
+      "section": "papers",
+      "file": "walkthrough-3.md",
+      "status": "staged",
+      "draft": true,
+      "clarity": 4,
+      "quality": 5,
+      "dest": "src/content/papers/walkthrough-3.md"
+    },
+    {
+      "section": "papers",
+      "file": "walkthrough.md",
+      "status": "staged",
+      "draft": true,
+      "clarity": 4,
+      "quality": 4,
+      "dest": "src/content/papers/walkthrough.md"
+    }
+  ],
+  "leftovers": [
+    {
+      "section": "garden",
+      "file": "dashboard-excalidraw.md",
+      "reason": "too-large-for-polish"
+    },
+    {
+      "section": "projects",
+      "file": "hydration-station-kickstarter-page.md",
+      "reason": "polish-failed"
+    },
+    {
+      "section": "skipped",
+      "file": "daily-2026-08-19-md.md",
+      "reason": "unclassified"
+    },
+    {
+      "section": "skipped",
+      "file": "daily-2026-08-22-md.md",
+      "reason": "unclassified"
+    },
+    {
+      "section": "skipped",
+      "file": "daily-2026-08-26-md.md",
+      "reason": "unclassified"
+    },
+    {
+      "section": "skipped",
+      "file": "knowledge-context-audience-profile-md.md",
+      "reason": "unclassified"
+    },
+    {
+      "section": "skipped",
+      "file": "knowledge-context-content-preferences-md.md",
+      "reason": "unclassified"
+    }
+  ],
+  "allowedFields": {
+    "projects": [
+      "title",
+      "description",
+      "date",
+      "tags",
+      "source",
+      "draft",
+      "clarity",
+      "quality",
+      "status",
+      "stage",
+      "stack",
+      "repo",
+      "url"
+    ],
+    "blog": [
+      "title",
+      "description",
+      "date",
+      "tags",
+      "source",
+      "draft",
+      "clarity",
+      "quality"
+    ],
+    "papers": [
+      "title",
+      "description",
+      "date",
+      "tags",
+      "source",
+      "draft",
+      "clarity",
+      "quality",
+      "type"
+    ],
+    "art": [
+      "title",
+      "description",
+      "date",
+      "tags",
+      "source",
+      "draft",
+      "clarity",
+      "quality",
+      "medium"
+    ],
+    "comics": [
+      "title",
+      "description",
+      "date",
+      "tags",
+      "source",
+      "draft",
+      "clarity",
+      "quality",
+      "series"
+    ],
+    "concepts": [
+      "title",
+      "description",
+      "date",
+      "tags",
+      "source",
+      "draft",
+      "clarity",
+      "quality",
+      "status"
+    ],
+    "design": [
+      "title",
+      "description",
+      "date",
+      "tags",
+      "source",
+      "draft",
+      "clarity",
+      "quality",
+      "discipline"
+    ],
+    "goals": [
+      "title",
+      "description",
+      "date",
+      "tags",
+      "source",
+      "draft",
+      "clarity",
+      "quality",
+      "status",
+      "target"
+    ],
+    "values": [
+      "title",
+      "description",
+      "date",
+      "tags",
+      "source",
+      "draft",
+      "clarity",
+      "quality",
+      "weight"
+    ],
+    "garden": [
+      "title",
+      "description",
+      "date",
+      "tags",
+      "source",
+      "draft",
+      "clarity",
+      "quality",
+      "vault"
+    ]
+  }
+}

@@ -1,0 +1,23 @@
+# build output
+dist/
+node_modules/
+.astro/
+
+# environment
+.env
+.env.local
+
+# generated garden cache
+.garden-cache/
+
+# staging review tooling (local undo history + background job state)
+.staging-backups/
+.staging-jobs/
+
+# raw vault copies — regenerate with `npm run snapshot`; keeps private notes out of the repo
+snapshots/
+
+# os / editor noise
+.DS_Store
+*.log
+*.swp

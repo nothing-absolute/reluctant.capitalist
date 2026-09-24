@@ -1,0 +1,75 @@
+--- a/blog/2026-09-18.md
++++ b/blog/2026-09-18.md
+@@ -1,42 +1,42 @@
+-#
+-←  |  →
++←  |  |
+ 
+-### 🎯 Today's Focus
++#### 🎯 Today's Focus
+ > The ONE thing that makes the day feel like progress.
+ - **ONE Thing:**
+ - **Priority 2:**
+ - **Priority 3:**
+ 
+-### 🐸 Frogs to Eat
++#### 🐸 Frogs to Eat
+ - [ ]
+ 
+-### ✅ Today's Tasks
++#### ✅ Today's Tasks
+ - [ ]
+ 
+-### ⚡ Quick Wins
++#### ⚡ Quick Wins
+ - [ ]
+ 
+-### 📅 Calendar
++#### 📅 Calendar
+ > Hard stops, time blocks, and important timing context.
+ 
+-### 📈 Metrics Snapshot
++#### 📈 Metrics Snapshot
+ > Optional. `/closeday` can update this if you're tracking metrics.
+ -
+ 
+-### 📥 Activity Log
++#### 📥 Activity Log
+ > Running log. Brain dump here freely.
+ 
+-### 🧠 End of Day
++#### 🧠 End of Day
+ 
+-#### Wins
++##### Wins
+ -
+ 
+-#### Blockers
++##### Blockers
+ -
+ 
+-#### Reflection
++##### Reflection
+ >
+-### Captures
++
++#### Captures
+ 
+ **09:20 - YouTube Channel Plan (clone of Absolutely Agentic)**
+ Researched youtube.com/@absolutelyagentic to build a full launch plan for an AI-focus talking-head essay channel.
+@@ -83,7 +83,7 @@
+ 1. **JASMINE skoolie rental** — $93.5K gross / **$28.2K/yr owner CF** base case ($76.4K asset, hired driver, payoff ~32.5 mo; prune to 18-20 stops → $32.8K CF). Market validated (Coachella 2026: $749/nt trailer, $990/nt Class C all-in). **Time to revenue: weeks-months** (list for next events). Risk: 2002 chassis → $5K reserve; occupancy is the killer (80% → 54 mo).
+ 2. **UNDERTONE Kickstarter portfolio** — 3 campaigns, $190K gross, +$19.6K net base, **~$285K ARR by M12** (subs at 92% margin). **Time to revenue: ~4-8 mo** (Camp 3 Q1 first). Risk: Camp 1 is −$5K at goal (intentional, sub-driven).
+ 3. **Needlepoint canvas printing** — $5K ask, payback **M5**, ~90% margin, operator ~$39.6K/yr potential. **Time to revenue: ~2-4 mo** (prototype + store partner). Risk: needs retail partner (65/35 split).
+-4. **The Off-Ramp YouTube** — $200-800/mo (m3-6) → $800-3K/mo (m6-12). **Time to revenue: 3-6 mo** (1000 subs + 4K watch-hrs gate). Lowest capital, highest probability. Risk: monetization threshold + jargon creep.
++4. **The Off-Ramp YouTube** — $200-800/mo (m3-6) → $800-3,000/mo (m6-12). **Time to revenue: 3-6 mo** (1000 subs + 4K watch-hrs gate). Lowest capital, highest probability. Risk: monetization threshold + jargon creep.
+ 5. **Sentinel/OpenPlotter boat monitor Kickstarter** — $50K goal (500 units), SAM 3-4M boats, 5-yr path $0.5M→$12M. **Time to revenue: ~3-6 mo** (Oct 1 launch → Nov close → fulfillment). Risk: FCC/cert + hardware delivery.
+ 
+ Watchlist: SkyCue drones (biggest ceiling Y5 ~$5.2M but needs $60-80K pre-campaign runway, breakeven Y2 Q2; NO-GO until funded), Cold Storage SD (high capital, research phase), Pedal Demo channel ($200-800/mo affiliate, fastest to start), biodiesel (~$1-2K DIY POC, unclear revenue).
+@@ -137,4 +137,4 @@
+ 
+ Key architecture insight: 6 thin layers — disk library → beets curator → acquisition (yt-dlp/ytdl-sub/Nicotine+) → Navidrome server → dual players (Nuclear + Feishin) → ListenBrainz history. Everything swappable because interfaces are standard (filesystem, Subsonic API, scrobble API). Beta path ≈ half a day: Navidrome .deb → Feishin Flatpak → Nuclear → beets+ytimport for liked songs → ListenBrainz import of Spotify history → ytdl-sub subscription for first Bandcamp artists.
+ **23:16 - Collaboration preference with opencode agents**
+-Feedback from user: keep the current response format (concise, don't reformat/restructure output) and drop leading "thinking" preamble that has no context tie to the current chat — only include reasoning when it actually connects to the task at hand. Also asked for the best ways to communicate on a project/idea — installed `opencode-btw` plugin (hint injection via `/btw`) to nudge mid-task.
++Feedback from user: keep the current response format (concise, don't reformat/restructure output) and drop leading "thinking" preamble that has no context tie to the current chat — only include reasoning when it actually connects to the task at hand. Also asked for the best ways to communicate on a project/idea — installed `opencode-btw` plugin (hint injection via `/btw`) to nudge mid-task.
+\ No newline at end of file

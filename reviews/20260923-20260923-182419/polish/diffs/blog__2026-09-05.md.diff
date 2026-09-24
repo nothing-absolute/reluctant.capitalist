@@ -1,0 +1,61 @@
+--- a/blog/2026-09-05.md
++++ b/blog/2026-09-05.md
+@@ -1,30 +1,29 @@
+-#
+ ←  |  →
+ 
+-### 🎯 Today's Focus
++#### 🎯 Today's Focus
+ > The ONE thing that makes the day feel like progress.
+ - **ONE Thing:**
+ - **Priority 2:**
+ - **Priority 3:**
+ 
+-### 🐸 Frogs to Eat
++#### 🐸 Frogs to Eat
+ - [ ]
+ 
+-### ✅ Today's Tasks
++#### ✅ Today's Tasks
+ - [ ]
+ 
+-### ⚡ Quick Wins
++#### ⚡ Quick Wins
+ - [ ]
+ 
+-### 📅 Calendar
++#### 📅 Calendar
+ > Hard stops, time blocks, and important timing context.
+ 
+-### 📈 Metrics Snapshot
++#### 📈 Metrics Snapshot
+ > Optional. `/closeday` can update this if you're tracking metrics.
+ -
+ 
+-### 📥 Activity Log
+-### Captures
++#### 📥 Activity Log
++#### Captures
+ 
+ **16:13 - UNDERTONE 3-campaign Kickstarter package**
+ Built launch-ready marketing/PR + financials for UNDERTONE's three KS campaigns in `Kickstarter/undertone/`: (1) Minimalist & Guardian — E-Ink Minimalist Case $199 + Guardian Phone $149/129, $100k goal, net −$5k at goal (structural), $14.99/mo sub is the ARR engine, ~625 backers break-even; (2) Inkstone open E-Ink Maker HAT $149 + FIDO2 Vault $189, $40k goal, +$11.9k net, 51–59% margin; (3) SUBZERO sub-20Hz linear-phase audio filter, VST $49 / dongle $89 / PRO Hi-Fi $299, $50k goal, +$12.8k net, 92% digital margin. Portfolio $190k gross, ~$19.6k net base case, ~$285k ARR by M12. Sequencing: Audio Q1, Guardian Q2, Maker Q3. ~80% shared DSP/E-Ink/secure-element core, one LoRA harness. Files: 01-overview, 04-financial-projections (6 matplotlib charts), 05-launch-playbook, per-campaign marketing-and-pr, index.html dashboard. Compliance: no wellness/infrasound bio claims, no surveillance framing, no emergency claims.
+@@ -34,13 +33,13 @@
+ **21:39 - Transfer Document (persistent user context)**
+ JD shared a comprehensive transfer document capturing persistent context: identity (JD, Sioux Falls SD, English only); work (independent, runs nothing-absolute/mlm-truth, builds educational anti-MLM tools); skills (Debian 13 user jd@dell, 8849 Tank Pro 3 as remote Ollama host via Termux, Docker, Ollama, systemd, Open WebUI, container networking, self-hosted AI); personal (lives with parents who subsidize costs; goal is financial independence sufficient to move out; ~17 side projects incl. MLM Reality Check, Chronixel, BilgeGuard, OpenDoor, OpenLooper, OpenPlotter, Sunset OS/Phosphor Hour, Huell Howser supercut, Obsidian second brain, local LLM stack); preferences (open-source, privacy-first, self-hosted, DIY; builds rather than buys; parallel multi-project style; financial-independence lens on project decisions).
+ 
+-### 🧠 End of Day
++#### 🧠 End of Day
+ 
+-#### Wins
++##### Wins
+ -
+ 
+-#### Blockers
++##### Blockers
+ -
+ 
+-#### Reflection
+->
++##### Reflection
++>
+\ No newline at end of file

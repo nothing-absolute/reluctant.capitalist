@@ -1,0 +1,59 @@
+--- a/blog/2026-09-23.md
++++ b/blog/2026-09-23.md
+@@ -1,29 +1,28 @@
+-#
+ ←  |  →
+ 
+-### 🎯 Today's Focus
++#### 🎯 Today's Focus
+ > The ONE thing that makes the day feel like progress.
+ - **ONE Thing:**
+ - **Priority 2:**
+ - **Priority 3:**
+ 
+-### 🐸 Frogs to Eat
++#### 🐸 Frogs to Eat
+ - [ ]
+ 
+-### ✅ Today's Tasks
++#### ✅ Today's Tasks
+ - [ ]
+ 
+-### ⚡ Quick Wins
++#### ⚡ Quick Wins
+ - [ ]
+ 
+-### 📅 Calendar
++#### 📅 Calendar
+ > Hard stops, time blocks, and important timing context.
+ 
+-### 📈 Metrics Snapshot
++#### 📈 Metrics Snapshot
+ > Optional. `/closeday` can update this if you're tracking metrics.
+ -
+ 
+-### 📥 Activity Log
++#### 📥 Activity Log
+ > Running log. Brain dump here freely.
+ **14:10 - Reluctant Capitalist: Phase 0 + Phase 1 complete, starting Phase 2**
+ 
+@@ -42,13 +41,13 @@
+ - Removed `@astrojs/node` adapter, `/api/chat` + `/api/config` endpoints, `lib/llm.ts`; chat is now a static demo widget. Build is pure static → `dist/` (was `dist/client/`). Verified prefixed + canonical correct with `PAGES_BASE=/reluctant.capitalist/`, clean locally.
+ - Next: review the garden on localhost, curate `.garden-exclude.json`, then Phase 3 = GitHub Pages deploy workflow + push (explicit gate).
+ 
+-### 🧠 End of Day
++#### 🧠 End of Day
+ 
+-#### Wins
++##### Wins
+ -
+ 
+-#### Blockers
++##### Blockers
+ -
+ 
+-#### Reflection
+->
++##### Reflection
++>
+\ No newline at end of file

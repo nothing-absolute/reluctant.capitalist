@@ -1,0 +1,15 @@
+--- a/blog/find-obsidian-folders-on-hard-drive.md
++++ b/blog/find-obsidian-folders-on-hard-drive.md
+@@ -1,7 +1,6 @@
+-**What this is:** an opencode working session — 300 messages.
++What this is: an opencode working session — 300 messages.
+ 
+-**When:** 2026-09-03 · **Working directory:** `/home/jd/Prototypes`
++When: 2026-09-03 · Working directory: /home/jd/Prototypes
+ 
+-**Opened with:**
+-
+-> find all obsidian folders on hard drive
++Opened with:
++> find all obsidian folders on hard drive
+\ No newline at end of file

@@ -1,0 +1,60 @@
+--- a/projects/boat-monitor-data-viz.md
++++ b/projects/boat-monitor-data-viz.md
+@@ -1,8 +1,6 @@
+-## Data Visualizations & Marketing Assets
+-
+ This document contains Mermaid charts and mockup graphics to support the marketing and business case for the No-Subscription Boat Monitor.
+ 
+-### 1. The "Marine Tax" Cumulative Cost Comparison
++#### 1. The "Marine Tax" Cumulative Cost Comparison
+ 
+ This chart demonstrates the extreme cost disparity over a 5-year ownership period between a traditional subscription-based monitor and the No-Subscription open-hardware approach.
+ 
+@@ -19,20 +17,20 @@
+ ```
+ *(Assumes Traditional: $500 hardware + $20/mo. Ours: $199 hardware + $2/mo Bring-Your-Own-SIM)*
+ 
+-### 2. Feature Comparison Matrix
++#### 2. Feature Comparison Matrix
+ 
+ ```mermaid
+ block-beta
+   columns 3
+   space:1 Traditional:1 Ours:1
+-  Hardware_Cost["$500 - $800"]:1 HC1["$199"]
+-  Monthly_Fee["$15 - $25/mo"]:1 MF1["$0 (BYO SIM)"]
+-  App_Requirement["Proprietary App"]:1 AR1["Web UI / Any App"]
+-  Data_Ownership["Corporate Cloud"]:1 DO1["100% Yours"]
+-  NMEA_Integration["Paid Add-on"]:1 NI1["Built-in Standard"]
++  Hardware_Cost[$500 - $800]:1 HC1[$199]
++  Monthly_Fee[$15 - $25/mo]:1 MF1[$0 (BYO SIM)]
++  App_Requirement[Proprietary App]:1 AR1[Web UI / Any App]
++  Data_Ownership[Corporate Cloud]:1 DO1[100% Yours]
++  NMEA_Integration[Paid Add-on]:1 NI1[Built-in Standard]
+ ```
+ 
+-### 3. Open System Architecture
++#### 3. Open System Architecture
+ 
+ This diagram shows how the system securely relays data without relying on a proprietary corporate server that could be shut down.
+ 
+@@ -52,13 +50,13 @@
+     style P fill:#48bb78,stroke:#fff,stroke-width:2px,color:#fff
+ ```
+ 
+-### Mockup Graphics & Imagery
++#### Mockup Graphics & Imagery
+ 
+-#### Instagram "POV" Action Shot
++##### Instagram "POV" Action Shot
+ Use this to demonstrate the simplicity of checking on the boat from the helm or the dock.
+ 
+-#### Infographic Background Template
++##### Infographic Background Template
+ Use this blank template to overlay text such as "Stop Paying the Marine Tax" or to drop in the Mermaid charts above for high-quality social posts.
+ 
+-#### System Connectivity Illustration
+-Use this clean, flat illustration on the website or in a pitch deck to explain how the data flows from the boat to the phone.
++##### System Connectivity Illustration
++Use this clean, flat illustration on the website or in a pitch deck to explain how the data flows from the boat to the phone.
+\ No newline at end of file
