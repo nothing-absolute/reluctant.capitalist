@@ -91,3 +91,43 @@ Two anchors:
 - Fit its section. If the content does not fit any section, say so with `verdict: "misfit"` rather
   than forcing it.
 - Link to genuinely related posts on the site. Only when the connection is real.
+
+## The thesis this site argues
+
+**THE LOUDEST ONE WINS** is the proven logic of every system JD has been swallowed by and every
+platform he has tried to work with. Volume, reach, loudness, the algorithm rewarding the biggest
+voice. It works. It is also, JD's sense, the losing side's logic.
+
+**The one who understands the systems becomes the winner.** That is the bet this site makes, and
+it is the reason the writing exists.
+
+JD is deliberately building a volume play — The Machine, Undertone, the Kickstarter campaigns — while
+arguing that volume is the mechanism that has already eaten him once. That is not a contradiction
+to resolve. It is the argument. A site can chase reach and keep naming the machinery that makes
+reach pay. The reader who stays for the second thing is the entire point.
+
+Three consequences for anything written here:
+
+1. **Name the mechanism, not the mood.** When something is being manipulated, say who sets the
+   definition, who sets the parameters, and who is allowed to produce what. Vague grievance is the
+   loudest-one playbook.
+2. **Prefer comprehension to reach as the reader's takeaway.** A post can be written for volume and
+   still be built for depth. The measure is whether someone could act differently after reading it.
+3. **Volume is a distribution strategy, not an argument.** Signal volume over depth and fidelity is
+   how the work spreads. It is not a substitute for the work being right.
+
+The fragments section is where this runs at unit scale: one claim each, cross-linked, cheap to
+produce, meant to be recombined. Loud enough to spread. Specific enough to be true.
+
+## When distilling raw notes
+
+The raw material is conversational scratch — stream-of-consciousness, half-formed, often
+contradictory. It is powerful *as noise* and weak *as argument*. The job is not to smooth it. The
+job is to find the load-bearing claim inside it and state that, then link it to the other claims it
+touches.
+
+- One idea per fragment. If it needs "and" to hold together, it is two fragments.
+- Keep JD's specificity. The strange concrete detail is the value; a generalized version of it is
+  worth less than nothing.
+- Never inflate. If the note says he might try something, the fragment says he might try it.
+- Credit the uncertainty. Raw notes are allowed to be uncertain; the published fragment should say so.

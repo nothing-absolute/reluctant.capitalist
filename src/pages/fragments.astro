@@ -1,0 +1,76 @@
+---
+import Base from '../layouts/Base.astro';
+import { getCollection } from 'astro:content';
+import { pageUrl } from '../lib/url';
+import graph from '../data/fragment-graph.json';
+
+const all = await getCollection('fragments', ({ data }) => !data.draft);
+const byMechanism = new Map<string, typeof all>();
+for (const f of all) {
+  const m = String(f.data.mechanism ?? 'open');
+  if (!byMechanism.has(m)) byMechanism.set(m, []);
+  byMechanism.get(m)!.push(f);
+}
+
+const MECH: Record<string, { label: string; blurb: string }> = {
+  volume: { label: 'Volume', blurb: 'Loudness, reach or attention as the winning move.' },
+  definition: { label: 'Definition', blurb: 'Someone setting the terms, scope, metrics or boundaries.' },
+  capture: { label: 'Capture', blurb: 'Someone being absorbed by a system.' },
+  reach: { label: 'Reach', blurb: 'Distribution — how a thing gets seen at all.' },
+  extraction: { label: 'Extraction', blurb: 'Value, money, attention or labour being taken.' },
+  legibility: { label: 'Legibility', blurb: 'Being understood, or failing to be.' },
+  tooling: { label: 'Tooling', blurb: 'The instrument: code, hardware, process, technique.' },
+  craft: { label: 'Craft', blurb: 'Making it well: drawing, writing, building, finishing.' },
+  open: { label: 'Open', blurb: 'Shared goods, commons, things left deliberately open.' },
+};
+
+const order = ['volume', 'definition', 'capture', 'reach', 'extraction', 'legibility', 'tooling', 'craft', 'open'];
+const groups = order.filter((m) => byMechanism.has(m)).map((m) => ({ mechanism: m, ...MECH[m], items: byMechanism.get(m)! }));
+const total = all.length;
+---
+
+<Base title="Fragments" description="Atomic idea blocks distilled from raw working notes. One claim each, cross-linked.">
+  <div class="container">
+    <section class="section-head">
+      <p class="kicker">/fragments</p>
+      <h1>Fragments</h1>
+      <p>
+        {total} pieces, each one claim, each one standing alone. They were distilled from raw
+        working notes — the stream-of-consciousness version of this material is too loud to read and
+        too valuable to throw away. This is the refocused version: one idea per block, cross-linked,
+        cheap to make and meant to be recombined.
+      </p>
+      <p class="staging-note">
+        Signal volume over depth. <a href={pageUrl('/constellation/')}>The constellation</a> shows how
+        the longer work connects; these are the units underneath it.
+      </p>
+    </section>
+
+    {
+      groups.map((g) => (
+        <section style="margin-bottom:2.2rem">
+          <h2 style="text-transform:none;letter-spacing:0">{g.label} <span class="staging-meta">{g.items.length}</span></h2>
+          <p class="staging-meta" style="margin:0 0 .7rem">{g.blurb}</p>
+          <ul style="list-style:none;padding:0;margin:0;display:grid;gap:.55rem;grid-template-columns:repeat(auto-fill,minmax(19rem,1fr))">
+            {g.items
+              .slice()
+              .sort((a, b) => (b.data.signal ?? 3) - (a.data.signal ?? 3))
+              .map((f) => (
+                <li>
+                  <a
+                    href={pageUrl(`/fragments/${f.id}/`)}
+                    style="display:block;border:1px solid var(--rule,rgba(128,128,128,.25));padding:.6rem .7rem;border-radius:4px"
+                  >
+                    <strong style="display:block;margin-bottom:.2rem">{f.data.title}</strong>
+                    <span class="staging-meta">
+                      {String(f.data.description ?? '').slice(0, 150)}
+                    </span>
+                  </a>
+                </li>
+              ))}
+          </ul>
+        </section>
+      ))
+    }
+  </div>
+</Base>

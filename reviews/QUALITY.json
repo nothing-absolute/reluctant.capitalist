@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-09-24T17:29:47.448Z",
+  "generatedAt": "2026-09-24T19:38:35.307Z",
   "summary": {
-    "flagged": 114,
-    "narrativeLoops": 0,
+    "flagged": 260,
+    "narrativeLoops": 26,
     "rawTranscriptLoops": 17,
-    "thin": 97
+    "thin": 217
   },
   "reports": [
     {
@@ -16,6 +16,13 @@
       "rawWorst": 1,
       "dupParas": 0,
       "narrativeLoop": false,
+      "voice": {
+        "words": 64,
+        "firstPerson": false,
+        "docVoice": false,
+        "avgSentence": 21.3,
+        "onVoice": false
+      },
       "rawLoop": false,
       "issues": [
         "thin: 69 words"
@@ -31,6 +38,13 @@
       "rawWorst": 6,
       "dupParas": 0,
       "narrativeLoop": false,
+      "voice": {
+        "words": 383,
+        "firstPerson": false,
+        "docVoice": false,
+        "avgSentence": 15.3,
+        "onVoice": false
+      },
       "rawLoop": true,
       "issues": [
         "raw transcript loop: 8-gram x6"
@@ -46,6 +60,13 @@
       "rawWorst": 8,
       "dupParas": 0,
       "narrativeLoop": false,
+      "voice": {
+        "words": 392,
+        "firstPerson": false,
+        "docVoice": false,
+        "avgSentence": 21.8,
+        "onVoice": false
+      },
       "rawLoop": true,
       "issues": [
         "raw transcript loop: 8-gram x8"
@@ -61,6 +82,13 @@
       "rawWorst": 8,
       "dupParas": 0,
       "narrativeLoop": false,
+      "voice": {
+        "words": 220,
+        "firstPerson": false,
+        "docVoice": true,
+        "avgSentence": 20,
+        "onVoice": false
+      },
       "rawLoop": false,
       "issues": [
         "9 repeated narrative 8-grams"
@@ -76,6 +104,13 @@
       "rawWorst": 1,
       "dupParas": 0,
       "narrativeLoop": false,
+      "voice": {
+        "words": 45,
+        "firstPerson": false,
+        "docVoice": false,
+        "avgSentence": 15,
+        "onVoice": false
+      },
       "rawLoop": false,
       "issues": [
         "thin: 45 words"
@@ -91,11 +126,42 @@
       "rawWorst": 1,
       "dupParas": 0,
       "narrativeLoop": false,
+      "voice": {
+        "words": 58,
+        "firstPerson": false,
+        "docVoice": false,
+        "avgSentence": 29,
+        "onVoice": false
+      },
       "rawLoop": false,
       "issues": [
         "thin: 59 words"
       ],
       "source": "Projects/community-data-centers/community-data-center-vision.md"
+    },
+    {
+      "id": "projects/create-a-youtube-thumbnail-for-this-video-3-the",
+      "title": "Create a youtube thumbnail for this: Video 3: The Algorithm's Mind Control Concept",
+      "words": 185,
+      "rawWords": 789,
+      "worst": 5,
+      "rawWorst": 14,
+      "dupParas": 0,
+      "narrativeLoop": true,
+      "voice": {
+        "words": 184,
+        "firstPerson": true,
+        "docVoice": false,
+        "avgSentence": 46,
+        "onVoice": true
+      },
+      "rawLoop": true,
+      "issues": [
+        "narrative loop: 8-gram x5",
+        "45 repeated narrative 8-grams",
+        "raw transcript loop: 8-gram x14"
+      ],
+      "source": "antigravity://fb00c89d-1490-4d00-be01-29cb76bff4b6"
     },
     {
       "id": "projects/create-video-to-advertise-the-sale-of-lion-king",
@@ -106,11 +172,64 @@
       "rawWorst": 9,
       "dupParas": 0,
       "narrativeLoop": false,
+      "voice": {
+        "words": 186,
+        "firstPerson": false,
+        "docVoice": false,
+        "avgSentence": 23.3,
+        "onVoice": false
+      },
       "rawLoop": true,
       "issues": [
         "raw transcript loop: 8-gram x9"
       ],
       "source": "antigravity://18f09793-f23d-4d54-8065-4196b348fb59"
+    },
+    {
+      "id": "projects/develop-the-into-production-schedule-shot-lists-screen-play",
+      "title": "develop the into production schedule, shot lists, screen play, assets needed, visual needs, story boarding, mo",
+      "words": 4132,
+      "rawWords": 1381,
+      "worst": 18,
+      "rawWorst": 42,
+      "dupParas": 0,
+      "narrativeLoop": true,
+      "voice": {
+        "words": 3927,
+        "firstPerson": true,
+        "docVoice": false,
+        "avgSentence": 14.9,
+        "onVoice": true
+      },
+      "rawLoop": true,
+      "issues": [
+        "narrative loop: 8-gram x18",
+        "304 repeated narrative 8-grams",
+        "raw transcript loop: 8-gram x42"
+      ],
+      "source": "antigravity://415fa53b-310d-46ac-8a7e-314999bcd2c0"
+    },
+    {
+      "id": "projects/distribution-is-a-design-decision-not-a-growth-hack",
+      "title": "Distribution is a design decision, not a growth hack",
+      "words": 102,
+      "rawWords": 0,
+      "worst": 1,
+      "rawWorst": 1,
+      "dupParas": 0,
+      "narrativeLoop": false,
+      "voice": {
+        "words": 102,
+        "firstPerson": false,
+        "docVoice": false,
+        "avgSentence": 17,
+        "onVoice": false
+      },
+      "rawLoop": false,
+      "issues": [
+        "thin: 102 words"
+      ],
+      "source": "compose://reach"
     },
     {
       "id": "projects/earthship-homes",
@@ -121,6 +240,13 @@
       "rawWorst": 1,
       "dupParas": 0,
       "narrativeLoop": false,
+      "voice": {
+        "words": 46,
+        "firstPerson": false,
+        "docVoice": false,
+        "avgSentence": 15.3,
+        "onVoice": false
+      },
       "rawLoop": false,
       "issues": [
         "thin: 47 words"
@@ -136,12 +262,43 @@
       "rawWorst": 13,
       "dupParas": 0,
       "narrativeLoop": false,
+      "voice": {
+        "words": 94,
+        "firstPerson": false,
+        "docVoice": false,
+        "avgSentence": 15.7,
+        "onVoice": false
+      },
       "rawLoop": true,
       "issues": [
         "raw transcript loop: 8-gram x13",
         "thin: 101 words"
       ],
       "source": "antigravity://121c185c-e397-484a-a556-2115929f8633"
+    },
+    {
+      "id": "projects/https-www-thebalancephone-com-products-balance-phone-pro-com",
+      "title": "Lumina Phone Kickstarter Campaign Plan",
+      "words": 575,
+      "rawWords": 1999,
+      "worst": 5,
+      "rawWorst": 12,
+      "dupParas": 0,
+      "narrativeLoop": true,
+      "voice": {
+        "words": 563,
+        "firstPerson": false,
+        "docVoice": true,
+        "avgSentence": 22.5,
+        "onVoice": false
+      },
+      "rawLoop": true,
+      "issues": [
+        "narrative loop: 8-gram x5",
+        "28 repeated narrative 8-grams",
+        "raw transcript loop: 8-gram x12"
+      ],
+      "source": "antigravity://8f375cad-7eea-4f66-a512-45f283d23f67"
     },
     {
       "id": "projects/hydration-station",
@@ -152,10 +309,64 @@
       "rawWorst": 1,
       "dupParas": 0,
       "narrativeLoop": false,
+      "voice": {
+        "words": 84,
+        "firstPerson": false,
+        "docVoice": false,
+        "avgSentence": 14,
+        "onVoice": false
+      },
       "rawLoop": false,
       "issues": [
         "thin: 86 words"
       ]
+    },
+    {
+      "id": "projects/i-have-246-credits-on-https-modelscope-ai-come-with-a",
+      "title": "Modelscope Video Generation Automation Plan",
+      "words": 3623,
+      "rawWords": 405,
+      "worst": 13,
+      "rawWorst": 20,
+      "dupParas": 0,
+      "narrativeLoop": true,
+      "voice": {
+        "words": 3539,
+        "firstPerson": true,
+        "docVoice": true,
+        "avgSentence": 25.8,
+        "onVoice": false
+      },
+      "rawLoop": true,
+      "issues": [
+        "narrative loop: 8-gram x13",
+        "258 repeated narrative 8-grams",
+        "raw transcript loop: 8-gram x20"
+      ],
+      "source": "antigravity://22697cdb-0f37-4e29-b6fc-415299b788ed"
+    },
+    {
+      "id": "projects/i-need-help-developing-a-youtube-channel-from-scratch",
+      "title": "Propagandhi Album Analysis for YouTube Channel Concept",
+      "words": 3470,
+      "rawWords": 259,
+      "worst": 14,
+      "rawWorst": 5,
+      "dupParas": 0,
+      "narrativeLoop": true,
+      "voice": {
+        "words": 3413,
+        "firstPerson": true,
+        "docVoice": false,
+        "avgSentence": 15.8,
+        "onVoice": true
+      },
+      "rawLoop": false,
+      "issues": [
+        "narrative loop: 8-gram x14",
+        "150 repeated narrative 8-grams"
+      ],
+      "source": "antigravity://799046e9-72e2-404a-9a27-03e2a5eacfcf"
     },
     {
       "id": "projects/implementation-plan-33",
@@ -166,6 +377,13 @@
       "rawWorst": 1,
       "dupParas": 0,
       "narrativeLoop": false,
+      "voice": {
+        "words": 106,
+        "firstPerson": false,
+        "docVoice": false,
+        "avgSentence": 11.8,
+        "onVoice": false
+      },
       "rawLoop": false,
       "issues": [
         "thin: 119 words"
@@ -181,11 +399,110 @@
       "rawWorst": 1,
       "dupParas": 0,
       "narrativeLoop": false,
+      "voice": {
+        "words": 324,
+        "firstPerson": false,
+        "docVoice": false,
+        "avgSentence": 23.1,
+        "onVoice": false
+      },
       "rawLoop": false,
       "issues": [
         "11 repeated narrative 8-grams"
       ],
       "source": "antigravity://5a4bc721-cb05-481d-bdd6-a401492be258/implementation_plan.md"
+    },
+    {
+      "id": "projects/is-there-a-way-to-reverse-engineer-the-firmware",
+      "title": "hybrid diy op-1 synth build plan",
+      "words": 243,
+      "rawWords": 1257,
+      "worst": 4,
+      "rawWorst": 4,
+      "dupParas": 0,
+      "narrativeLoop": true,
+      "voice": {
+        "words": 224,
+        "firstPerson": false,
+        "docVoice": false,
+        "avgSentence": 24.9,
+        "onVoice": false
+      },
+      "rawLoop": false,
+      "issues": [
+        "narrative loop: 8-gram x4"
+      ],
+      "source": "antigravity://8c1126b3-99b2-4d39-9f1d-ba0338e592d8"
+    },
+    {
+      "id": "projects/kickstarter-campaign-blueprint-review",
+      "title": "Kickstarter Campaign Blueprint Review",
+      "words": 613,
+      "rawWords": 0,
+      "worst": 8,
+      "rawWorst": 1,
+      "dupParas": 0,
+      "narrativeLoop": true,
+      "voice": {
+        "words": 595,
+        "firstPerson": false,
+        "docVoice": false,
+        "avgSentence": 22,
+        "onVoice": false
+      },
+      "rawLoop": false,
+      "issues": [
+        "narrative loop: 8-gram x8",
+        "51 repeated narrative 8-grams"
+      ],
+      "source": "Projects/Kickstarter/OpenPlotter-Boat-Monitor/Kickstarter Campaign Blueprint Review.md"
+    },
+    {
+      "id": "projects/look-up-price-estimates-for-each-lego-set-pictured",
+      "title": "LEGO Collection Sales Strategy Plan",
+      "words": 765,
+      "rawWords": 2132,
+      "worst": 4,
+      "rawWorst": 59,
+      "dupParas": 0,
+      "narrativeLoop": true,
+      "voice": {
+        "words": 749,
+        "firstPerson": true,
+        "docVoice": false,
+        "avgSentence": 17.4,
+        "onVoice": true
+      },
+      "rawLoop": true,
+      "issues": [
+        "narrative loop: 8-gram x4",
+        "22 repeated narrative 8-grams",
+        "raw transcript loop: 8-gram x59"
+      ],
+      "source": "antigravity://432a8e0e-9923-47c2-9bb5-296992ac4880"
+    },
+    {
+      "id": "projects/make-a-android-based-browser-using-an-open-source-mozilla",
+      "title": "Make a Android-based browser using an open source Mozilla Firefox as the base",
+      "words": 450,
+      "rawWords": 53,
+      "worst": 9,
+      "rawWorst": 3,
+      "dupParas": 0,
+      "narrativeLoop": true,
+      "voice": {
+        "words": 460,
+        "firstPerson": false,
+        "docVoice": false,
+        "avgSentence": 25.6,
+        "onVoice": false
+      },
+      "rawLoop": false,
+      "issues": [
+        "narrative loop: 8-gram x9",
+        "40 repeated narrative 8-grams"
+      ],
+      "source": "antigravity://750b0b62-4e01-46ef-b4f0-6772e34267d6"
     },
     {
       "id": "projects/mushroom-grow-container",
@@ -196,11 +513,41 @@
       "rawWorst": 1,
       "dupParas": 0,
       "narrativeLoop": false,
+      "voice": {
+        "words": 37,
+        "firstPerson": false,
+        "docVoice": false,
+        "avgSentence": 18.5,
+        "onVoice": false
+      },
       "rawLoop": false,
       "issues": [
         "thin: 37 words"
       ],
       "source": "Projects/Hardware/Mushroom-Grow-Container.md"
+    },
+    {
+      "id": "projects/open-source-hardware-software-reference-guide-for-looper-ped",
+      "title": "Open-Source Hardware & Software Reference Guide for Looper Pedal Design",
+      "words": 2152,
+      "rawWords": 207,
+      "worst": 10,
+      "rawWorst": 11,
+      "dupParas": 0,
+      "narrativeLoop": true,
+      "voice": {
+        "words": 2090,
+        "firstPerson": true,
+        "docVoice": true,
+        "avgSentence": 27.5,
+        "onVoice": false
+      },
+      "rawLoop": false,
+      "issues": [
+        "narrative loop: 8-gram x10",
+        "103 repeated narrative 8-grams"
+      ],
+      "source": "antigravity://ddcc6c7d-a107-4868-b8d7-08e620a1b427"
     },
     {
       "id": "projects/opendoors",
@@ -211,6 +558,13 @@
       "rawWorst": 1,
       "dupParas": 0,
       "narrativeLoop": false,
+      "voice": {
+        "words": 89,
+        "firstPerson": false,
+        "docVoice": false,
+        "avgSentence": 17.8,
+        "onVoice": false
+      },
       "rawLoop": false,
       "issues": [
         "thin: 89 words"
@@ -225,6 +579,13 @@
       "rawWorst": 1,
       "dupParas": 0,
       "narrativeLoop": false,
+      "voice": {
+        "words": 44,
+        "firstPerson": false,
+        "docVoice": false,
+        "avgSentence": 22,
+        "onVoice": false
+      },
       "rawLoop": false,
       "issues": [
         "thin: 44 words"
@@ -240,6 +601,13 @@
       "rawWorst": 8,
       "dupParas": 0,
       "narrativeLoop": false,
+      "voice": {
+        "words": 553,
+        "firstPerson": false,
+        "docVoice": true,
+        "avgSentence": 17.8,
+        "onVoice": false
+      },
       "rawLoop": true,
       "issues": [
         "raw transcript loop: 8-gram x8"
@@ -255,6 +623,13 @@
       "rawWorst": 1,
       "dupParas": 0,
       "narrativeLoop": false,
+      "voice": {
+        "words": 103,
+        "firstPerson": false,
+        "docVoice": false,
+        "avgSentence": 14.7,
+        "onVoice": false
+      },
       "rawLoop": false,
       "issues": [
         "thin: 103 words"
@@ -269,11 +644,40 @@
       "rawWorst": 15,
       "dupParas": 0,
       "narrativeLoop": false,
+      "voice": {
+        "words": 5777,
+        "firstPerson": true,
+        "docVoice": true,
+        "avgSentence": 13.4,
+        "onVoice": false
+      },
       "rawLoop": true,
       "issues": [
         "raw transcript loop: 8-gram x15"
       ],
       "source": "antigravity://abf2de62-6e2a-48fb-80a7-6dacc23d03b4"
+    },
+    {
+      "id": "projects/the-instrument-decides-what-you-are-able-to-think",
+      "title": "The instrument decides what you are able to think",
+      "words": 102,
+      "rawWords": 0,
+      "worst": 1,
+      "rawWorst": 1,
+      "dupParas": 0,
+      "narrativeLoop": false,
+      "voice": {
+        "words": 102,
+        "firstPerson": false,
+        "docVoice": false,
+        "avgSentence": 17,
+        "onVoice": false
+      },
+      "rawLoop": false,
+      "issues": [
+        "thin: 102 words"
+      ],
+      "source": "compose://tooling"
     },
     {
       "id": "projects/user-acquisition-and-testing-plan",
@@ -284,11 +688,40 @@
       "rawWorst": 1,
       "dupParas": 0,
       "narrativeLoop": false,
+      "voice": {
+        "words": 49,
+        "firstPerson": false,
+        "docVoice": false,
+        "avgSentence": 16.3,
+        "onVoice": false
+      },
       "rawLoop": false,
       "issues": [
         "thin: 51 words"
       ],
       "source": "antigravity://5a4bc721-cb05-481d-bdd6-a401492be258/user_acquisition_and_testing_plan.md"
+    },
+    {
+      "id": "projects/wireless-looper-pedal-phone-tablet-control-surface-design-pr",
+      "title": "Wireless Looper Pedal: Phone/Tablet Control Surface Design",
+      "words": 2680,
+      "rawWords": 1049,
+      "worst": 4,
+      "rawWorst": 4,
+      "dupParas": 0,
+      "narrativeLoop": true,
+      "voice": {
+        "words": 2565,
+        "firstPerson": true,
+        "docVoice": false,
+        "avgSentence": 44.2,
+        "onVoice": true
+      },
+      "rawLoop": false,
+      "issues": [
+        "narrative loop: 8-gram x4"
+      ],
+      "source": "antigravity://cd88f891-9c56-4afd-be41-2aeb75ac8f26"
     },
     {
       "id": "projects/youtube-pedal-demo-channel",
@@ -299,11 +732,41 @@
       "rawWorst": 1,
       "dupParas": 0,
       "narrativeLoop": false,
+      "voice": {
+        "words": 55,
+        "firstPerson": false,
+        "docVoice": false,
+        "avgSentence": 18.3,
+        "onVoice": false
+      },
       "rawLoop": false,
       "issues": [
         "thin: 58 words"
       ],
       "source": "Projects/YouTube/YouTube-Pedal-Demo-Channel.md"
+    },
+    {
+      "id": "projects/youtube-script-write-5-different-concept-ideas-for-video-10i",
+      "title": "Youtube script write 5 different concept/ideas for video 10ish minutes. Based on a title like",
+      "words": 3294,
+      "rawWords": 1818,
+      "worst": 4,
+      "rawWorst": 7,
+      "dupParas": 0,
+      "narrativeLoop": true,
+      "voice": {
+        "words": 3190,
+        "firstPerson": true,
+        "docVoice": false,
+        "avgSentence": 14.6,
+        "onVoice": true
+      },
+      "rawLoop": true,
+      "issues": [
+        "narrative loop: 8-gram x4",
+        "raw transcript loop: 8-gram x7"
+      ],
+      "source": "antigravity://c707bb2e-c8bb-4b97-84ce-9052e663a132"
     },
     {
       "id": "blog/2026-05-08",
@@ -314,6 +777,13 @@
       "rawWorst": 1,
       "dupParas": 0,
       "narrativeLoop": false,
+      "voice": {
+        "words": 39,
+        "firstPerson": false,
+        "docVoice": false,
+        "avgSentence": 9.8,
+        "onVoice": false
+      },
       "rawLoop": false,
       "issues": [
         "thin: 42 words"
@@ -329,6 +799,13 @@
       "rawWorst": 1,
       "dupParas": 0,
       "narrativeLoop": false,
+      "voice": {
+        "words": 17,
+        "firstPerson": false,
+        "docVoice": false,
+        "avgSentence": 17,
+        "onVoice": false
+      },
       "rawLoop": false,
       "issues": [
         "thin: 20 words"
@@ -344,6 +821,13 @@
       "rawWorst": 1,
       "dupParas": 0,
       "narrativeLoop": false,
+      "voice": {
+        "words": 12,
+        "firstPerson": false,
+        "docVoice": false,
+        "avgSentence": 12,
+        "onVoice": false
+      },
       "rawLoop": false,
       "issues": [
         "thin: 16 words"
@@ -359,6 +843,13 @@
       "rawWorst": 1,
       "dupParas": 0,
       "narrativeLoop": false,
+      "voice": {
+        "words": 85,
+        "firstPerson": false,
+        "docVoice": false,
+        "avgSentence": 28.3,
+        "onVoice": false
+      },
       "rawLoop": false,
       "issues": [
         "thin: 91 words"
@@ -374,6 +865,13 @@
       "rawWorst": 1,
       "dupParas": 0,
       "narrativeLoop": false,
+      "voice": {
+        "words": 90,
+        "firstPerson": false,
+        "docVoice": false,
+        "avgSentence": 22.5,
+        "onVoice": false
+      },
       "rawLoop": false,
       "issues": [
         "thin: 92 words"
@@ -389,6 +887,13 @@
       "rawWorst": 1,
       "dupParas": 0,
       "narrativeLoop": false,
+      "voice": {
+        "words": 15,
+        "firstPerson": false,
+        "docVoice": false,
+        "avgSentence": 7.5,
+        "onVoice": false
+      },
       "rawLoop": false,
       "issues": [
         "thin: 15 words"
@@ -404,6 +909,13 @@
       "rawWorst": 1,
       "dupParas": 0,
       "narrativeLoop": false,
+      "voice": {
+        "words": 15,
+        "firstPerson": false,
+        "docVoice": false,
+        "avgSentence": 7.5,
+        "onVoice": false
+      },
       "rawLoop": false,
       "issues": [
         "thin: 15 words"
@@ -419,6 +931,13 @@
       "rawWorst": 1,
       "dupParas": 0,
       "narrativeLoop": false,
+      "voice": {
+        "words": 15,
+        "firstPerson": false,
+        "docVoice": false,
+        "avgSentence": 7.5,
+        "onVoice": false
+      },
       "rawLoop": false,
       "issues": [
         "thin: 15 words"
@@ -434,6 +953,13 @@
       "rawWorst": 1,
       "dupParas": 0,
       "narrativeLoop": false,
+      "voice": {
+        "words": 16,
+        "firstPerson": false,
+        "docVoice": false,
+        "avgSentence": 8,
+        "onVoice": false
+      },
       "rawLoop": false,
       "issues": [
         "thin: 16 words"
@@ -449,6 +975,13 @@
       "rawWorst": 1,
       "dupParas": 0,
       "narrativeLoop": false,
+      "voice": {
+        "words": 15,
+        "firstPerson": false,
+        "docVoice": false,
+        "avgSentence": 7.5,
+        "onVoice": false
+      },
       "rawLoop": false,
       "issues": [
         "thin: 15 words"
@@ -464,6 +997,13 @@
       "rawWorst": 1,
       "dupParas": 0,
       "narrativeLoop": false,
+      "voice": {
+        "words": 15,
+        "firstPerson": false,
+        "docVoice": false,
+        "avgSentence": 7.5,
+        "onVoice": false
+      },
       "rawLoop": false,
       "issues": [
         "thin: 15 words"
@@ -479,6 +1019,13 @@
       "rawWorst": 1,
       "dupParas": 0,
       "narrativeLoop": false,
+      "voice": {
+        "words": 15,
+        "firstPerson": false,
+        "docVoice": false,
+        "avgSentence": 7.5,
+        "onVoice": false
+      },
       "rawLoop": false,
       "issues": [
         "thin: 15 words"
@@ -494,6 +1041,13 @@
       "rawWorst": 1,
       "dupParas": 0,
       "narrativeLoop": false,
+      "voice": {
+        "words": 74,
+        "firstPerson": true,
+        "docVoice": false,
+        "avgSentence": 10.6,
+        "onVoice": true
+      },
       "rawLoop": false,
       "issues": [
         "thin: 73 words"
@@ -509,6 +1063,13 @@
       "rawWorst": 1,
       "dupParas": 0,
       "narrativeLoop": false,
+      "voice": {
+        "words": 16,
+        "firstPerson": false,
+        "docVoice": false,
+        "avgSentence": 8,
+        "onVoice": false
+      },
       "rawLoop": false,
       "issues": [
         "thin: 16 words"
@@ -524,6 +1085,13 @@
       "rawWorst": 1,
       "dupParas": 0,
       "narrativeLoop": false,
+      "voice": {
+        "words": 15,
+        "firstPerson": false,
+        "docVoice": false,
+        "avgSentence": 7.5,
+        "onVoice": false
+      },
       "rawLoop": false,
       "issues": [
         "thin: 15 words"
@@ -539,6 +1107,13 @@
       "rawWorst": 1,
       "dupParas": 0,
       "narrativeLoop": false,
+      "voice": {
+        "words": 16,
+        "firstPerson": false,
+        "docVoice": false,
+        "avgSentence": 8,
+        "onVoice": false
+      },
       "rawLoop": false,
       "issues": [
         "thin: 16 words"
@@ -554,11 +1129,40 @@
       "rawWorst": 1,
       "dupParas": 0,
       "narrativeLoop": false,
+      "voice": {
+        "words": 16,
+        "firstPerson": false,
+        "docVoice": false,
+        "avgSentence": 8,
+        "onVoice": false
+      },
       "rawLoop": false,
       "issues": [
         "thin: 16 words"
       ],
       "source": "opencode://eager-circuit"
+    },
+    {
+      "id": "blog/finishing-is-the-part-most-of-this-work-is-about",
+      "title": "Finishing is the part most of this work is about",
+      "words": 103,
+      "rawWords": 0,
+      "worst": 1,
+      "rawWorst": 1,
+      "dupParas": 0,
+      "narrativeLoop": false,
+      "voice": {
+        "words": 103,
+        "firstPerson": false,
+        "docVoice": false,
+        "avgSentence": 20.6,
+        "onVoice": false
+      },
+      "rawLoop": false,
+      "issues": [
+        "thin: 103 words"
+      ],
+      "source": "compose://craft"
     },
     {
       "id": "blog/fixing-obsidian-loading-issue",
@@ -569,6 +1173,13 @@
       "rawWorst": 1,
       "dupParas": 0,
       "narrativeLoop": false,
+      "voice": {
+        "words": 16,
+        "firstPerson": false,
+        "docVoice": false,
+        "avgSentence": 8,
+        "onVoice": false
+      },
       "rawLoop": false,
       "issues": [
         "thin: 16 words"
@@ -584,6 +1195,13 @@
       "rawWorst": 1,
       "dupParas": 0,
       "narrativeLoop": false,
+      "voice": {
+        "words": 39,
+        "firstPerson": true,
+        "docVoice": false,
+        "avgSentence": 9.8,
+        "onVoice": true
+      },
       "rawLoop": false,
       "issues": [
         "thin: 42 words"
@@ -599,6 +1217,13 @@
       "rawWorst": 1,
       "dupParas": 0,
       "narrativeLoop": false,
+      "voice": {
+        "words": 37,
+        "firstPerson": false,
+        "docVoice": false,
+        "avgSentence": 9.3,
+        "onVoice": false
+      },
       "rawLoop": false,
       "issues": [
         "thin: 38 words"
@@ -614,6 +1239,13 @@
       "rawWorst": 1,
       "dupParas": 0,
       "narrativeLoop": false,
+      "voice": {
+        "words": 16,
+        "firstPerson": false,
+        "docVoice": false,
+        "avgSentence": 8,
+        "onVoice": false
+      },
       "rawLoop": false,
       "issues": [
         "thin: 16 words"
@@ -629,6 +1261,13 @@
       "rawWorst": 1,
       "dupParas": 0,
       "narrativeLoop": false,
+      "voice": {
+        "words": 42,
+        "firstPerson": true,
+        "docVoice": false,
+        "avgSentence": 14,
+        "onVoice": true
+      },
       "rawLoop": false,
       "issues": [
         "thin: 42 words"
@@ -644,6 +1283,13 @@
       "rawWorst": 1,
       "dupParas": 0,
       "narrativeLoop": false,
+      "voice": {
+        "words": 39,
+        "firstPerson": true,
+        "docVoice": false,
+        "avgSentence": 9.8,
+        "onVoice": true
+      },
       "rawLoop": false,
       "issues": [
         "thin: 42 words"
@@ -659,6 +1305,13 @@
       "rawWorst": 1,
       "dupParas": 0,
       "narrativeLoop": false,
+      "voice": {
+        "words": 20,
+        "firstPerson": false,
+        "docVoice": false,
+        "avgSentence": 10,
+        "onVoice": false
+      },
       "rawLoop": false,
       "issues": [
         "thin: 20 words"
@@ -674,6 +1327,13 @@
       "rawWorst": 1,
       "dupParas": 0,
       "narrativeLoop": false,
+      "voice": {
+        "words": 15,
+        "firstPerson": false,
+        "docVoice": false,
+        "avgSentence": 7.5,
+        "onVoice": false
+      },
       "rawLoop": false,
       "issues": [
         "thin: 15 words"
@@ -689,6 +1349,13 @@
       "rawWorst": 1,
       "dupParas": 0,
       "narrativeLoop": false,
+      "voice": {
+        "words": 16,
+        "firstPerson": false,
+        "docVoice": false,
+        "avgSentence": 8,
+        "onVoice": false
+      },
       "rawLoop": false,
       "issues": [
         "thin: 16 words"
@@ -704,6 +1371,13 @@
       "rawWorst": 1,
       "dupParas": 0,
       "narrativeLoop": false,
+      "voice": {
+        "words": 15,
+        "firstPerson": false,
+        "docVoice": false,
+        "avgSentence": 7.5,
+        "onVoice": false
+      },
       "rawLoop": false,
       "issues": [
         "thin: 15 words"
@@ -719,6 +1393,13 @@
       "rawWorst": 1,
       "dupParas": 0,
       "narrativeLoop": false,
+      "voice": {
+        "words": 16,
+        "firstPerson": false,
+        "docVoice": false,
+        "avgSentence": 8,
+        "onVoice": false
+      },
       "rawLoop": false,
       "issues": [
         "thin: 16 words"
@@ -734,6 +1415,13 @@
       "rawWorst": 1,
       "dupParas": 0,
       "narrativeLoop": false,
+      "voice": {
+        "words": 22,
+        "firstPerson": false,
+        "docVoice": false,
+        "avgSentence": 11,
+        "onVoice": false
+      },
       "rawLoop": false,
       "issues": [
         "thin: 22 words"
@@ -749,11 +1437,40 @@
       "rawWorst": 1,
       "dupParas": 0,
       "narrativeLoop": false,
+      "voice": {
+        "words": 16,
+        "firstPerson": false,
+        "docVoice": false,
+        "avgSentence": 8,
+        "onVoice": false
+      },
       "rawLoop": false,
       "issues": [
         "thin: 16 words"
       ],
       "source": "opencode://witty-squid"
+    },
+    {
+      "id": "papers/being-understood-is-a-separate-problem-from-being-right",
+      "title": "Being understood is a separate problem from being right",
+      "words": 106,
+      "rawWords": 0,
+      "worst": 1,
+      "rawWorst": 1,
+      "dupParas": 0,
+      "narrativeLoop": false,
+      "voice": {
+        "words": 105,
+        "firstPerson": false,
+        "docVoice": false,
+        "avgSentence": 17.5,
+        "onVoice": false
+      },
+      "rawLoop": false,
+      "issues": [
+        "thin: 106 words"
+      ],
+      "source": "compose://legibility"
     },
     {
       "id": "papers/create-a-modern-stunning-single-page-web-app-in",
@@ -764,12 +1481,42 @@
       "rawWorst": 6,
       "dupParas": 0,
       "narrativeLoop": false,
+      "voice": {
+        "words": 40,
+        "firstPerson": false,
+        "docVoice": false,
+        "avgSentence": 13.3,
+        "onVoice": false
+      },
       "rawLoop": true,
       "issues": [
         "raw transcript loop: 8-gram x6",
         "thin: 40 words"
       ],
       "source": "antigravity://32ce0c4c-b30e-4c39-ad04-d24335901b7e"
+    },
+    {
+      "id": "papers/make-a-list-of-ebay-monome-midi-sold-prices",
+      "title": "make a list of ebay monome midi sold prices",
+      "words": 1557,
+      "rawWords": 1317,
+      "worst": 3,
+      "rawWorst": 11,
+      "dupParas": 0,
+      "narrativeLoop": true,
+      "voice": {
+        "words": 1500,
+        "firstPerson": true,
+        "docVoice": false,
+        "avgSentence": 22.1,
+        "onVoice": true
+      },
+      "rawLoop": true,
+      "issues": [
+        "narrative loop: 8-gram x3",
+        "raw transcript loop: 8-gram x11"
+      ],
+      "source": "antigravity://08bd1d17-671f-4f62-9079-1b22206c77c3"
     },
     {
       "id": "papers/set-up-the-whisper-for-odysseus-i-want-to",
@@ -780,12 +1527,41 @@
       "rawWorst": 38,
       "dupParas": 0,
       "narrativeLoop": false,
+      "voice": {
+        "words": 98,
+        "firstPerson": true,
+        "docVoice": false,
+        "avgSentence": 12.3,
+        "onVoice": true
+      },
       "rawLoop": true,
       "issues": [
         "raw transcript loop: 8-gram x38",
         "thin: 105 words"
       ],
       "source": "antigravity://96bc662a-1ad2-42ee-b8dc-36dd80d196b4"
+    },
+    {
+      "id": "papers/the-shape-of-being-absorbed",
+      "title": "The shape of being absorbed",
+      "words": 117,
+      "rawWords": 0,
+      "worst": 1,
+      "rawWorst": 1,
+      "dupParas": 0,
+      "narrativeLoop": false,
+      "voice": {
+        "words": 117,
+        "firstPerson": false,
+        "docVoice": false,
+        "avgSentence": 16.7,
+        "onVoice": false
+      },
+      "rawLoop": false,
+      "issues": [
+        "thin: 117 words"
+      ],
+      "source": "compose://capture"
     },
     {
       "id": "papers/walkthrough-3",
@@ -796,11 +1572,40 @@
       "rawWorst": 1,
       "dupParas": 0,
       "narrativeLoop": false,
+      "voice": {
+        "words": 37,
+        "firstPerson": false,
+        "docVoice": false,
+        "avgSentence": 37,
+        "onVoice": false
+      },
       "rawLoop": false,
       "issues": [
         "thin: 39 words"
       ],
       "source": "antigravity://7e8d74f9-5e41-4a79-816e-ebfc01860752/walkthrough.md"
+    },
+    {
+      "id": "papers/what-the-system-actually-takes",
+      "title": "What the system actually takes",
+      "words": 102,
+      "rawWords": 0,
+      "worst": 1,
+      "rawWorst": 1,
+      "dupParas": 0,
+      "narrativeLoop": false,
+      "voice": {
+        "words": 102,
+        "firstPerson": false,
+        "docVoice": false,
+        "avgSentence": 17,
+        "onVoice": false
+      },
+      "rawLoop": false,
+      "issues": [
+        "thin: 102 words"
+      ],
+      "source": "compose://extraction"
     },
     {
       "id": "art/are-any-cards-from-these-sets-valuable",
@@ -811,6 +1616,13 @@
       "rawWorst": 40,
       "dupParas": 0,
       "narrativeLoop": false,
+      "voice": {
+        "words": 7,
+        "firstPerson": false,
+        "docVoice": false,
+        "avgSentence": 7,
+        "onVoice": false
+      },
       "rawLoop": true,
       "issues": [
         "raw transcript loop: 8-gram x40",
@@ -827,6 +1639,13 @@
       "rawWorst": 25,
       "dupParas": 0,
       "narrativeLoop": false,
+      "voice": {
+        "words": 16,
+        "firstPerson": false,
+        "docVoice": false,
+        "avgSentence": 16,
+        "onVoice": false
+      },
       "rawLoop": true,
       "issues": [
         "raw transcript loop: 8-gram x25",
@@ -843,6 +1662,13 @@
       "rawWorst": 5,
       "dupParas": 0,
       "narrativeLoop": false,
+      "voice": {
+        "words": 0,
+        "firstPerson": false,
+        "docVoice": false,
+        "avgSentence": 0,
+        "onVoice": false
+      },
       "rawLoop": true,
       "issues": [
         "raw transcript loop: 8-gram x5",
@@ -859,6 +1685,13 @@
       "rawWorst": 1,
       "dupParas": 0,
       "narrativeLoop": false,
+      "voice": {
+        "words": 79,
+        "firstPerson": false,
+        "docVoice": false,
+        "avgSentence": 15.8,
+        "onVoice": false
+      },
       "rawLoop": false,
       "issues": [
         "thin: 80 words"
@@ -873,11 +1706,40 @@
       "rawWorst": 3,
       "dupParas": 0,
       "narrativeLoop": false,
+      "voice": {
+        "words": 11,
+        "firstPerson": false,
+        "docVoice": false,
+        "avgSentence": 11,
+        "onVoice": false
+      },
       "rawLoop": false,
       "issues": [
         "thin: 11 words"
       ],
       "source": "antigravity://f06bf556-a7e3-42b9-91c5-3f44b7aabdeb"
+    },
+    {
+      "id": "art/information-on-how-to-handle-the-mdm-profile-checking",
+      "title": "information on how to handle the mdm profile",
+      "words": 130,
+      "rawWords": 0,
+      "worst": 3,
+      "rawWorst": 1,
+      "dupParas": 0,
+      "narrativeLoop": true,
+      "voice": {
+        "words": 130,
+        "firstPerson": false,
+        "docVoice": false,
+        "avgSentence": 26,
+        "onVoice": false
+      },
+      "rawLoop": false,
+      "issues": [
+        "narrative loop: 8-gram x3"
+      ],
+      "source": "antigravity://c09dd356-bfdf-404e-ac79-932beac364e2"
     },
     {
       "id": "art/navigate-to-http-localhost-7000-and-check-the-current-state",
@@ -888,6 +1750,13 @@
       "rawWorst": 5,
       "dupParas": 0,
       "narrativeLoop": false,
+      "voice": {
+        "words": 29,
+        "firstPerson": false,
+        "docVoice": false,
+        "avgSentence": 14.5,
+        "onVoice": false
+      },
       "rawLoop": false,
       "issues": [
         "thin: 27 words"
@@ -903,6 +1772,13 @@
       "rawWorst": 21,
       "dupParas": 0,
       "narrativeLoop": false,
+      "voice": {
+        "words": 185,
+        "firstPerson": true,
+        "docVoice": false,
+        "avgSentence": 16.8,
+        "onVoice": true
+      },
       "rawLoop": true,
       "issues": [
         "raw transcript loop: 8-gram x21"
@@ -918,12 +1794,43 @@
       "rawWorst": 42,
       "dupParas": 0,
       "narrativeLoop": false,
+      "voice": {
+        "words": 5,
+        "firstPerson": false,
+        "docVoice": false,
+        "avgSentence": 5,
+        "onVoice": false
+      },
       "rawLoop": true,
       "issues": [
         "raw transcript loop: 8-gram x42",
         "thin: 5 words"
       ],
       "source": "antigravity://b5d4fc03-8958-459f-b5dd-e3de75c06112"
+    },
+    {
+      "id": "art/so-i-had-an-idea-for-an-animated-video",
+      "title": "So I had an idea for an animated video. It would be some clips of people on tiktok posts talking about how one",
+      "words": 1810,
+      "rawWords": 5573,
+      "worst": 6,
+      "rawWorst": 13,
+      "dupParas": 0,
+      "narrativeLoop": true,
+      "voice": {
+        "words": 1829,
+        "firstPerson": true,
+        "docVoice": false,
+        "avgSentence": 31.5,
+        "onVoice": true
+      },
+      "rawLoop": true,
+      "issues": [
+        "narrative loop: 8-gram x6",
+        "168 repeated narrative 8-grams",
+        "raw transcript loop: 8-gram x13"
+      ],
+      "source": "antigravity://7a752ae6-6ab1-4189-86d5-cc56e370a701"
     },
     {
       "id": "art/what-would-renting-a-space-to-live-in-a",
@@ -934,6 +1841,13 @@
       "rawWorst": 4,
       "dupParas": 0,
       "narrativeLoop": false,
+      "voice": {
+        "words": 0,
+        "firstPerson": false,
+        "docVoice": false,
+        "avgSentence": 0,
+        "onVoice": false
+      },
       "rawLoop": false,
       "issues": [
         "thin: 0 words"
@@ -949,10 +1863,39 @@
       "rawWorst": 1,
       "dupParas": 0,
       "narrativeLoop": false,
+      "voice": {
+        "words": 69,
+        "firstPerson": false,
+        "docVoice": false,
+        "avgSentence": 9.9,
+        "onVoice": false
+      },
       "rawLoop": false,
       "issues": [
         "thin: 70 words"
       ]
+    },
+    {
+      "id": "concepts/the-loudest-one-wins-and-that-is-the-whole-problem",
+      "title": "The loudest one wins, and that is the whole problem",
+      "words": 97,
+      "rawWords": 0,
+      "worst": 1,
+      "rawWorst": 1,
+      "dupParas": 0,
+      "narrativeLoop": false,
+      "voice": {
+        "words": 97,
+        "firstPerson": false,
+        "docVoice": false,
+        "avgSentence": 16.2,
+        "onVoice": false
+      },
+      "rawLoop": false,
+      "issues": [
+        "thin: 97 words"
+      ],
+      "source": "compose://volume"
     },
     {
       "id": "design/one-file-artifact",
@@ -963,6 +1906,13 @@
       "rawWorst": 1,
       "dupParas": 0,
       "narrativeLoop": false,
+      "voice": {
+        "words": 52,
+        "firstPerson": false,
+        "docVoice": false,
+        "avgSentence": 13,
+        "onVoice": false
+      },
       "rawLoop": false,
       "issues": [
         "thin: 53 words"
@@ -977,6 +1927,13 @@
       "rawWorst": 1,
       "dupParas": 0,
       "narrativeLoop": false,
+      "voice": {
+        "words": 32,
+        "firstPerson": false,
+        "docVoice": false,
+        "avgSentence": 16,
+        "onVoice": false
+      },
       "rawLoop": false,
       "issues": [
         "thin: 32 words"
@@ -991,6 +1948,13 @@
       "rawWorst": 1,
       "dupParas": 0,
       "narrativeLoop": false,
+      "voice": {
+        "words": 29,
+        "firstPerson": false,
+        "docVoice": false,
+        "avgSentence": 9.7,
+        "onVoice": false
+      },
       "rawLoop": false,
       "issues": [
         "thin: 29 words"
@@ -1005,6 +1969,13 @@
       "rawWorst": 1,
       "dupParas": 0,
       "narrativeLoop": false,
+      "voice": {
+        "words": 29,
+        "firstPerson": false,
+        "docVoice": true,
+        "avgSentence": 14.5,
+        "onVoice": false
+      },
       "rawLoop": false,
       "issues": [
         "thin: 29 words"
@@ -1019,6 +1990,13 @@
       "rawWorst": 1,
       "dupParas": 0,
       "narrativeLoop": false,
+      "voice": {
+        "words": 32,
+        "firstPerson": false,
+        "docVoice": false,
+        "avgSentence": 16,
+        "onVoice": false
+      },
       "rawLoop": false,
       "issues": [
         "thin: 32 words"
@@ -1033,6 +2011,13 @@
       "rawWorst": 1,
       "dupParas": 0,
       "narrativeLoop": false,
+      "voice": {
+        "words": 34,
+        "firstPerson": false,
+        "docVoice": false,
+        "avgSentence": 11.3,
+        "onVoice": false
+      },
       "rawLoop": false,
       "issues": [
         "thin: 34 words"
@@ -1047,6 +2032,13 @@
       "rawWorst": 1,
       "dupParas": 0,
       "narrativeLoop": false,
+      "voice": {
+        "words": 35,
+        "firstPerson": false,
+        "docVoice": false,
+        "avgSentence": 11.7,
+        "onVoice": false
+      },
       "rawLoop": false,
       "issues": [
         "thin: 35 words"
@@ -1061,6 +2053,13 @@
       "rawWorst": 1,
       "dupParas": 0,
       "narrativeLoop": false,
+      "voice": {
+        "words": 42,
+        "firstPerson": false,
+        "docVoice": false,
+        "avgSentence": 14,
+        "onVoice": false
+      },
       "rawLoop": false,
       "issues": [
         "thin: 43 words"
@@ -1075,6 +2074,13 @@
       "rawWorst": 1,
       "dupParas": 0,
       "narrativeLoop": false,
+      "voice": {
+        "words": 27,
+        "firstPerson": false,
+        "docVoice": true,
+        "avgSentence": 13.5,
+        "onVoice": false
+      },
       "rawLoop": false,
       "issues": [
         "thin: 28 words"
@@ -1089,6 +2095,13 @@
       "rawWorst": 1,
       "dupParas": 0,
       "narrativeLoop": false,
+      "voice": {
+        "words": 36,
+        "firstPerson": true,
+        "docVoice": false,
+        "avgSentence": 12,
+        "onVoice": true
+      },
       "rawLoop": false,
       "issues": [
         "thin: 37 words"
@@ -1103,10 +2116,40 @@
       "rawWorst": 1,
       "dupParas": 0,
       "narrativeLoop": false,
+      "voice": {
+        "words": 92,
+        "firstPerson": true,
+        "docVoice": false,
+        "avgSentence": 11.5,
+        "onVoice": true
+      },
       "rawLoop": false,
       "issues": [
         "thin: 93 words"
       ]
+    },
+    {
+      "id": "garden/browserhttp-localhost-7000-troubleshooting",
+      "title": "browserhttp://localhost:7000/ /troubleshooting",
+      "words": 2026,
+      "rawWords": 503,
+      "worst": 9,
+      "rawWorst": 2,
+      "dupParas": 0,
+      "narrativeLoop": true,
+      "voice": {
+        "words": 1946,
+        "firstPerson": true,
+        "docVoice": true,
+        "avgSentence": 16.2,
+        "onVoice": false
+      },
+      "rawLoop": false,
+      "issues": [
+        "narrative loop: 8-gram x9",
+        "56 repeated narrative 8-grams"
+      ],
+      "source": "antigravity://a38447ef-2a2f-4b65-9627-8ab3a9e20ab4"
     },
     {
       "id": "garden/build-a-video-creation-pipe-line-based-on-this",
@@ -1117,6 +2160,13 @@
       "rawWorst": 1,
       "dupParas": 0,
       "narrativeLoop": false,
+      "voice": {
+        "words": 37,
+        "firstPerson": false,
+        "docVoice": false,
+        "avgSentence": 37,
+        "onVoice": false
+      },
       "rawLoop": false,
       "issues": [
         "thin: 39 words"
@@ -1132,6 +2182,13 @@
       "rawWorst": 1,
       "dupParas": 0,
       "narrativeLoop": false,
+      "voice": {
+        "words": 832,
+        "firstPerson": true,
+        "docVoice": false,
+        "avgSentence": 16.3,
+        "onVoice": true
+      },
       "rawLoop": false,
       "issues": [
         "61 repeated narrative 8-grams"
@@ -1147,11 +2204,41 @@
       "rawWorst": 1,
       "dupParas": 0,
       "narrativeLoop": false,
+      "voice": {
+        "words": 502,
+        "firstPerson": true,
+        "docVoice": false,
+        "avgSentence": 13.9,
+        "onVoice": true
+      },
       "rawLoop": false,
       "issues": [
         "39 repeated narrative 8-grams"
       ],
       "source": "antigravity://5379e5fe-6a17-4265-81bf-a4e2c16a2d57"
+    },
+    {
+      "id": "garden/campaign-performance-projection-our-data-shows-that-scarcity",
+      "title": "Campaign Performance Projection Our data shows that 'Scarcity' driven content outperforms 'Price' driven conte",
+      "words": 678,
+      "rawWords": 0,
+      "worst": 3,
+      "rawWorst": 1,
+      "dupParas": 0,
+      "narrativeLoop": true,
+      "voice": {
+        "words": 666,
+        "firstPerson": true,
+        "docVoice": false,
+        "avgSentence": 31.7,
+        "onVoice": true
+      },
+      "rawLoop": false,
+      "issues": [
+        "narrative loop: 8-gram x3",
+        "80 repeated narrative 8-grams"
+      ],
+      "source": "antigravity://070887a9-85aa-427a-8c52-4f19f4c95cd5"
     },
     {
       "id": "garden/career-development",
@@ -1162,11 +2249,42 @@
       "rawWorst": 1,
       "dupParas": 0,
       "narrativeLoop": false,
+      "voice": {
+        "words": 51,
+        "firstPerson": true,
+        "docVoice": false,
+        "avgSentence": 25.5,
+        "onVoice": true
+      },
       "rawLoop": false,
       "issues": [
         "thin: 51 words"
       ],
       "source": "Areas/Career Development.md"
+    },
+    {
+      "id": "garden/create-a-visually-exciting-kickstarter-campaign-page-with-pr",
+      "title": "Kickstarter Financial Projections for OpenPlotter",
+      "words": 2746,
+      "rawWords": 3430,
+      "worst": 5,
+      "rawWorst": 23,
+      "dupParas": 0,
+      "narrativeLoop": true,
+      "voice": {
+        "words": 2654,
+        "firstPerson": true,
+        "docVoice": false,
+        "avgSentence": 15.9,
+        "onVoice": true
+      },
+      "rawLoop": true,
+      "issues": [
+        "narrative loop: 8-gram x5",
+        "69 repeated narrative 8-grams",
+        "raw transcript loop: 8-gram x23"
+      ],
+      "source": "antigravity://1a22fe8e-382a-4a0d-92a0-70a0f0e2d348"
     },
     {
       "id": "garden/design-a-drone-camera-set-up-for-special-events",
@@ -1177,6 +2295,13 @@
       "rawWorst": 15,
       "dupParas": 0,
       "narrativeLoop": false,
+      "voice": {
+        "words": 1539,
+        "firstPerson": true,
+        "docVoice": false,
+        "avgSentence": 16.2,
+        "onVoice": true
+      },
       "rawLoop": true,
       "issues": [
         "raw transcript loop: 8-gram x15"
@@ -1192,6 +2317,13 @@
       "rawWorst": 1,
       "dupParas": 0,
       "narrativeLoop": false,
+      "voice": {
+        "words": 5,
+        "firstPerson": false,
+        "docVoice": false,
+        "avgSentence": 5,
+        "onVoice": false
+      },
       "rawLoop": false,
       "issues": [
         "thin: 5 words"
@@ -1207,6 +2339,13 @@
       "rawWorst": 1,
       "dupParas": 0,
       "narrativeLoop": false,
+      "voice": {
+        "words": 22,
+        "firstPerson": false,
+        "docVoice": false,
+        "avgSentence": 22,
+        "onVoice": false
+      },
       "rawLoop": false,
       "issues": [
         "thin: 23 words"
@@ -1222,6 +2361,13 @@
       "rawWorst": 1,
       "dupParas": 0,
       "narrativeLoop": false,
+      "voice": {
+        "words": 21,
+        "firstPerson": false,
+        "docVoice": false,
+        "avgSentence": 7,
+        "onVoice": false
+      },
       "rawLoop": false,
       "issues": [
         "thin: 22 words"
@@ -1237,6 +2383,13 @@
       "rawWorst": 12,
       "dupParas": 0,
       "narrativeLoop": false,
+      "voice": {
+        "words": 399,
+        "firstPerson": false,
+        "docVoice": true,
+        "avgSentence": 19,
+        "onVoice": false
+      },
       "rawLoop": true,
       "issues": [
         "raw transcript loop: 8-gram x12"
@@ -1252,6 +2405,13 @@
       "rawWorst": 1,
       "dupParas": 0,
       "narrativeLoop": false,
+      "voice": {
+        "words": 3,
+        "firstPerson": false,
+        "docVoice": false,
+        "avgSentence": 0,
+        "onVoice": false
+      },
       "rawLoop": false,
       "issues": [
         "thin: 3 words"
@@ -1267,6 +2427,13 @@
       "rawWorst": 1,
       "dupParas": 0,
       "narrativeLoop": false,
+      "voice": {
+        "words": 102,
+        "firstPerson": false,
+        "docVoice": false,
+        "avgSentence": 14.6,
+        "onVoice": false
+      },
       "rawLoop": false,
       "issues": [
         "thin: 104 words"
@@ -1282,6 +2449,13 @@
       "rawWorst": 1,
       "dupParas": 0,
       "narrativeLoop": false,
+      "voice": {
+        "words": 85,
+        "firstPerson": false,
+        "docVoice": false,
+        "avgSentence": 10.6,
+        "onVoice": false
+      },
       "rawLoop": false,
       "issues": [
         "thin: 99 words"
@@ -1297,11 +2471,41 @@
       "rawWorst": 1,
       "dupParas": 0,
       "narrativeLoop": false,
+      "voice": {
+        "words": 339,
+        "firstPerson": true,
+        "docVoice": false,
+        "avgSentence": 19.9,
+        "onVoice": true
+      },
       "rawLoop": false,
       "issues": [
         "39 repeated narrative 8-grams"
       ],
       "source": "antigravity://8e76f31d-51a8-45eb-801d-3f43cea91a36"
+    },
+    {
+      "id": "garden/find-a-macbook-pro-with-at-least-16gb-ram",
+      "title": "find a macbook pro with at least 16gb ram on facebook marketplace in sioux falls, sd",
+      "words": 1057,
+      "rawWords": 0,
+      "worst": 3,
+      "rawWorst": 1,
+      "dupParas": 0,
+      "narrativeLoop": true,
+      "voice": {
+        "words": 963,
+        "firstPerson": true,
+        "docVoice": false,
+        "avgSentence": 20.1,
+        "onVoice": true
+      },
+      "rawLoop": false,
+      "issues": [
+        "narrative loop: 8-gram x3",
+        "22 repeated narrative 8-grams"
+      ],
+      "source": "antigravity://caee4b56-2ec1-4c99-8bf0-4848d5c9ae96"
     },
     {
       "id": "garden/futo-notes-welcome",
@@ -1312,6 +2516,13 @@
       "rawWorst": 1,
       "dupParas": 0,
       "narrativeLoop": false,
+      "voice": {
+        "words": 43,
+        "firstPerson": false,
+        "docVoice": false,
+        "avgSentence": 14.3,
+        "onVoice": false
+      },
       "rawLoop": false,
       "issues": [
         "thin: 45 words"
@@ -1327,11 +2538,41 @@
       "rawWorst": 1,
       "dupParas": 0,
       "narrativeLoop": false,
+      "voice": {
+        "words": 601,
+        "firstPerson": true,
+        "docVoice": true,
+        "avgSentence": 19.4,
+        "onVoice": false
+      },
       "rawLoop": false,
       "issues": [
         "33 repeated narrative 8-grams"
       ],
       "source": "antigravity://4e972a19-24a8-4e8d-a4cc-73426b5f6c4e"
+    },
+    {
+      "id": "garden/how-can-i-connect-an-external-drive-to-my",
+      "title": "how can i connect an external drive to my linux laptop so it will behave as an internal storage",
+      "words": 19867,
+      "rawWords": 0,
+      "worst": 78,
+      "rawWorst": 1,
+      "dupParas": 0,
+      "narrativeLoop": true,
+      "voice": {
+        "words": 19447,
+        "firstPerson": true,
+        "docVoice": false,
+        "avgSentence": 31.4,
+        "onVoice": true
+      },
+      "rawLoop": false,
+      "issues": [
+        "narrative loop: 8-gram x78",
+        "8381 repeated narrative 8-grams"
+      ],
+      "source": "antigravity://92461444-94df-46f4-86eb-5692916fda10"
     },
     {
       "id": "garden/how-much-money-could-i-make-from-this-kickstater",
@@ -1342,6 +2583,13 @@
       "rawWorst": 2,
       "dupParas": 0,
       "narrativeLoop": false,
+      "voice": {
+        "words": 9,
+        "firstPerson": false,
+        "docVoice": false,
+        "avgSentence": 9,
+        "onVoice": false
+      },
       "rawLoop": false,
       "issues": [
         "thin: 9 words"
@@ -1357,6 +2605,13 @@
       "rawWorst": 5,
       "dupParas": 0,
       "narrativeLoop": false,
+      "voice": {
+        "words": 279,
+        "firstPerson": true,
+        "docVoice": false,
+        "avgSentence": 15.5,
+        "onVoice": true
+      },
       "rawLoop": true,
       "issues": [
         "raw transcript loop: 8-gram x5"
@@ -1372,6 +2627,13 @@
       "rawWorst": 1,
       "dupParas": 0,
       "narrativeLoop": false,
+      "voice": {
+        "words": 596,
+        "firstPerson": false,
+        "docVoice": false,
+        "avgSentence": 22.1,
+        "onVoice": false
+      },
       "rawLoop": false,
       "issues": [
         "29 repeated narrative 8-grams"
@@ -1387,6 +2649,13 @@
       "rawWorst": 1,
       "dupParas": 0,
       "narrativeLoop": false,
+      "voice": {
+        "words": 1442,
+        "firstPerson": true,
+        "docVoice": true,
+        "avgSentence": 22.2,
+        "onVoice": false
+      },
       "rawLoop": false,
       "issues": [
         "28 repeated narrative 8-grams"
@@ -1402,6 +2671,13 @@
       "rawWorst": 1,
       "dupParas": 0,
       "narrativeLoop": false,
+      "voice": {
+        "words": 757,
+        "firstPerson": true,
+        "docVoice": false,
+        "avgSentence": 24.4,
+        "onVoice": true
+      },
       "rawLoop": false,
       "issues": [
         "46 repeated narrative 8-grams"
@@ -1417,6 +2693,13 @@
       "rawWorst": 1,
       "dupParas": 0,
       "narrativeLoop": false,
+      "voice": {
+        "words": 39,
+        "firstPerson": true,
+        "docVoice": false,
+        "avgSentence": 19.5,
+        "onVoice": true
+      },
       "rawLoop": false,
       "issues": [
         "thin: 39 words"
@@ -1432,6 +2715,13 @@
       "rawWorst": 1,
       "dupParas": 0,
       "narrativeLoop": false,
+      "voice": {
+        "words": 18,
+        "firstPerson": true,
+        "docVoice": false,
+        "avgSentence": 18,
+        "onVoice": true
+      },
       "rawLoop": false,
       "issues": [
         "thin: 19 words"
@@ -1447,6 +2737,13 @@
       "rawWorst": 1,
       "dupParas": 0,
       "narrativeLoop": false,
+      "voice": {
+        "words": 46,
+        "firstPerson": true,
+        "docVoice": false,
+        "avgSentence": 23,
+        "onVoice": true
+      },
       "rawLoop": false,
       "issues": [
         "thin: 48 words"
@@ -1462,6 +2759,13 @@
       "rawWorst": 1,
       "dupParas": 0,
       "narrativeLoop": false,
+      "voice": {
+        "words": 0,
+        "firstPerson": false,
+        "docVoice": false,
+        "avgSentence": 0,
+        "onVoice": false
+      },
       "rawLoop": false,
       "issues": [
         "thin: 0 words"
@@ -1477,11 +2781,88 @@
       "rawWorst": 1,
       "dupParas": 0,
       "narrativeLoop": false,
+      "voice": {
+        "words": 307,
+        "firstPerson": true,
+        "docVoice": false,
+        "avgSentence": 27.9,
+        "onVoice": true
+      },
       "rawLoop": false,
       "issues": [
         "11 repeated narrative 8-grams"
       ],
       "source": "antigravity://4b9a1073-8c2a-425c-ac8d-abc1d1b426d4"
+    },
+    {
+      "id": "garden/install-gnome-network-displays-from-debian",
+      "title": "install gnome network displays from debian",
+      "words": 489,
+      "rawWords": 0,
+      "worst": 7,
+      "rawWorst": 1,
+      "dupParas": 0,
+      "narrativeLoop": true,
+      "voice": {
+        "words": 487,
+        "firstPerson": true,
+        "docVoice": false,
+        "avgSentence": 44.3,
+        "onVoice": true
+      },
+      "rawLoop": false,
+      "issues": [
+        "narrative loop: 8-gram x7",
+        "136 repeated narrative 8-grams"
+      ],
+      "source": "antigravity://956d1092-f75c-4083-ab35-95eaa8b8c233"
+    },
+    {
+      "id": "garden/is-this-the-most-likely-to-secceed-tech-product",
+      "title": "is this the most likely to secceed tech product for fishing boats to try this concept",
+      "words": 683,
+      "rawWords": 4950,
+      "worst": 6,
+      "rawWorst": 19,
+      "dupParas": 0,
+      "narrativeLoop": true,
+      "voice": {
+        "words": 683,
+        "firstPerson": false,
+        "docVoice": false,
+        "avgSentence": 20.7,
+        "onVoice": false
+      },
+      "rawLoop": true,
+      "issues": [
+        "narrative loop: 8-gram x6",
+        "40 repeated narrative 8-grams",
+        "raw transcript loop: 8-gram x19"
+      ],
+      "source": "antigravity://d1c02eb0-64ae-4009-aa5f-0d2de5aea15a"
+    },
+    {
+      "id": "garden/it-is-not-working-proporrly",
+      "title": "it is not working proporrly",
+      "words": 5548,
+      "rawWords": 0,
+      "worst": 4,
+      "rawWorst": 1,
+      "dupParas": 0,
+      "narrativeLoop": true,
+      "voice": {
+        "words": 5399,
+        "firstPerson": true,
+        "docVoice": false,
+        "avgSentence": 25.6,
+        "onVoice": true
+      },
+      "rawLoop": false,
+      "issues": [
+        "narrative loop: 8-gram x4",
+        "2073 repeated narrative 8-grams"
+      ],
+      "source": "antigravity://3690e19d-b1c3-4813-a6af-5da17cf56753"
     },
     {
       "id": "garden/off-load-some-drive-space-to-media-jd-6bff-f24f",
@@ -1492,11 +2873,42 @@
       "rawWorst": 1,
       "dupParas": 0,
       "narrativeLoop": false,
+      "voice": {
+        "words": 41,
+        "firstPerson": true,
+        "docVoice": false,
+        "avgSentence": 13.7,
+        "onVoice": true
+      },
       "rawLoop": false,
       "issues": [
         "thin: 44 words"
       ],
       "source": "antigravity://e41177b8-708e-48b8-8836-9c443dfb49f9"
+    },
+    {
+      "id": "garden/open-source-hardware-kickstater-project-for-a-ring",
+      "title": "open source / hardware kickstater project for a Ring doorbell replacement. using already designed options from",
+      "words": 2246,
+      "rawWords": 1509,
+      "worst": 6,
+      "rawWorst": 10,
+      "dupParas": 0,
+      "narrativeLoop": true,
+      "voice": {
+        "words": 2162,
+        "firstPerson": true,
+        "docVoice": false,
+        "avgSentence": 16.9,
+        "onVoice": true
+      },
+      "rawLoop": true,
+      "issues": [
+        "narrative loop: 8-gram x6",
+        "112 repeated narrative 8-grams",
+        "raw transcript loop: 8-gram x10"
+      ],
+      "source": "antigravity://91fbcd74-1c9b-4cfb-be38-fe99f60e1b9b"
     },
     {
       "id": "garden/research-the-current-state-of-anti-mlm-content-on-youtube",
@@ -1507,6 +2919,13 @@
       "rawWorst": 1,
       "dupParas": 0,
       "narrativeLoop": false,
+      "voice": {
+        "words": 41,
+        "firstPerson": false,
+        "docVoice": false,
+        "avgSentence": 20.5,
+        "onVoice": false
+      },
       "rawLoop": false,
       "issues": [
         "thin: 41 words"
@@ -1522,6 +2941,13 @@
       "rawWorst": 1,
       "dupParas": 0,
       "narrativeLoop": false,
+      "voice": {
+        "words": 341,
+        "firstPerson": true,
+        "docVoice": false,
+        "avgSentence": 12.2,
+        "onVoice": true
+      },
       "rawLoop": false,
       "issues": [
         "73 repeated narrative 8-grams"
@@ -1537,11 +2963,42 @@
       "rawWorst": 5,
       "dupParas": 0,
       "narrativeLoop": false,
+      "voice": {
+        "words": 284,
+        "firstPerson": false,
+        "docVoice": false,
+        "avgSentence": 20.3,
+        "onVoice": false
+      },
       "rawLoop": true,
       "issues": [
         "raw transcript loop: 8-gram x5"
       ],
       "source": "antigravity://b0fa3b8a-7515-4ba6-bd07-499f21d7b9c0"
+    },
+    {
+      "id": "garden/these-scripts-are-based-on-my-website-https-nothing-absolute",
+      "title": "These scripts are based on my website: https://nothing-absolute.github.io/mlm-truth/ 5…",
+      "words": 4315,
+      "rawWords": 3597,
+      "worst": 3,
+      "rawWorst": 19,
+      "dupParas": 0,
+      "narrativeLoop": true,
+      "voice": {
+        "words": 4128,
+        "firstPerson": true,
+        "docVoice": true,
+        "avgSentence": 20.5,
+        "onVoice": false
+      },
+      "rawLoop": true,
+      "issues": [
+        "narrative loop: 8-gram x3",
+        "179 repeated narrative 8-grams",
+        "raw transcript loop: 8-gram x19"
+      ],
+      "source": "antigravity://1723e474-df1d-4e2a-aa23-86abae3079ac"
     },
     {
       "id": "garden/undertone-instagram-campaign-27",
@@ -1552,6 +3009,13 @@
       "rawWorst": 1,
       "dupParas": 0,
       "narrativeLoop": false,
+      "voice": {
+        "words": 23,
+        "firstPerson": false,
+        "docVoice": false,
+        "avgSentence": 23,
+        "onVoice": false
+      },
       "rawLoop": false,
       "issues": [
         "thin: 24 words"
@@ -1567,6 +3031,13 @@
       "rawWorst": 1,
       "dupParas": 0,
       "narrativeLoop": false,
+      "voice": {
+        "words": 44,
+        "firstPerson": false,
+        "docVoice": false,
+        "avgSentence": 22,
+        "onVoice": false
+      },
       "rawLoop": false,
       "issues": [
         "thin: 46 words"
@@ -1582,6 +3053,13 @@
       "rawWorst": 1,
       "dupParas": 0,
       "narrativeLoop": false,
+      "voice": {
+        "words": 110,
+        "firstPerson": false,
+        "docVoice": false,
+        "avgSentence": 15.7,
+        "onVoice": false
+      },
       "rawLoop": false,
       "issues": [
         "thin: 118 words"
@@ -1597,6 +3075,13 @@
       "rawWorst": 1,
       "dupParas": 0,
       "narrativeLoop": false,
+      "voice": {
+        "words": 25,
+        "firstPerson": false,
+        "docVoice": false,
+        "avgSentence": 25,
+        "onVoice": false
+      },
       "rawLoop": false,
       "issues": [
         "thin: 26 words"
@@ -1612,6 +3097,13 @@
       "rawWorst": 1,
       "dupParas": 0,
       "narrativeLoop": false,
+      "voice": {
+        "words": 66,
+        "firstPerson": false,
+        "docVoice": false,
+        "avgSentence": 8.3,
+        "onVoice": false
+      },
       "rawLoop": false,
       "issues": [
         "thin: 81 words"
@@ -1627,6 +3119,13 @@
       "rawWorst": 1,
       "dupParas": 0,
       "narrativeLoop": false,
+      "voice": {
+        "words": 391,
+        "firstPerson": false,
+        "docVoice": false,
+        "avgSentence": 21.7,
+        "onVoice": false
+      },
       "rawLoop": false,
       "issues": [
         "36 repeated narrative 8-grams"
@@ -1642,6 +3141,13 @@
       "rawWorst": 1,
       "dupParas": 0,
       "narrativeLoop": false,
+      "voice": {
+        "words": 41,
+        "firstPerson": false,
+        "docVoice": false,
+        "avgSentence": 20.5,
+        "onVoice": false
+      },
       "rawLoop": false,
       "issues": [
         "thin: 41 words"
@@ -1657,6 +3163,13 @@
       "rawWorst": 1,
       "dupParas": 0,
       "narrativeLoop": false,
+      "voice": {
+        "words": 358,
+        "firstPerson": true,
+        "docVoice": false,
+        "avgSentence": 17,
+        "onVoice": true
+      },
       "rawLoop": false,
       "issues": [
         "20 repeated narrative 8-grams"
@@ -1672,6 +3185,13 @@
       "rawWorst": 1,
       "dupParas": 0,
       "narrativeLoop": false,
+      "voice": {
+        "words": 558,
+        "firstPerson": false,
+        "docVoice": false,
+        "avgSentence": 12.1,
+        "onVoice": false
+      },
       "rawLoop": false,
       "issues": [
         "50 repeated narrative 8-grams"
@@ -1687,11 +3207,41 @@
       "rawWorst": 1,
       "dupParas": 0,
       "narrativeLoop": false,
+      "voice": {
+        "words": 278,
+        "firstPerson": true,
+        "docVoice": false,
+        "avgSentence": 15.4,
+        "onVoice": true
+      },
       "rawLoop": false,
       "issues": [
         "52 repeated narrative 8-grams"
       ],
       "source": "antigravity://699e0749-2bcd-4522-83a6-ea80ed6bf0c1"
+    },
+    {
+      "id": "garden/yakuake-shortcuts",
+      "title": "Yakuake Shortcuts",
+      "words": 683,
+      "rawWords": 0,
+      "worst": 18,
+      "rawWorst": 1,
+      "dupParas": 0,
+      "narrativeLoop": true,
+      "voice": {
+        "words": 649,
+        "firstPerson": true,
+        "docVoice": false,
+        "avgSentence": 40.6,
+        "onVoice": true
+      },
+      "rawLoop": false,
+      "issues": [
+        "narrative loop: 8-gram x18",
+        "299 repeated narrative 8-grams"
+      ],
+      "source": "Knowledge/References/yakuake.shortcuts.md"
     },
     {
       "id": "garden/you-are-helping-me-build-a-complete-kickstarter-campaign",
@@ -1702,11 +3252,2504 @@
       "rawWorst": 2,
       "dupParas": 0,
       "narrativeLoop": false,
+      "voice": {
+        "words": 4155,
+        "firstPerson": true,
+        "docVoice": true,
+        "avgSentence": 19.2,
+        "onVoice": false
+      },
       "rawLoop": false,
       "issues": [
         "1703 repeated narrative 8-grams"
       ],
       "source": "antigravity://1a609c70-58d0-41e8-97cc-bcf07be146ec"
+    },
+    {
+      "id": "fragments/adapting-database-configuration",
+      "title": "Adapting Database Configuration",
+      "words": 71,
+      "rawWords": 0,
+      "worst": 2,
+      "rawWorst": 1,
+      "dupParas": 0,
+      "narrativeLoop": false,
+      "voice": {
+        "words": 71,
+        "firstPerson": true,
+        "docVoice": false,
+        "avgSentence": 17.8,
+        "onVoice": true
+      },
+      "rawLoop": false,
+      "issues": [
+        "thin: 71 words"
+      ],
+      "source": "antigravity://2163af39-ee81-4fad-a665-92194e6e6f77"
+    },
+    {
+      "id": "fragments/ai-generated-code-for-nodes",
+      "title": "AI-generated Code for Nodes",
+      "words": 70,
+      "rawWords": 0,
+      "worst": 2,
+      "rawWorst": 1,
+      "dupParas": 0,
+      "narrativeLoop": false,
+      "voice": {
+        "words": 70,
+        "firstPerson": true,
+        "docVoice": false,
+        "avgSentence": 17.5,
+        "onVoice": true
+      },
+      "rawLoop": false,
+      "issues": [
+        "thin: 70 words"
+      ],
+      "source": "antigravity://3690e19d-b1c3-4813-a6af-5da17cf56753"
+    },
+    {
+      "id": "fragments/analyzing-kickstarter-feasibility",
+      "title": "Analyzing Kickstarter Feasibility",
+      "words": 73,
+      "rawWords": 0,
+      "worst": 2,
+      "rawWorst": 1,
+      "dupParas": 0,
+      "narrativeLoop": false,
+      "voice": {
+        "words": 72,
+        "firstPerson": true,
+        "docVoice": false,
+        "avgSentence": 18,
+        "onVoice": true
+      },
+      "rawLoop": false,
+      "issues": [
+        "thin: 73 words"
+      ],
+      "source": "antigravity://08bd1d17-671f-4f62-9079-1b22206c77c3"
+    },
+    {
+      "id": "fragments/analyzing-time-discrepancies",
+      "title": "Analyzing Time Discrepancies",
+      "words": 67,
+      "rawWords": 0,
+      "worst": 2,
+      "rawWorst": 1,
+      "dupParas": 0,
+      "narrativeLoop": false,
+      "voice": {
+        "words": 66,
+        "firstPerson": true,
+        "docVoice": false,
+        "avgSentence": 16.5,
+        "onVoice": true
+      },
+      "rawLoop": false,
+      "issues": [
+        "thin: 67 words"
+      ],
+      "source": "antigravity://8cf9bf0e-db57-44c9-b1c1-ce22b9f6804f"
+    },
+    {
+      "id": "fragments/analyzing-tool-combinations",
+      "title": "Analyzing Tool Combinations",
+      "words": 71,
+      "rawWords": 0,
+      "worst": 2,
+      "rawWorst": 1,
+      "dupParas": 0,
+      "narrativeLoop": false,
+      "voice": {
+        "words": 71,
+        "firstPerson": true,
+        "docVoice": false,
+        "avgSentence": 17.8,
+        "onVoice": true
+      },
+      "rawLoop": false,
+      "issues": [
+        "thin: 71 words"
+      ],
+      "source": "antigravity://4a1fc688-deb4-48d8-9141-bbb0b3d7308f"
+    },
+    {
+      "id": "fragments/analyzing-user-request-context",
+      "title": "Analyzing User Request Context",
+      "words": 69,
+      "rawWords": 0,
+      "worst": 2,
+      "rawWorst": 1,
+      "dupParas": 0,
+      "narrativeLoop": false,
+      "voice": {
+        "words": 68,
+        "firstPerson": true,
+        "docVoice": false,
+        "avgSentence": 17,
+        "onVoice": true
+      },
+      "rawLoop": false,
+      "issues": [
+        "thin: 69 words"
+      ],
+      "source": "antigravity://2163af39-ee81-4fad-a665-92194e6e6f77"
+    },
+    {
+      "id": "fragments/assessing-pis-capabilities",
+      "title": "Assessing Pi's Capabilities",
+      "words": 78,
+      "rawWords": 0,
+      "worst": 2,
+      "rawWorst": 1,
+      "dupParas": 0,
+      "narrativeLoop": false,
+      "voice": {
+        "words": 75,
+        "firstPerson": true,
+        "docVoice": false,
+        "avgSentence": 18.8,
+        "onVoice": true
+      },
+      "rawLoop": false,
+      "issues": [
+        "thin: 78 words"
+      ],
+      "source": "antigravity://1a5fc988-2736-4f5f-ab4d-2e78334918fe"
+    },
+    {
+      "id": "fragments/avoid-cat",
+      "title": "Avoid Cat",
+      "words": 65,
+      "rawWords": 0,
+      "worst": 2,
+      "rawWorst": 1,
+      "dupParas": 0,
+      "narrativeLoop": false,
+      "voice": {
+        "words": 64,
+        "firstPerson": true,
+        "docVoice": false,
+        "avgSentence": 16,
+        "onVoice": true
+      },
+      "rawLoop": false,
+      "issues": [
+        "thin: 65 words"
+      ],
+      "source": "antigravity://956d1092-f75c-4083-ab35-95eaa8b8c233"
+    },
+    {
+      "id": "fragments/avoid-common-tool-misuses",
+      "title": "Avoid Common Tool Misuses",
+      "words": 73,
+      "rawWords": 0,
+      "worst": 2,
+      "rawWorst": 1,
+      "dupParas": 0,
+      "narrativeLoop": false,
+      "voice": {
+        "words": 72,
+        "firstPerson": true,
+        "docVoice": false,
+        "avgSentence": 18,
+        "onVoice": true
+      },
+      "rawLoop": false,
+      "issues": [
+        "thin: 73 words"
+      ],
+      "source": "antigravity://dc18a22d-3e7f-482a-b8d6-c65b87569ee6"
+    },
+    {
+      "id": "fragments/avoid-general-commands",
+      "title": "Avoid General Commands",
+      "words": 72,
+      "rawWords": 0,
+      "worst": 2,
+      "rawWorst": 1,
+      "dupParas": 0,
+      "narrativeLoop": false,
+      "voice": {
+        "words": 72,
+        "firstPerson": true,
+        "docVoice": false,
+        "avgSentence": 18,
+        "onVoice": true
+      },
+      "rawLoop": false,
+      "issues": [
+        "thin: 72 words"
+      ],
+      "source": "antigravity://65d47a89-30ef-4ce9-aa03-e0e05fa999ea"
+    },
+    {
+      "id": "fragments/avoiding-forbidden-commands",
+      "title": "Avoiding Forbidden Commands",
+      "words": 65,
+      "rawWords": 0,
+      "worst": 2,
+      "rawWorst": 1,
+      "dupParas": 0,
+      "narrativeLoop": false,
+      "voice": {
+        "words": 65,
+        "firstPerson": true,
+        "docVoice": false,
+        "avgSentence": 16.3,
+        "onVoice": true
+      },
+      "rawLoop": false,
+      "issues": [
+        "thin: 65 words"
+      ],
+      "source": "antigravity://121c185c-e397-484a-a556-2115929f8633"
+    },
+    {
+      "id": "fragments/battery-life-realistic-claims",
+      "title": "Battery Life Realistic Claims",
+      "words": 74,
+      "rawWords": 0,
+      "worst": 2,
+      "rawWorst": 1,
+      "dupParas": 0,
+      "narrativeLoop": false,
+      "voice": {
+        "words": 73,
+        "firstPerson": true,
+        "docVoice": false,
+        "avgSentence": 18.3,
+        "onVoice": true
+      },
+      "rawLoop": false,
+      "issues": [
+        "thin: 74 words"
+      ],
+      "source": "antigravity://91fbcd74-1c9b-4cfb-be38-fe99f60e1b9b"
+    },
+    {
+      "id": "fragments/browser-subagent-setup",
+      "title": "Browser Subagent Setup",
+      "words": 67,
+      "rawWords": 0,
+      "worst": 2,
+      "rawWorst": 1,
+      "dupParas": 0,
+      "narrativeLoop": false,
+      "voice": {
+        "words": 67,
+        "firstPerson": true,
+        "docVoice": false,
+        "avgSentence": 16.8,
+        "onVoice": true
+      },
+      "rawLoop": false,
+      "issues": [
+        "thin: 67 words"
+      ],
+      "source": "antigravity://dc18a22d-3e7f-482a-b8d6-c65b87569ee6"
+    },
+    {
+      "id": "fragments/building-family-planning-app",
+      "title": "Building Family Planning App",
+      "words": 71,
+      "rawWords": 0,
+      "worst": 2,
+      "rawWorst": 1,
+      "dupParas": 0,
+      "narrativeLoop": false,
+      "voice": {
+        "words": 69,
+        "firstPerson": true,
+        "docVoice": false,
+        "avgSentence": 17.3,
+        "onVoice": true
+      },
+      "rawLoop": false,
+      "issues": [
+        "thin: 71 words"
+      ],
+      "source": "antigravity://a51dd36a-a2ff-436d-9ec5-9c3989439240"
+    },
+    {
+      "id": "fragments/burn-in-captions-at-all-times",
+      "title": "Burn-in Captions at All Times",
+      "words": 54,
+      "rawWords": 0,
+      "worst": 1,
+      "rawWorst": 1,
+      "dupParas": 0,
+      "narrativeLoop": false,
+      "voice": {
+        "words": 54,
+        "firstPerson": true,
+        "docVoice": false,
+        "avgSentence": 13.5,
+        "onVoice": true
+      },
+      "rawLoop": false,
+      "issues": [
+        "thin: 54 words"
+      ],
+      "source": "antigravity://1723e474-df1d-4e2a-aa23-86abae3079ac"
+    },
+    {
+      "id": "fragments/calculating-monthly-budgets",
+      "title": "Calculating Monthly Budgets",
+      "words": 63,
+      "rawWords": 0,
+      "worst": 2,
+      "rawWorst": 1,
+      "dupParas": 0,
+      "narrativeLoop": false,
+      "voice": {
+        "words": 62,
+        "firstPerson": true,
+        "docVoice": false,
+        "avgSentence": 15.5,
+        "onVoice": true
+      },
+      "rawLoop": false,
+      "issues": [
+        "thin: 63 words"
+      ],
+      "source": "antigravity://4a1fc688-deb4-48d8-9141-bbb0b3d7308f"
+    },
+    {
+      "id": "fragments/campaign-page-layout",
+      "title": "Campaign Page Layout",
+      "words": 78,
+      "rawWords": 0,
+      "worst": 2,
+      "rawWorst": 1,
+      "dupParas": 0,
+      "narrativeLoop": false,
+      "voice": {
+        "words": 77,
+        "firstPerson": true,
+        "docVoice": false,
+        "avgSentence": 19.3,
+        "onVoice": true
+      },
+      "rawLoop": false,
+      "issues": [
+        "thin: 78 words"
+      ],
+      "source": "antigravity://1a22fe8e-382a-4a0d-92a0-70a0f0e2d348"
+    },
+    {
+      "id": "fragments/choosing-lower-risk-tech-product",
+      "title": "Choosing Lower-Risk Tech Product",
+      "words": 73,
+      "rawWords": 0,
+      "worst": 2,
+      "rawWorst": 1,
+      "dupParas": 0,
+      "narrativeLoop": false,
+      "voice": {
+        "words": 71,
+        "firstPerson": true,
+        "docVoice": false,
+        "avgSentence": 17.8,
+        "onVoice": true
+      },
+      "rawLoop": false,
+      "issues": [
+        "thin: 73 words"
+      ],
+      "source": "antigravity://d1c02eb0-64ae-4009-aa5f-0d2de5aea15a"
+    },
+    {
+      "id": "fragments/choosing-specific-tools",
+      "title": "Choosing Specific Tools",
+      "words": 65,
+      "rawWords": 0,
+      "worst": 2,
+      "rawWorst": 1,
+      "dupParas": 0,
+      "narrativeLoop": false,
+      "voice": {
+        "words": 64,
+        "firstPerson": true,
+        "docVoice": false,
+        "avgSentence": 16,
+        "onVoice": true
+      },
+      "rawLoop": false,
+      "issues": [
+        "thin: 65 words"
+      ],
+      "source": "antigravity://65d47a89-30ef-4ce9-aa03-e0e05fa999ea"
+    },
+    {
+      "id": "fragments/clarifying-implementation-goals",
+      "title": "Clarifying Implementation Goals",
+      "words": 69,
+      "rawWords": 0,
+      "worst": 2,
+      "rawWorst": 1,
+      "dupParas": 0,
+      "narrativeLoop": false,
+      "voice": {
+        "words": 68,
+        "firstPerson": true,
+        "docVoice": false,
+        "avgSentence": 17,
+        "onVoice": true
+      },
+      "rawLoop": false,
+      "issues": [
+        "thin: 69 words"
+      ],
+      "source": "antigravity://cd88f891-9c56-4afd-be41-2aeb75ac8f26"
+    },
+    {
+      "id": "fragments/clarifying-user-intent",
+      "title": "Clarifying User Intent",
+      "words": 76,
+      "rawWords": 0,
+      "worst": 2,
+      "rawWorst": 1,
+      "dupParas": 0,
+      "narrativeLoop": false,
+      "voice": {
+        "words": 76,
+        "firstPerson": true,
+        "docVoice": false,
+        "avgSentence": 19,
+        "onVoice": true
+      },
+      "rawLoop": false,
+      "issues": [
+        "thin: 76 words"
+      ],
+      "source": "antigravity://ddcc6c7d-a107-4868-b8d7-08e620a1b427"
+    },
+    {
+      "id": "fragments/confirm-initial-setup-success",
+      "title": "Confirm Initial Setup Success",
+      "words": 77,
+      "rawWords": 0,
+      "worst": 2,
+      "rawWorst": 1,
+      "dupParas": 0,
+      "narrativeLoop": false,
+      "voice": {
+        "words": 72,
+        "firstPerson": true,
+        "docVoice": false,
+        "avgSentence": 18,
+        "onVoice": true
+      },
+      "rawLoop": false,
+      "issues": [
+        "thin: 77 words"
+      ],
+      "source": "antigravity://2163af39-ee81-4fad-a665-92194e6e6f77"
+    },
+    {
+      "id": "fragments/considering-dependencies-and-planning",
+      "title": "Considering Dependencies and Planning",
+      "words": 81,
+      "rawWords": 0,
+      "worst": 2,
+      "rawWorst": 1,
+      "dupParas": 0,
+      "narrativeLoop": false,
+      "voice": {
+        "words": 79,
+        "firstPerson": true,
+        "docVoice": false,
+        "avgSentence": 19.8,
+        "onVoice": true
+      },
+      "rawLoop": false,
+      "issues": [
+        "thin: 81 words"
+      ],
+      "source": "antigravity://ddcc6c7d-a107-4868-b8d7-08e620a1b427"
+    },
+    {
+      "id": "fragments/considering-next-steps",
+      "title": "Considering Next Steps",
+      "words": 68,
+      "rawWords": 0,
+      "worst": 1,
+      "rawWorst": 1,
+      "dupParas": 0,
+      "narrativeLoop": false,
+      "voice": {
+        "words": 68,
+        "firstPerson": true,
+        "docVoice": false,
+        "avgSentence": 17,
+        "onVoice": true
+      },
+      "rawLoop": false,
+      "issues": [
+        "thin: 68 words"
+      ],
+      "source": "antigravity://ddcc6c7d-a107-4868-b8d7-08e620a1b427"
+    },
+    {
+      "id": "fragments/consistent-host-format-across-videos",
+      "title": "Consistent Host Format Across Videos",
+      "words": 65,
+      "rawWords": 0,
+      "worst": 2,
+      "rawWorst": 1,
+      "dupParas": 0,
+      "narrativeLoop": false,
+      "voice": {
+        "words": 64,
+        "firstPerson": true,
+        "docVoice": false,
+        "avgSentence": 16,
+        "onVoice": true
+      },
+      "rawLoop": false,
+      "issues": [
+        "thin: 65 words"
+      ],
+      "source": "antigravity://1723e474-df1d-4e2a-aa23-86abae3079ac"
+    },
+    {
+      "id": "fragments/consolidating-data-presentation",
+      "title": "Consolidating Data Presentation",
+      "words": 70,
+      "rawWords": 0,
+      "worst": 1,
+      "rawWorst": 1,
+      "dupParas": 0,
+      "narrativeLoop": false,
+      "voice": {
+        "words": 69,
+        "firstPerson": true,
+        "docVoice": false,
+        "avgSentence": 17.3,
+        "onVoice": true
+      },
+      "rawLoop": false,
+      "issues": [
+        "thin: 70 words"
+      ],
+      "source": "antigravity://08bd1d17-671f-4f62-9079-1b22206c77c3"
+    },
+    {
+      "id": "fragments/cpm-benchmarks-across-niches",
+      "title": "CPM Benchmarks Across Niches",
+      "words": 74,
+      "rawWords": 0,
+      "worst": 2,
+      "rawWorst": 1,
+      "dupParas": 0,
+      "narrativeLoop": false,
+      "voice": {
+        "words": 72,
+        "firstPerson": true,
+        "docVoice": false,
+        "avgSentence": 18,
+        "onVoice": true
+      },
+      "rawLoop": false,
+      "issues": [
+        "thin: 74 words"
+      ],
+      "source": "antigravity://5e7e7594-3dd6-4f2f-a249-67321399b432"
+    },
+    {
+      "id": "fragments/craft-animated-break-in-sequence",
+      "title": "Craft: Animated Break-In Sequence",
+      "words": 65,
+      "rawWords": 0,
+      "worst": 2,
+      "rawWorst": 1,
+      "dupParas": 0,
+      "narrativeLoop": false,
+      "voice": {
+        "words": 65,
+        "firstPerson": true,
+        "docVoice": false,
+        "avgSentence": 16.3,
+        "onVoice": true
+      },
+      "rawLoop": false,
+      "issues": [
+        "thin: 65 words"
+      ],
+      "source": "antigravity://7a752ae6-6ab1-4189-86d5-cc56e370a701"
+    },
+    {
+      "id": "fragments/creating-implementation-plan",
+      "title": "Creating Implementation Plan",
+      "words": 71,
+      "rawWords": 0,
+      "worst": 2,
+      "rawWorst": 1,
+      "dupParas": 0,
+      "narrativeLoop": false,
+      "voice": {
+        "words": 71,
+        "firstPerson": true,
+        "docVoice": false,
+        "avgSentence": 17.8,
+        "onVoice": true
+      },
+      "rawLoop": false,
+      "issues": [
+        "thin: 71 words"
+      ],
+      "source": "antigravity://dc18a22d-3e7f-482a-b8d6-c65b87569ee6"
+    },
+    {
+      "id": "fragments/creating-walkthrough-file-for-task-updates",
+      "title": "Creating Walkthrough File for Task Updates",
+      "words": 68,
+      "rawWords": 0,
+      "worst": 2,
+      "rawWorst": 1,
+      "dupParas": 0,
+      "narrativeLoop": false,
+      "voice": {
+        "words": 68,
+        "firstPerson": true,
+        "docVoice": false,
+        "avgSentence": 17,
+        "onVoice": true
+      },
+      "rawLoop": false,
+      "issues": [
+        "thin: 68 words"
+      ],
+      "source": "antigravity://ceabce17-c09c-4849-83bd-4247d600ee3c"
+    },
+    {
+      "id": "fragments/defining-artifact-structure",
+      "title": "Defining Artifact Structure",
+      "words": 77,
+      "rawWords": 0,
+      "worst": 2,
+      "rawWorst": 1,
+      "dupParas": 0,
+      "narrativeLoop": false,
+      "voice": {
+        "words": 76,
+        "firstPerson": true,
+        "docVoice": false,
+        "avgSentence": 15.2,
+        "onVoice": true
+      },
+      "rawLoop": false,
+      "issues": [
+        "thin: 77 words"
+      ],
+      "source": "antigravity://415fa53b-310d-46ac-8a7e-314999bcd2c0"
+    },
+    {
+      "id": "fragments/defining-hardware-integration",
+      "title": "Defining Hardware Integration",
+      "words": 80,
+      "rawWords": 0,
+      "worst": 2,
+      "rawWorst": 1,
+      "dupParas": 0,
+      "narrativeLoop": false,
+      "voice": {
+        "words": 75,
+        "firstPerson": true,
+        "docVoice": false,
+        "avgSentence": 18.8,
+        "onVoice": true
+      },
+      "rawLoop": false,
+      "issues": [
+        "thin: 80 words"
+      ],
+      "source": "antigravity://ddcc6c7d-a107-4868-b8d7-08e620a1b427"
+    },
+    {
+      "id": "fragments/defining-network-topology",
+      "title": "Defining Network Topology",
+      "words": 70,
+      "rawWords": 0,
+      "worst": 2,
+      "rawWorst": 1,
+      "dupParas": 0,
+      "narrativeLoop": false,
+      "voice": {
+        "words": 66,
+        "firstPerson": true,
+        "docVoice": false,
+        "avgSentence": 16.5,
+        "onVoice": true
+      },
+      "rawLoop": false,
+      "issues": [
+        "thin: 70 words"
+      ],
+      "source": "antigravity://1a5fc988-2736-4f5f-ab4d-2e78334918fe"
+    },
+    {
+      "id": "fragments/defining-project-directory-structure",
+      "title": "Defining Project Directory Structure",
+      "words": 71,
+      "rawWords": 0,
+      "worst": 2,
+      "rawWorst": 1,
+      "dupParas": 0,
+      "narrativeLoop": false,
+      "voice": {
+        "words": 70,
+        "firstPerson": true,
+        "docVoice": false,
+        "avgSentence": 23.3,
+        "onVoice": true
+      },
+      "rawLoop": false,
+      "issues": [
+        "thin: 71 words"
+      ],
+      "source": "antigravity://dc18a22d-3e7f-482a-b8d6-c65b87569ee6"
+    },
+    {
+      "id": "fragments/defining-project-scope",
+      "title": "Defining Project Scope",
+      "words": 81,
+      "rawWords": 0,
+      "worst": 2,
+      "rawWorst": 1,
+      "dupParas": 0,
+      "narrativeLoop": false,
+      "voice": {
+        "words": 78,
+        "firstPerson": true,
+        "docVoice": false,
+        "avgSentence": 19.5,
+        "onVoice": true
+      },
+      "rawLoop": false,
+      "issues": [
+        "thin: 81 words"
+      ],
+      "source": "antigravity://08bd1d17-671f-4f62-9079-1b22206c77c3"
+    },
+    {
+      "id": "fragments/defining-route-stops-with-d3-js-cdn-integration",
+      "title": "Defining Route Stops with D3.js CDN Integration",
+      "words": 68,
+      "rawWords": 0,
+      "worst": 2,
+      "rawWorst": 1,
+      "dupParas": 0,
+      "narrativeLoop": false,
+      "voice": {
+        "words": 68,
+        "firstPerson": true,
+        "docVoice": false,
+        "avgSentence": 17,
+        "onVoice": true
+      },
+      "rawLoop": false,
+      "issues": [
+        "thin: 68 words"
+      ],
+      "source": "antigravity://4a1fc688-deb4-48d8-9141-bbb0b3d7308f"
+    },
+    {
+      "id": "fragments/design-guidance-from-skill2-md",
+      "title": "Design Guidance from SKILL2.md",
+      "words": 77,
+      "rawWords": 0,
+      "worst": 2,
+      "rawWorst": 1,
+      "dupParas": 0,
+      "narrativeLoop": false,
+      "voice": {
+        "words": 76,
+        "firstPerson": true,
+        "docVoice": false,
+        "avgSentence": 19,
+        "onVoice": true
+      },
+      "rawLoop": false,
+      "issues": [
+        "thin: 77 words"
+      ],
+      "source": "antigravity://3690e19d-b1c3-4813-a6af-5da17cf56753"
+    },
+    {
+      "id": "fragments/design-mpc-style-drum-pad-interface",
+      "title": "Design MPC-style Drum Pad Interface",
+      "words": 61,
+      "rawWords": 0,
+      "worst": 2,
+      "rawWorst": 1,
+      "dupParas": 0,
+      "narrativeLoop": false,
+      "voice": {
+        "words": 57,
+        "firstPerson": true,
+        "docVoice": false,
+        "avgSentence": 14.3,
+        "onVoice": true
+      },
+      "rawLoop": false,
+      "issues": [
+        "thin: 61 words"
+      ],
+      "source": "antigravity://3690e19d-b1c3-4813-a6af-5da17cf56753"
+    },
+    {
+      "id": "fragments/designing-image-prompt",
+      "title": "Designing Image Prompt",
+      "words": 75,
+      "rawWords": 0,
+      "worst": 2,
+      "rawWorst": 1,
+      "dupParas": 0,
+      "narrativeLoop": false,
+      "voice": {
+        "words": 72,
+        "firstPerson": true,
+        "docVoice": false,
+        "avgSentence": 18,
+        "onVoice": true
+      },
+      "rawLoop": false,
+      "issues": [
+        "thin: 75 words"
+      ],
+      "source": "antigravity://fb00c89d-1490-4d00-be01-29cb76bff4b6"
+    },
+    {
+      "id": "fragments/detailing-circuitry-and-wiring",
+      "title": "Detailing Circuitry and Wiring",
+      "words": 83,
+      "rawWords": 0,
+      "worst": 2,
+      "rawWorst": 1,
+      "dupParas": 0,
+      "narrativeLoop": false,
+      "voice": {
+        "words": 78,
+        "firstPerson": true,
+        "docVoice": false,
+        "avgSentence": 19.5,
+        "onVoice": true
+      },
+      "rawLoop": false,
+      "issues": [
+        "thin: 83 words"
+      ],
+      "source": "antigravity://ddcc6c7d-a107-4868-b8d7-08e620a1b427"
+    },
+    {
+      "id": "fragments/determining-disk-format-for-exfat-compatibility",
+      "title": "Determining Disk Format for ExFAT Compatibility",
+      "words": 68,
+      "rawWords": 0,
+      "worst": 2,
+      "rawWorst": 1,
+      "dupParas": 0,
+      "narrativeLoop": false,
+      "voice": {
+        "words": 66,
+        "firstPerson": true,
+        "docVoice": false,
+        "avgSentence": 16.5,
+        "onVoice": true
+      },
+      "rawLoop": false,
+      "issues": [
+        "thin: 68 words"
+      ],
+      "source": "antigravity://92461444-94df-46f4-86eb-5692916fda10"
+    },
+    {
+      "id": "fragments/developing-contingency-scenarios",
+      "title": "Developing Contingency Scenarios",
+      "words": 65,
+      "rawWords": 0,
+      "worst": 2,
+      "rawWorst": 1,
+      "dupParas": 0,
+      "narrativeLoop": false,
+      "voice": {
+        "words": 64,
+        "firstPerson": true,
+        "docVoice": false,
+        "avgSentence": 16,
+        "onVoice": true
+      },
+      "rawLoop": false,
+      "issues": [
+        "thin: 65 words"
+      ],
+      "source": "antigravity://5c53b548-fde9-44f2-b22f-7ac0fc1ff06a"
+    },
+    {
+      "id": "fragments/discovering-vault-structure",
+      "title": "Discovering Vault Structure",
+      "words": 56,
+      "rawWords": 0,
+      "worst": 1,
+      "rawWorst": 1,
+      "dupParas": 0,
+      "narrativeLoop": false,
+      "voice": {
+        "words": 56,
+        "firstPerson": true,
+        "docVoice": false,
+        "avgSentence": 14,
+        "onVoice": true
+      },
+      "rawLoop": false,
+      "issues": [
+        "thin: 56 words"
+      ],
+      "source": "antigravity://8cf9bf0e-db57-44c9-b1c1-ce22b9f6804f"
+    },
+    {
+      "id": "fragments/drone-regulations",
+      "title": "Drone Regulations",
+      "words": 67,
+      "rawWords": 0,
+      "worst": 2,
+      "rawWorst": 1,
+      "dupParas": 0,
+      "narrativeLoop": false,
+      "voice": {
+        "words": 65,
+        "firstPerson": true,
+        "docVoice": false,
+        "avgSentence": 16.3,
+        "onVoice": true
+      },
+      "rawLoop": false,
+      "issues": [
+        "thin: 67 words"
+      ],
+      "source": "antigravity://74d7ae96-6316-43dd-a565-b66e24132a9e"
+    },
+    {
+      "id": "fragments/erica-outreach-letter-draft",
+      "title": "Erica Outreach Letter Draft",
+      "words": 59,
+      "rawWords": 0,
+      "worst": 1,
+      "rawWorst": 1,
+      "dupParas": 0,
+      "narrativeLoop": false,
+      "voice": {
+        "words": 57,
+        "firstPerson": true,
+        "docVoice": false,
+        "avgSentence": 11.4,
+        "onVoice": true
+      },
+      "rawLoop": false,
+      "issues": [
+        "thin: 59 words"
+      ],
+      "source": "antigravity://abf2de62-6e2a-48fb-80a7-6dacc23d03b4"
+    },
+    {
+      "id": "fragments/error-during-setup-execution",
+      "title": "Error During Setup Execution",
+      "words": 59,
+      "rawWords": 0,
+      "worst": 1,
+      "rawWorst": 1,
+      "dupParas": 0,
+      "narrativeLoop": false,
+      "voice": {
+        "words": 57,
+        "firstPerson": true,
+        "docVoice": false,
+        "avgSentence": 14.3,
+        "onVoice": true
+      },
+      "rawLoop": false,
+      "issues": [
+        "thin: 59 words"
+      ],
+      "source": "antigravity://92461444-94df-46f4-86eb-5692916fda10"
+    },
+    {
+      "id": "fragments/estimating-value-sales",
+      "title": "Estimating Value & Sales",
+      "words": 52,
+      "rawWords": 0,
+      "worst": 1,
+      "rawWorst": 1,
+      "dupParas": 0,
+      "narrativeLoop": false,
+      "voice": {
+        "words": 51,
+        "firstPerson": true,
+        "docVoice": false,
+        "avgSentence": 17,
+        "onVoice": true
+      },
+      "rawLoop": false,
+      "issues": [
+        "thin: 52 words"
+      ],
+      "source": "antigravity://0398a577-6f1c-456e-b2cb-498b8028ade0"
+    },
+    {
+      "id": "fragments/evaluating-hardware-compatibility",
+      "title": "Evaluating Hardware Compatibility",
+      "words": 88,
+      "rawWords": 0,
+      "worst": 2,
+      "rawWorst": 1,
+      "dupParas": 0,
+      "narrativeLoop": false,
+      "voice": {
+        "words": 83,
+        "firstPerson": true,
+        "docVoice": false,
+        "avgSentence": 20.8,
+        "onVoice": true
+      },
+      "rawLoop": false,
+      "issues": [
+        "thin: 88 words"
+      ],
+      "source": "antigravity://b34e4b4b-4bb8-4213-a5d1-66e8b4e54dcb"
+    },
+    {
+      "id": "fragments/evaluating-hardware-specifications",
+      "title": "Evaluating Hardware Specifications",
+      "words": 63,
+      "rawWords": 0,
+      "worst": 2,
+      "rawWorst": 1,
+      "dupParas": 0,
+      "narrativeLoop": false,
+      "voice": {
+        "words": 58,
+        "firstPerson": true,
+        "docVoice": false,
+        "avgSentence": 14.5,
+        "onVoice": true
+      },
+      "rawLoop": false,
+      "issues": [
+        "thin: 63 words"
+      ],
+      "source": "antigravity://caee4b56-2ec1-4c99-8bf0-4848d5c9ae96"
+    },
+    {
+      "id": "fragments/examining-legal-compliance",
+      "title": "Examining Legal Compliance",
+      "words": 64,
+      "rawWords": 0,
+      "worst": 2,
+      "rawWorst": 1,
+      "dupParas": 0,
+      "narrativeLoop": false,
+      "voice": {
+        "words": 64,
+        "firstPerson": true,
+        "docVoice": false,
+        "avgSentence": 16,
+        "onVoice": true
+      },
+      "rawLoop": false,
+      "issues": [
+        "thin: 64 words"
+      ],
+      "source": "antigravity://5c53b548-fde9-44f2-b22f-7ac0fc1ff06a"
+    },
+    {
+      "id": "fragments/examining-list-creation-logic",
+      "title": "Examining List Creation Logic",
+      "words": 76,
+      "rawWords": 0,
+      "worst": 2,
+      "rawWorst": 1,
+      "dupParas": 0,
+      "narrativeLoop": false,
+      "voice": {
+        "words": 76,
+        "firstPerson": true,
+        "docVoice": false,
+        "avgSentence": 15.2,
+        "onVoice": true
+      },
+      "rawLoop": false,
+      "issues": [
+        "thin: 76 words"
+      ],
+      "source": "antigravity://a51dd36a-a2ff-436d-9ec5-9c3989439240"
+    },
+    {
+      "id": "fragments/execute-implementation-plan",
+      "title": "Execute Implementation Plan",
+      "words": 72,
+      "rawWords": 0,
+      "worst": 2,
+      "rawWorst": 1,
+      "dupParas": 0,
+      "narrativeLoop": false,
+      "voice": {
+        "words": 72,
+        "firstPerson": true,
+        "docVoice": false,
+        "avgSentence": 18,
+        "onVoice": true
+      },
+      "rawLoop": false,
+      "issues": [
+        "thin: 72 words"
+      ],
+      "source": "antigravity://cd88f891-9c56-4afd-be41-2aeb75ac8f26"
+    },
+    {
+      "id": "fragments/existing-competitors",
+      "title": "Existing Competitors",
+      "words": 64,
+      "rawWords": 0,
+      "worst": 1,
+      "rawWorst": 1,
+      "dupParas": 0,
+      "narrativeLoop": false,
+      "voice": {
+        "words": 63,
+        "firstPerson": true,
+        "docVoice": false,
+        "avgSentence": 12.6,
+        "onVoice": true
+      },
+      "rawLoop": false,
+      "issues": [
+        "thin: 64 words"
+      ],
+      "source": "antigravity://74d7ae96-6316-43dd-a565-b66e24132a9e"
+    },
+    {
+      "id": "fragments/exploring-native-and-proot-based-solutions-for-audio-pe",
+      "title": "Exploring Native and PRoot-Based Solutions for Audio Performance",
+      "words": 68,
+      "rawWords": 0,
+      "worst": 2,
+      "rawWorst": 1,
+      "dupParas": 0,
+      "narrativeLoop": false,
+      "voice": {
+        "words": 67,
+        "firstPerson": true,
+        "docVoice": false,
+        "avgSentence": 16.8,
+        "onVoice": true
+      },
+      "rawLoop": false,
+      "issues": [
+        "thin: 68 words"
+      ],
+      "source": "antigravity://ceabce17-c09c-4849-83bd-4247d600ee3c"
+    },
+    {
+      "id": "fragments/focusing-on-android-tablet-with-linux-os-setup-for-soop",
+      "title": "Focusing on Android Tablet with Linux OS Setup for SooperLooper Contro",
+      "words": 68,
+      "rawWords": 0,
+      "worst": 2,
+      "rawWorst": 1,
+      "dupParas": 0,
+      "narrativeLoop": false,
+      "voice": {
+        "words": 67,
+        "firstPerson": true,
+        "docVoice": false,
+        "avgSentence": 16.8,
+        "onVoice": true
+      },
+      "rawLoop": false,
+      "issues": [
+        "thin: 68 words"
+      ],
+      "source": "antigravity://ceabce17-c09c-4849-83bd-4247d600ee3c"
+    },
+    {
+      "id": "fragments/focusing-on-specific-tools",
+      "title": "Focusing on Specific Tools",
+      "words": 61,
+      "rawWords": 0,
+      "worst": 2,
+      "rawWorst": 1,
+      "dupParas": 0,
+      "narrativeLoop": false,
+      "voice": {
+        "words": 60,
+        "firstPerson": true,
+        "docVoice": false,
+        "avgSentence": 15,
+        "onVoice": true
+      },
+      "rawLoop": false,
+      "issues": [
+        "thin: 61 words"
+      ],
+      "source": "antigravity://49068812-fa3e-4625-92fa-d4a65a287ac8"
+    },
+    {
+      "id": "fragments/gateway-box-vs-full-chartplotter",
+      "title": "Gateway Box vs Full Chartplotter",
+      "words": 73,
+      "rawWords": 0,
+      "worst": 2,
+      "rawWorst": 1,
+      "dupParas": 0,
+      "narrativeLoop": false,
+      "voice": {
+        "words": 71,
+        "firstPerson": true,
+        "docVoice": false,
+        "avgSentence": 17.8,
+        "onVoice": true
+      },
+      "rawLoop": false,
+      "issues": [
+        "thin: 73 words"
+      ],
+      "source": "antigravity://d1c02eb0-64ae-4009-aa5f-0d2de5aea15a"
+    },
+    {
+      "id": "fragments/generating-image-prompts-artifact",
+      "title": "Generating Image Prompts Artifact",
+      "words": 54,
+      "rawWords": 0,
+      "worst": 1,
+      "rawWorst": 1,
+      "dupParas": 0,
+      "narrativeLoop": false,
+      "voice": {
+        "words": 53,
+        "firstPerson": true,
+        "docVoice": false,
+        "avgSentence": 13.3,
+        "onVoice": true
+      },
+      "rawLoop": false,
+      "issues": [
+        "thin: 54 words"
+      ],
+      "source": "antigravity://22697cdb-0f37-4e29-b6fc-415299b788ed"
+    },
+    {
+      "id": "fragments/hook-must-land-in-first-second",
+      "title": "Hook Must Land in First Second",
+      "words": 71,
+      "rawWords": 0,
+      "worst": 2,
+      "rawWorst": 1,
+      "dupParas": 0,
+      "narrativeLoop": false,
+      "voice": {
+        "words": 70,
+        "firstPerson": true,
+        "docVoice": false,
+        "avgSentence": 17.5,
+        "onVoice": true
+      },
+      "rawLoop": false,
+      "issues": [
+        "thin: 71 words"
+      ],
+      "source": "antigravity://1723e474-df1d-4e2a-aa23-86abae3079ac"
+    },
+    {
+      "id": "fragments/identifying-safe-removals",
+      "title": "Identifying Safe Removals",
+      "words": 57,
+      "rawWords": 0,
+      "worst": 1,
+      "rawWorst": 1,
+      "dupParas": 0,
+      "narrativeLoop": false,
+      "voice": {
+        "words": 56,
+        "firstPerson": true,
+        "docVoice": false,
+        "avgSentence": 14,
+        "onVoice": true
+      },
+      "rawLoop": false,
+      "issues": [
+        "thin: 57 words"
+      ],
+      "source": "antigravity://121c185c-e397-484a-a556-2115929f8633"
+    },
+    {
+      "id": "fragments/identifying-top-anti-mlm-channels",
+      "title": "Identifying Top Anti-MLM Channels",
+      "words": 72,
+      "rawWords": 0,
+      "worst": 2,
+      "rawWorst": 1,
+      "dupParas": 0,
+      "narrativeLoop": false,
+      "voice": {
+        "words": 70,
+        "firstPerson": true,
+        "docVoice": false,
+        "avgSentence": 17.5,
+        "onVoice": true
+      },
+      "rawLoop": false,
+      "issues": [
+        "thin: 72 words"
+      ],
+      "source": "antigravity://5e7e7594-3dd6-4f2f-a249-67321399b432"
+    },
+    {
+      "id": "fragments/image-integration-plan",
+      "title": "Image Integration Plan",
+      "words": 76,
+      "rawWords": 0,
+      "worst": 2,
+      "rawWorst": 1,
+      "dupParas": 0,
+      "narrativeLoop": false,
+      "voice": {
+        "words": 75,
+        "firstPerson": true,
+        "docVoice": false,
+        "avgSentence": 18.8,
+        "onVoice": true
+      },
+      "rawLoop": false,
+      "issues": [
+        "thin: 76 words"
+      ],
+      "source": "antigravity://b185063d-a0ed-410e-8f5c-a4f3465c4e99"
+    },
+    {
+      "id": "fragments/integrating-new-information",
+      "title": "Integrating New Information",
+      "words": 72,
+      "rawWords": 0,
+      "worst": 2,
+      "rawWorst": 1,
+      "dupParas": 0,
+      "narrativeLoop": false,
+      "voice": {
+        "words": 70,
+        "firstPerson": true,
+        "docVoice": false,
+        "avgSentence": 17.5,
+        "onVoice": true
+      },
+      "rawLoop": false,
+      "issues": [
+        "thin: 72 words"
+      ],
+      "source": "antigravity://ddcc6c7d-a107-4868-b8d7-08e620a1b427"
+    },
+    {
+      "id": "fragments/integrating-osc-protocol",
+      "title": "Integrating OSC Protocol",
+      "words": 78,
+      "rawWords": 0,
+      "worst": 2,
+      "rawWorst": 1,
+      "dupParas": 0,
+      "narrativeLoop": false,
+      "voice": {
+        "words": 78,
+        "firstPerson": true,
+        "docVoice": false,
+        "avgSentence": 19.5,
+        "onVoice": true
+      },
+      "rawLoop": false,
+      "issues": [
+        "thin: 78 words"
+      ],
+      "source": "antigravity://ddcc6c7d-a107-4868-b8d7-08e620a1b427"
+    },
+    {
+      "id": "fragments/investigating-400-bad-request-error",
+      "title": "Investigating 400 Bad Request Error",
+      "words": 67,
+      "rawWords": 0,
+      "worst": 2,
+      "rawWorst": 1,
+      "dupParas": 0,
+      "narrativeLoop": false,
+      "voice": {
+        "words": 66,
+        "firstPerson": true,
+        "docVoice": false,
+        "avgSentence": 13.2,
+        "onVoice": true
+      },
+      "rawLoop": false,
+      "issues": [
+        "thin: 67 words"
+      ],
+      "source": "antigravity://c799c91d-b879-4167-8f74-37513cd037c2"
+    },
+    {
+      "id": "fragments/investigating-external-drive-integration",
+      "title": "Investigating External Drive Integration",
+      "words": 72,
+      "rawWords": 0,
+      "worst": 2,
+      "rawWorst": 1,
+      "dupParas": 0,
+      "narrativeLoop": false,
+      "voice": {
+        "words": 70,
+        "firstPerson": true,
+        "docVoice": false,
+        "avgSentence": 17.5,
+        "onVoice": true
+      },
+      "rawLoop": false,
+      "issues": [
+        "thin: 72 words"
+      ],
+      "source": "antigravity://92461444-94df-46f4-86eb-5692916fda10"
+    },
+    {
+      "id": "fragments/investigating-obsidians-functionality",
+      "title": "Investigating Obsidian's Functionality",
+      "words": 65,
+      "rawWords": 0,
+      "worst": 2,
+      "rawWorst": 1,
+      "dupParas": 0,
+      "narrativeLoop": false,
+      "voice": {
+        "words": 64,
+        "firstPerson": true,
+        "docVoice": false,
+        "avgSentence": 16,
+        "onVoice": true
+      },
+      "rawLoop": false,
+      "issues": [
+        "thin: 65 words"
+      ],
+      "source": "antigravity://8cf9bf0e-db57-44c9-b1c1-ce22b9f6804f"
+    },
+    {
+      "id": "fragments/investigating-runpod-connection-issues",
+      "title": "Investigating RunPod Connection Issues",
+      "words": 67,
+      "rawWords": 0,
+      "worst": 1,
+      "rawWorst": 1,
+      "dupParas": 0,
+      "narrativeLoop": false,
+      "voice": {
+        "words": 68,
+        "firstPerson": true,
+        "docVoice": false,
+        "avgSentence": 17,
+        "onVoice": true
+      },
+      "rawLoop": false,
+      "issues": [
+        "thin: 67 words"
+      ],
+      "source": "antigravity://2163af39-ee81-4fad-a665-92194e6e6f77"
+    },
+    {
+      "id": "fragments/investigating-state-transition-discrepancy",
+      "title": "Investigating State Transition Discrepancy",
+      "words": 64,
+      "rawWords": 0,
+      "worst": 1,
+      "rawWorst": 1,
+      "dupParas": 0,
+      "narrativeLoop": false,
+      "voice": {
+        "words": 63,
+        "firstPerson": true,
+        "docVoice": false,
+        "avgSentence": 12.6,
+        "onVoice": true
+      },
+      "rawLoop": false,
+      "issues": [
+        "thin: 64 words"
+      ],
+      "source": "antigravity://ceabce17-c09c-4849-83bd-4247d600ee3c"
+    },
+    {
+      "id": "fragments/list-relevant-tools-first",
+      "title": "List Relevant Tools First",
+      "words": 68,
+      "rawWords": 0,
+      "worst": 2,
+      "rawWorst": 1,
+      "dupParas": 0,
+      "narrativeLoop": false,
+      "voice": {
+        "words": 67,
+        "firstPerson": true,
+        "docVoice": false,
+        "avgSentence": 16.8,
+        "onVoice": true
+      },
+      "rawLoop": false,
+      "issues": [
+        "thin: 68 words"
+      ],
+      "source": "antigravity://65d47a89-30ef-4ce9-aa03-e0e05fa999ea"
+    },
+    {
+      "id": "fragments/list-tools-first",
+      "title": "List Tools First",
+      "words": 67,
+      "rawWords": 0,
+      "worst": 2,
+      "rawWorst": 1,
+      "dupParas": 0,
+      "narrativeLoop": false,
+      "voice": {
+        "words": 66,
+        "firstPerson": true,
+        "docVoice": false,
+        "avgSentence": 16.5,
+        "onVoice": true
+      },
+      "rawLoop": false,
+      "issues": [
+        "thin: 67 words"
+      ],
+      "source": "antigravity://956d1092-f75c-4083-ab35-95eaa8b8c233"
+    },
+    {
+      "id": "fragments/market-size",
+      "title": "Market Size",
+      "words": 71,
+      "rawWords": 0,
+      "worst": 2,
+      "rawWorst": 1,
+      "dupParas": 0,
+      "narrativeLoop": false,
+      "voice": {
+        "words": 69,
+        "firstPerson": true,
+        "docVoice": false,
+        "avgSentence": 17.3,
+        "onVoice": true
+      },
+      "rawLoop": false,
+      "issues": [
+        "thin: 71 words"
+      ],
+      "source": "antigravity://74d7ae96-6316-43dd-a565-b66e24132a9e"
+    },
+    {
+      "id": "fragments/mockup-request",
+      "title": "Mockup Request",
+      "words": 60,
+      "rawWords": 0,
+      "worst": 2,
+      "rawWorst": 1,
+      "dupParas": 0,
+      "narrativeLoop": false,
+      "voice": {
+        "words": 59,
+        "firstPerson": true,
+        "docVoice": false,
+        "avgSentence": 14.8,
+        "onVoice": true
+      },
+      "rawLoop": false,
+      "issues": [
+        "thin: 60 words"
+      ],
+      "source": "antigravity://a51dd36a-a2ff-436d-9ec5-9c3989439240"
+    },
+    {
+      "id": "fragments/module-comparison-table-verdict",
+      "title": "Module Comparison Table Verdict",
+      "words": 64,
+      "rawWords": 0,
+      "worst": 2,
+      "rawWorst": 1,
+      "dupParas": 0,
+      "narrativeLoop": false,
+      "voice": {
+        "words": 62,
+        "firstPerson": true,
+        "docVoice": false,
+        "avgSentence": 15.5,
+        "onVoice": true
+      },
+      "rawLoop": false,
+      "issues": [
+        "thin: 64 words"
+      ],
+      "source": "antigravity://91fbcd74-1c9b-4cfb-be38-fe99f60e1b9b"
+    },
+    {
+      "id": "fragments/node-based-visual-effects-editor",
+      "title": "Node-based Visual Effects Editor",
+      "words": 69,
+      "rawWords": 0,
+      "worst": 2,
+      "rawWorst": 1,
+      "dupParas": 0,
+      "narrativeLoop": false,
+      "voice": {
+        "words": 68,
+        "firstPerson": true,
+        "docVoice": false,
+        "avgSentence": 17,
+        "onVoice": true
+      },
+      "rawLoop": false,
+      "issues": [
+        "thin: 69 words"
+      ],
+      "source": "antigravity://3690e19d-b1c3-4813-a6af-5da17cf56753"
+    },
+    {
+      "id": "fragments/outlining-pipewire-setup-with-sooperlooper-daemon",
+      "title": "Outlining PipeWire Setup with SooperLooper Daemon",
+      "words": 77,
+      "rawWords": 0,
+      "worst": 2,
+      "rawWorst": 1,
+      "dupParas": 0,
+      "narrativeLoop": false,
+      "voice": {
+        "words": 74,
+        "firstPerson": true,
+        "docVoice": false,
+        "avgSentence": 14.8,
+        "onVoice": true
+      },
+      "rawLoop": false,
+      "issues": [
+        "thin: 77 words"
+      ],
+      "source": "antigravity://ceabce17-c09c-4849-83bd-4247d600ee3c"
+    },
+    {
+      "id": "fragments/phone-model-research",
+      "title": "Phone Model Research",
+      "words": 63,
+      "rawWords": 0,
+      "worst": 2,
+      "rawWorst": 1,
+      "dupParas": 0,
+      "narrativeLoop": false,
+      "voice": {
+        "words": 62,
+        "firstPerson": true,
+        "docVoice": false,
+        "avgSentence": 15.5,
+        "onVoice": true
+      },
+      "rawLoop": false,
+      "issues": [
+        "thin: 63 words"
+      ],
+      "source": "antigravity://8f375cad-7eea-4f66-a512-45f283d23f67"
+    },
+    {
+      "id": "fragments/playwright-driver-error-handling",
+      "title": "Playwright Driver Error Handling",
+      "words": 69,
+      "rawWords": 0,
+      "worst": 2,
+      "rawWorst": 1,
+      "dupParas": 0,
+      "narrativeLoop": false,
+      "voice": {
+        "words": 68,
+        "firstPerson": true,
+        "docVoice": false,
+        "avgSentence": 17,
+        "onVoice": true
+      },
+      "rawLoop": false,
+      "issues": [
+        "thin: 69 words"
+      ],
+      "source": "antigravity://dc18a22d-3e7f-482a-b8d6-c65b87569ee6"
+    },
+    {
+      "id": "fragments/prioritizing-specific-tools",
+      "title": "Prioritizing Specific Tools",
+      "words": 70,
+      "rawWords": 0,
+      "worst": 2,
+      "rawWorst": 1,
+      "dupParas": 0,
+      "narrativeLoop": false,
+      "voice": {
+        "words": 69,
+        "firstPerson": true,
+        "docVoice": false,
+        "avgSentence": 17.3,
+        "onVoice": true
+      },
+      "rawLoop": false,
+      "issues": [
+        "thin: 70 words"
+      ],
+      "source": "antigravity://415fa53b-310d-46ac-8a7e-314999bcd2c0"
+    },
+    {
+      "id": "fragments/prioritizing-tool-usage",
+      "title": "Prioritizing Tool Usage",
+      "words": 72,
+      "rawWords": 0,
+      "worst": 2,
+      "rawWorst": 1,
+      "dupParas": 0,
+      "narrativeLoop": false,
+      "voice": {
+        "words": 72,
+        "firstPerson": true,
+        "docVoice": false,
+        "avgSentence": 18,
+        "onVoice": true
+      },
+      "rawLoop": false,
+      "issues": [
+        "thin: 72 words"
+      ],
+      "source": "antigravity://47c031a8-0492-4ed7-8da3-282987c01132"
+    },
+    {
+      "id": "fragments/prioritizing-ui-implementation",
+      "title": "Prioritizing UI Implementation",
+      "words": 77,
+      "rawWords": 0,
+      "worst": 2,
+      "rawWorst": 1,
+      "dupParas": 0,
+      "narrativeLoop": false,
+      "voice": {
+        "words": 73,
+        "firstPerson": true,
+        "docVoice": false,
+        "avgSentence": 14.6,
+        "onVoice": true
+      },
+      "rawLoop": false,
+      "issues": [
+        "thin: 77 words"
+      ],
+      "source": "antigravity://cd88f891-9c56-4afd-be41-2aeb75ac8f26"
+    },
+    {
+      "id": "fragments/prioritizing-visual-appeal",
+      "title": "Prioritizing Visual Appeal",
+      "words": 81,
+      "rawWords": 0,
+      "worst": 2,
+      "rawWorst": 1,
+      "dupParas": 0,
+      "narrativeLoop": false,
+      "voice": {
+        "words": 78,
+        "firstPerson": true,
+        "docVoice": false,
+        "avgSentence": 15.6,
+        "onVoice": true
+      },
+      "rawLoop": false,
+      "issues": [
+        "thin: 81 words"
+      ],
+      "source": "antigravity://08bd1d17-671f-4f62-9079-1b22206c77c3"
+    },
+    {
+      "id": "fragments/product-mockups-description",
+      "title": "Product Mockups Description",
+      "words": 118,
+      "rawWords": 0,
+      "worst": 2,
+      "rawWorst": 1,
+      "dupParas": 0,
+      "narrativeLoop": false,
+      "voice": {
+        "words": 116,
+        "firstPerson": true,
+        "docVoice": false,
+        "avgSentence": 23.2,
+        "onVoice": true
+      },
+      "rawLoop": false,
+      "issues": [
+        "thin: 118 words"
+      ],
+      "source": "antigravity://1a22fe8e-382a-4a0d-92a0-70a0f0e2d348"
+    },
+    {
+      "id": "fragments/production-pcb-candidate",
+      "title": "Production PCB Candidate",
+      "words": 73,
+      "rawWords": 0,
+      "worst": 2,
+      "rawWorst": 1,
+      "dupParas": 0,
+      "narrativeLoop": false,
+      "voice": {
+        "words": 69,
+        "firstPerson": true,
+        "docVoice": false,
+        "avgSentence": 17.3,
+        "onVoice": true
+      },
+      "rawLoop": false,
+      "issues": [
+        "thin: 73 words"
+      ],
+      "source": "antigravity://91fbcd74-1c9b-4cfb-be38-fe99f60e1b9b"
+    },
+    {
+      "id": "fragments/prototype-platform-choice",
+      "title": "Prototype Platform Choice",
+      "words": 76,
+      "rawWords": 0,
+      "worst": 2,
+      "rawWorst": 1,
+      "dupParas": 0,
+      "narrativeLoop": false,
+      "voice": {
+        "words": 65,
+        "firstPerson": true,
+        "docVoice": false,
+        "avgSentence": 16.3,
+        "onVoice": true
+      },
+      "rawLoop": false,
+      "issues": [
+        "thin: 76 words"
+      ],
+      "source": "antigravity://91fbcd74-1c9b-4cfb-be38-fe99f60e1b9b"
+    },
+    {
+      "id": "fragments/provider-catalog-files-analysis",
+      "title": "Provider Catalog Files Analysis",
+      "words": 71,
+      "rawWords": 0,
+      "worst": 2,
+      "rawWorst": 1,
+      "dupParas": 0,
+      "narrativeLoop": false,
+      "voice": {
+        "words": 70,
+        "firstPerson": true,
+        "docVoice": false,
+        "avgSentence": 17.5,
+        "onVoice": true
+      },
+      "rawLoop": false,
+      "issues": [
+        "thin: 71 words"
+      ],
+      "source": "antigravity://4e972a19-24a8-4e8d-a4cc-73426b5f6c4e"
+    },
+    {
+      "id": "fragments/reclaimed-space-on-root-filesystem",
+      "title": "Reclaimed Space on Root Filesystem",
+      "words": 53,
+      "rawWords": 0,
+      "worst": 1,
+      "rawWorst": 1,
+      "dupParas": 0,
+      "narrativeLoop": false,
+      "voice": {
+        "words": 52,
+        "firstPerson": true,
+        "docVoice": false,
+        "avgSentence": 13,
+        "onVoice": true
+      },
+      "rawLoop": false,
+      "issues": [
+        "thin: 53 words"
+      ],
+      "source": "antigravity://c799c91d-b879-4167-8f74-37513cd037c2"
+    },
+    {
+      "id": "fragments/reconnecting-opencode-sessions-post-update",
+      "title": "Reconnecting OpenCode Sessions Post-Update",
+      "words": 53,
+      "rawWords": 0,
+      "worst": 1,
+      "rawWorst": 1,
+      "dupParas": 0,
+      "narrativeLoop": false,
+      "voice": {
+        "words": 53,
+        "firstPerson": true,
+        "docVoice": false,
+        "avgSentence": 13.3,
+        "onVoice": true
+      },
+      "rawLoop": false,
+      "issues": [
+        "thin: 53 words"
+      ],
+      "source": "antigravity://92461444-94df-46f4-86eb-5692916fda10"
+    },
+    {
+      "id": "fragments/refining-database-logic",
+      "title": "Refining Database Logic",
+      "words": 72,
+      "rawWords": 0,
+      "worst": 2,
+      "rawWorst": 1,
+      "dupParas": 0,
+      "narrativeLoop": false,
+      "voice": {
+        "words": 72,
+        "firstPerson": true,
+        "docVoice": false,
+        "avgSentence": 18,
+        "onVoice": true
+      },
+      "rawLoop": false,
+      "issues": [
+        "thin: 72 words"
+      ],
+      "source": "antigravity://2163af39-ee81-4fad-a665-92194e6e6f77"
+    },
+    {
+      "id": "fragments/refining-initial-approach",
+      "title": "Refining Initial Approach",
+      "words": 73,
+      "rawWords": 0,
+      "worst": 2,
+      "rawWorst": 1,
+      "dupParas": 0,
+      "narrativeLoop": false,
+      "voice": {
+        "words": 73,
+        "firstPerson": true,
+        "docVoice": false,
+        "avgSentence": 18.3,
+        "onVoice": true
+      },
+      "rawLoop": false,
+      "issues": [
+        "thin: 73 words"
+      ],
+      "source": "antigravity://cd88f891-9c56-4afd-be41-2aeb75ac8f26"
+    },
+    {
+      "id": "fragments/refining-osc-commands",
+      "title": "Refining OSC Commands",
+      "words": 74,
+      "rawWords": 0,
+      "worst": 2,
+      "rawWorst": 1,
+      "dupParas": 0,
+      "narrativeLoop": false,
+      "voice": {
+        "words": 76,
+        "firstPerson": true,
+        "docVoice": false,
+        "avgSentence": 19,
+        "onVoice": true
+      },
+      "rawLoop": false,
+      "issues": [
+        "thin: 74 words"
+      ],
+      "source": "antigravity://ddcc6c7d-a107-4868-b8d7-08e620a1b427"
+    },
+    {
+      "id": "fragments/refining-tool-choices",
+      "title": "Refining Tool Choices",
+      "words": 70,
+      "rawWords": 0,
+      "worst": 2,
+      "rawWorst": 1,
+      "dupParas": 0,
+      "narrativeLoop": false,
+      "voice": {
+        "words": 69,
+        "firstPerson": true,
+        "docVoice": false,
+        "avgSentence": 17.3,
+        "onVoice": true
+      },
+      "rawLoop": false,
+      "issues": [
+        "thin: 70 words"
+      ],
+      "source": "antigravity://a38447ef-2a2f-4b65-9627-8ab3a9e20ab4"
+    },
+    {
+      "id": "fragments/refining-tool-selection",
+      "title": "Refining Tool Selection",
+      "words": 83,
+      "rawWords": 0,
+      "worst": 2,
+      "rawWorst": 1,
+      "dupParas": 0,
+      "narrativeLoop": false,
+      "voice": {
+        "words": 82,
+        "firstPerson": true,
+        "docVoice": false,
+        "avgSentence": 20.5,
+        "onVoice": true
+      },
+      "rawLoop": false,
+      "issues": [
+        "thin: 83 words"
+      ],
+      "source": "antigravity://47c031a8-0492-4ed7-8da3-282987c01132"
+    },
+    {
+      "id": "fragments/related-niches-exploration",
+      "title": "Related Niches Exploration",
+      "words": 73,
+      "rawWords": 0,
+      "worst": 2,
+      "rawWorst": 1,
+      "dupParas": 0,
+      "narrativeLoop": false,
+      "voice": {
+        "words": 70,
+        "firstPerson": true,
+        "docVoice": false,
+        "avgSentence": 17.5,
+        "onVoice": true
+      },
+      "rawLoop": false,
+      "issues": [
+        "thin: 73 words"
+      ],
+      "source": "antigravity://5e7e7594-3dd6-4f2f-a249-67321399b432"
+    },
+    {
+      "id": "fragments/setting-up-odysseus-on-external-drive",
+      "title": "Setting Up Odysseus on External Drive",
+      "words": 69,
+      "rawWords": 0,
+      "worst": 2,
+      "rawWorst": 1,
+      "dupParas": 0,
+      "narrativeLoop": false,
+      "voice": {
+        "words": 68,
+        "firstPerson": true,
+        "docVoice": false,
+        "avgSentence": 17,
+        "onVoice": true
+      },
+      "rawLoop": false,
+      "issues": [
+        "thin: 69 words"
+      ],
+      "source": "antigravity://92461444-94df-46f4-86eb-5692916fda10"
+    },
+    {
+      "id": "fragments/simulating-hardware",
+      "title": "Simulating Hardware",
+      "words": 76,
+      "rawWords": 0,
+      "worst": 2,
+      "rawWorst": 1,
+      "dupParas": 0,
+      "narrativeLoop": false,
+      "voice": {
+        "words": 77,
+        "firstPerson": true,
+        "docVoice": false,
+        "avgSentence": 19.3,
+        "onVoice": true
+      },
+      "rawLoop": false,
+      "issues": [
+        "thin: 76 words"
+      ],
+      "source": "antigravity://cd88f891-9c56-4afd-be41-2aeb75ac8f26"
+    },
+    {
+      "id": "fragments/southwest-michigan-option",
+      "title": "Southwest Michigan Option",
+      "words": 74,
+      "rawWords": 0,
+      "worst": 2,
+      "rawWorst": 1,
+      "dupParas": 0,
+      "narrativeLoop": false,
+      "voice": {
+        "words": 72,
+        "firstPerson": true,
+        "docVoice": false,
+        "avgSentence": 18,
+        "onVoice": true
+      },
+      "rawLoop": false,
+      "issues": [
+        "thin: 74 words"
+      ],
+      "source": "antigravity://cf6f427e-3c83-450f-8675-c364688237db"
+    },
+    {
+      "id": "fragments/space-management-on-main-drive",
+      "title": "Space Management on Main Drive",
+      "words": 75,
+      "rawWords": 0,
+      "worst": 2,
+      "rawWorst": 1,
+      "dupParas": 0,
+      "narrativeLoop": false,
+      "voice": {
+        "words": 74,
+        "firstPerson": true,
+        "docVoice": false,
+        "avgSentence": 18.5,
+        "onVoice": true
+      },
+      "rawLoop": false,
+      "issues": [
+        "thin: 75 words"
+      ],
+      "source": "antigravity://92461444-94df-46f4-86eb-5692916fda10"
+    },
+    {
+      "id": "fragments/story-bible-expansion",
+      "title": "Story Bible Expansion",
+      "words": 71,
+      "rawWords": 0,
+      "worst": 2,
+      "rawWorst": 1,
+      "dupParas": 0,
+      "narrativeLoop": false,
+      "voice": {
+        "words": 68,
+        "firstPerson": true,
+        "docVoice": false,
+        "avgSentence": 17,
+        "onVoice": true
+      },
+      "rawLoop": false,
+      "issues": [
+        "thin: 71 words"
+      ],
+      "source": "antigravity://abf2de62-6e2a-48fb-80a7-6dacc23d03b4"
+    },
+    {
+      "id": "fragments/stt-activation",
+      "title": "STT Activation",
+      "words": 69,
+      "rawWords": 0,
+      "worst": 2,
+      "rawWorst": 1,
+      "dupParas": 0,
+      "narrativeLoop": false,
+      "voice": {
+        "words": 66,
+        "firstPerson": true,
+        "docVoice": false,
+        "avgSentence": 16.5,
+        "onVoice": true
+      },
+      "rawLoop": false,
+      "issues": [
+        "thin: 69 words"
+      ],
+      "source": "antigravity://96bc662a-1ad2-42ee-b8dc-36dd80d196b4"
+    },
+    {
+      "id": "fragments/subscription-free-alternative-pricing",
+      "title": "Subscription-Free Alternative Pricing",
+      "words": 60,
+      "rawWords": 0,
+      "worst": 1,
+      "rawWorst": 1,
+      "dupParas": 0,
+      "narrativeLoop": false,
+      "voice": {
+        "words": 58,
+        "firstPerson": true,
+        "docVoice": false,
+        "avgSentence": 14.5,
+        "onVoice": true
+      },
+      "rawLoop": false,
+      "issues": [
+        "thin: 60 words"
+      ],
+      "source": "antigravity://d1c02eb0-64ae-4009-aa5f-0d2de5aea15a"
+    },
+    {
+      "id": "fragments/summarizing-findings",
+      "title": "Summarizing Findings",
+      "words": 68,
+      "rawWords": 0,
+      "worst": 2,
+      "rawWorst": 1,
+      "dupParas": 0,
+      "narrativeLoop": false,
+      "voice": {
+        "words": 66,
+        "firstPerson": true,
+        "docVoice": false,
+        "avgSentence": 16.5,
+        "onVoice": true
+      },
+      "rawLoop": false,
+      "issues": [
+        "thin: 68 words"
+      ],
+      "source": "antigravity://d4eff798-ccd6-4ce0-b556-f0e9832238c9"
+    },
+    {
+      "id": "fragments/targeted-web-searches",
+      "title": "Targeted Web Searches",
+      "words": 73,
+      "rawWords": 0,
+      "worst": 2,
+      "rawWorst": 1,
+      "dupParas": 0,
+      "narrativeLoop": false,
+      "voice": {
+        "words": 71,
+        "firstPerson": true,
+        "docVoice": false,
+        "avgSentence": 17.8,
+        "onVoice": true
+      },
+      "rawLoop": false,
+      "issues": [
+        "thin: 73 words"
+      ],
+      "source": "antigravity://65d47a89-30ef-4ce9-aa03-e0e05fa999ea"
+    },
+    {
+      "id": "fragments/the-humble-comparison",
+      "title": "The Humble Comparison",
+      "words": 68,
+      "rawWords": 0,
+      "worst": 2,
+      "rawWorst": 1,
+      "dupParas": 0,
+      "narrativeLoop": false,
+      "voice": {
+        "words": 67,
+        "firstPerson": true,
+        "docVoice": false,
+        "avgSentence": 16.8,
+        "onVoice": true
+      },
+      "rawLoop": false,
+      "issues": [
+        "thin: 68 words"
+      ],
+      "source": "antigravity://abf2de62-6e2a-48fb-80a7-6dacc23d03b4"
+    },
+    {
+      "id": "fragments/the-jump-off-point",
+      "title": "The Jump-Off Point",
+      "words": 70,
+      "rawWords": 0,
+      "worst": 2,
+      "rawWorst": 1,
+      "dupParas": 0,
+      "narrativeLoop": false,
+      "voice": {
+        "words": 70,
+        "firstPerson": true,
+        "docVoice": false,
+        "avgSentence": 17.5,
+        "onVoice": true
+      },
+      "rawLoop": false,
+      "issues": [
+        "thin: 70 words"
+      ],
+      "source": "antigravity://89468503-5d2e-41f7-9538-2ba62a789a13"
+    },
+    {
+      "id": "fragments/tiktok-creators-in-focus",
+      "title": "TikTok Creators in Focus",
+      "words": 56,
+      "rawWords": 0,
+      "worst": 1,
+      "rawWorst": 1,
+      "dupParas": 0,
+      "narrativeLoop": false,
+      "voice": {
+        "words": 57,
+        "firstPerson": true,
+        "docVoice": false,
+        "avgSentence": 14.3,
+        "onVoice": true
+      },
+      "rawLoop": false,
+      "issues": [
+        "thin: 56 words"
+      ],
+      "source": "antigravity://5e7e7594-3dd6-4f2f-a249-67321399b432"
+    },
+    {
+      "id": "fragments/tooling-focus",
+      "title": "Tooling Focus",
+      "words": 73,
+      "rawWords": 0,
+      "worst": 2,
+      "rawWorst": 1,
+      "dupParas": 0,
+      "narrativeLoop": false,
+      "voice": {
+        "words": 71,
+        "firstPerson": true,
+        "docVoice": false,
+        "avgSentence": 14.2,
+        "onVoice": true
+      },
+      "rawLoop": false,
+      "issues": [
+        "thin: 73 words"
+      ],
+      "source": "antigravity://b185063d-a0ed-410e-8f5c-a4f3465c4e99"
+    },
+    {
+      "id": "fragments/tooling-integration-of-python-scripts",
+      "title": "Tooling: Integration of Python Scripts",
+      "words": 74,
+      "rawWords": 0,
+      "worst": 2,
+      "rawWorst": 1,
+      "dupParas": 0,
+      "narrativeLoop": false,
+      "voice": {
+        "words": 74,
+        "firstPerson": true,
+        "docVoice": false,
+        "avgSentence": 18.5,
+        "onVoice": true
+      },
+      "rawLoop": false,
+      "issues": [
+        "thin: 74 words"
+      ],
+      "source": "antigravity://7a752ae6-6ab1-4189-86d5-cc56e370a701"
+    },
+    {
+      "id": "fragments/tooling-tiktok-conspiracy-segments",
+      "title": "Tooling: TikTok Conspiracy Segments",
+      "words": 65,
+      "rawWords": 0,
+      "worst": 2,
+      "rawWorst": 1,
+      "dupParas": 0,
+      "narrativeLoop": false,
+      "voice": {
+        "words": 65,
+        "firstPerson": true,
+        "docVoice": false,
+        "avgSentence": 16.3,
+        "onVoice": true
+      },
+      "rawLoop": false,
+      "issues": [
+        "thin: 65 words"
+      ],
+      "source": "antigravity://7a752ae6-6ab1-4189-86d5-cc56e370a701"
+    },
+    {
+      "id": "fragments/verifying-cost-calculations-manually",
+      "title": "Verifying Cost Calculations Manually",
+      "words": 66,
+      "rawWords": 0,
+      "worst": 2,
+      "rawWorst": 1,
+      "dupParas": 0,
+      "narrativeLoop": false,
+      "voice": {
+        "words": 65,
+        "firstPerson": true,
+        "docVoice": false,
+        "avgSentence": 16.3,
+        "onVoice": true
+      },
+      "rawLoop": false,
+      "issues": [
+        "thin: 66 words"
+      ],
+      "source": "antigravity://4a1fc688-deb4-48d8-9141-bbb0b3d7308f"
+    },
+    {
+      "id": "fragments/visual-assets-for-campaign-page",
+      "title": "Visual Assets for Campaign Page",
+      "words": 100,
+      "rawWords": 0,
+      "worst": 2,
+      "rawWorst": 1,
+      "dupParas": 0,
+      "narrativeLoop": false,
+      "voice": {
+        "words": 98,
+        "firstPerson": true,
+        "docVoice": false,
+        "avgSentence": 19.6,
+        "onVoice": true
+      },
+      "rawLoop": false,
+      "issues": [
+        "thin: 100 words"
+      ],
+      "source": "antigravity://1a22fe8e-382a-4a0d-92a0-70a0f0e2d348"
+    },
+    {
+      "id": "fragments/weighing-impact-of-android-audio-system-latency",
+      "title": "Weighing Impact of Android Audio System Latency",
+      "words": 67,
+      "rawWords": 0,
+      "worst": 2,
+      "rawWorst": 1,
+      "dupParas": 0,
+      "narrativeLoop": false,
+      "voice": {
+        "words": 65,
+        "firstPerson": true,
+        "docVoice": false,
+        "avgSentence": 16.3,
+        "onVoice": true
+      },
+      "rawLoop": false,
+      "issues": [
+        "thin: 67 words"
+      ],
+      "source": "antigravity://ceabce17-c09c-4849-83bd-4247d600ee3c"
+    },
+    {
+      "id": "fragments/xennial-generation",
+      "title": "Xennial Generation",
+      "words": 67,
+      "rawWords": 0,
+      "worst": 2,
+      "rawWorst": 1,
+      "dupParas": 0,
+      "narrativeLoop": false,
+      "voice": {
+        "words": 66,
+        "firstPerson": true,
+        "docVoice": false,
+        "avgSentence": 16.5,
+        "onVoice": true
+      },
+      "rawLoop": false,
+      "issues": [
+        "thin: 67 words"
+      ],
+      "source": "antigravity://c707bb2e-c8bb-4b97-84ce-9052e663a132"
     }
   ]
 }

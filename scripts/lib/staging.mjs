@@ -12,6 +12,7 @@ export const SECTION_KEYS = [
   'goals',
   'values',
   'garden',
+  'fragments',
 ];
 
 const COMMON_FIELDS = ['title', 'description', 'date', 'tags', 'source', 'draft', 'clarity', 'quality'];
@@ -27,6 +28,7 @@ export const ALLOWED_FIELDS = {
   goals: [...COMMON_FIELDS, 'status', 'target'],
   values: [...COMMON_FIELDS, 'weight'],
   garden: [...COMMON_FIELDS, 'vault'],
+  fragments: [...COMMON_FIELDS, 'mechanism', 'signal', 'from'],
 };
 
 export const ENUMS = {
@@ -35,6 +37,7 @@ export const ENUMS = {
   'papers.type': ['essay', 'paper', 'letter', 'notes'],
   'concepts.status': ['seed', 'developing', 'relayed', 'shelved'],
   'goals.status': ['active', 'done', 'stalled', 'dropped'],
+  'fragments.mechanism': ['volume', 'definition', 'capture', 'reach', 'extraction', 'legibility', 'tooling', 'craft', 'open'],
 };
 
 export class StagingError extends Error {}
@@ -177,6 +180,16 @@ export function writeFileBackedUp(root, absPath, contents) {
   fs.mkdirSync(path.dirname(absPath), { recursive: true });
   fs.writeFileSync(absPath, contents);
   return absPath;
+}
+
+export function slugify(input, max = 60) {
+  return String(input)
+    .toLowerCase()
+    .replace(/['\u2019]/g, '')
+    .replace(/[^a-z0-9]+/g, '-')
+    .replace(/^-+|-+$/g, '')
+    .slice(0, max)
+    .replace(/-+$/, '');
 }
 
 export function stampNow(d = new Date()) {

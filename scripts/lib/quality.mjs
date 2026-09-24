@@ -158,6 +158,27 @@ export function factDigest(text, { maxChars = 7000 } = {}) {
   return out;
 }
 
+const DOC_VOICE =
+  /\b(is used to|is designed to|is intended to|is used for|provides a|is responsible for|is capable of|is used when|is primarily|is commonly|is often used|is a component|is a feature|is a tool|is a process|is a technique|is a method)\b/i;
+const DOC_OPENING = /^(The|This|These|It|There)\s+\w+\s+(is|are|provides|allows|enables|supports|helps|can|will)\b/i;
+const FIRST_PERSON = /\b(I|I'm|I've|I'd|I'll|my|me|my own)\b/;
+
+export function voiceProfile(text) {
+  const source = proseOnly(text);
+  const words = (source.match(/[a-z']+/g) ?? []).length;
+  const first = FIRST_PERSON.test(source);
+  const docVoice = DOC_VOICE.test(source) || DOC_OPENING.test(source.trim());
+  const sentences = source.split(/[.!?]+\s/).filter((s) => s.split(' ').length > 3);
+  const avgSentence = sentences.length ? words / sentences.length : 0;
+  return {
+    words,
+    firstPerson: first,
+    docVoice,
+    avgSentence: Number(avgSentence.toFixed(1)),
+    onVoice: first && !docVoice,
+  };
+}
+
 export function proseOnly(text) {
   return String(text)
     .replace(/```[\s\S]*?```/g, ' ')

@@ -1,7 +1,7 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import { splitDoc, SECTION_KEYS } from './lib/staging.mjs';
-import { repetition, duplicateParagraphs, splitSections, proseOnly } from './lib/quality.mjs';
+import { repetition, duplicateParagraphs, splitSections, proseOnly, voiceProfile } from './lib/quality.mjs';
 
 const ROOT = path.resolve(import.meta.dirname, '..');
 const CONTENT = path.join(ROOT, 'src', 'content');
@@ -29,6 +29,12 @@ for (const section of SECTION_KEYS) {
     const rawLoop = r.words > 400 && r.worst >= 5;
     if (rawLoop) issues.push(`raw transcript loop: 8-gram x${r.worst}`);
     if (n.words < 120) issues.push(`thin: ${n.words} words`);
+    if (section === 'fragments' && !file.startsWith('_')) {
+      const v = voiceProfile(prose);
+      if (!v.onVoice) {
+        issues.push(v.docVoice ? 'documentation voice (not first person)' : 'no first-person voice');
+      }
+    }
     if (!issues.length) continue;
     reports.push({
       id: `${section}/${file.replace(/\.md$/, '')}`,
@@ -39,6 +45,7 @@ for (const section of SECTION_KEYS) {
       rawWorst: r.worst,
       dupParas,
       narrativeLoop: n.words >= 80 && (n.worst >= 3 || dupParas > 0),
+      voice: voiceProfile(prose),
       rawLoop,
       issues,
       source: data.source,

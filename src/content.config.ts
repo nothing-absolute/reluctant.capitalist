@@ -101,6 +101,21 @@ const garden = defineCollection({
   }),
 });
 
+// Atomic idea blocks distilled from raw working notes by scripts/extract-fragments.mjs.
+// One claim per fragment, cross-linked, cheap to produce and meant to be recombined.
+const fragments = defineCollection({
+  loader: glob({ pattern: '**/*.{md,mdx}', base: './src/content/fragments' }),
+  schema: z.object({
+    ...common,
+    mechanism: z
+      .enum(['volume', 'definition', 'capture', 'reach', 'extraction', 'legibility', 'tooling', 'craft', 'open'])
+      .default('open')
+      .describe('Which force this fragment is about. volume = loudness pays; definition = who sets the terms; capture = who gets absorbed; reach = distribution; extraction = value taken; legibility = being understood; tooling = the instruments; craft = making; open = shared/public goods.'),
+    signal: z.number().default(3).describe('1-5, how strongly this fragment connects to the thesis that understanding the system beats being the loudest.'),
+    from: z.string().optional().describe('Source conversation or note id this was distilled from.'),
+  }),
+});
+
 export const collections = {
   projects,
   blog,
@@ -112,4 +127,5 @@ export const collections = {
   goals,
   values,
   garden,
+  fragments,
 };

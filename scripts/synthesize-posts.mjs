@@ -1,17 +1,7 @@
 import fs from 'node:fs';
 import path from 'node:path';
-import { sanitizeData, serialize } from './lib/staging.mjs';
+import { sanitizeData, serialize, slugify } from './lib/staging.mjs';
 import { degenerate } from './lib/quality.mjs';
-
-function slugify(input, max = 60) {
-  return String(input)
-    .toLowerCase()
-    .replace(/['’]/g, '')
-    .replace(/[^a-z0-9]+/g, '-')
-    .replace(/^-+|-+$/g, '')
-    .slice(0, max)
-    .replace(/-+$/, '');
-}
 
 const ROOT = path.resolve(import.meta.dirname, '..');
 const API = process.env.POLISH_API ?? 'http://localhost:18000/v1';

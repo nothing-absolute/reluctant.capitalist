@@ -20,7 +20,8 @@ export type SectionKey =
   | 'design'
   | 'goals'
   | 'values'
-  | 'garden';
+  | 'garden'
+  | 'fragments';
 
 export interface SectionMeta {
   key: SectionKey;
@@ -41,6 +42,7 @@ export const SECTIONS: SectionMeta[] = [
   { key: 'design', title: 'Design', collectionLabel: 'Design', blurb: 'Systems, interfaces, and the obsessive details between the idea and the artifact.' },
   { key: 'goals', title: 'Goals', collectionLabel: 'Goals', blurb: 'Public commitments. Written down so they are harder to quietly abandon.' },
   { key: 'values', title: 'Values', collectionLabel: 'Values', blurb: 'The operating system underneath everything else. If a project violates these, it fails even if it ships.' },
+  { key: 'fragments', title: 'Fragments', collectionLabel: 'Fragments', blurb: 'Atomic blocks distilled from raw working notes. One idea each, heavily cross-linked. Cheap to make, meant to be recombined — signal volume over depth.' },
 ];
 
 export const SECTION_BY_KEY: Record<SectionKey, SectionMeta> = Object.fromEntries(
