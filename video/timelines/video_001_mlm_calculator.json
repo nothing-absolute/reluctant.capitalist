@@ -1,0 +1,156 @@
+{
+  "video_id": "video_001_mlm_calculator",
+  "title": "I Built The Calculator That Ends Every MLM Argument",
+  "resolution": "1920x1080",
+  "fps": 30,
+  "tts_voice_profile": "satirical_streamer",
+  "timeline": [
+    {
+      "sequence": 1,
+      "tts_dialogue": "You cannot make money in this. Not it's-hard. Not most-people-quit. You cannot. I built the thing that proves it.",
+      "visual_asset_type": "image",
+      "visual_asset_path": "assets/persona_cam_hard_open.png",
+      "on_screen_text": "YOU CANNOT MAKE MONEY IN THIS"
+    },
+    {
+      "sequence": 2,
+      "tts_dialogue": "Every month someone hands me a compensation plan and says the numbers work. So I stopped arguing with them and made the numbers do the arguing.",
+      "visual_asset_type": "image",
+      "visual_asset_path": "assets/persona_cam_plan_on_desk.png",
+      "on_screen_text": "LET THE NUMBERS ARGUE"
+    },
+    {
+      "sequence": 3,
+      "tts_dialogue": "Here is the whole thing. A product costs fifty bucks a month. Your cut is twenty percent. That is a good commission. That is not where it falls apart.",
+      "visual_asset_type": "d3_chart",
+      "visual_asset_path": "assets/chart_commission_baseline.png",
+      "on_screen_text": "$50 PRODUCT / 20% CUT"
+    },
+    {
+      "sequence": 4,
+      "tts_dialogue": "To make two thousand a month you need two hundred paying customers. Not two hundred people. Two hundred people who never quit.",
+      "visual_asset_type": "d3_chart",
+      "visual_asset_path": "assets/chart_customers_required.png",
+      "on_screen_text": "200 CUSTOMERS = $2,000/MO"
+    },
+    {
+      "sequence": 5,
+      "tts_dialogue": "Now the part they leave off the whiteboard. Direct selling converts. What percent of people who hear this pitch actually buy?",
+      "visual_asset_type": "image",
+      "visual_asset_path": "assets/persona_cam_pointed_question.png",
+      "on_screen_text": "WHAT PERCENT ACTUALLY BUY?"
+    },
+    {
+      "sequence": 6,
+      "tts_dialogue": "Five percent is generous. Five percent gets you four thousand people. Four thousand people have to hear the pitch.",
+      "visual_asset_type": "d3_chart",
+      "visual_asset_path": "assets/chart_funnel_4000.png",
+      "on_screen_text": "5% CONVERSION = 4,000 LISTENERS"
+    },
+    {
+      "sequence": 7,
+      "tts_dialogue": "But they have to say yes to hearing it. One in a hundred says yes. So four hundred thousand people.",
+      "visual_asset_type": "d3_chart",
+      "visual_asset_path": "assets/chart_funnel_400k.png",
+      "on_screen_text": "1% OPT-IN = 400,000 PEOPLE"
+    },
+    {
+      "sequence": 8,
+      "tts_dialogue": "I want you to sit with four hundred thousand. That is not a customer base. That is the entire population of a mid-sized city. Every month. Forever. And that is before anybody leaves.",
+      "visual_asset_type": "image",
+      "visual_asset_path": "assets/persona_cam_lean_in.png",
+      "on_screen_text": "THE POPULATION OF A CITY. EVERY MONTH."
+    },
+    {
+      "sequence": 9,
+      "tts_dialogue": "Here is the part that actually kills it, and it is not in any compensation plan. People quit.",
+      "visual_asset_type": "image",
+      "visual_asset_path": "assets/persona_cam_quit_slide.png",
+      "on_screen_text": "AND THAT IS BEFORE ANYBODY LEAVES"
+    },
+    {
+      "sequence": 10,
+      "tts_dialogue": "Ten percent churn is optimistic. Ten percent of your two hundred customers is twenty people walking out the door every month. You are not building a base. You are running a treadmill.",
+      "visual_asset_type": "d3_chart",
+      "visual_asset_path": "assets/chart_churn_treadmill.png",
+      "on_screen_text": "20 LEAVE. 20 REPLACE. REPEAT."
+    },
+    {
+      "sequence": 11,
+      "tts_dialogue": "So the real number is not four hundred thousand to start. It is four hundred thousand, plus everything you replace, plus the replacements for the replacements. The curve does not flatten. It bends the wrong way.",
+      "visual_asset_type": "d3_chart",
+      "visual_asset_path": "assets/chart_infinite_growth.png",
+      "on_screen_text": "INFINITE GROWTH = IMPOSSIBLE"
+    },
+    {
+      "sequence": 12,
+      "tts_dialogue": "And this is where I want you to notice something the plan never mentions. The product was never the point.",
+      "visual_asset_type": "image",
+      "visual_asset_path": "assets/persona_cam_pivot.png",
+      "on_screen_text": "THE PRODUCT WAS NEVER THE POINT"
+    },
+    {
+      "sequence": 13,
+      "tts_dialogue": "A real business grows when people keep buying the thing. That is revenue. It scales with the thing being useful. If your income needs new humans to survive, you are not selling a product, you are selling recruitment.",
+      "visual_asset_type": "d3_chart",
+      "visual_asset_path": "assets/chart_revenue_vs_recruitment.png",
+      "on_screen_text": "RECRUITMENT ≠ REVENUE"
+    },
+    {
+      "sequence": 14,
+      "tts_dialogue": "That is the whole trick. Everyone is busy arguing about the product, the price, the bonuses, the car. The product is the bait. The structure is the business.",
+      "visual_asset_type": "image",
+      "visual_asset_path": "assets/persona_cam_gesture_out.png",
+      "on_screen_text": "THE PRODUCT IS THE BAIT"
+    },
+    {
+      "sequence": 15,
+      "tts_dialogue": "And it is not a bad design. It is a very good design. It just is not yours. It demands infinite growth, and infinite growth is only possible if the people underneath you never stop moving, which they will, because they are people.",
+      "visual_asset_type": "d3_chart",
+      "visual_asset_path": "assets/chart_extraction_structure.png",
+      "on_screen_text": "DEMANDS INFINITE GROWTH"
+    },
+    {
+      "sequence": 16,
+      "tts_dialogue": "This is the part I have watched swallow someone I love. He did not get bad at it. He got tired. Those are different failures and the plan only accounts for one of them.",
+      "visual_asset_type": "image",
+      "visual_asset_path": "assets/persona_cam_quiet.png",
+      "on_screen_text": "HE DIDN'T GET BAD AT IT. HE GOT TIRED."
+    },
+    {
+      "sequence": 17,
+      "tts_dialogue": "So I built the calculator. I am not asking you to trust me. I am asking you to type in the commission, the price, the churn, and let the thing tell you what everybody knew and would not say out loud.",
+      "visual_asset_type": "image",
+      "visual_asset_path": "assets/calculator_ui_main.png",
+      "on_screen_text": "TYPE IT IN. LET IT TELL YOU."
+    },
+    {
+      "sequence": 18,
+      "tts_dialogue": "Here is the actual alternative, and it is not being nice, it is just better math. The Light Field is a set of things anyone can use, copy, and run without permission. You build once. It does not need me underneath it. It does not need anybody underneath it.",
+      "visual_asset_type": "image",
+      "visual_asset_path": "assets/light_field_open_commons.png",
+      "on_screen_text": "BUILD ONCE. NOBODY UNDERNEATH IT."
+    },
+    {
+      "sequence": 19,
+      "tts_dialogue": "That is the difference in one sentence. A business that needs you to keep recruiting is a treadmill. A thing that works without you is an asset. I spent most of my life confusing the two.",
+      "visual_asset_type": "d3_chart",
+      "visual_asset_path": "assets/chart_treadmill_vs_asset.png",
+      "on_screen_text": "TREADMILL vs ASSET"
+    },
+    {
+      "sequence": 20,
+      "tts_dialogue": "You do not have to trust the plan, and you do not have to trust me. Do the arithmetic. It is the only part of this nobody has ever managed to manipulate.",
+      "visual_asset_type": "image",
+      "visual_asset_path": "assets/persona_cam_close_out.png",
+      "on_screen_text": "DO THE ARITHMETIC"
+    },
+    {
+      "sequence": 21,
+      "tts_dialogue": "The calculator is free. It is not going to make you money. It is going to tell you the truth about a thing somebody wanted very badly for you not to know.",
+      "visual_asset_type": "image",
+      "visual_asset_path": "assets/light_field_title_card.png",
+      "on_screen_text": "FREE. OPEN. NO PERMISSION NEEDED."
+    }
+  ]
+}

@@ -30,3 +30,11 @@ snapshots/
 # They still ship into dist/ on every build, so anything sensitive must be blocked in the
 # importer's SENSITIVE_ARTIFACT list, not hidden by ignoring it here.
 public/antigravity/
+
+# video render scratch (local test artifacts)
+video/.venv/
+video/out/
+video/assets/
+video/__pycache__/
+*TEMP_MPY*
+*.pyc

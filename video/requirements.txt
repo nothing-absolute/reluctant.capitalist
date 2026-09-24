@@ -1,0 +1,6 @@
+runpod>=1.7
+moviepy>=2.0
+edge-tts>=6.1
+imageio-ffmpeg>=0.4.9
+pillow>=10.0
+numpy>=1.24
