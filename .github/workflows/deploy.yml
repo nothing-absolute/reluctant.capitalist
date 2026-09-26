@@ -31,7 +31,18 @@ jobs:
       # (ext4) a plain `npm ci` is fine, so use it directly.
       - run: npm ci
 
+      # This is a *project* Pages site, so it is served from
+      # /reluctant.capitalist/, not the domain root. Without this, astro emits
+      # root-absolute links (/blog/...) that 404 off-prefix.
       - run: npm run build
+        env:
+          PAGES_BASE: /reluctant.capitalist
+
+      # Astro rewrites its own links for `base` but not literal <img src="/...">
+      # inside markdown, so media paths still need the prefix.
+      - run: node scripts/fix-base-media.mjs
+        env:
+          PAGES_BASE: /reluctant.capitalist
 
       - uses: actions/upload-pages-artifact@v3
         with:
