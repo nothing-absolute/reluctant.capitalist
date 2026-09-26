@@ -462,7 +462,7 @@ events or partner with farms/wineries for off-season bookings.
 
 I have synthesized your profile, primary project (**Omarchy**), revenue bridge (**RV Rental Business**), and Asia transition strategy into a comprehensive operational document:
 
-📄 **[founder_master_strategy.md](file:///home/jd/.gemini/antigravity/brain/5c53b548-fde9-44f2-b22f-7ac0fc1ff06a/founder_master_strategy.md)**
+📄 **[founder_master_strategy.md](file://[local path redacted])**
 
 ---
 
@@ -493,7 +493,7 @@ I have synthesized your profile, primary project (**Omarchy**), revenue bridge (
 
 ### Recommended Next Steps & Slash Commands
 
-- Explore the full breakdown in **[founder_master_strategy.md](file:///home/jd/.gemini/antigravity/brain/5c53b548-fde9-44f2-b22f-7ac0fc1ff06a/founder_master_strategy.md)**.
+- Explore the full breakdown in **[founder_master_strategy.md](file://[local path redacted])**.
 - If you'd like to refine specific supplier negotiation scripts, draft cold emails for Vietnam sourcing roles, or outline the Kickstarter campaign video storyboard, let me know!
 - You can also use the `/grill-me` command to do a deep-dive interactive alignment on any specific tier or workflow.
 

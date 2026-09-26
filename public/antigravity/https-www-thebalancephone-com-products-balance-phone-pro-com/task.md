@@ -1,0 +1,7 @@
+- `[x]` Create task list
+- `[x]` Scaffold `index.html` structure (Hero, Features, Simulator, Tiers)
+- `[x]` Write `style.css` (Premium dark mode, glassmorphism, Google Fonts)
+- `[x]` Write `app.js` (Simulator logic for parent dashboard and stretch goals)
+- `[x]` Start local HTTP server for preview (instructions provided)
+- `[x]` Verify interactions and UI
+- `[x]` Create `walkthrough.md`

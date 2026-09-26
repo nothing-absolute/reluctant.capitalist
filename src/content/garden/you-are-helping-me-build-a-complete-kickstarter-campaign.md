@@ -886,7 +886,7 @@ I'll use the `write_to_file` tool to save it as `kickstarter_campaign_draft.md` 
 
 I have compiled all the drafted sections into a single, cohesive document and saved it as an artifact in your directory:
 
-📄 **File Location:** [kickstarter_campaign_draft.md](file:///home/jd/.gemini/antigravity/brain/1a609c70-58d0-41e8-97cc-bcf07be146ec/kickstarter_campaign_draft.md)
+📄 **File Location:** [kickstarter_campaign_draft.md](file://[local path redacted])
 
 This file contains the complete, formatted Markdown structure ready for you to copy directly into the Kickstarter editor or modify as needed. Feel free to open it in your workspace to make local adjustments to the bracketed `[PLACEHOLDERS]` whenever you're ready!
 

@@ -60,7 +60,7 @@ Yes, these parts assemble into the original **1994 theatrical lobby standee for 
 
 An AI-generated sample of a completed 3D theater lobby standee is shown below to illustrate how the flat cardboard components fold, interlock, and project forward into a multi-layered display:
 
-![Assembled Theater Standee Reference](file:///home/jd/.gemini/antigravity/brain/8269ec02-5161-42bb-8462-aee6322bc8d3/assembled_theater_standee_1787963617636.jpg)
+![Assembled Theater Standee Reference](file://[local path redacted])
 
 ---
 

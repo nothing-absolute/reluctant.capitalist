@@ -1,0 +1,4 @@
+- [x] Update `backend/database.py` with SQLite fallback and threading configuration
+- [x] Update `frontend/vite.config.js` with configurable/dynamic proxy target
+- [x] Create simple validation script to check LLaVA model loading and backend environment
+- [x] Document setup steps in a walkthrough

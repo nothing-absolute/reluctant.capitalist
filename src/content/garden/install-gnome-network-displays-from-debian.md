@@ -40,40 +40,40 @@ Let me know if you run into any issues during the installation or if you'd like 
 
 servicemenu.knsrc: An error occurred during the installation process:
 The installation failed with code 1 while attempting to run the command:
-servicemenuinstaller install /home/jd/.local/share/servicemenu-download/kde-services-3.1.0.tar.gz
+servicemenuinstaller install [local path redacted]
 
 The returned output was:
-[servicemenuinstaller]: Trying to run installer/uninstaller "/home/jd/.local/share/servicemenu-download/kde-services-3.1.0.tar.gz-dir/kde-services-3.1.0/install.sh"
-"Failed to run installer script /home/jd/.local/share/servicemenu-download/kde-services-3.1.0.tar.gz-dir/kde-services-3.1.0/install.sh"
+[servicemenuinstaller]: Trying to run installer/uninstaller "[local path redacted]"
+"Failed to run installer script [local path redacted]"
 
 
 **You** · 2026-09-19 11:44
 
 The installation failed with code 1 while attempting to run the command:
-servicemenuinstaller install /home/jd/.local/share/servicemenu-download/Example-configuration-file.tar.gz
+servicemenuinstaller install [local path redacted]
 
 The returned output was:
-[servicemenuinstaller]: Trying to run installer/uninstaller "/home/jd/.local/share/servicemenu-download/Example-configuration-file.tar.gz-dir/kde-services-3.1.0/install.sh"
-"Failed to run installer script /home/jd/.local/share/servicemenu-download/Example-configuration-file.tar.gz-dir/kde-services-3.1.0/install.sh"
+[servicemenuinstaller]: Trying to run installer/uninstaller "[local path redacted]"
+"Failed to run installer script [local path redacted]"
 
 
 **You** · 2026-09-19 11:45
 
 servicemenu.knsrc: An error occurred during the installation process:
 The installation failed with code 1 while attempting to run the command:
-servicemenuinstaller install /home/jd/.local/share/servicemenu-download/Example-configuration-file.tar.gz
+servicemenuinstaller install [local path redacted]
 
 The returned output was:
-"Failed to find an installation script in /home/jd/.local/share/servicemenu-download/Example-configuration-file.tar.gz-dir"
+"Failed to find an installation script in [local path redacted]"
 
 
 **You** · 2026-09-19 11:45
 
 The installation failed with code 1 while attempting to run the command:
-servicemenuinstaller install /home/jd/.local/share/servicemenu-download/Example-configuration-file.tar.gz
+servicemenuinstaller install [local path redacted]
 
 The returned output was:
-"Failed to find an installation script in /home/jd/.local/share/servicemenu-download/Example-configuration-file.tar.gz-dir"
+"Failed to find an installation script in [local path redacted]"
 
 
 **Antigravity** · 2026-09-19 11:45
@@ -85,7 +85,7 @@ Because this is just a configuration file rather than a full service menu packag
 To use this configuration file, you should manually copy it into your user's config directory. You can do this by opening your terminal and running:
 
 ```bash
-cp /home/jd/.local/share/servicemenu-download/Example-configuration-file.tar.gz-dir/reverseimagesearchrc ~/.config/
+cp [local path redacted] ~/.config/
 ```
 
 This will apply the configuration settings (like which search engines to use and the image deletion timeout) to your existing Reverse Image Search service menu installation.

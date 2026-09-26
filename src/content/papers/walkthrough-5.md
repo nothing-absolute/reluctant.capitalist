@@ -42,11 +42,11 @@ Refined the Kickstarter messaging to introduce dedicated Core Developer Freelanc
 
 Verification & Local Testing
 
-The updated landing page is live at [/home/jd/.gemini/antigravity-ide/scratch/commons-landing/index.html](file:///home/jd/.gemini/antigravity-ide/scratch/commons-landing/index.html).
+The updated landing page is live at [[local path redacted]](file://[local path redacted]).
 
 To preview the updated landing page locally, run:
 ```bash
-python3 -m http.server 3456 --directory /home/jd/.gemini/antigravity-ide/scratch/commons-landing
+python3 -m http.server 3456 --directory [local path redacted]
 ``` 
 Then visit **http://localhost:3456** in your browser.
 

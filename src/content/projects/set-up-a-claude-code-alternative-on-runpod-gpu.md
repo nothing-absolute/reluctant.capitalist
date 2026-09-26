@@ -142,12 +142,12 @@ Added main.py to the chat.
 I have put together the complete step-by-step instructions for deploying a private, open-source AI coding assistant on RunPod.
 
 ## What was created
-- **[RunPod Setup Guide](file:///home/jd/.gemini/antigravity/brain/6c553727-5874-47fa-a9b3-ed293325d5e1/runpod_setup_guide.md)**: A detailed guide that provides instructions for deploying `vLLM` on a RunPod GPU instance and setting up the recommended environment variables.
+- **[RunPod Setup Guide](file://[local path redacted])**: A detailed guide that provides instructions for deploying `vLLM` on a RunPod GPU instance and setting up the recommended environment variables.
 - The guide includes configuration parameters to serve `Qwen2.5-Coder-32B-Instruct`, which is an excellent open-weight model for coding tasks.
 - It also includes the necessary terminal commands to install **Aider** locally and configure it to point to your secure RunPod endpoint instead of a commercial API provider.
 
 ## Next Steps
-1. Open the [RunPod Setup Guide](file:///home/jd/.gemini/antigravity/brain/6c553727-5874-47fa-a9b3-ed293325d5e1/runpod_setup_guide.md).
+1. Open the [RunPod Setup Guide](file://[local path redacted]).
 2. Follow **Phase 1** to spin up your GPU instance on RunPod.
 3. Follow **Phase 2** on your local machine to install and configure Aider.
 4. Start coding!
@@ -173,7 +173,7 @@ set up a claude code alternative on runpod gpu
 
 I have put together an implementation plan for creating your own private, open-source alternative to Claude Code running on a RunPod GPU. 
 
-Please review the [Implementation Plan](file:///home/jd/.gemini/antigravity/brain/6c553727-5874-47fa-a9b3-ed293325d5e1/implementation_plan.md) and let me know your answers to the open questions (e.g. which model you prefer, whether you want manual or automated setup, and which CLI tool you want to use). Once you decide, I will proceed with generating the exact configuration or setup scripts for you!
+Please review the [Implementation Plan](file://[local path redacted]) and let me know your answers to the open questions (e.g. which model you prefer, whether you want manual or automated setup, and which CLI tool you want to use). Once you decide, I will proceed with generating the exact configuration or setup scripts for you!
 
 ---
 
@@ -181,14 +181,14 @@ Please review the [Implementation Plan](file:///home/jd/.gemini/antigravity/brai
 
 I have finished preparing the setup instructions!
 
-You can find all the details you need in the [RunPod Setup Guide](file:///home/jd/.gemini/antigravity/brain/6c553727-5874-47fa-a9b3-ed293325d5e1/runpod_setup_guide.md). 
+You can find all the details you need in the [RunPod Setup Guide](file://[local path redacted]). 
 
 This guide will walk you through:
 1. Deploying a `vLLM` pod on RunPod to host **Qwen2.5-Coder-32B-Instruct** (one of the absolute best open-weight coding models available).
 2. Installing **Aider** locally, which gives you a terminal-based pair programming experience very similar to Claude Code.
 3. Hooking Aider up to your private RunPod instance securely.
 
-I've also prepared a [Walkthrough](file:///home/jd/.gemini/antigravity/brain/6c553727-5874-47fa-a9b3-ed293325d5e1/walkthrough.md) summarizing the deliverables.
+I've also prepared a [Walkthrough](file://[local path redacted]) summarizing the deliverables.
 
 Let me know if you run into any issues provisioning the Pod or getting Aider to connect, and we can troubleshoot it together!
 

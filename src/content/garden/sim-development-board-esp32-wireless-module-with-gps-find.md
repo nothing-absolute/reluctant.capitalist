@@ -80,7 +80,7 @@ This document outlines the conceptual industrial design and internal architectur
 
 ## Exterior Concept Rendering
 
-![Tier 1 Rugged Solar Tracker Concept](/home/jd/.gemini/antigravity/brain/b0fa3b8a-7515-4ba6-bd07-499f21d7b9c0/tier1_solar_tracker_concept_1785565125558.jpg)
+![Tier 1 Rugged Solar Tracker Concept]([local path redacted])
 
 ### Key Design Features
 1.  **Solar Lid:** A flush-mounted ~1W 5V solar panel integrated directly into the top casing, providing constant trickle-charging to the internal battery during daylight hours.
@@ -208,7 +208,7 @@ design kickstarter tier format. Starting witha LILYGO option for tier 1, then cu
 
 **Antigravity** · 2026-08-01 05:53
 
-I have designed a Kickstarter tier strategy that leverages both hardware approaches. You can view the full breakdown in the [kickstarter_tier_strategy.md](file:///home/jd/.gemini/antigravity/brain/b0fa3b8a-7515-4ba6-bd07-499f21d7b9c0/kickstarter_tier_strategy.md) artifact.
+I have designed a Kickstarter tier strategy that leverages both hardware approaches. You can view the full breakdown in the [kickstarter_tier_strategy.md](file://[local path redacted]) artifact.
 
 Here is the high-level concept:
 
@@ -229,7 +229,7 @@ make the price estimate as high as possible with a goal of upto 2000 units for t
 
 **Antigravity** · 2026-08-01 06:03
 
-I've updated the [kickstarter_tier_strategy.md](file:///home/jd/.gemini/antigravity/brain/b0fa3b8a-7515-4ba6-bd07-499f21d7b9c0/kickstarter_tier_strategy.md) artifact to push the pricing into a premium bracket and cap Tier 1 at 2,000 units.
+I've updated the [kickstarter_tier_strategy.md](file://[local path redacted]) artifact to push the pricing into a premium bracket and cap Tier 1 at 2,000 units.
 
 To justify these higher margins on the LILYGO hardware, I repositioned Tier 1 as a **"Founders Edition"** ($129 - $149) that includes lifetime software access and early API access. This creates a massive sense of FOMO (Fear Of Missing Out) and justifies the higher price point despite it being a slightly bulkier, off-the-shelf board. 
 
@@ -317,7 +317,7 @@ design a new layout using the LILYGO board, but adding a solar pannel for elimin
 
 **Antigravity** · 2026-08-01 06:14
 
-I've updated the [kickstarter_tier_strategy.md](file:///home/jd/.gemini/antigravity/brain/b0fa3b8a-7515-4ba6-bd07-499f21d7b9c0/kickstarter_tier_strategy.md) artifact with this brilliant new layout!
+I've updated the [kickstarter_tier_strategy.md](file://[local path redacted]) artifact with this brilliant new layout!
 
 Because the **LILYGO T-SIM7000G** natively includes a CN3065 solar charging IC and a 2-pin JST connector specifically designed for a 5V solar panel, this is practically a plug-and-play modification for Tier 1. 
 
@@ -342,7 +342,7 @@ create an industrial design scematic for tier 1
 
 I have put together a conceptual industrial design rendering and an internal layer schematic for the Tier 1 "Infinite Solar Edition". 
 
-You can view the full concept and architectural breakdown in the [tier1_industrial_design.md](file:///home/jd/.gemini/antigravity/brain/b0fa3b8a-7515-4ba6-bd07-499f21d7b9c0/tier1_industrial_design.md) artifact!
+You can view the full concept and architectural breakdown in the [tier1_industrial_design.md](file://[local path redacted]) artifact!
 
 I designed it to look rugged and utilitarian—perfect for mounting on boats, ATVs, or construction equipment. The internal schematic breaks down how you can stack the off-the-shelf LILYGO board, the 18650 battery, and the solar panel into a single cohesive unit without needing to engineer a custom circuit board.
 

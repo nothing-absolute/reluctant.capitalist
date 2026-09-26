@@ -1,5 +1,5 @@
 ---
-title: "Write a comprehensive social media content playbook markdown file to /home/jd/.gemini/antigravity/scratch/barb"
+title: "Write a comprehensive social media content playbook markdown file to [local path redacted]"
 description: "A comprehensive social media content playbook for Barbara's Needlepoint"
 date: "2026-07-24"
 tags: ["social-media","playbook","needlepoint","content-strategy"]
@@ -8,14 +8,14 @@ draft: false
 vault: false
 ---
 
-Write a comprehensive social media content playbook markdown file to /home/jd/.gemini/antigravity/scratch/barbaras-needlepoint/social-media-playbook.md This is for Barbara's Needlepoint - a full-service needlepoint shop in Sioux Falls, SD. They sell hand-painted needlepoint canvases, threads, tools, offer finishing services, and host Zoom classes. Instagram: @barbarasneedlepoint. They need to grow on TikTok, YouTube,
+Write a comprehensive social media content playbook markdown file to [local path redacted] This is for Barbara's Needlepoint - a full-service needlepoint shop in Sioux Falls, SD. They sell hand-painted needlepoint canvases, threads, tools, offer finishing services, and host Zoom classes. Instagram: @barbarasneedlepoint. They need to grow on TikTok, YouTube,
 
 <details>
 <summary>Chat transcript — 2 messages, 2026-07-24 → 2026-07-24</summary>
 
 **You** · 2026-07-24 12:47
 
-Write a comprehensive social media content playbook markdown file to /home/jd/.gemini/antigravity/scratch/barbaras-needlepoint/social-media-playbook.md
+Write a comprehensive social media content playbook markdown file to [local path redacted]
 
 This is for Barbara's Needlepoint - a full-service needlepoint shop in Sioux Falls, SD. They sell hand-painted needlepoint canvases, threads, tools, offer finishing services, and host Zoom classes. Instagram: @barbarasneedlepoint. They need to grow on TikTok, YouTube, and Instagram.
 

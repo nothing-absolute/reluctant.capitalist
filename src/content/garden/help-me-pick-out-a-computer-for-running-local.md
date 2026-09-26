@@ -105,7 +105,7 @@ help me pick out a computer for running local llm on. I am thinking about a Mac 
 
 **Antigravity** · 2026-08-06 05:29
 
-I have put together a comprehensive guide for you to help plan your budget LLM build! I've placed the details in the [llm_server_build_guide.md](file:///home/jd/.gemini/antigravity/brain/fc9af648-4195-40f7-a36a-cb7c211f4643/llm_server_build_guide.md) artifact, which breaks down system choices, GPU recommendations, and a sample build list. 
+I have put together a comprehensive guide for you to help plan your budget LLM build! I've placed the details in the [llm_server_build_guide.md](file://[local path redacted]) artifact, which breaks down system choices, GPU recommendations, and a sample build list. 
 
 Here are the key takeaways from the research:
 

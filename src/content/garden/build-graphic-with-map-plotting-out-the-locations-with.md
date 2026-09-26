@@ -743,7 +743,7 @@ Base = Pacific Northwest. Show the route as a line connecting stops IN THIS ORDE
 
 I have created a fully interactive, custom map visualization for your RV route based on all your requirements.
 
-You can view the interactive map here: [route_map.html](file:///home/jd/.gemini/antigravity/brain/4a1fc688-deb4-48d8-9141-bbb0b3d7308f/route_map.html) (Click to open it in your browser).
+You can view the interactive map here: [route_map.html](file://[local path redacted]) (Click to open it in your browser).
 
 Here are the features included in the graphic:
 * **Interactive Map:** Built using D3.js and TopoJSON. You can drag to pan around and scroll to zoom in/out of the map. It starts with a zoomed view focused heavily on the Western US.

@@ -13,7 +13,7 @@ I have two versions of the Helium browser GUI installed. I can't move tabs betwe
 
 This is an opencode working session — 31 messages.
 
-When: 2026-09-19 · Working directory: /home/jd/Prototypes
+When: 2026-09-19 · Working directory: [local path redacted]
 
 Opened with:
 > do I have two versions on Helium browser GUI installed? I can't move tabs from on window to the other and extensions are not working correctly for on of the windows

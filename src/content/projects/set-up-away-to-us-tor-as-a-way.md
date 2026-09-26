@@ -41,7 +41,7 @@ This method uses a small JavaScript file that tells Firefox exactly when to use 
 2. **Configure Firefox**:
    * Open Firefox **Settings** -> search for `proxy` -> click **Settings...** under *Network Settings*.
    * Select **Automatic proxy configuration URL**.
-   * Enter: `file:///home/jd/.tor-proxy.pac` (or the absolute path where you save the file).
+   * Enter: `file://[local path redacted]` (or the absolute path where you save the file).
    * Check **Proxy DNS when using SOCKS v5** (important to prevent DNS leaks).
    * Click **OK**.
    * *Note on Firefox security:* If Firefox blocks loading the local PAC file, go to `about:config`, search for `security.fileuri.strict_origin_policy`, set it to `false`, and restart Firefox. Alternatively, you can use a base64-encoded `data:` URI in the settings to avoid file-system restriction issues entirely.
@@ -98,8 +98,8 @@ We have successfully created a local PAC (Proxy Auto-Configuration) file templat
 
 ## Files Created
 
-* **PAC File**: [/home/jd/.../scratch/proxy.pac](file:///home/jd/.gemini/antigravity/brain/7599b5ab-1520-447a-9350-e507991a1f8d/scratch/proxy.pac)
-* **Management Script**: [/home/jd/.../scratch/manage_proxy.py](file:///home/jd/.gemini/antigravity/brain/7599b5ab-1520-447a-9350-e507991a1f8d/scratch/manage_proxy.py)
+* **PAC File**: [[local path redacted]](file://[local path redacted])
+* **Management Script**: [[local path redacted]](file://[local path redacted])
 
 ---
 
@@ -112,7 +112,7 @@ Choose **one** of the two approaches below to configure Firefox.
 #### Step 1.1: Edit Your Domains
 You can add your desired domain using the python management script:
 ```bash
-python3 /home/jd/.gemini/antigravity/brain/7599b5ab-1520-447a-9350-e507991a1f8d/scratch/manage_proxy.py add yourdomain.com
+python3 [local path redacted] add yourdomain.com
 ```
 *(Optionally you can also add wildcards like `*.yourdomain.com`)*
 
@@ -128,7 +128,7 @@ Due to security restrictions, modern Firefox might block PAC files loaded from t
 3. Select **Automatic proxy configuration URL**.
 4. Paste the path to the created PAC file:
    ```text
-   file:///home/jd/.gemini/antigravity/brain/7599b5ab-1520-447a-9350-e507991a1f8d/scratch/proxy.pac
+   file://[local path redacted]
    ```
 5. Check **Proxy DNS when using SOCKS v5** (this is vital to prevent your DNS requests from leaking your IP).
 6. Click **OK**.
@@ -195,7 +195,7 @@ set up away to us tor as a way to hide IP on firefox for a given domain
 
 I have created an implementation plan detailing the two main approaches for routing Firefox traffic through Tor for a specific domain: using a native **Proxy Auto-Configuration (PAC) file** or using the **FoxyProxy Standard extension**. 
 
-Please review the plan in [implementation_plan.md](file:///home/jd/.gemini/antigravity/brain/7599b5ab-1520-447a-9350-e507991a1f8d/implementation_plan.md) and let me know how you would like to proceed or if you have any questions/preferences!
+Please review the plan in [implementation_plan.md](file://[local path redacted]) and let me know how you would like to proceed or if you have any questions/preferences!
 
 ---
 
@@ -205,11 +205,11 @@ I have successfully completed the setup for routing Firefox traffic through Tor 
 
 ### Summary of Completed Work
 1. **Configured Tor Connection**: Verified that Tor is installed and active on `127.0.0.1:9050`.
-2. **Created PAC File Template**: Created [proxy.pac](file:///home/jd/.gemini/antigravity/brain/7599b5ab-1520-447a-9350-e507991a1f8d/scratch/proxy.pac) which contains the routing rules for specific domains.
-3. **Created Domain Management Script**: Provided a Python command-line utility [manage_proxy.py](file:///home/jd/.gemini/antigravity/brain/7599b5ab-1520-447a-9350-e507991a1f8d/scratch/manage_proxy.py) to easily add or remove domains from the PAC file.
-4. **Wrote Complete Setup Guide**: Documented step-by-step instructions for Firefox settings (`about:config` updates, proxy settings, and an alternative FoxyProxy route) in the [walkthrough.md](file:///home/jd/.gemini/antigravity/brain/7599b5ab-1520-447a-9350-e507991a1f8d/walkthrough.md) artifact.
+2. **Created PAC File Template**: Created [proxy.pac](file://[local path redacted]) which contains the routing rules for specific domains.
+3. **Created Domain Management Script**: Provided a Python command-line utility [manage_proxy.py](file://[local path redacted]) to easily add or remove domains from the PAC file.
+4. **Wrote Complete Setup Guide**: Documented step-by-step instructions for Firefox settings (`about:config` updates, proxy settings, and an alternative FoxyProxy route) in the [walkthrough.md](file://[local path redacted]) artifact.
 
-Please review the [walkthrough.md](file:///home/jd/.gemini/antigravity/brain/7599b5ab-1520-447a-9350-e507991a1f8d/walkthrough.md) file to finish the Firefox setup and verify that it is working as expected.
+Please review the [walkthrough.md](file://[local path redacted]) file to finish the Firefox setup and verify that it is working as expected.
 
 </details>
 

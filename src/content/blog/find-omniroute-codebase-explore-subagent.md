@@ -13,11 +13,11 @@ quality: 4
 
 **What this is:** an opencode working session — 22 messages.
 
-**When:** 2026-08-31 · **Working directory:** /home/jd/Prototypes
+**When:** 2026-08-31 · **Working directory:** [local path redacted]
 
 **Opened with:**
 
-> Search the workspace /home/jd/Prototypes and /home/jd for anything related to "OmniRoute" or "omniroute" or "omni-route". Look for:
+> Search the workspace [local path redacted] and [local path redacted] for anything related to "OmniRoute" or "omniroute" or "omni-route". Look for:
 > 1. Any directories or files with "omniroute" or "omni-route" in the name
 > 2. Any code files referencing OmniRoute
 > 3. Any configuration files (JSON, YAML, etc.) mentioning OmniRoute

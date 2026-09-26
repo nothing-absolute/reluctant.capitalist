@@ -1,0 +1,21 @@
+# Tasks: OpenLooper Kickstarter Setup & Integration
+
+- `[x]` 1. Create task list and initialize workspace tracking
+- `[x]` 2. Build RP2040 controller firmware: `firmware/pico-control/pico-control.ino` (matrix/debounce/WS2812B/expression pedal)
+- `[x]` 3. Create hardware reference notes & schematics: `hardware/design_notes.md` (Impedance matching, generic SBC pinouts)
+- `[x]` 4. Build SBC-agnostic system configuration scripts:
+  - `[x]` 4.1 `scripts/setup.sh` (SBC-agnostic package provisioning)
+  - `[x]` 4.2 `scripts/start-jack.sh` (Tuned low-latency JACK script with dynamic interface arguments)
+  - `[x]` 4.3 `scripts/setup-hotspot.sh` (NetworkManager-based Wi-Fi AP hotspot + Avahi mDNS setup)
+- `[x]` 5. Implement hybrid backend & OSC bridge:
+  - `[x]` 5.1 Update `backend/package.json` (add dependencies)
+  - `[x]` 5.2 Refactor `backend/server.js` (implement CLI args, simulation fallback, node-osc/osc-js integration, Serial compatibility)
+- `[x]` 6. Verify and compile:
+  - `[x]` 6.1 Run test script to verify simulation protocol compatibility
+  - `[x]` 6.2 Check scripts and configurations for SBC/OS portability
+  - `[x]` 6.3 Verify backend linter (Clean run, syntax is standard ECMAScript 2021)
+- `[x]` 7. Write completion walkthrough documentation: `walkthrough.md`
+- `[x]` 8. Generate Kickstarter project financial graphic and report: `kickstarter_financials.md`
+- `[x]` 9. Analyze MOD Audio hardware (MOD Dwarf) and document design improvements: `mod_audio_hardware_ideas.md`
+- `[x]` 10. Generate industrial design mockup rendering and sheet: `pedal_hardware_mockup.md`
+- `[x]` 11. Generate hardware bulk cost breakdown and Gantt scaling chart: `hardware_bulk_costs.md`

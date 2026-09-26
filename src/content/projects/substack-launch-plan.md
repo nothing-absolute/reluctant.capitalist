@@ -13,7 +13,7 @@ stage: "idea"
 
 ### Substack Launch Plan — A Plain of Jars
 
-Status: **BUILT 2026-09-19.** Working files live at `/home/jd/Prototypes/Graphic Novel/substack-launch/` (this note is the vault mirror + pointer).
+Status: **BUILT 2026-09-19.** Working files live at `[local path redacted] Novel/substack-launch/` (this note is the vault mirror + pointer).
 
 #### The strategy in one paragraph
 

@@ -18,35 +18,35 @@ Here are the custom generated high-contrast, cyberpunk-themed thumbnails for all
 ## Video 1: Walled Garden & Tech CEOs
 > **Concept:** Tech giants stealing human labor/artwork, walled gardens, subscriptions vs. FOSS.
 > **Visual:** Artists locked out of a digital garden by a giant holographic keyhole while tech CEOs harvest art inside.
-![Video 1 Thumbnail](file:///home/jd/.gemini/antigravity/brain/fb00c89d-1490-4d00-be01-29cb76bff4b6/video1_walled_garden_thumbnail_1787548499743.jpg)
+![Video 1 Thumbnail](file://[local path redacted])
 
 ---
 
 ## Video 2: Planned Obsolescence & The E-Waste Trap
 > **Concept:** Expensive devices breaking, burning Cybertruck, ticking cash register.
 > **Visual:** A smashed screen displaying a low-battery alert with a burning electric truck in the background and a running total debt overlay.
-![Video 2 Thumbnail](file:///home/jd/.gemini/antigravity/brain/fb00c89d-1490-4d00-be01-29cb76bff4b6/video2_planned_obsolescence_thumbnail_1787548521872.jpg)
+![Video 2 Thumbnail](file://[local path redacted])
 
 ---
 
 ## Video 3: The Algorithm's Mind Control
 > **Concept:** Doomscrolling exhaustion, brain puppet strings, tactical status HUD.
 > **Visual:** Glowing neural pathways manipulated like a puppet next to an exhausted user illuminated by blue screen glow under a cognitive harvest HUD.
-![Video 3 Thumbnail](file:///home/jd/.gemini/antigravity/brain/fb00c89d-1490-4d00-be01-29cb76bff4b6/algorithm_mind_control_thumbnail_1787543233006.jpg)
+![Video 3 Thumbnail](file://[local path redacted])
 
 ---
 
 ## Video 4: The Subscription Rent Trap
 > **Concept:** Lockouts on everyday items, floating $10 bill, accountability checklist.
 > **Visual:** Steer wheel, fridge, and folders locked behind monthly subscription padlocks with a floating $10 bill and a checklist panel.
-![Video 4 Thumbnail](file:///home/jd/.gemini/antigravity/brain/fb00c89d-1490-4d00-be01-29cb76bff4b6/video4_subscription_trap_thumbnail_1787548537933.jpg)
+![Video 4 Thumbnail](file://[local path redacted])
 
 ---
 
 ## Video 5: The Smart Home Surveillance State
 > **Concept:** Smart speakers spying, glitching CIA crest, barcode scanning face.
 > **Visual:** A glowing smart speaker emitting green waves under a glitching intelligence agency seal next to a human face with a scanned barcode.
-![Video 5 Thumbnail](file:///home/jd/.gemini/antigravity/brain/fb00c89d-1490-4d00-be01-29cb76bff4b6/video5_smart_home_surveillance_thumbnail_1787548555936.jpg)
+![Video 5 Thumbnail](file://[local path redacted])
 
 ## Assets
 ![algorithm_mind_control_thumbnail_1787543233006](/antigravity/create-a-youtube-thumbnail-for-this-video-3-the/algorithm_mind_control_thumbnail_1787543233006.jpg)
@@ -102,7 +102,7 @@ where is it?
 
 I have created a preview document containing the generated thumbnail. You can view it here:
 
-[thumbnail_preview.md](file:///home/jd/.gemini/antigravity/brain/fb00c89d-1490-4d00-be01-29cb76bff4b6/thumbnail_preview.md)
+[thumbnail_preview.md](file://[local path redacted])
 
 ---
 
@@ -118,13 +118,13 @@ I have generated all 5 individual YouTube thumbnails matching the core themes an
 
 I resolved a system disk space limitation by freeing up temporary package cache space, and successfully generated all five images. You can view the full gallery with all thumbnails side-by-side inside the preview document:
 
-[thumbnail_preview.md](file:///home/jd/.gemini/antigravity/brain/fb00c89d-1490-4d00-be01-29cb76bff4b6/thumbnail_preview.md)
+[thumbnail_preview.md](file://[local path redacted])
 
 ---
 
 **Antigravity** · 2026-08-24 05:16
 
-I have processed the system diagnostic results of the background disk space scan (which successfully located the largest files, such as `/swapfile` at 17G and `/home/jd/Downloads/omarchy-4.0.0.iso` at 5.9G). 
+I have processed the system diagnostic results of the background disk space scan (which successfully located the largest files, such as `/swapfile` at 17G and `[local path redacted]` at 5.9G). 
 
 Since we have already successfully freed up space and completed all 5 thumbnails, no further cleanup is necessary. Let me know if you would like any modifications to the designs!
 

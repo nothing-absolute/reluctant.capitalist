@@ -11,6 +11,6 @@ quality: 3
 
 ## Lion King Standee AI Video Generation Plan
 
-This is an opencode working session from 2026-08-31. The working directory is /home/jd/Prototypes. The session was recovered from previous messages.
+This is an opencode working session from 2026-08-31. The working directory is [local path redacted] The session was recovered from previous messages.
 
 The goal of this session is to plan for AI video generation of a Lion King standee.

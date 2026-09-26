@@ -11,7 +11,7 @@ quality: 3
 
 This is an opencode working session — 165 messages.
 
-When: 2026-09-04 · Working directory: /home/jd/Prototypes
+When: 2026-09-04 · Working directory: [local path redacted]
 
 Opened with:
 

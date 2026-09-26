@@ -50,7 +50,7 @@ Every tool has a grain. What it makes easy becomes what you make, and what it ma
 - [Simulating Hardware](/fragments/simulating-hardware/) — I'm integrating a simulated 'Virtual Pedal' panel within the web interface to simulate hardware interaction with backend for looper state management and track parameters control.
 - [Calculating Monthly Budgets](/fragments/calculating-monthly-budgets/) — I need to sum costs based on provided dates and amounts to get monthly expense totals.
 - [Module Comparison Table Verdict](/fragments/module-comparison-table-verdict/) — The ESP32-S3 series meets all requirements for my project even though it faces some power management issues.
-- [Defining Project Directory Structure](/fragments/defining-project-directory-structure/) — I initialize my project directory within /home/jd/.gemini/antigravity/scratch/pillboy-style-video by setting up src/scenes, src/components, and public/
+- [Defining Project Directory Structure](/fragments/defining-project-directory-structure/) — I initialize my project directory within [local path redacted] by setting up src/scenes, src/components, and public/
 - [Assessing Pi's Capabilities](/fragments/assessing-pis-capabilities/) — I found the Raspberry Pi 3 B+ suitable for basic Home Assistant and Docker tasks with Portainer but limited by USB 2.0 speeds when used as a file server.
 - [Refining Database Logic](/fragments/refining-database-logic/) — I'm reviewing the existing SQLAlchemy code in database.py to ensure compatibility with both PostgreSQL and SQLite databases by focusing on necessary connect_args for SQLite.
 

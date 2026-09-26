@@ -13,7 +13,7 @@ quality: 3
 
 This is an opencode working session — 9 messages.
 
-When: 2026-09-19 · Working directory: /home/jd/Prototypes
+When: 2026-09-19 · Working directory: [local path redacted]
 
 Opened with:
 > A redesign of social media with a decentralized identity. A blog or webpage. The user decides what to share completely. My page right now would be a way to let people get to know me even though I don't want to share for likes or engagement. Right now it would focus on an update of projects and ideas, in a non linear fashion, with great UX/UI set by the user. I would have business ideas and projects, with a funnel for help or funding.

@@ -37,7 +37,7 @@ This plan covers updates across:
 
 ### 1. Web & WebSocket Backend
 
-#### [MODIFY] [server.js](file:///home/jd/.gemini/antigravity/scratch/wireless-looper/backend/server.js)
+#### [MODIFY] [server.js](file://[local path redacted])
 * Change `looperState.tracks` array length from 6 to 4.
 * Adjust serial / OSC message bindings to restrict to 4 tracks.
 
@@ -45,16 +45,16 @@ This plan covers updates across:
 
 ### 2. Frontend Simulator UI
 
-#### [MODIFY] [index.html](file:///home/jd/.gemini/antigravity/scratch/wireless-looper/backend/public/index.html)
+#### [MODIFY] [index.html](file://[local path redacted])
 * Reduce the physical footswitch simulation buttons from 6 to 4.
 * Add an HTML container `#hardware-screen` representing the physical IPS screen on the pedal case.
 * Change setlist presets text to refer to 4 tracks.
 
-#### [MODIFY] [style.css](file:///home/jd/.gemini/antigravity/scratch/wireless-looper/backend/public/style.css)
+#### [MODIFY] [style.css](file://[local path redacted])
 * Update `.footswitches-grid` to a 2x2 grid layout (perfect balance for 4 tracks).
 * Add styling for the `.pedal-screen` representing the on-device ST7789 display (glow effect, monospace font, responsive grid for 4 tracks, visual progress bars).
 
-#### [MODIFY] [app.js](file:///home/jd/.gemini/antigravity/scratch/wireless-looper/backend/public/app.js)
+#### [MODIFY] [app.js](file://[local path redacted])
 * Limit track elements queries and click listeners to 4.
 * Implement UI logic to update the on-device screen elements:
   * Track states (REC, PLAY, DUB, PAUSED, EMPTY) with state-specific colors.
@@ -65,7 +65,7 @@ This plan covers updates across:
 
 ### 3. Controller MCU Firmware
 
-#### [MODIFY] [pico-control.ino](file:///home/jd/.gemini/antigravity/scratch/wireless-looper/firmware/pico-control/pico-control.ino)
+#### [MODIFY] [pico-control.ino](file://[local path redacted])
 * Change `NUM_TRACKS` to 4.
 * Update `FOOTSWITCH_PINS` to include only 4 GPIO pins (`2, 3, 4, 5`).
 * Update LED pixel mapping (4 LED rings instead of 6, totaling 96 addressable LEDs).
@@ -74,12 +74,12 @@ This plan covers updates across:
 
 ### 4. Hardware Documentation & Bill of Materials
 
-#### [MODIFY] [bom.csv](file:///home/jd/.gemini/antigravity/scratch/wireless-looper/hardware/bom.csv)
+#### [MODIFY] [bom.csv](file://[local path redacted])
 * Remove 2x footswitches and 2x LED rings from the count.
 * Add the **ST7789 240x240 SPI TFT Screen** to the list of parts.
 * Recalculate single unit and bulk cost estimates.
 
-#### [MODIFY] [design_notes.md](file:///home/jd/.gemini/antigravity/scratch/wireless-looper/hardware/design_notes.md)
+#### [MODIFY] [design_notes.md](file://[local path redacted])
 * Update architecture diagram showing the host SBC driving the ST7789 LCD over SPI, while the RP2040 Pico continues managing the footswitches/LEDs over USB Serial.
 * Document the wiring pinout between the Raspberry Pi / SBC and the ST7789 SPI screen.
 * Adjust Pico GPIO pinout table to reflect 4 tracks.
@@ -88,7 +88,7 @@ This plan covers updates across:
 
 ### 5. Kickstarter Campaign Asset
 
-#### [NEW] [kickstarter_campaign.md](file:///home/jd/.gemini/antigravity/scratch/wireless-looper/kickstarter_campaign.md)
+#### [NEW] [kickstarter_campaign.md](file://[local path redacted])
 * Write a rich Kickstarter campaign page blueprint, detailing the product value proposition, hardware/software specifications, pledge tiers (PCB-only, DIY maker kits, fully built pedals), funding goals, and manufacturing plan.
 
 ---
@@ -280,31 +280,31 @@ Here is a summary of the achievements and changes:
 ## 🛠️ Changes Implemented
 
 ### 1. Web & WebSocket Backend
-* Modified [server.js](file:///home/jd/.gemini/antigravity/scratch/wireless-looper/backend/server.js) to scale down track processing arrays and messages from 6 tracks to 4 tracks.
+* Modified [server.js](file://[local path redacted]) to scale down track processing arrays and messages from 6 tracks to 4 tracks.
 
 ### 2. Frontend Casing Display & Footswitches Grid
-* Modified [index.html](file:///home/jd/.gemini/antigravity/scratch/wireless-looper/backend/public/index.html) to:
+* Modified [index.html](file://[local path redacted]) to:
   * Downsize the virtual physical footswitches grid from 6 stomp buttons to 4.
   * Integrate an HTML structure for the new simulated on-device screen `#hardware-screen` directly on the pedal chassis.
   * Update preset loading data descriptors.
-* Updated [style.css](file:///home/jd/.gemini/antigravity/scratch/wireless-looper/backend/public/style.css) to style the display case with a glass-glare dark screen design, formatting the 4-track statuses, playhead progress bars, volume meters, and BPM reading.
-* Updated [app.js](file:///home/jd/.gemini/antigravity/scratch/wireless-looper/backend/public/app.js) to bind 4-track structures and hook WebSocket messages up to dynamically update the on-device LCD screen elements (timers, states, progress widths, and global parameters).
+* Updated [style.css](file://[local path redacted]) to style the display case with a glass-glare dark screen design, formatting the 4-track statuses, playhead progress bars, volume meters, and BPM reading.
+* Updated [app.js](file://[local path redacted]) to bind 4-track structures and hook WebSocket messages up to dynamically update the on-device LCD screen elements (timers, states, progress widths, and global parameters).
 
 ### 3. Controller MCU Firmware
-* Updated [pico-control.ino](file:///home/jd/.gemini/antigravity/scratch/wireless-looper/firmware/pico-control/pico-control.ino) to reduce the tracks constants to 4, update GPIO pin arrays, and adjust NeoPixel LED rings count to 4 (96 total addressable LEDs).
+* Updated [pico-control.ino](file://[local path redacted]) to reduce the tracks constants to 4, update GPIO pin arrays, and adjust NeoPixel LED rings count to 4 (96 total addressable LEDs).
 
 ### 4. Hardware Documentation
-* Updated [design_notes.md](file:///home/jd/.gemini/antigravity/scratch/wireless-looper/hardware/design_notes.md) to add section 3 mapping out the SPI bus wiring connections (SCK, MOSI, CS, DC, RST, Blk) between the ST7789 display and the host SBC, as well as updating the Pico GPIO layout table.
-* Updated [bom.csv](file:///home/jd/.gemini/antigravity/scratch/wireless-looper/hardware/bom.csv) to add the ST7789 screen item and recalculate estimated unit and bulk costs.
+* Updated [design_notes.md](file://[local path redacted]) to add section 3 mapping out the SPI bus wiring connections (SCK, MOSI, CS, DC, RST, Blk) between the ST7789 display and the host SBC, as well as updating the Pico GPIO layout table.
+* Updated [bom.csv](file://[local path redacted]) to add the ST7789 screen item and recalculate estimated unit and bulk costs.
 
 ### 5. Kickstarter Campaign Blueprint
-* Created [kickstarter_campaign.md](file:///home/jd/.gemini/antigravity/scratch/wireless-looper/kickstarter_campaign.md) containing the complete campaign pitch copy, specifications, pledge tiers (PCB-only, DIY kits, fully built pedals), Gantt project roadmap, and project risks.
+* Created [kickstarter_campaign.md](file://[local path redacted]) containing the complete campaign pitch copy, specifications, pledge tiers (PCB-only, DIY kits, fully built pedals), Gantt project roadmap, and project risks.
 
 ---
 
 ## 🧪 Verification & Test Results
 
-We updated the verification suite [test-client.js](file:///home/jd/.gemini/antigravity/scratch/wireless-looper/backend/test-client.js) to resolve race conditions and check for the new 4-track schema.
+We updated the verification suite [test-client.js](file://[local path redacted]) to resolve race conditions and check for the new 4-track schema.
 
 Running the automated test suite against a clean looper server yields a 100% pass rate:
 ```
@@ -353,13 +353,13 @@ The looper simulation server has been restarted on the standard port `3000` so y
 I have successfully executed the implementation plan and pivoted the OpenLooper project into a 4-track display-driven design. 
 
 Here is a summary of the completed work:
-* **Backend**: Updated [server.js](file:///home/jd/.gemini/antigravity/scratch/wireless-looper/backend/server.js) to support the 4-track schema.
-* **Frontend**: Redesigned the physical casing simulator in [index.html](file:///home/jd/.gemini/antigravity/scratch/wireless-looper/backend/public/index.html) and [style.css](file:///home/jd/.gemini/antigravity/scratch/wireless-looper/backend/public/style.css) to feature a 2x2 footswitches grid and a live virtual LCD screen, with dynamic updates bound in [app.js](file:///home/jd/.gemini/antigravity/scratch/wireless-looper/backend/public/app.js).
-* **Firmware**: Configured 4 tracks and pin mappings in [pico-control.ino](file:///home/jd/.gemini/antigravity/scratch/wireless-looper/firmware/pico-control/pico-control.ino).
-* **Hardware**: Updated [design_notes.md](file:///home/jd/.gemini/antigravity/scratch/wireless-looper/hardware/design_notes.md) to document the ST7789 SPI LCD pinout and [bom.csv](file:///home/jd/.gemini/antigravity/scratch/wireless-looper/hardware/bom.csv) with component pricing adjustments.
-* **Kickstarter Asset**: Authored the campaign pitch, spec sheet, and reward roadmap in [kickstarter_campaign.md](file:///home/jd/.gemini/antigravity/scratch/wireless-looper/kickstarter_campaign.md).
+* **Backend**: Updated [server.js](file://[local path redacted]) to support the 4-track schema.
+* **Frontend**: Redesigned the physical casing simulator in [index.html](file://[local path redacted]) and [style.css](file://[local path redacted]) to feature a 2x2 footswitches grid and a live virtual LCD screen, with dynamic updates bound in [app.js](file://[local path redacted]).
+* **Firmware**: Configured 4 tracks and pin mappings in [pico-control.ino](file://[local path redacted]).
+* **Hardware**: Updated [design_notes.md](file://[local path redacted]) to document the ST7789 SPI LCD pinout and [bom.csv](file://[local path redacted]) with component pricing adjustments.
+* **Kickstarter Asset**: Authored the campaign pitch, spec sheet, and reward roadmap in [kickstarter_campaign.md](file://[local path redacted]).
 
-For full details of the changes and test results, please refer to the [walkthrough.md](file:///home/jd/.gemini/antigravity/brain/ceabce17-c09c-4849-83bd-4247d600ee3c/walkthrough.md) and checkout the task list at [task.md](file:///home/jd/.gemini/antigravity/brain/ceabce17-c09c-4849-83bd-4247d600ee3c/task.md). The local simulator is now running at http://localhost:3000 where you can see the new 2x2 physical grid and on-device screen in action!
+For full details of the changes and test results, please refer to the [walkthrough.md](file://[local path redacted]) and checkout the task list at [task.md](file://[local path redacted]). The local simulator is now running at http://localhost:3000 where you can see the new 2x2 physical grid and on-device screen in action!
 
 ---
 
@@ -391,7 +391,7 @@ how about an android tablet set up with Linux OS that best works with touch disp
 
 An Android/Linux tablet running headless Sooperlooper combined with a USB MIDI foot controller on the floor and our local touch dashboard is an exceptional, highly portable setup. 
 
-I have written a detailed setup blueprint in [tablet_looper_setup.md](file:///home/jd/.gemini/antigravity/brain/ceabce17-c09c-4849-83bd-4247d600ee3c/tablet_looper_setup.md) covering this architecture. Here is a brief summary of how it works:
+I have written a detailed setup blueprint in [tablet_looper_setup.md](file://[local path redacted]) covering this architecture. Here is a brief summary of how it works:
 
 1. **Operating System & Shell**:
    * **PineTab 2** or a Linux-native mobile distro (like postmarketOS) is recommended over standard Android to bypass Android's audio drivers.

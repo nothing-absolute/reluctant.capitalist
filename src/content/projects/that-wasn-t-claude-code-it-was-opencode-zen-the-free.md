@@ -483,7 +483,7 @@ This is the Rescue Tool section of the site taken to its full conclusion. Not an
 
 ### 3. It's the Mirror Held Up to Dad's Pipeline
 
-The story bible's [Dad pipeline diagram](file:///home/jd/.gemini/antigravity/brain/abf2de62-6e2a-48fb-80a7-6dacc23d03b4/story_bible_addendum_two_fields.md) maps the installation sequence: self-help → NLP → MLM → insurance → prosperity gospel → think tanks. The MLM Truth project is JD's *response* to that pipeline — not an argument against his father, but a **tool that makes the extraction visible**.
+The story bible's [Dad pipeline diagram](file://[local path redacted]) maps the installation sequence: self-help → NLP → MLM → insurance → prosperity gospel → think tanks. The MLM Truth project is JD's *response* to that pipeline — not an argument against his father, but a **tool that makes the extraction visible**.
 
 The graphic novel can show this arc:
 
@@ -553,8 +553,8 @@ Two panels, separated by 25 years of story. Panel 1 (Act One): Young JD at a bul
 
 This addendum connects to:
 
-- **[Story Bible v1.0](file:///home/jd/.gemini/antigravity/brain/abf2de62-6e2a-48fb-80a7-6dacc23d03b4/a_plain_of_jars_story_bible.md)** — The Dad thread, the information-as-survival theme, the culture-as-transmission theme
-- **[Two Fields / Final Boss Addendum](file:///home/jd/.gemini/antigravity/brain/abf2de62-6e2a-48fb-80a7-6dacc23d03b4/story_bible_addendum_two_fields.md)** — The dark/light duality, the pipeline diagram, the PCC economics arc, the "same model of human, different inputs" thesis
+- **[Story Bible v1.0](file://[local path redacted])** — The Dad thread, the information-as-survival theme, the culture-as-transmission theme
+- **[Two Fields / Final Boss Addendum](file://[local path redacted])** — The dark/light duality, the pipeline diagram, the PCC economics arc, the "same model of human, different inputs" thesis
 
 **Where it sits in the narrative:**
 The MLM Truth project is an Act Three element — the proof that JD arrived somewhere. Not a destination. A tool. The kid who read Erowid at 13 to understand consciousness became the man who built a free interactive data tool at 40 to help his family see through the machine that captured his father. That arc is the backbone of the story.

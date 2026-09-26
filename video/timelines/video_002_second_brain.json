@@ -1,0 +1,193 @@
+{
+  "video_id": "video_002_second_brain",
+  "title": "How A Mess Becomes A Map",
+  "resolution": "1920x1080",
+  "fps": 30,
+  "tts_voice_profile": "narrator",
+  "timeline": [
+    {
+      "sequence": 1,
+      "tts_dialogue": "This started as five hundred and one files that did not know they were related to each other. Here is what happened to them.",
+      "visual_asset_type": "image",
+      "visual_asset_path": "assets/sb_title.png",
+      "on_screen_text": "501 FILES. ONE BRAIN.",
+      "text_overlay": false
+    },
+    {
+      "sequence": 2,
+      "tts_dialogue": "Three hundred and eleven attachments, dropped in with names like twenty-fourteen dot pdf, and screenshots named after the second they were taken. The longest filename runs a hundred and forty-eight characters. Nobody curates a drop folder by hand. Nobody can.",
+      "visual_asset_type": "image",
+      "visual_asset_path": "assets/sb_attachments.png",
+      "on_screen_text": "311 ATTACHMENTS, NO NAMES",
+      "text_overlay": false
+    },
+    {
+      "sequence": 3,
+      "tts_dialogue": "Then the daily notes. Capture sessions that run from eight in the evening past ten, appended in whatever order the ideas arrived. Twenty twelve. Twenty forty-five. Twenty-one hundred. Then twenty-five, out of order, because the thought about the video channel came after the thought about the revenue. Nobody reads that again on purpose.",
+      "visual_asset_type": "image",
+      "visual_asset_path": "assets/sb_braindump.png",
+      "on_screen_text": "CAPTURE SESSIONS, OUT OF ORDER",
+      "text_overlay": false
+    },
+    {
+      "sequence": 4,
+      "tts_dialogue": "And the other input nobody planned for. A hundred and forty-one distinct conversations with an AI agent, each one full of real thinking buried inside real work.",
+      "visual_asset_type": "image",
+      "visual_asset_path": "assets/sb_sources.png",
+      "on_screen_text": "FOUR KINDS OF INPUT",
+      "text_overlay": false
+    },
+    {
+      "sequence": 5,
+      "tts_dialogue": "Four kinds of input. Zero overlap. A PDF about tax returns, a midnight thought about MIDI controllers, a chat log about a boat. Nothing pointed at anything else. This is the mess.",
+      "visual_asset_type": "image",
+      "visual_asset_path": "assets/sb_disconnected.png",
+      "on_screen_text": "NOTHING POINTS ANYWHERE",
+      "text_overlay": false
+    },
+    {
+      "sequence": 6,
+      "tts_dialogue": "So it got formatted. Six stages, in order, every single time. Snapshot. Ingest. Classify. Promote. Polish. Stage. And that last gate is a human, because it is the one a machine is not allowed to pass on its own.",
+      "visual_asset_type": "image",
+      "visual_asset_path": "assets/sb_pipeline.png",
+      "on_screen_text": "SNAPSHOT / INGEST / CLASSIFY / PROMOTE / POLISH / STAGE",
+      "text_overlay": false
+    },
+    {
+      "sequence": 7,
+      "tts_dialogue": "Then the unglamorous part. Deterministic cleanup. Empty frontmatter that used to parse as three dashes. Template variables that never got filled in. Wiki links collapsed. Headers demoted. Seven dead links found, seven repaired.",
+      "visual_asset_type": "image",
+      "visual_asset_path": "assets/sb_normalize.png",
+      "on_screen_text": "CLEAN IT DETERMINISTICALLY",
+      "text_overlay": false
+    },
+    {
+      "sequence": 8,
+      "tts_dialogue": "Then the machine tags it. A small local model, not a big one, re-read two hundred and thirty-eight notes. Six hundred and twenty-five distinct tags came out the other side, and it was allowed to invent tags nobody had seeded, so an old note could be pulled into a view that did not exist yet.",
+      "visual_asset_type": "image",
+      "visual_asset_path": "assets/sb_tags.png",
+      "on_screen_text": "625 TAGS, MODEL-INVENTED",
+      "text_overlay": false
+    },
+    {
+      "sequence": 9,
+      "tts_dialogue": "And then the part that makes it a system instead of a pile. The dashboard contains no file lists at all. It is a hundred percent queries. Folders are where a note lives. Tags are what surface it.",
+      "visual_asset_type": "image",
+      "visual_asset_path": "assets/sb_dashboard.png",
+      "on_screen_text": "THE DASHBOARD IS 100% QUERIES",
+      "text_overlay": false
+    },
+    {
+      "sequence": 10,
+      "tts_dialogue": "Here is the part I would argue matters more than any of it. The extractor refuses to turn commands into thoughts. A note that says install this, or build a chart of that, gets thrown out. Because the tool is not thinking, and promoting it would invent a position that was never taken.",
+      "visual_asset_type": "image",
+      "visual_asset_path": "assets/sb_guardrail.png",
+      "on_screen_text": "DO NOT FABRICATE A POSITION",
+      "text_overlay": false
+    },
+    {
+      "sequence": 11,
+      "tts_dialogue": "What comes out the other side is three hundred and seventy-one files. And three hundred and fifty of them carry a receipt. Not a date. An actual address. Where the thing came from.",
+      "visual_asset_type": "image",
+      "visual_asset_path": "assets/sb_output_count.png",
+      "on_screen_text": "371 FILES. 350 WITH RECEIPTS.",
+      "text_overlay": false
+    },
+    {
+      "sequence": 12,
+      "tts_dialogue": "Two hundred and thirty-five of those receipts point at an AI conversation, identified by its UUID. Sixty-three point at a file in the vault. Twenty-seven point at an agent session. And twenty point at nothing human at all. They point at the pipeline, and they say so in their own frontmatter.",
+      "visual_asset_type": "image",
+      "visual_asset_path": "assets/sb_provenance.png",
+      "on_screen_text": "WHERE EVERY PAGE CAME FROM",
+      "text_overlay": false
+    },
+    {
+      "sequence": 13,
+      "tts_dialogue": "A hundred and eighteen of those pages got grouped into twelve bodies of work. The biggest one is the local-first toolchain, at seventy-two members. The next is this one, the second brain, at fifty-two. Posts are allowed to belong to more than one, because a post about an agent toolchain is also a post about a second brain.",
+      "visual_asset_type": "image",
+      "visual_asset_path": "assets/sb_themes.png",
+      "on_screen_text": "118 POSTS / 12 BODIES OF WORK",
+      "text_overlay": false
+    },
+    {
+      "sequence": 14,
+      "tts_dialogue": "And then the smallest useful unit. A hundred and fifteen fragments. Median length, seventy-one words. Each one is a single claim, pulled out of a wall of working notes, standing on its own, worth reading alone.",
+      "visual_asset_type": "image",
+      "visual_asset_path": "assets/sb_fragments.png",
+      "on_screen_text": "115 FRAGMENTS, ONE CLAIM EACH",
+      "text_overlay": false
+    },
+    {
+      "sequence": 15,
+      "tts_dialogue": "And they group by what kind of move they are. Thirty-nine of them turn out to be the same argument about definition. Thirty-seven turn out to be about tooling. Eight mechanisms in all. Three have been composed into full arguments so far, and every fragment gets a back-link to the post it landed in.",
+      "visual_asset_type": "image",
+      "visual_asset_path": "assets/sb_compose.png",
+      "on_screen_text": "115 FRAGMENTS / 8 MECHANISMS",
+      "text_overlay": false
+    },
+    {
+      "sequence": 16,
+      "tts_dialogue": "That is the mechanism. But you did not ask for the mechanism. You asked what came out. So. The best of it.",
+      "visual_asset_type": "image",
+      "visual_asset_path": "assets/sb_best.png",
+      "on_screen_text": "WHAT CAME OUT",
+      "text_overlay": false
+    },
+    {
+      "sequence": 17,
+      "tts_dialogue": "A folder of scattered research about a recruitment scheme became a single-file interactive calculator. Then it became five ordered video scripts. Then scene briefs. Then a hook test that picked a line and threw the other two away. Research, tool, script, ad. Each one pointing back at the last.",
+      "visual_asset_type": "image",
+      "visual_asset_path": "assets/sb_mlm_chain.png",
+      "on_screen_text": "RESEARCH > TOOL > SCRIPT > AD",
+      "text_overlay": false
+    },
+    {
+      "sequence": 18,
+      "tts_dialogue": "The number that made the whole thing work was found in the research, not the writing. Level thirteen of the recruitment ladder hits over one point two billion people. There are eight point two billion humans. We ran out of humans before level thirteen finished. It is not an argument. It is a counter.",
+      "visual_asset_type": "image",
+      "visual_asset_path": "assets/sb_mlm_ladder.png",
+      "on_screen_text": "LEVEL 13 > POPULATION",
+      "text_overlay": false
+    },
+    {
+      "sequence": 19,
+      "tts_dialogue": "Second, a memoir about growing up in a music scene became an actual production bible. Three volumes, three hundred and fifty to four hundred and fifty pages. Four hundred working days for one artist, at a hundred and fifty dollars a page. Sixty thousand dollars of art, before a single panel exists.",
+      "visual_asset_type": "image",
+      "visual_asset_path": "assets/sb_jars_bible.png",
+      "on_screen_text": "400 DAYS / $150 A PAGE / $60K",
+      "text_overlay": false
+    },
+    {
+      "sequence": 20,
+      "tts_dialogue": "And then the same project got a financial model that told it no. Comics succeed sixty-seven to seventy-eight percent of the time, and the median successful one raises only seventeen and a half thousand dollars. A thirty to hundred thousand dollar goal is the killing field. It succeeds eighteen point six percent of the time. Past a hundred thousand, it collapses to ten. The model's own verdict was go, for the artifact, not for the rent.",
+      "visual_asset_type": "image",
+      "visual_asset_path": "assets/sb_kickstarter.png",
+      "on_screen_text": "GO FOR THE ARTIFACT, NOT THE RENT",
+      "text_overlay": false
+    },
+    {
+      "sequence": 21,
+      "tts_dialogue": "And then a note about ideas nobody finishes became a marketplace where the asset is not the creator, it is the idea's lineage. A ledger anchors the original post and every contribution, so credit becomes provable and royalties become arithmetic on the lineage. It also lists five open problems, including cold start and securities-law risk, which is the honest part.",
+      "visual_asset_type": "image",
+      "visual_asset_path": "assets/sb_idea_relay.png",
+      "on_screen_text": "CREDIT AS PROVENANCE",
+      "text_overlay": false
+    },
+    {
+      "sequence": 22,
+      "tts_dialogue": "None of this existed as a document before. All of it existed as a brain dump, a chat log, or a folder with a meaningless name. The format did not create the ideas. It made them addressable, and addressable is the thing that lets you build on them.",
+      "visual_asset_type": "image",
+      "visual_asset_path": "assets/sb_thesis.png",
+      "on_screen_text": "STRUCTURE DOES NOT CREATE THE IDEAS",
+      "text_overlay": false
+    },
+    {
+      "sequence": 23,
+      "tts_dialogue": "Five hundred and one files in. Three hundred and seventy-one pages out, with receipts, linked, queryable, and twenty of them written by a machine that was asked to. That is the whole trick. The Reluctant Capitalist.",
+      "visual_asset_type": "image",
+      "visual_asset_path": "assets/sb_end.png",
+      "on_screen_text": "THE RELUCTANT CAPITALIST",
+      "text_overlay": false
+    }
+  ]
+}

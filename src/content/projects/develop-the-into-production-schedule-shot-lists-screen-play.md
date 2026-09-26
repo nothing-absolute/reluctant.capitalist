@@ -115,7 +115,7 @@ The backgrounds should mirror ATHF's suburban mundanity:
 **Species:** Raccoon
 **Description:** The washed-up indie rock musician who is finally ready to sell out. He looks perpetually exhausted, sweating under the studio lights, with deep bags under his eyes. He wears a distressed leather jacket and a vintage "Lite Bright" (or similar) band t-shirt. Raccoons perfectly capture that "trashy but trying to be cool" indie sleaze aesthetic.
 
-![Smoner Boberst Character Design](/home/jd/.gemini/antigravity/brain/415fa53b-310d-46ac-8a7e-314999bcd2c0/smoner_character_1785547216109.jpg)
+![Smoner Boberst Character Design]([local path redacted])
 
 ---
 
@@ -123,7 +123,7 @@ The backgrounds should mirror ATHF's suburban mundanity:
 **Species:** Squirrel
 **Description:** Our POV character. A manic, obsessed fan who thinks Shark Tank is a front for the Illuminati. He has bloodshot eyes, unkempt fur, and holds a tangled mass of cables. Squirrels are known for hoarding and twitchy energy, fitting the conspiracy theorist vibe perfectly.
 
-![The Narrator Character Design](/home/jd/.gemini/antigravity/brain/415fa53b-310d-46ac-8a7e-314999bcd2c0/narrator_character_1785547227398.jpg)
+![The Narrator Character Design]([local path redacted])
 
 ---
 
@@ -131,7 +131,7 @@ The backgrounds should mirror ATHF's suburban mundanity:
 **Species:** Golden Retriever
 **Description:** In a world where animals are people, Buster is just a totally normal guy who happens to be a Golden Retriever. He wears a plain t-shirt and jeans, acting as the relaxed, slightly confused foil to the Narrator's manic energy. 
 
-![Buster Character Design](/home/jd/.gemini/antigravity/brain/415fa53b-310d-46ac-8a7e-314999bcd2c0/buster_character_1785547237106.jpg)
+![Buster Character Design]([local path redacted])
 
 ---
 
@@ -139,7 +139,7 @@ The backgrounds should mirror ATHF's suburban mundanity:
 **Species:** Walrus
 **Description:** The local news anchor who reports on Smoner's tragic end. A Walrus fits the "pompous, heavy-set 1970s newsman" archetype perfectly, especially with the tusks acting as an extension of a massive Ron Burgundy mustache.
 
-![News Anchor Character Design](/home/jd/.gemini/antigravity/brain/415fa53b-310d-46ac-8a7e-314999bcd2c0/anchor_character_1785547244582.jpg)
+![News Anchor Character Design]([local path redacted])
 
 ## dhmis character designs
 
@@ -153,7 +153,7 @@ The backgrounds should mirror ATHF's suburban mundanity:
 **Material:** Distressed felt and stringy yarn.
 **Description:** Smoner is transformed into a deeply sad, sweaty muppet. He has heavy, drooping button eyes with dark felt bags under them. His hair is made of greasy-looking gray yarn, and he wears a miniature, perfectly tailored (but grimy) leather jacket. He looks like a depressed indie rocker trapped in a children's educational program.
 
-![Smoner Boberst DHMIS Design](/home/jd/.gemini/antigravity/brain/415fa53b-310d-46ac-8a7e-314999bcd2c0/smoner_dhmis_1785547485521.jpg)
+![Smoner Boberst DHMIS Design]([local path redacted])
 
 ---
 
@@ -376,15 +376,15 @@ We received a statement his body was cremated immediately. Due to the lighting a
 
 > [!NOTE] 
 > **Setup 1: The Pitch.** Sitcom style lighting, Smoner sweating, holding his script/device.
-![Smoner Boberst Pitching](/home/jd/.gemini/antigravity/brain/415fa53b-310d-46ac-8a7e-314999bcd2c0/shark_tank_pitch_1785423700921.jpg)
+![Smoner Boberst Pitching]([local path redacted])
 
 > [!NOTE] 
 > **Setup 2: The Conspiracy.** Manic energy, handheld camera style, messy set dressing.
-![Conspiracy Corkboard](/home/jd/.gemini/antigravity/brain/415fa53b-310d-46ac-8a7e-314999bcd2c0/conspiracy_corkboard_1785423709989.jpg)
+![Conspiracy Corkboard]([local path redacted])
 
 > [!NOTE] 
 > **Setup 3: The Monitor Feed.** VHS camcorder overlay, drone shot, targeting reticle.
-![Yacht Drone Feed](/home/jd/.gemini/antigravity/brain/415fa53b-310d-46ac-8a7e-314999bcd2c0/megayacht_drone_1785423727545.jpg)
+![Yacht Drone Feed]([local path redacted])
 
 ## production plan
 
@@ -477,22 +477,22 @@ Below are the visual reference frames generated for the project:
 ### Frame 1: The Pitch
 > [!NOTE] 
 > Sitcom style lighting, Smoner sweating, holding his script/device.
-![Smoner Boberst Pitching](/home/jd/.gemini/antigravity/brain/415fa53b-310d-46ac-8a7e-314999bcd2c0/shark_tank_pitch_1785423700921.jpg)
+![Smoner Boberst Pitching]([local path redacted])
 
 ### Frame 2: The Conspiracy
 > [!NOTE] 
 > Manic energy, handheld camera style, massive messy corkboard.
-![Conspiracy Corkboard](/home/jd/.gemini/antigravity/brain/415fa53b-310d-46ac-8a7e-314999bcd2c0/conspiracy_corkboard_1785423709989.jpg)
+![Conspiracy Corkboard]([local path redacted])
 
 ### Frame 3: The Commercial
 > [!NOTE] 
 > Cheesy, retro, low-res 90s aesthetic. 
-![Capitalism Commercial](/home/jd/.gemini/antigravity/brain/415fa53b-310d-46ac-8a7e-314999bcd2c0/capitalism_commercial_1785423719886.jpg)
+![Capitalism Commercial]([local path redacted])
 
 ### Frame 4: The Monitor Feed
 > [!NOTE] 
 > VHS camcorder overlay, drone shot, targeting reticle.
-![Yacht Drone Feed](/home/jd/.gemini/antigravity/brain/415fa53b-310d-46ac-8a7e-314999bcd2c0/megayacht_drone_1785423727545.jpg)
+![Yacht Drone Feed]([local path redacted])
 
 ## screenplay
 
@@ -646,11 +646,11 @@ This document serves as the primary visual reference for the Director of Photogr
 The opening scene establishes the manic energy of our POV character. The camera work should be handheld, constantly hunting for focus, creating an unsettling intimacy.
 
 ````carousel
-![1A: Wide shot of the messy room, the Narrator, and Buster the dog. The conspiracy board dominates the background.](/home/jd/.gemini/antigravity/brain/415fa53b-310d-46ac-8a7e-314999bcd2c0/conspiracy_corkboard_1785423709989.jpg)
+![1A: Wide shot of the messy room, the Narrator, and Buster the dog. The conspiracy board dominates the background.]([local path redacted])
 <!-- slide -->
-![1B: Macro detail shot. A blurry polaroid connected to a hand-drawn eye by red string. The camera is shaky and very close.](/home/jd/.gemini/antigravity/brain/415fa53b-310d-46ac-8a7e-314999bcd2c0/corkboard_string_detail_1785546934118.jpg)
+![1B: Macro detail shot. A blurry polaroid connected to a hand-drawn eye by red string. The camera is shaky and very close.]([local path redacted])
 <!-- slide -->
-![1C: The 'Hack'. A chaotic stack of Mac Studios tied together with ethernet cables on a milk crate. Lit practically by a desk lamp.](/home/jd/.gemini/antigravity/brain/415fa53b-310d-46ac-8a7e-314999bcd2c0/mac_studio_hack_1785546942326.jpg)
+![1C: The 'Hack'. A chaotic stack of Mac Studios tied together with ethernet cables on a milk crate. Lit practically by a desk lamp.]([local path redacted])
 ````
 
 ---
@@ -660,9 +660,9 @@ The opening scene establishes the manic energy of our POV character. The camera 
 A stark contrast to the gritty documentary footage. We cut suddenly to bright, garish colors. 
 
 ````carousel
-![2A: Full frame VFX. 'NOW That's What I Call Capitalism'. Early CGI, low resolution, highly saturated.](/home/jd/.gemini/antigravity/brain/415fa53b-310d-46ac-8a7e-314999bcd2c0/capitalism_commercial_1785423719886.jpg)
+![2A: Full frame VFX. 'NOW That's What I Call Capitalism'. Early CGI, low resolution, highly saturated.]([local path redacted])
 <!-- slide -->
-![2B: POV shot from the couch. The character is flicking through channels with a remote, trying to find the Shark Tank broadcast.](/home/jd/.gemini/antigravity/brain/415fa53b-310d-46ac-8a7e-314999bcd2c0/channel_surfing_pov_1785546949348.jpg)
+![2B: POV shot from the couch. The character is flicking through channels with a remote, trying to find the Shark Tank broadcast.]([local path redacted])
 ````
 
 ---
@@ -672,15 +672,15 @@ A stark contrast to the gritty documentary footage. We cut suddenly to bright, g
 This sequence starts with standard, polished multi-cam TV studio coverage, but devolves into documentary-style chaos as the pitch goes off the rails.
 
 ````carousel
-![3A: Establishing Wide. Smoner looks small on the massive, dramatically lit set as he faces the panel of investors.](/home/jd/.gemini/antigravity/brain/415fa53b-310d-46ac-8a7e-314999bcd2c0/shark_tank_wide_1785546957414.jpg)
+![3A: Establishing Wide. Smoner looks small on the massive, dramatically lit set as he faces the panel of investors.]([local path redacted])
 <!-- slide -->
-![3B: MCU (Medium Close Up) of Smoner. He is sweating profusely under the studio lights, clutching his script.](/home/jd/.gemini/antigravity/brain/415fa53b-310d-46ac-8a7e-314999bcd2c0/shark_tank_pitch_1785423700921.jpg)
+![3B: MCU (Medium Close Up) of Smoner. He is sweating profusely under the studio lights, clutching his script.]([local path redacted])
 <!-- slide -->
-![3C: Insert of the TV Monitor. We see the drone feed of the luxury megayacht with a red targeting reticle overlay.](/home/jd/.gemini/antigravity/brain/415fa53b-310d-46ac-8a7e-314999bcd2c0/megayacht_drone_1785423727545.jpg)
+![3C: Insert of the TV Monitor. We see the drone feed of the luxury megayacht with a red targeting reticle overlay.]([local path redacted])
 <!-- slide -->
-![3D: 'The Flip'. Smoner's demeanor changes. He smiles confidently, holding up the 'EMO' device. The camera moves in slightly.](/home/jd/.gemini/antigravity/brain/415fa53b-310d-46ac-8a7e-314999bcd2c0/smoner_confident_1785546964523.jpg)
+![3D: 'The Flip'. Smoner's demeanor changes. He smiles confidently, holding up the 'EMO' device. The camera moves in slightly.]([local path redacted])
 <!-- slide -->
-![3E: The Chaos. A violent Dutch angle. The camera operator is knocked over as a lighting rig crashes onto the set.](/home/jd/.gemini/antigravity/brain/415fa53b-310d-46ac-8a7e-314999bcd2c0/shark_tank_chaos_1785546972870.jpg)
+![3E: The Chaos. A violent Dutch angle. The camera operator is knocked over as a lighting rig crashes onto the set.]([local path redacted])
 ````
 
 ---
@@ -690,9 +690,9 @@ This sequence starts with standard, polished multi-cam TV studio coverage, but d
 The aftermath. The visual style shifts again to a low-budget, 1970s local news broadcast feel, intercut with horrific, corrupted AI footage.
 
 ````carousel
-![4A: The Anchor. A somber, mustachioed man in a 70s maroon suit delivers the grim breaking news. Static, flat lighting.](/home/jd/.gemini/antigravity/brain/415fa53b-310d-46ac-8a7e-314999bcd2c0/news_anchor_70s_1785546978974.jpg)
+![4A: The Anchor. A somber, mustachioed man in a 70s maroon suit delivers the grim breaking news. Static, flat lighting.]([local path redacted])
 <!-- slide -->
-![4B: The Footage. Highly distorted, glitchy, AI-generated VHS footage of Smoner holding a gun. It should feel deeply wrong and unsettling.](/home/jd/.gemini/antigravity/brain/415fa53b-310d-46ac-8a7e-314999bcd2c0/ai_glitch_footage_1785546985896.jpg)
+![4B: The Footage. Highly distorted, glitchy, AI-generated VHS footage of Smoner holding a gun. It should feel deeply wrong and unsettling.]([local path redacted])
 ````
 
 ## Assets
@@ -771,8 +771,8 @@ Core concept: Mock documentary, handheld camera, sitcom format. Inspired by *Nir
 
 I've developed the pre-production materials for the "Smoner Boberst" mock documentary based on your creative outline. I've separated these into two primary artifacts for you to review:
 
-1. **[Screenplay](file:///home/jd/.gemini/antigravity/brain/415fa53b-310d-46ac-8a7e-314999bcd2c0/screenplay.md)**: A fully formatted script adapting your notes into scenes and dialogue.
-2. **[Production Plan](file:///home/jd/.gemini/antigravity/brain/415fa53b-310d-46ac-8a7e-314999bcd2c0/production_plan.md)**: This document contains:
+1. **[Screenplay](file://[local path redacted])**: A fully formatted script adapting your notes into scenes and dialogue.
+2. **[Production Plan](file://[local path redacted])**: This document contains:
    - A 2-day shooting schedule.
    - A detailed shot list broken down by scene.
    - A list of physical assets, props, and live elements (the dog) needed.
@@ -811,7 +811,7 @@ Core concept: Mock documentary, handheld camera, sitcom format. Inspired by *Nir
 
 **Antigravity** · 2026-08-01 01:11
 
-I have compiled everything into a single, comprehensive **[Production Binder](file:///home/jd/.gemini/antigravity/brain/415fa53b-310d-46ac-8a7e-314999bcd2c0/production_binder.md)** formatted to industry standards. 
+I have compiled everything into a single, comprehensive **[Production Binder](file://[local path redacted])** formatted to industry standards. 
 
 This new artifact includes:
 1. **Script Breakdown**: A table breaking down every scene by Cast, Props, VFX, and Equipment.
@@ -833,7 +833,7 @@ STORYBOARD  out the different scenes
 
 **Antigravity** · 2026-08-01 01:17
 
-I have generated all the remaining visual frames for the script and compiled them into a complete **[Storyboard](file:///home/jd/.gemini/antigravity/brain/415fa53b-310d-46ac-8a7e-314999bcd2c0/storyboard.md)** document. 
+I have generated all the remaining visual frames for the script and compiled them into a complete **[Storyboard](file://[local path redacted])** document. 
 
 The storyboard uses carousels to break down the specific camera angles, framing, and lighting notes for every major sequence—from the chaotic, handheld look of the conspiracy room, to the sitcom lighting of the Shark Tank pitch, all the way to the 1970s news broadcast and the distorted VHS footage at the end. 
 
@@ -851,7 +851,7 @@ come up character designs using Bojack Horseman as referance for style
 
 I've leaned fully into the *Bojack Horseman* (Lisa Hanawalt) art style by translating the cast into anthropomorphic animals with that distinct flat, cynical adult-animation aesthetic. 
 
-I've compiled them into a new **[Character Designs](file:///home/jd/.gemini/antigravity/brain/415fa53b-310d-46ac-8a7e-314999bcd2c0/character_designs.md)** document. 
+I've compiled them into a new **[Character Designs](file://[local path redacted])** document. 
 
 Here is the breakdown of the cast:
 *   **Smoner Boberst (Raccoon):** Captures the trashy, exhausted, trying-to-be-cool indie sleaze look.
@@ -873,7 +873,7 @@ come up character designs using  Don't Hug Me I'm Scared as referance for style
 
 I have shifted the aesthetic into the deeply unsettling, practical-effects world of *Don't Hug Me I'm Scared*. 
 
-I've compiled the new direction into a **[DHMIS Character Designs](file:///home/jd/.gemini/antigravity/brain/415fa53b-310d-46ac-8a7e-314999bcd2c0/dhmis_character_designs.md)** document. 
+I've compiled the new direction into a **[DHMIS Character Designs](file://[local path redacted])** document. 
 
 *Note: I hit a temporary quota limit on image generation after creating the first image of Smoner Boberst (who looks incredible as a sad, sweaty felt puppet). For the other characters, I have written detailed descriptions of their materials and design aesthetics (patchwork fabric, cheap mascot costumes, foam-carved muppets) so the Art Department has a clear direction until we can generate more visual mockups.*
 
@@ -915,7 +915,7 @@ The image generator is still on cooldown from all the earlier storyboard and Boj
 
 **Antigravity** · 2026-08-01 02:01
 
-The full **[ATHF Character Designs](file:///home/jd/.gemini/antigravity/brain/415fa53b-310d-46ac-8a7e-314999bcd2c0/athf_character_designs.md)** document is ready. Here's the core concept:
+The full **[ATHF Character Designs](file://[local path redacted])** document is ready. Here's the core concept:
 
 Just like Frylock/Shake/Meatwad are literally food, every character is an **anthropomorphic object tied to their role**:
 

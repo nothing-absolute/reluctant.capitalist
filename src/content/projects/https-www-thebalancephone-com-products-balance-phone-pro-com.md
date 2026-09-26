@@ -19,13 +19,13 @@ Here are the conceptual designs for the two hardware models in our upcoming Kick
 
 A highly premium, tactile device built from recycled aluminum. It features a unique mechanical focus dial and a monochrome E-ink style display designed to strip away addictive colors and infinite scrolls, leaving only the essentials.
 
-![Lumina Phone Pro](/home/jd/.gemini/antigravity/brain/8f375cad-7eea-4f66-a512-45f283d23f67/lumina_pro_render_1785586223814.jpg)
+![Lumina Phone Pro]([local path redacted])
 
 ## Lumina Kids (Parent-Controlled Edition)
 
 Built for durability and peace of mind. The Lumina Kids edition uses a bio-polycarbonate bumper to withstand drops, wrapped in friendly, approachable colors. The OS is locked down to a highly simplified UI, completely managed by the Parent Dashboard.
 
-![Lumina Phone Kids](/home/jd/.gemini/antigravity/brain/8f375cad-7eea-4f66-a512-45f283d23f67/lumina_kids_render_1785586230292.jpg)
+![Lumina Phone Kids]([local path redacted])
 
 ## funding and cost projections
 
@@ -47,7 +47,7 @@ Based on past campaigns in the digital minimalist space, we have modeled three p
 | **Primary Driver** | Niche tech-blog reach, tech-minimalist enthusiasts. | General tech press coverage, strong parental appeal. | Viral social media traction, mainstream digital-detox lifestyle trend. |
 
 ### Visual Projection Trends
-![Campaign Projections](/home/jd/.gemini/antigravity/brain/8f375cad-7eea-4f66-a512-45f283d23f67/assets/projections.png)
+![Campaign Projections]([local path redacted])
 
 ---
 
@@ -64,7 +64,7 @@ To establish realistic targets, we analyzed similar historical minimalist hardwa
 | **Lumina Phone** | Kickstarter | 2026 | 3,000 | **$900,000** | $300.00 | **Off-the-shelf + Custom OS** |
 
 ### Crowdfunding Success Comparisons
-![Historical Comparison](/home/jd/.gemini/antigravity/brain/8f375cad-7eea-4f66-a512-45f283d23f67/assets/historical_comparison.png)
+![Historical Comparison]([local path redacted])
 
 > [!TIP]
 > Our **"Off-the-Shelf + Custom OS"** strategy minimizes initial hardware manufacturing risk. This allows us to deliver high-quality standard hardware reliably while saving our custom hardware designs (E-ink Pro and bio-polycarbonate Kids) for high-tier stretch goals.
@@ -89,7 +89,7 @@ To maintain healthy margins and guarantee delivery, initial tiers use existing h
 | **Total Cost per Unit** | **$230.00** | |
 
 ### Cost Allocation (Lumina Pro Standard)
-![BOM Breakdown](/home/jd/.gemini/antigravity/brain/8f375cad-7eea-4f66-a512-45f283d23f67/assets/bom_breakdown.png)
+![BOM Breakdown]([local path redacted])
 
 ### B. Lumina Kids (Rugged Edition)
 *   **Target Retail Price:** $249.00
@@ -150,11 +150,11 @@ The page will follow a high-end minimalist design aesthetic using rich dark/ligh
 
 ## Proposed Changes
 
-We will create a project directory at `/home/jd/.gemini/antigravity/scratch/lumina-phone-kickstarter` containing the web assets.
+We will create a project directory at `[local path redacted]` containing the web assets.
 
 ### Kickstarter Web Page Component
 
-#### [NEW] [index.html](file:///home/jd/.gemini/antigravity/scratch/lumina-phone-kickstarter/index.html)
+#### [NEW] [index.html](file://[local path redacted])
 - Main landing page structuring the Kickstarter campaign.
 - Sections:
   - Hero Section: High-impact taglines, visual pitch, "Back this Project" status bar.
@@ -165,13 +165,13 @@ We will create a project directory at `/home/jd/.gemini/antigravity/scratch/lumi
   - Reward Tiers: Interactive pledge card selector for the initial off-the-shelf tiers.
   - Stretch Goals: Displaying the premium custom hardware renderings (E-ink Pro and Custom Kids) as unlockable targets.
 
-#### [NEW] [style.css](file:///home/jd/.gemini/antigravity/scratch/lumina-phone-kickstarter/style.css)
+#### [NEW] [style.css](file://[local path redacted])
 - Premium dark-themed stylesheet utilizing a neutral slate, warm cream, and soft accent colors.
 - Custom fonts (using Inter and Outfit via Google Fonts).
 - Responsive grid layouts, glassmorphic panels, glowing cards.
 - Smooth transitions, micro-animations, and hover states for all interactive elements.
 
-#### [NEW] [app.js](file:///home/jd/.gemini/antigravity/scratch/lumina-phone-kickstarter/app.js)
+#### [NEW] [app.js](file://[local path redacted])
 - Interactive Simulator Engine:
   - Binds parent dashboard switches to the adjacent Lumina Kids screen.
   - Updates the child's screen in real-time, removing/adding app icons or triggering fullscreen lock overlays.
@@ -213,11 +213,11 @@ The interactive Kickstarter campaign landing page and OS simulator for Lumina Ph
 ## How to test it locally:
 
 You can open the raw HTML file directly in your browser:
-[Open Landing Page Simulator](file:///home/jd/.gemini/antigravity/scratch/lumina-phone-kickstarter/index.html)
+[Open Landing Page Simulator](file://[local path redacted])
 
 Alternatively, for the most accurate rendering, you can start a local development server by opening your terminal, navigating to the scratch directory, and running:
 ```bash
-cd /home/jd/.gemini/antigravity/scratch/lumina-phone-kickstarter
+cd [local path redacted]
 python3 -m http.server 8080
 ```
 Then visit `http://localhost:8080` in your web browser.
@@ -249,7 +249,7 @@ https://www.thebalancephone.com/products/balance-phone-pro come up with a simila
 
 **Antigravity** · 2026-08-01 11:54
 
-I have created a detailed [implementation plan](file:///home/jd/.gemini/antigravity/brain/8f375cad-7eea-4f66-a512-45f283d23f67/implementation_plan.md) for the **Lumina Phone & Lumina Kids** Kickstarter campaign landing page and interactive simulator. 
+I have created a detailed [implementation plan](file://[local path redacted]) for the **Lumina Phone & Lumina Kids** Kickstarter campaign landing page and interactive simulator. 
 
 Please review the plan and let me know if you would like any modifications, or if you approve to proceed with building the campaign page and simulators.
 
@@ -272,7 +272,7 @@ I am waiting for the chart generation task to complete. I will proceed with crea
 I have completed the financial and cost projections and compiled a comprehensive report with visual graphs.
 
 ### Generated Resources:
-1. **[Funding & Cost Projections Report](file:///home/jd/.gemini/antigravity/brain/8f375cad-7eea-4f66-a512-45f283d23f67/funding_and_cost_projections.md)**: A detailed breakdown containing:
+1. **[Funding & Cost Projections Report](file://[local path redacted])**: A detailed breakdown containing:
    - Campaign scenario modeling (Conservative, Moderate, Optimistic).
    - Component-level Bill of Materials (BOM) for both the adult **Lumina Phone Pro** ($120 cost) and the plastic-molded **Lumina Kids** ($95 cost) editions.
    - Kickstarter reward tiers and gross margin estimations.
@@ -282,7 +282,7 @@ I have completed the financial and cost projections and compiled a comprehensive
    - **Campaign Projections**: Backers vs. funding across the scenarios.
    - **Historical Comparison**: Crowdfunding totals and backer counts.
 
-Please review the **[Funding & Cost Projections Report](file:///home/jd/.gemini/antigravity/brain/8f375cad-7eea-4f66-a512-45f283d23f67/funding_and_cost_projections.md)**. If everything looks good, please confirm so we can proceed with executing the **[Implementation Plan](file:///home/jd/.gemini/antigravity/brain/8f375cad-7eea-4f66-a512-45f283d23f67/implementation_plan.md)** and building the interactive Kickstarter landing page containing the device/parent OS simulators!
+Please review the **[Funding & Cost Projections Report](file://[local path redacted])**. If everything looks good, please confirm so we can proceed with executing the **[Implementation Plan](file://[local path redacted])** and building the interactive Kickstarter landing page containing the device/parent OS simulators!
 
 ---
 
@@ -294,9 +294,9 @@ show a rendering of the Lumina Pro and Lumina Kids editions
 
 **Antigravity** · 2026-08-01 12:10
 
-I have generated the 3D concept renderings for both models! You can view them here: **[Lumina Phone Hardware Concept Renderings](file:///home/jd/.gemini/antigravity/brain/8f375cad-7eea-4f66-a512-45f283d23f67/device_renderings.md)**. 
+I have generated the 3D concept renderings for both models! You can view them here: **[Lumina Phone Hardware Concept Renderings](file://[local path redacted])**. 
 
-If you are happy with the visual direction and the financial projections, please let me know if you approve the **[Implementation Plan](file:///home/jd/.gemini/antigravity/brain/8f375cad-7eea-4f66-a512-45f283d23f67/implementation_plan.md)** so we can start building the interactive Kickstarter landing page simulator!
+If you are happy with the visual direction and the financial projections, please let me know if you approve the **[Implementation Plan](file://[local path redacted])** so we can start building the interactive Kickstarter landing page simulator!
 
 ---
 
@@ -311,8 +311,8 @@ Lets have the custom hardware designs be a stretch goal. The first tiers should 
 I think that is a very smart pivot—it significantly de-risks the campaign while still providing exciting stretch goals for the backers.
 
 I have updated the strategy and regenerated the charts:
-1. **[Funding & Cost Projections Report](file:///home/jd/.gemini/antigravity/brain/8f375cad-7eea-4f66-a512-45f283d23f67/funding_and_cost_projections.md)**: Updated the BOM and pricing to reflect off-the-shelf standard OLED/rugged Android hardware being flashed with Lumina OS. The custom hardware renderings have been moved to the $1M and $1.5M stretch goals.
-2. **[Implementation Plan](file:///home/jd/.gemini/antigravity/brain/8f375cad-7eea-4f66-a512-45f283d23f67/implementation_plan.md)**: Updated to reflect the new campaign structure.
+1. **[Funding & Cost Projections Report](file://[local path redacted])**: Updated the BOM and pricing to reflect off-the-shelf standard OLED/rugged Android hardware being flashed with Lumina OS. The custom hardware renderings have been moved to the $1M and $1.5M stretch goals.
+2. **[Implementation Plan](file://[local path redacted])**: Updated to reflect the new campaign structure.
 
 Please take a look at the updated plan, and if you approve, we can begin building the interactive web simulator!
 
@@ -326,7 +326,7 @@ what do you project the revenue from this project to be?
 
 **Antigravity** · 2026-08-01 12:20
 
-Based on our **[Funding & Cost Projections](file:///home/jd/.gemini/antigravity/brain/8f375cad-7eea-4f66-a512-45f283d23f67/funding_and_cost_projections.md)**, here is the projected revenue breakdown across the three scenarios:
+Based on our **[Funding & Cost Projections](file://[local path redacted])**, here is the projected revenue breakdown across the three scenarios:
 
 **1. Scenario A: Conservative (1,500 backers)**
 *   **Top-Line Revenue:** **$450,000**
@@ -398,7 +398,7 @@ this needs to be a google free OS
 
 That is a brilliant addition. A **Google-Free (DeGoogled) OS** perfectly aligns with the mission of a distraction-free and privacy-focused device. It eliminates background tracking, significantly extends battery life, and provides ultimate peace of mind for parents worried about data collection.
 
-I have added this critical requirement to our **[Implementation Plan](file:///home/jd/.gemini/antigravity/brain/8f375cad-7eea-4f66-a512-45f283d23f67/implementation_plan.md)** as a major marketing selling point.
+I have added this critical requirement to our **[Implementation Plan](file://[local path redacted])** as a major marketing selling point.
 
 If the updated plan looks good to you, please give me the green light and I will immediately start coding the interactive Kickstarter landing page simulator!
 
@@ -408,9 +408,9 @@ If the updated plan looks good to you, please give me the green light and I will
 
 I have finished building the Lumina Phone interactive Kickstarter landing page simulator!
 
-Everything is presented in the **[Walkthrough](file:///home/jd/.gemini/antigravity/brain/8f375cad-7eea-4f66-a512-45f283d23f67/walkthrough.md)**. 
+Everything is presented in the **[Walkthrough](file://[local path redacted])**. 
 
-To test out the interactive features (like controlling the child's phone screen from the mock parent dashboard, or clicking the pledge tiers to simulate unlocking our $1M custom hardware stretch goals), you can open the HTML file directly in your browser here: **[index.html](file:///home/jd/.gemini/antigravity/scratch/lumina-phone-kickstarter/index.html)**.
+To test out the interactive features (like controlling the child's phone screen from the mock parent dashboard, or clicking the pledge tiers to simulate unlocking our $1M custom hardware stretch goals), you can open the HTML file directly in your browser here: **[index.html](file://[local path redacted])**.
 
 Let me know if there's anything you'd like to tweak with the UI, the styling, or the campaign copy!
 
@@ -426,7 +426,7 @@ However, since you have the simulator running locally, here is exactly what happ
 2. The funding amount at the top updates instantly, and the blue progress bar shoots across the screen. 
 3. Once the total crosses **$1,000,000**, the first Stretch Goal card (Custom E-ink Pro) immediately changes its border color to a glowing green, and the grey "🔒 Locked" text flips to a bright green **"🔓 UNLOCKED!"**
 
-You can see this exact sequence right now by opening your local copy of the page at **[index.html](file:///home/jd/.gemini/antigravity/scratch/lumina-phone-kickstarter/index.html)** and testing it out yourself! Let me know if you'd like me to tweak the animation style (like adding a pulsing effect or confetti) when the goal is reached.
+You can see this exact sequence right now by opening your local copy of the page at **[index.html](file://[local path redacted])** and testing it out yourself! Let me know if you'd like me to tweak the animation style (like adding a pulsing effect or confetti) when the goal is reached.
 
 </details>
 

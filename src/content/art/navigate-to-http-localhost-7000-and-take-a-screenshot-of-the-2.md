@@ -33,7 +33,7 @@ I have successfully navigated to `http://localhost:7000/`, taken the requested s
 
 The screen shows the **Odysseus Chat** web application (with various tools like Brain, Calendar, Cookbook, etc., in the sidebar, and a prompt to add an AI endpoint in the chat area). The page has been held open as you requested.
 
-The screenshot has been saved in the conversation artifacts, and the parent agent has been provided with its path (`/home/jd/.gemini/antigravity/brain/b1bfbdc5-0d4d-4fd2-b072-c06f78f0d967/screenshot.png`). 
+The screenshot has been saved in the conversation artifacts, and the parent agent has been provided with its path (`[local path redacted]`). 
 
 Please note that a recording of this session is also available in the conversation artifacts.
 

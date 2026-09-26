@@ -23,7 +23,7 @@ stage: "idea"
 
 #### Core Engine & Routing Architecture
 
-[MODIFY] [App.jsx](file:///home/jd/.gemini/antigravity-ide/scratch/patchbay/src/App.jsx)
+[MODIFY] [App.jsx](file://[local path redacted])
 
 - **Audio Defaults**:
   - Update initial state and pad trigger logic so MPC pads do not output audio by default.

@@ -1,9 +1,0 @@
---- a/blog/find-omniroute-free-providers-general-subagent.md
-+++ b/blog/find-omniroute-free-providers-general-subagent.md
-@@ -9,4 +9,4 @@
- > 1. Query the OmniRoute database for all known provider types:
- >    `sqlite3 /home/jd/.omniroute/storage.sqlite "SELECT DISTINCT provider_type FROM provider_connections;" 2>/dev/null`
- >
--> 2. Query for the full provider connection details:
-+> 2. Query for the full provider connection details:
-\ No newline at end of file

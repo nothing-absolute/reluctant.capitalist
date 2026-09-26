@@ -15,7 +15,7 @@ Here is the design mockup and beta installation setup for the **Family Hub** app
 
 ## 🎨 Interface Mockup
 
-![Family Hub Android Interface](/home/jd/.gemini/antigravity/brain/a51dd36a-a2ff-436d-9ec5-9c3989439240/family_hub_android_mockup_1787947653070.jpg)
+![Family Hub Android Interface]([local path redacted])
 
 ### Key Interface Highlights:
 - **Greeting Header**: Personalized greeting with quick avatar status indicators.
@@ -27,14 +27,14 @@ Here is the design mockup and beta installation setup for the **Family Hub** app
 ## 📦 Installing the Beta APK on Android
 
 Once the build process completes, your APK file will be ready at:
-`file:///home/jd/.gemini/antigravity/scratch/family-hub/build/app/outputs/flutter-apk/app-debug.apk`
+`file://[local path redacted]`
 
 ### Quick Install Methods:
 
 #### Method A: Via USB / ADB (Fastest if device connected)
 ```bash
 export PATH="$HOME/Android/Sdk/platform-tools:$PATH"
-adb install /home/jd/.gemini/antigravity/scratch/family-hub/build/app/outputs/flutter-apk/app-debug.apk
+adb install [local path redacted]
 ```
 
 #### Method B: Direct APK Transfer
@@ -98,7 +98,7 @@ Inspired by DailyPlan: **clean white/light-gray backgrounds**, **color-coded cat
 
 ### Project Structure
 
-#### [NEW] `/home/jd/.gemini/antigravity/scratch/family-hub/`
+#### [NEW] `[local path redacted]/`
 
 ```
 family-hub/
@@ -228,7 +228,7 @@ family-hub/
 ## Screens
 - [x] screens/shell/main_shell.dart (Material 3 NavigationBar, 5 tabs)
 - [x] screens/onboarding/onboarding_screen.dart (3-page gradient flow)
-- [x] screens/home/home_screen.dart (feed, pinned plans, FAB)
+- [x] screens[local path redacted] (feed, pinned plans, FAB)
 - [x] screens/plans/plans_screen.dart (filter chips, long-press options)
 - [x] screens/plans/new_plan_screen.dart (form + live preview)
 - [x] screens/todos/todos_screen.dart (Dismissible, ExpansionTile)
@@ -258,11 +258,11 @@ family-hub/
 
 ## Family Hub — App Walkthrough
 
-![Family Hub UI Mockup](/home/jd/.gemini/antigravity/brain/a51dd36a-a2ff-436d-9ec5-9c3989439240/family_hub_mockup_1787943736378.jpg)
+![Family Hub UI Mockup]([local path redacted])
 
 ## What Was Built
 
-A complete cross-platform Flutter app (Android + iOS) at [/home/jd/.gemini/antigravity/scratch/family-hub/](file:///home/jd/.gemini/antigravity/scratch/family-hub/)
+A complete cross-platform Flutter app (Android + iOS) at [[local path redacted]/](file://[local path redacted]/)
 
 ## App Structure
 
@@ -327,7 +327,7 @@ brew install --cask flutter
 
 ### 2. Run the App
 ```bash
-cd /home/jd/.gemini/antigravity/scratch/family-hub
+cd [local path redacted]
 flutter pub get
 flutter run  # runs on connected device or emulator
 ``` 

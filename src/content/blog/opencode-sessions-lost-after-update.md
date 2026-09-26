@@ -13,4 +13,4 @@ all my opencode projects are no longer connected. all the tabs from the sessions
 
 **what this is:** an opencode working session — 16 messages.
 
-**when:** 2026-08-30 · **working directory:** /home/jd
+**when:** 2026-08-30 · **working directory:** [local path redacted]

@@ -11,7 +11,7 @@ draft: false
 
 ## MPC Node Effects - Implementation Complete
 
-We have created a stunning, futuristic, glassmorphic Single Page Application inside `/home/jd/.gemini/antigravity/scratch/mpc-node-effects`.
+We have created a stunning, futuristic, glassmorphic Single Page Application inside `[local path redacted]`.
 
 ## Components Implemented
 
@@ -36,15 +36,15 @@ We have created a stunning, futuristic, glassmorphic Single Page Application ins
 
 To run the preview server:
 ```bash
-cd /home/jd/.gemini/antigravity/scratch/mpc-node-effects
+cd [local path redacted]
 npm run dev
 ```
 
 The application files:
-- [index.html](file:///home/jd/.gemini/antigravity/scratch/mpc-node-effects/index.html)
-- [index.css](file:///home/jd/.gemini/antigravity/scratch/mpc-node-effects/index.css)
-- [app.js](file:///home/jd/.gemini/antigravity/scratch/mpc-node-effects/app.js)
-- [walkthrough.md](file:///home/jd/.gemini/antigravity/scratch/mpc-node-effects/walkthrough.md)
+- [index.html](file://[local path redacted])
+- [index.css](file://[local path redacted])
+- [app.js](file://[local path redacted])
+- [walkthrough.md](file://[local path redacted])
 
 ## Assets
 - [mpc_node_effects_summary.md](/antigravity/create-a-modern-stunning-single-page-web-app-in/mpc_node_effects_summary.md) — MD, 2 KB
@@ -54,7 +54,7 @@ The application files:
 
 **You** · 2026-08-21 02:44
 
-Create a modern, stunning, single-page web app in `/home/jd/.gemini/antigravity/scratch/mpc-node-effects`.
+Create a modern, stunning, single-page web app in `[local path redacted]`.
 It must feature:
 1. An MPC-style drum pad (16 pads, 4x4) with beautiful glowing trigger states, supporting mouse, keyboard keys, and Web MIDI API.
 2. A Live camera and video playback panel (supporting upload or default video loops).
@@ -68,7 +68,7 @@ It must feature:
 
 **Antigravity** · 2026-08-21 02:45
 
-I have completed the task and created a modern, premium, glassmorphic single-page web app in `/home/jd/.gemini/antigravity/scratch/mpc-node-effects`.
+I have completed the task and created a modern, premium, glassmorphic single-page web app in `[local path redacted]`.
 
 ### Project Highlights
 - **16-Pad MPC Controller**: Interactive glowing triggers supporting click, keyboard mapping, and the Web MIDI API.
@@ -77,11 +77,11 @@ I have completed the task and created a modern, premium, glassmorphic single-pag
 - **Canvas Video Processor**: Supports procedural grid generator, live camera capture, and file upload loops. Video FX node supports real-time Pixelate, Mirror, Invert, and Hue Rotate sweeps driven by LFO or manual slider.
 
 ### Files Created
-- [index.html](file:///home/jd/.gemini/antigravity/scratch/mpc-node-effects/index.html)
-- [index.css](file:///home/jd/.gemini/antigravity/scratch/mpc-node-effects/index.css)
-- [app.js](file:///home/jd/.gemini/antigravity/scratch/mpc-node-effects/app.js)
-- [walkthrough.md](file:///home/jd/.gemini/antigravity/scratch/mpc-node-effects/walkthrough.md)
-- [Summary Artifact](file:///home/jd/.gemini/antigravity/brain/32ce0c4c-b30e-4c39-ad04-d24335901b7e/mpc_node_effects_summary.md)
+- [index.html](file://[local path redacted])
+- [index.css](file://[local path redacted])
+- [app.js](file://[local path redacted])
+- [walkthrough.md](file://[local path redacted])
+- [Summary Artifact](file://[local path redacted])
 
 </details>
 

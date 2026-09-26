@@ -11,7 +11,7 @@ quality: 3
 
 This is an opencode working session — 8 messages.
 
-When: 2026-09-19 · Working directory: /home/jd/Prototypes
+When: 2026-09-19 · Working directory: [local path redacted]
 
 Opened with:
 > how much financial information on a former governor of South Dakota could I request or access as a resident?

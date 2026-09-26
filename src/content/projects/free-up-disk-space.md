@@ -84,7 +84,7 @@ free up disk space
 
 I have analyzed your disk usage and created an implementation plan to safely free up some disk space. 
 
-Please review the [implementation_plan.md](file:///home/jd/.gemini/antigravity/brain/121c185c-e397-484a-a556-2115929f8633/implementation_plan.md) artifact for the proposed cleanup steps. Once you approve, I will proceed with the deletion. Let me know if you would also like help looking into any of the larger personal directories!
+Please review the [implementation_plan.md](file://[local path redacted]) artifact for the proposed cleanup steps. Once you approve, I will proceed with the deletion. Let me know if you would also like help looking into any of the larger personal directories!
 
 ---
 
@@ -94,7 +94,7 @@ I've successfully executed the cleanup plan!
 
 We were able to free up **~4.8 GB** of disk space, bringing your root partition usage down from 100% to 95% (with about 5.1 GB now available).
 
-You can see the full details of what was done and the results in the [walkthrough.md](file:///home/jd/.gemini/antigravity/brain/121c185c-e397-484a-a556-2115929f8633/walkthrough.md) artifact. Let me know if you need any further assistance with cleaning up your personal files or anything else!
+You can see the full details of what was done and the results in the [walkthrough.md](file://[local path redacted]) artifact. Let me know if you need any further assistance with cleaning up your personal files or anything else!
 
 ---
 
@@ -108,7 +108,7 @@ help free up CPU and RAM
 
 I have analyzed your system's performance and identified the applications that are currently consuming the most CPU and RAM. 
 
-Please review the [implementation_plan.md](file:///home/jd/.gemini/antigravity/brain/121c185c-e397-484a-a556-2115929f8633/implementation_plan.md) artifact to see the top consumers. Let me know which of those applications (if any) you would like me to safely close for you to free up resources!
+Please review the [implementation_plan.md](file://[local path redacted]) artifact to see the top consumers. Let me know which of those applications (if any) you would like me to safely close for you to free up resources!
 
 ---
 
@@ -122,7 +122,7 @@ free up disk space
 
 I have investigated your disk space usage. Since our cleanup a few days ago, some caches have filled up again, and it looks like you've been working on some Android projects which created some large Gradle caches.
 
-I have updated the [implementation_plan.md](file:///home/jd/.gemini/antigravity/brain/121c185c-e397-484a-a556-2115929f8633/implementation_plan.md) with a new set of targets to safely free up another **~3.2 GB**. 
+I have updated the [implementation_plan.md](file://[local path redacted]) with a new set of targets to safely free up another **~3.2 GB**. 
 
 Please review the plan and let me know if you approve, or if you'd like to look deeper into some of the other large personal folders.
 

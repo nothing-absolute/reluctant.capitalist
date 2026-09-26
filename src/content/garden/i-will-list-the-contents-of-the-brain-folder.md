@@ -21,8 +21,8 @@ vault: false
   * **Tokens:** 14.8M input, 1.8M output, 262.9M cache reads.
   * **Total Cost:** $0.53 (averaging ~$0.01 per day).
   * **Top Tool:** `bash` commands made up 45.9% of all tool calls.
-* Compiled active projects/prototypes from `/home/jd/Prototypes` and the scratch directory (including `collectibles-vault`, `runpod-video-gen`, `puretube`, `groq-voice-assistant`, `LoRa-Boat-Monitor`, etc.).
-* Saved the detailed report locally to `/home/jd/Documents/user_overview.md`.
+* Compiled active projects/prototypes from `[local path redacted]` and the scratch directory (including `collectibles-vault`, `runpod-video-gen`, `puretube`, `groq-voice-assistant`, `LoRa-Boat-Monitor`, etc.).
+* Saved the detailed report locally to `[local path redacted]`.
 
 ### 3. Uploaded to the Odysseus GUI on RunPod
 * Transferred `user_overview.md` directly into the remote server's document folder (`/workspace/odysseus/data/personal_docs/User_Overview.md`).

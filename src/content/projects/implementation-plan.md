@@ -22,17 +22,17 @@ The Undertone project ecosystem covers two primary verticals:
 1. Sub-Harmonic Audio Monitoring (VST plugin + SBC hardware pass-through for 0Hz–20Hz infrasound monitoring).
 2. Modular E-Ink Secondary Display Phone Case (Digital minimalism + Hacker/Maker playground + Parental control AOSP ROM).
 
-The proposed Pitch Deck and User Growth Strategy address both verticals, leveraging the Kickstarter landing page at [undertone-landing/index.html](file:///home/jd/.gemini/antigravity-ide/scratch/undertone-landing/index.html).
+The proposed Pitch Deck and User Growth Strategy address both verticals, leveraging the Kickstarter landing page at [undertone-landing/index.html](file://[local path redacted]).
 
 Proposed Changes
 
 1. Context Restoration & Asset Audit
-- Re-index restored Product Requirements Document: [Product_Requirements_Document.md](file:///home/jd/.gemini/antigravity-ide/brain/39a111a2-ccbd-402d-8470-db9a6c8faca4/Product_Requirements_Document.md).
-- Validate existing Kickstarter Landing Page: [index.html](file:///home/jd/.gemini/antigravity-ide/scratch/undertone-landing/index.html).
+- Re-index restored Product Requirements Document: [Product_Requirements_Document.md](file://[local path redacted]).
+- Validate existing Kickstarter Landing Page: [index.html](file://[local path redacted]).
 
 2. Pitch Deck Creation
 
-[NEW] [undertone_pitch_deck.md](file:///home/jd/.gemini/antigravity-ide/brain/5a4bc721-cb05-481d-bdd6-a401492be258/undertone_pitch_deck.md)
+[NEW] [undertone_pitch_deck.md](file://[local path redacted])
 Create a 10-slide presentation deck formatted in Markdown with visual layout structures, slide notes, and investor messaging:
 - Slide 1: Title & Hook — UNDERTONE: Hear What You Can't, Control What You See.
 - Slide 2: The Problem — Unseen sub-harmonic noise pollution + hyper-stimulating mobile screen addiction.
@@ -47,7 +47,7 @@ Create a 10-slide presentation deck formatted in Markdown with visual layout str
 
 3. User Acquisition & Beta Testing Plan
 
-[NEW] [user_acquisition_and_testing_plan.md](file:///home/jd/.gemini/antigravity-ide/brain/5a4bc721-cb05-481d-bdd6-a401492be258/user_acquisition_and_testing_plan.md)
+[NEW] [user_acquisition_and_testing_plan.md](file://[local path redacted])
 Create an actionable strategy for acquiring, onboarding, and gathering feedback from initial beta testers:
 - Target Persona Breakdown:
   - Persona A: Audio Engineers & Sub-Harmonic Sensitivity Sufferers
@@ -63,7 +63,7 @@ Create an actionable strategy for acquiring, onboarding, and gathering feedback 
 
 4. Interactive Pitch Deck & Presentation View
 
-[NEW] [pitch_deck.html](file:///home/jd/.gemini/antigravity-ide/scratch/undertone-landing/pitch_deck.html)
+[NEW] [pitch_deck.html](file://[local path redacted])
 Create an interactive HTML slide viewer matching the Undertone brand aesthetic (dark mode, sub-frequency pulse animations, responsive controls) so the user can present the pitch deck in a browser.
 
 Verification Plan

@@ -755,7 +755,7 @@ This is a meaty topic — let me build a comprehensive artifact covering both, t
 
 **Antigravity** · 2026-08-02 12:08
 
-I've put together a full [Indoor Positioning Guide](file:///home/jd/.gemini/antigravity/brain/06ba1b33-e0e6-40ea-8318-ff5fc9c9deef/indoor_positioning_guide.md) covering everything. Here's a quick orientation:
+I've put together a full [Indoor Positioning Guide](file://[local path redacted]) covering everything. Here's a quick orientation:
 
 ---
 

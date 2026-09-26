@@ -13,7 +13,7 @@ quality: 3
 
 What this is: an opencode working session — 27 messages.
 
-When: 2026-08-31 · Working directory: /home/jd/Prototypes
+When: 2026-08-31 · Working directory: [local path redacted]
 
 Opened with:
 

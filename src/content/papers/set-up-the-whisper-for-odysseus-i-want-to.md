@@ -20,10 +20,10 @@ We have successfully resolved all dependency installation issues, verified GGUF 
 1. **Configured Speech-to-Text (STT) & Text-to-Speech (TTS)**:
    - **Local Whisper (STT)**: Enabled local Speech-to-Text using the pre-installed `faster-whisper` backend. It automatically runs on CPU using highly-optimized `int8` quantization, providing fast and private local transcription.
    - **Browser Speech (TTS)**: Configured Text-to-Speech to use the browser client (`browser` provider). This allows Odysseus to read chat responses aloud using your browser's native Web Speech API (completely free and local), bypassing the local Kokoro engine's requirement for a CUDA GPU.
-   - Both settings are now active in `/media/jd/500gb/LINUX/Odysseus/odysseus/data/settings.json`.
+   - Both settings are now active in `[local path redacted]`.
 
 2. **Installed LLM GGUF Serving Backend (`llama-cpp-python`)**:
-   - Compiled and installed `llama-cpp-python` in the 500GB virtual environment (`/media/jd/500gb/LINUX/Odysseus/odysseus/venv`).
+   - Compiled and installed `llama-cpp-python` in the 500GB virtual environment (`[local path redacted]`).
    - Verified that the library imports successfully.
 
 3. **Patched BasicSR Version Resolution for Python 3.13**:
@@ -33,11 +33,11 @@ We have successfully resolved all dependency installation issues, verified GGUF 
 4. **Installed Remaining Image & Editor Libraries**:
    - Installed `diffusers[torch]` (diffusion engine), `python-multipart`, `transformers`, `accelerate`, and `pillow` (Segment Anything / SAM mask dependencies).
    - Installed `rembg` (background remover) and `realesrgan` (upscaling tool) along with their related sub-dependencies (`gfpgan`, `facexlib`, etc.).
-   - Verified that all Python packages successfully registered inside `/media/jd/500gb/LINUX/Odysseus/odysseus/venv/lib/python3.13/site-packages`.
+   - Verified that all Python packages successfully registered inside `[local path redacted]`.
 
 5. **Reclaimed Main Drive Space (4.4 GB Reclaimed)**:
    - **Pip Cache Cleaned (3.2 GB)**: Pip cached the massive downloaded `.whl` files (wheels) for PyTorch and other dependencies in `~/.cache/pip` on the main drive. We ran `pip cache purge` to completely clean this up.
-   - **Playwright Cache Moved (1.2 GB)**: Playwright originally downloaded browsers to `~/.cache/ms-playwright` on the main drive. We deleted this directory and pointed Playwright to the 500GB drive instead (`/media/jd/500gb/LINUX/Odysseus/odysseus/data/.cache/ms-playwright`).
+   - **Playwright Cache Moved (1.2 GB)**: Playwright originally downloaded browsers to `~/.cache/ms-playwright` on the main drive. We deleted this directory and pointed Playwright to the 500GB drive instead (`[local path redacted]`).
    
    > [!NOTE]
    > Because the 500GB external drive is formatted with **exFAT**, it does not support Unix symlinks. Playwright requires symlinks for WebKit and Firefox, which causes them to fail installation on exFAT. However, **Chromium** and **FFmpeg** (which Odysseus actually uses for browser automation) do not use symlinks and are fully functional on the 500GB drive.
@@ -74,13 +74,13 @@ No tasks to run. Waiting for llama-cpp-python compilation to complete.
 
 **Antigravity** · 2026-08-31 15:38
 
-I have compiled and installed **`llama-cpp-python`** in your 500GB virtual environment (`/media/jd/500gb/LINUX/Odysseus/odysseus/venv`). 
+I have compiled and installed **`llama-cpp-python`** in your 500GB virtual environment (`[local path redacted]`). 
 
 Here is the update:
 
 1. **Compilation Completed**: The C++ extensions for `llama.cpp` compiled successfully on your CPU, and the package loaded without any errors when verified inside your virtual environment.
 2. **Pip Cache Cleaned**: Any compile-time wheel cache files created during the build process (about 96 MB) were cleaned up to ensure your main drive stays fully clean.
-3. **Walkthrough Updated**: The details have been updated in your [walkthrough.md](file:///home/jd/.gemini/antigravity/brain/96bc662a-1ad2-42ee-b8dc-36dd80d196b4/walkthrough.md) file.
+3. **Walkthrough Updated**: The details have been updated in your [walkthrough.md](file://[local path redacted]) file.
 
 To refresh the Odysseus UI dependencies check, please run this command in your terminal to restart the service:
 ```bash
@@ -125,7 +125,7 @@ Because Odysseus loads these settings dynamically on every request, **the featur
 
 Just open or reload your Odysseus UI. You will now see a microphone icon next to your message input box to record your voice, and you can click the speaker icon next to chat assistant responses to listen to them.
 
-Details have been added to the updated [walkthrough.md](file:///home/jd/.gemini/antigravity/brain/96bc662a-1ad2-42ee-b8dc-36dd80d196b4/walkthrough.md) artifact.
+Details have been added to the updated [walkthrough.md](file://[local path redacted]) artifact.
 
 ---
 

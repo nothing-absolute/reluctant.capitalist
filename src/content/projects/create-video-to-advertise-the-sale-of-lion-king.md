@@ -21,42 +21,42 @@ We will generate **6 distinct targeted video ad compositions** plus a **Master C
 
 ---
 
-### [Remotion Project] `/home/jd/.gemini/antigravity/scratch/lion-king-ad`
+### [Remotion Project] `[local path redacted]`
 
-#### [NEW] [InvestorAd.tsx](file:///home/jd/.gemini/antigravity/scratch/lion-king-ad/src/components/InvestorAd.tsx)
+#### [NEW] [InvestorAd.tsx](file://[local path redacted])
 - **Target Persona**: Institutional Investor / Portfolio Collector
 - **Theme**: Dark stone & gold (`#2d241e`, `#c2410c`), financial asset motif
 - **Key Elements**: Box office gross stats ($968.5M), authenticity verification badge, shipping box showcase (`PXL_20260630_030758959.jpg`), CTA: "VIEW VALUATION REPORT"
 
-#### [NEW] [HistorianAd.tsx](file:///home/jd/.gemini/antigravity/scratch/lion-king-ad/src/components/HistorianAd.tsx)
+#### [NEW] [HistorianAd.tsx](file://[local path redacted])
 - **Target Persona**: Archival Collector / Film Preservationist
 - **Theme**: Sepia/amber archival paper, schematic blueprint lines
 - **Key Elements**: Assembly instructions zoom (`PXL_20260630_030747818.jpg`), 10,000+ theaters vs 1 survivor stat, CTA: "PROVENANCE DETAILS"
 
-#### [NEW] [SuperFanAd.tsx](file:///home/jd/.gemini/antigravity/scratch/lion-king-ad/src/components/SuperFanAd.tsx)
+#### [NEW] [SuperFanAd.tsx](file://[local path redacted])
 - **Target Persona**: Disney Renaissance Super-Fan / Millennial
 - **Theme**: Vivid blue/orange sunset glow, cinematic font transitions
 - **Key Elements**: Painted Mufasa cloud artwork (`PXL_20260630_030506933.jpg`), emotional memory hook, CTA: "OWN THE LEGEND"
 
-#### [NEW] [FomoAd.tsx](file:///home/jd/.gemini/antigravity/scratch/lion-king-ad/src/components/FomoAd.tsx)
+#### [NEW] [FomoAd.tsx](file://[local path redacted])
 - **Target Persona**: Auction Fence-sitters / High Urgency Buyers
 - **Theme**: Crimson red alert (`#dc2626`), high-energy pulse & glitch effects
 - **Key Elements**: "⚠️ ONE OF ONE", full standee collage (`lion_king_standee_listing_collage.jpg`), auction ticker, CTA: "BID NOW"
 
-#### [NEW] [LocalAd.tsx](file:///home/jd/.gemini/antigravity/scratch/lion-king-ad/src/components/LocalAd.tsx)
+#### [NEW] [LocalAd.tsx](file://[local path redacted])
 - **Target Persona**: Sioux Falls Local & Regional History Enthusiasts
 - **Theme**: Emerald green, 32-year preservation story stamp
 - **Key Elements**: Theater shipping label focus, "A PIECE OF SIOUX FALLS HISTORY", CTA: "READ THE STORY"
 
-#### [NEW] [StoryAd.tsx](file:///home/jd/.gemini/antigravity/scratch/lion-king-ad/src/components/StoryAd.tsx)
+#### [NEW] [StoryAd.tsx](file://[local path redacted])
 - **Target Persona**: Community Validators & Collectors
 - **Theme**: Mystery slate gray, question mark ambient animations
 - **Key Elements**: "DOES ANYONE HAVE ONE OF THESE?", curiosity hook, CTA: "HELP ME FIND"
 
-#### [NEW] [CampaignMasterReel.tsx](file:///home/jd/.gemini/antigravity/scratch/lion-king-ad/src/components/CampaignMasterReel.tsx)
+#### [NEW] [CampaignMasterReel.tsx](file://[local path redacted])
 - **Compilation**: A 30-second high-energy showcase reel cycling through all 6 viral angles with smooth transitions, perfect for multi-channel video ads.
 
-#### [MODIFY] [Root.tsx](file:///home/jd/.gemini/antigravity/scratch/lion-king-ad/src/Root.tsx)
+#### [MODIFY] [Root.tsx](file://[local path redacted])
 - Register all 6 individual ad compositions (1080x1350 4:5 Instagram Feed & 1080x1920 9:16 Vertical) plus the `CampaignMasterReel`.
 
 ---
@@ -64,8 +64,8 @@ We will generate **6 distinct targeted video ad compositions** plus a **Master C
 ## Verification Plan
 
 ### Automated Build & Render
-1. Run `npx remotion render` for each composition in `/home/jd/.gemini/antigravity/scratch/lion-king-ad/`.
-2. Output MP4 files to `/home/jd/.gemini/antigravity/brain/18f09793-f23d-4d54-8065-4196b348fb59/`:
+1. Run `npx remotion render` for each composition in `[local path redacted]/`.
+2. Output MP4 files to `[local path redacted]/`:
    - `ad_investor.mp4`
    - `ad_historian.mp4`
    - `ad_superfan.mp4`
@@ -97,44 +97,44 @@ All Remotion video advertisements extracted from the **Lion King Standee — Vir
 
 ### 1. Master Campaign Showcase Reel (30s Vertical 9:16)
 A high-energy, multi-angle promotional reel cycling through all 6 viral ad hooks with smooth animations and targeted persona callouts.
-- 📹 **Video Output**: [lion_king_master_campaign_reel.mp4](file:///home/jd/.gemini/antigravity/brain/18f09793-f23d-4d54-8065-4196b348fb59/lion_king_master_campaign_reel.mp4)
-- 💻 **Source Code**: [CampaignMasterReel.tsx](file:///home/jd/.gemini/antigravity/scratch/lion-king-ad/src/components/CampaignMasterReel.tsx)
+- 📹 **Video Output**: [lion_king_master_campaign_reel.mp4](file://[local path redacted])
+- 💻 **Source Code**: [CampaignMasterReel.tsx](file://[local path redacted])
 
 ### 2. The Investor ("THE ASSET OF A GENERATION")
 - **Target Audience**: Institutional / High-End Collectors & Portfolio Diversifiers
 - **Aesthetic**: Premium dark stone & gold palette (`#1c1917`, `#f59e0b`), financial asset layout
 - **Hook**: Highlights $968.5M box office gross & 15x material valuation
-- 📹 **Video Output**: [lion_king_ad_investor.mp4](file:///home/jd/.gemini/antigravity/brain/18f09793-f23d-4d54-8065-4196b348fb59/lion_king_ad_investor.mp4)
-- 💻 **Source Code**: [InvestorAd.tsx](file:///home/jd/.gemini/antigravity/scratch/lion-king-ad/src/components/InvestorAd.tsx)
+- 📹 **Video Output**: [lion_king_ad_investor.mp4](file://[local path redacted])
+- 💻 **Source Code**: [InvestorAd.tsx](file://[local path redacted])
 
 ### 3. The Super-Fan ("RETURN TO THE PRIDE LANDS")
 - **Target Audience**: Disney Renaissance Super-Fans & Millennial Collectors
 - **Aesthetic**: Deep midnight blue & golden sunset gradient glow (`#090d16`, `#f97316`)
 - **Hook**: Emotional Mufasa cloud artwork nostalgia & 1994 box office magic
-- 📹 **Video Output**: [lion_king_ad_superfan.mp4](file:///home/jd/.gemini/antigravity/brain/18f09793-f23d-4d54-8065-4196b348fb59/lion_king_ad_superfan.mp4)
-- 💻 **Source Code**: [SuperFanAd.tsx](file:///home/jd/.gemini/antigravity/scratch/lion-king-ad/src/components/SuperFanAd.tsx)
+- 📹 **Video Output**: [lion_king_ad_superfan.mp4](file://[local path redacted])
+- 💻 **Source Code**: [SuperFanAd.tsx](file://[local path redacted])
 
 ### 4. The FOMO ("ONE OF ONE")
 - **Target Audience**: Auction Fence-Sitters & High-Urgency Bidders
 - **Aesthetic**: Crimson red alert (`#dc2626`) with high-energy pulsing borders
 - **Hook**: "⚠️ ONE OF ONE — AUCTION LIVE", 32-year survivor rarity countdown
-- 📹 **Video Output**: [lion_king_ad_fomo.mp4](file:///home/jd/.gemini/antigravity/brain/18f09793-f23d-4d54-8065-4196b348fb59/lion_king_ad_fomo.mp4)
-- 💻 **Source Code**: [FomoAd.tsx](file:///home/jd/.gemini/antigravity/scratch/lion-king-ad/src/components/FomoAd.tsx)
+- 📹 **Video Output**: [lion_king_ad_fomo.mp4](file://[local path redacted])
+- 💻 **Source Code**: [FomoAd.tsx](file://[local path redacted])
 
 ### 5. The Historian ("BEHIND THE MAGIC")
 - **Target Audience**: Archival Historians & Film Preservationists
 - **Aesthetic**: Deep mahogany/amber paper texture with blueprint grid lines
-- 💻 **Source Code**: [HistorianAd.tsx](file:///home/jd/.gemini/antigravity/scratch/lion-king-ad/src/components/HistorianAd.tsx)
+- 💻 **Source Code**: [HistorianAd.tsx](file://[local path redacted])
 
 ### 6. Sioux Falls Local ("A PIECE OF SIOUX FALLS HISTORY")
 - **Target Audience**: Local & Regional South Dakota History Enthusiasts
 - **Aesthetic**: Emerald green (`#064e3b`), 32-year preservation timeline counter
-- 💻 **Source Code**: [LocalAd.tsx](file:///home/jd/.gemini/antigravity/scratch/lion-king-ad/src/components/LocalAd.tsx)
+- 💻 **Source Code**: [LocalAd.tsx](file://[local path redacted])
 
 ### 7. The Story ("DOES ANYONE HAVE ONE OF THESE?")
 - **Target Audience**: Community Validators & Reddit/Facebook Collector Groups
 - **Aesthetic**: Mystery slate gray with animated glowing question mark hook
-- 💻 **Source Code**: [StoryAd.tsx](file:///home/jd/.gemini/antigravity/scratch/lion-king-ad/src/components/StoryAd.tsx)
+- 💻 **Source Code**: [StoryAd.tsx](file://[local path redacted])
 
 ---
 
@@ -171,39 +171,39 @@ I have extracted the copy, target buyer personas, design themes, color palettes,
 
 1. **Master Campaign Showcase Reel (30s Vertical 9:16)**
    - High-energy compilation video cycling through all 6 campaign hooks with smooth transitions.
-   - [CampaignMasterReel.tsx](file:///home/jd/.gemini/antigravity/scratch/lion-king-ad/src/components/CampaignMasterReel.tsx)
+   - [CampaignMasterReel.tsx](file://[local path redacted])
 
 2. **The Investor ("THE ASSET OF A GENERATION")**
    - Premium dark stone & gold theme (`#1c1917`, `#f59e0b`).
    - Highlights $968.5M box office gross, 15x material valuation, and "AUTHENTICITY VERIFIED" badge.
-   - [InvestorAd.tsx](file:///home/jd/.gemini/antigravity/scratch/lion-king-ad/src/components/InvestorAd.tsx)
+   - [InvestorAd.tsx](file://[local path redacted])
 
 3. **The Super-Fan ("RETURN TO THE PRIDE LANDS")**
    - Nostalgic Disney Renaissance sunset glow (`#090d16`, `#f97316`).
    - Showcases the painted Mufasa artwork with floating sunburst sparkle animations.
-   - [SuperFanAd.tsx](file:///home/jd/.gemini/antigravity/scratch/lion-king-ad/src/components/SuperFanAd.tsx)
+   - [SuperFanAd.tsx](file://[local path redacted])
 
 4. **The FOMO ("ONE OF ONE")**
    - High-urgency crimson alert (`#dc2626`) with pulsing hazard borders and auction countdown ticker.
-   - [FomoAd.tsx](file:///home/jd/.gemini/antigravity/scratch/lion-king-ad/src/components/FomoAd.tsx)
+   - [FomoAd.tsx](file://[local path redacted])
 
 5. **The Historian ("BEHIND THE MAGIC")**
    - Deep mahogany & amber archival paper style with schematic blueprint grid lines.
-   - [HistorianAd.tsx](file:///home/jd/.gemini/antigravity/scratch/lion-king-ad/src/components/HistorianAd.tsx)
+   - [HistorianAd.tsx](file://[local path redacted])
 
 6. **Sioux Falls Local ("A PIECE OF SIOUX FALLS HISTORY")**
    - Emerald green historical theme with a 32-year preservation counter (1994 ➔ 2026).
-   - [LocalAd.tsx](file:///home/jd/.gemini/antigravity/scratch/lion-king-ad/src/components/LocalAd.tsx)
+   - [LocalAd.tsx](file://[local path redacted])
 
 7. **The Story ("DOES ANYONE HAVE ONE OF THESE?")**
    - Mystery slate gray theme featuring an animated question mark badge for community group teases.
-   - [StoryAd.tsx](file:///home/jd/.gemini/antigravity/scratch/lion-king-ad/src/components/StoryAd.tsx)
+   - [StoryAd.tsx](file://[local path redacted])
 
 ---
 
 ### 📑 Walkthrough & Video Artifacts
 
-The details and file links have been compiled into the [walkthrough.md](file:///home/jd/.gemini/antigravity/brain/18f09793-f23d-4d54-8065-4196b348fb59/walkthrough.md) artifact. 
+The details and file links have been compiled into the [walkthrough.md](file://[local path redacted]) artifact. 
 
 The rendering process is currently exporting the video files (`lion_king_master_campaign_reel.mp4`, `lion_king_ad_investor.mp4`, `lion_king_ad_superfan.mp4`, `lion_king_ad_fomo.mp4`) into your artifacts folder in the background. You'll be notified automatically as soon as the render finishes!
 
@@ -213,7 +213,7 @@ The rendering process is currently exporting the video files (`lion_king_master_
 
 The video rendering task (`task-187`) is actively executing in the background to render the master campaign reel and individual ad variants. 
 
-You can check the updated design specifications and progress anytime in the [walkthrough.md](file:///home/jd/.gemini/antigravity/brain/18f09793-f23d-4d54-8065-4196b348fb59/walkthrough.md) artifact. Once the background process finishes rendering all video compositions, the final `.mp4` video files will be saved in your artifacts folder!
+You can check the updated design specifications and progress anytime in the [walkthrough.md](file://[local path redacted]) artifact. Once the background process finishes rendering all video compositions, the final `.mp4` video files will be saved in your artifacts folder!
 
 ---
 
@@ -223,19 +223,19 @@ All Remotion video advertisements extracted from your **Viral Campaign Kit** (`L
 
 ### 🎥 Rendered Video Advertisements
 
-1. 🌟 **[lion_king_master_campaign_reel.mp4](file:///home/jd/.gemini/antigravity/brain/18f09793-f23d-4d54-8065-4196b348fb59/lion_king_master_campaign_reel.mp4)**
+1. 🌟 **[lion_king_master_campaign_reel.mp4](file://[local path redacted])**
    - *Master 30-Second Showcase Reel (9:16 Vertical Video for TikTok / Reels / Shorts)*
    - Dynamic compilation cycling through all 6 viral ad hooks.
 
-2. 📊 **[lion_king_ad_investor.mp4](file:///home/jd/.gemini/antigravity/brain/18f09793-f23d-4d54-8065-4196b348fb59/lion_king_ad_investor.mp4)**
+2. 📊 **[lion_king_ad_investor.mp4](file://[local path redacted])**
    - *"THE ASSET OF A GENERATION"* (4:5 Feed Format)
    - Dark stone & gold styling, $968.5M box office stat, and "AUTHENTICITY VERIFIED" badge.
 
-3. 🌅 **[lion_king_ad_superfan.mp4](file:///home/jd/.gemini/antigravity/brain/18f09793-f23d-4d54-8065-4196b348fb59/lion_king_ad_superfan.mp4)**
+3. 🌅 **[lion_king_ad_superfan.mp4](file://[local path redacted])**
    - *"RETURN TO THE PRIDE LANDS"* (4:5 Feed Format)
    - Cinematic Disney Renaissance sunset glow showcasing the painted Mufasa cloud artwork.
 
-4. ⚠️ **[lion_king_ad_fomo.mp4](file:///home/jd/.gemini/antigravity/brain/18f09793-f23d-4d54-8065-4196b348fb59/lion_king_ad_fomo.mp4)**
+4. ⚠️ **[lion_king_ad_fomo.mp4](file://[local path redacted])**
    - *"ONE OF ONE — AUCTION LIVE"* (4:5 Feed Format)
    - High-urgency crimson red design with pulsing borders and auction call-to-action.
 
@@ -243,8 +243,8 @@ All Remotion video advertisements extracted from your **Viral Campaign Kit** (`L
 
 ### 📑 Code & Walkthrough Details
 
-- You can view all video components in the [Remotion project source directory](file:///home/jd/.gemini/antigravity/scratch/lion-king-ad/src/components/).
-- Check out the complete breakdown in the [walkthrough.md](file:///home/jd/.gemini/antigravity/brain/18f09793-f23d-4d54-8065-4196b348fb59/walkthrough.md) artifact.
+- You can view all video components in the [Remotion project source directory](file://[local path redacted]/).
+- Check out the complete breakdown in the [walkthrough.md](file://[local path redacted]) artifact.
 
 </details>
 

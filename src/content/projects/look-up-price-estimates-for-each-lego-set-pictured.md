@@ -97,7 +97,7 @@ To optimize shipping costs and listing effort, we propose grouping the sets into
 
 This document catalogs and estimates the value of all **18 unique LEGO sets** pictured across the conversation. All prices are estimated for a **complete set in used condition with instructions, but without the box**, which represents the most common collector scenario.
 
-![LEGO Sets Value Comparison Chart](/home/jd/.gemini/antigravity/brain/432a8e0e-9923-47c2-9bb5-296992ac4880/lego_prices_chart.png)
+![LEGO Sets Value Comparison Chart]([local path redacted])
 
 ## Price Summary Table
 
@@ -369,16 +369,16 @@ We have successfully executed the strategy and planning phases to prepare your 1
 
 ## 🛠️ Created & Updated Files
 
-* **Sales Strategy Plan:** [implementation_plan.md](file:///home/jd/.gemini/antigravity/brain/432a8e0e-9923-47c2-9bb5-296992ac4880/implementation_plan.md)
-* **Detailed Price Sheet:** [lego_price_estimates.md](file:///home/jd/.gemini/antigravity/brain/432a8e0e-9923-47c2-9bb5-296992ac4880/lego_price_estimates.md) *(includes the generated value comparison bar chart image)*
-* **Listings & Shipping Guides:** [listing_templates.md](file:///home/jd/.gemini/antigravity/brain/432a8e0e-9923-47c2-9bb5-296992ac4880/listing_templates.md)
-* **Task Checklist:** [task.md](file:///home/jd/.gemini/antigravity/brain/432a8e0e-9923-47c2-9bb5-296992ac4880/task.md)
+* **Sales Strategy Plan:** [implementation_plan.md](file://[local path redacted])
+* **Detailed Price Sheet:** [lego_price_estimates.md](file://[local path redacted]) *(includes the generated value comparison bar chart image)*
+* **Listings & Shipping Guides:** [listing_templates.md](file://[local path redacted])
+* **Task Checklist:** [task.md](file://[local path redacted])
 
 ---
 
 ## ⚠️ Recommendations for the Seller (Next Steps)
-1. **Audit Pieces & Minifigures:** Complete the inventory checks using the lists in [listing_templates.md](file:///home/jd/.gemini/antigravity/brain/432a8e0e-9923-47c2-9bb5-296992ac4880/listing_templates.md). Mark items in the checklist [task.md](file:///home/jd/.gemini/antigravity/brain/432a8e0e-9923-47c2-9bb5-296992ac4880/task.md) as you proceed.
-2. **Take High-Quality Photos:** Use the photography tips in [listing_templates.md](file:///home/jd/.gemini/antigravity/brain/432a8e0e-9923-47c2-9bb5-296992ac4880/listing_templates.md) to ensure your listings stand out and show completeness.
+1. **Audit Pieces & Minifigures:** Complete the inventory checks using the lists in [listing_templates.md](file://[local path redacted]). Mark items in the checklist [task.md](file://[local path redacted]) as you proceed.
+2. **Take High-Quality Photos:** Use the photography tips in [listing_templates.md](file://[local path redacted]) to ensure your listings stand out and show completeness.
 3. **Disassemble & Pack:** Ensure pieces are completely disassembled and placed in separate zip bags before shipping to prevent scratch damage or broken clips in transit.
 
 ## Assets
@@ -563,7 +563,7 @@ I am currently running a script to generate a bar chart visual comparing the val
 
 I have generated a bar chart and created a consolidated list of the price estimates for all 18 unique LEGO sets pictured in this conversation.
 
-You can view the detailed summary, comparison chart, and theme insights in the [lego_price_estimates.md](file:///home/jd/.gemini/antigravity/brain/432a8e0e-9923-47c2-9bb5-296992ac4880/lego_price_estimates.md) artifact.
+You can view the detailed summary, comparison chart, and theme insights in the [lego_price_estimates.md](file://[local path redacted]) artifact.
 
 ---
 
@@ -571,7 +571,7 @@ You can view the detailed summary, comparison chart, and theme insights in the [
 
 I have added **6082 Fire Breathing Fortress** to the chart and analysis.
 
-The comparative chart, complete table, and updated collector observations are available in the [lego_price_estimates.md](file:///home/jd/.gemini/antigravity/brain/432a8e0e-9923-47c2-9bb5-296992ac4880/lego_price_estimates.md) artifact.
+The comparative chart, complete table, and updated collector observations are available in the [lego_price_estimates.md](file://[local path redacted]) artifact.
 
 ---
 
@@ -585,7 +585,7 @@ build a plan for selling all these sets
 
 I have created a sales plan detailing the options for selling your collection (such as bulk lotting vs. individual sales, platform comparisons, and part audits).
 
-Please review the proposed strategy in [implementation_plan.md](file:///home/jd/.gemini/antigravity/brain/432a8e0e-9923-47c2-9bb5-296992ac4880/implementation_plan.md) and let me know your thoughts on the open questions so we can finalize the approach.
+Please review the proposed strategy in [implementation_plan.md](file://[local path redacted]) and let me know your thoughts on the open questions so we can finalize the approach.
 
 ---
 
@@ -593,12 +593,12 @@ Please review the proposed strategy in [implementation_plan.md](file:///home/jd/
 
 I have finalized the sales strategy and prepared all the listing materials for your collection. 
 
-You can view the full summary of what has been prepared and the next steps in the [walkthrough.md](file:///home/jd/.gemini/antigravity/brain/432a8e0e-9923-47c2-9bb5-296992ac4880/walkthrough.md) artifact.
+You can view the full summary of what has been prepared and the next steps in the [walkthrough.md](file://[local path redacted]) artifact.
 
 ### 📋 Access Your Files:
-* **Ready-to-Use Listings & Shipping Guides:** [listing_templates.md](file:///home/jd/.gemini/antigravity/brain/432a8e0e-9923-47c2-9bb5-296992ac4880/listing_templates.md)
-* **Sales Task Tracker:** [task.md](file:///home/jd/.gemini/antigravity/brain/432a8e0e-9923-47c2-9bb5-296992ac4880/task.md)
-* **Comparative Price Sheet & Chart:** [lego_price_estimates.md](file:///home/jd/.gemini/antigravity/brain/432a8e0e-9923-47c2-9bb5-296992ac4880/lego_price_estimates.md)
+* **Ready-to-Use Listings & Shipping Guides:** [listing_templates.md](file://[local path redacted])
+* **Sales Task Tracker:** [task.md](file://[local path redacted])
+* **Comparative Price Sheet & Chart:** [lego_price_estimates.md](file://[local path redacted])
 
 </details>
 

@@ -19,7 +19,7 @@ I have added the OmniRoute provider with your API key to your OpenCode configura
 
 OpenCode will now connect to your local OmniRoute instance (using the standard `http://localhost:20128/v1` base URL) and automatically discover all available models through its OpenAI-compatible endpoint.
 
-Here is a summary of the changes made to [opencode.json](file:///home/jd/.opencode/opencode.json):
+Here is a summary of the changes made to [opencode.json](file://[local path redacted]):
 ```json
   "provider": {
     "omniroute": {
@@ -71,7 +71,7 @@ add omniroute api: oma_live_u8NUJ0mGaz0bnfU7vFh-NsFFAsPnTOQO8vTRUrJ_j4w to openc
 
 The new API key has been successfully updated in your OpenCode configuration! 
 
-[opencode.json](file:///home/jd/.opencode/opencode.json) is now configured to use `oma_live_u8NUJ0mGaz0bnfU7vFh-NsFFAsPnTOQO8vTRUrJ_j4w` when connecting to your local OmniRoute server.
+[opencode.json](file://[local path redacted]) is now configured to use `oma_live_u8NUJ0mGaz0bnfU7vFh-NsFFAsPnTOQO8vTRUrJ_j4w` when connecting to your local OmniRoute server.
 </details>
 
 ---

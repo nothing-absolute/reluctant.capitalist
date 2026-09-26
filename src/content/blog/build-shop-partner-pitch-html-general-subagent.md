@@ -13,12 +13,12 @@ quality: 4
 
 This is an opencode working session — 12 messages.
 
-When: 2026-09-20 · Working directory: /home/jd/Prototypes
+When: 2026-09-20 · Working directory: [local path redacted]
 
 Opened with:
 
 > You are building the shop-partner pitch page. Read the authoritative prompt file first, with full care:
 >
-> /home/jd/Prototypes/vehicle-security-remediation/claude-prompt-shop-partner-pitch.md
+> [local path redacted]
 >
 > Use the Read tool on that file. The prompt is self-contained and authoritative — follow its role, facts, money, tone, design system, page structure, and hard technical requirements exactly.

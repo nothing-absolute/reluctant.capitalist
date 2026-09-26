@@ -13,7 +13,7 @@ quality: 4
 
 This is an opencode working session — 65 messages.
 
-When: 2026-09-04 · Working directory: /home/jd/Prototypes
+When: 2026-09-04 · Working directory: [local path redacted]
 
 Opened with:
 > add qwen2.5-3b OpenAI compatible LLM endpoint: http://10.240.190.108:8080/v1/ to opencode

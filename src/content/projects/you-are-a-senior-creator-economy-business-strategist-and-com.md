@@ -270,10 +270,10 @@ I have successfully mapped and generated the operational playbooks for your hybr
 
 The operation has been broken down into four ready-to-execute modules, organized in your workspace:
 
-1. **[Dataset Prep & LoRA Training Guide](file:///home/jd/.gemini/antigravity/brain/47c031a8-0492-4ed7-8da3-282987c01132/lora_training_guide.md)**
+1. **[Dataset Prep & LoRA Training Guide](file://[local path redacted])**
    - Detailed specifications for capturing the 30-50 base images of yourself.
    - RunPod Kohya_ss configurations (epochs, batch size, learning rate) for training a high-fidelity digital twin LoRA.
-2. **[Content Generation Workflow](file:///home/jd/.gemini/antigravity/brain/47c031a8-0492-4ed7-8da3-282987c01132/generation_workflow.md)**
+2. **[Content Generation Workflow](file://[local path redacted])**
    - System prompts for your local LLM to generate precise image prompts.
    - The "Golden Node" ComfyUI workflow architecture for ensuring facial consistency and preventing anatomical errors.
 3. **[Compliance Ledger & Storage Struc

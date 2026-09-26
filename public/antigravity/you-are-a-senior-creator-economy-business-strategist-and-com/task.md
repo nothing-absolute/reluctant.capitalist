@@ -1,0 +1,7 @@
+- `[/]` Initialize Workspace
+  - `[x]` Create task.md
+- `[x]` Deliverable 1: Dataset Prep & LoRA Training Guide (RunPod/Kohya)
+- `[x]` Deliverable 2: Content Generation Workflow (LLM Prompts & ComfyUI Config)
+- `[x]` Deliverable 3: Compliance Ledger (2257) & Storage Structure
+- `[x]` Deliverable 4: Fanvue Distribution & Monetization Schedule
+- `[x]` Create walkthrough.md

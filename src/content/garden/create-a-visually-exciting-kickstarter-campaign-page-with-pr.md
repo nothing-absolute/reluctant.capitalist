@@ -454,12 +454,12 @@ You've already paid for your charts through your taxes—NOAA charts are free, p
 
 When your screen cracks or a port corrodes in three years, you can't fix it. The manufacturer won't sell you parts. They will tell you to throw it in the trash and buy the new model. 
 
-![Asset 1: Side-by-side helm shot](/home/jd/.gemini/antigravity/brain/1a22fe8e-382a-4a0d-92a0-70a0f0e2d348/side_by_side_helm_1785376812342.jpg)
+![Asset 1: Side-by-side helm shot]([local path redacted])
 
 ### The Solution (Source Serif)
 We built OpenPlotter because we were tired of being locked out of our own equipment. 
 
-![Asset 2: CNC Enclosure Cutaway](/home/jd/.gemini/antigravity/brain/1a22fe8e-382a-4a0d-92a0-70a0f0e2d348/cnc_enclosure_cutaway_1785376822012.jpg)
+![Asset 2: CNC Enclosure Cutaway]([local path redacted])
 
 OpenPlotter is a fully functional, daylight-readable, open-source chartplotter. By utilizing an open Compute Module architecture (the CM4 standard footprint), our motherboard accepts drop-in processors from multiple vendors—Raspberry Pi, Radxa, or Pine64. We are completely immune to single-vendor supply chain shortages, a lockdown issue plaguing not just marine electronics, but agricultural and industrial sectors as well. 
 
@@ -481,20 +481,20 @@ We're pricing honestly, not pretending components are free. While the Raspberry 
 > We will never lock features behind a paywall. 
 > 
 > Every schematic, every line of firmware, every CAD file is on GitHub under an irrevocable open-source license—published *now*, not after funding. If this company disappears tomorrow, the project lives.
-![Asset 5: GitHub repo on a boat](/home/jd/.gemini/antigravity/brain/1a22fe8e-382a-4a0d-92a0-70a0f0e2d348/laptop_on_boat_1785376839396.jpg)
+![Asset 5: GitHub repo on a boat]([local path redacted])
 
 ### The Tiers
 *Insert Asset 8: Tier Comparison Graphic*
 
 **Tier 1: The Hackers & Builders**
-![Asset 3: Kit contents flat lay](/home/jd/.gemini/antigravity/brain/1a22fe8e-382a-4a0d-92a0-70a0f0e2d348/kit_flat_lay_1785376831425.jpg)
+![Asset 3: Kit contents flat lay]([local path redacted])
 - **1A: Bring Your Own Pi ($99):** GPS HAT, pre-flashed SD card, 3D-printed case, and STLs. You supply the Pi and the screen.
 - **1B: Full Kit ($199):** Raspberry Pi 4 (stabilized supply), 7" sunlight touchscreen, GPS HAT, SD, cables, enclosure. You assemble it.
 - **1C: Premium Pre-Assembled ($299):** Exact same hardware, but we build it, test it, run a 24-hour burn-in, and ship it plug-and-play. *(Optional: $50 Pi 5 Performance Upgrade available at checkout).*
 
 **Tier 2: The Professionals**
 - **Built in the USA ($549–$749):** Custom 4-layer PCB with universal CM4 socket, high-performance Rockchip RK3588 compute module, CNC billet aluminum IP67 enclosure, 1000-nit optically-bonded display, NVMe storage, and a lifetime repair guarantee. *Compare to Garmin ECHOMAP 93sv at $1,100.*
-![Asset 6: Machine Shop Action Shot](/home/jd/.gemini/antigravity/brain/1a22fe8e-382a-4a0d-92a0-70a0f0e2d348/cnc_machine_action_1785376847022.jpg)
+![Asset 6: Machine Shop Action Shot]([local path redacted])
 
 **Tier 3: The Founders Circle ($500–$50k)**
 This is our anti-VC funding tier. You get your name on the Founders Wall, feature voting rights, a private chat channel, and the option for revenue-share or a tax-deductible donation setup. Zero equity given to Wall Street. 
@@ -767,7 +767,7 @@ I have drafted the complete Kickstarter campaign page mockup and visual asset gu
 
 I've structured it into a single document that you can hand directly to your design team or 3D artists. It includes the brand guidelines (colors, typography, logo concept), detailed descriptions for all 11 required visual assets (including shot composition, labeling, and emotional intent), and the full campaign page copy with the required sections and the prominent anti-VC pledge.
 
-You can review the full document here: [openplotter_kickstarter.md](file:///home/jd/.gemini/antigravity/brain/1a22fe8e-382a-4a0d-92a0-70a0f0e2d348/openplotter_kickstarter.md)
+You can review the full document here: [openplotter_kickstarter.md](file://[local path redacted])
 
 Let me know if you'd like to adjust the tone further or tweak any of the tier features or pricing math!
 
@@ -790,7 +790,7 @@ I've generated the following assets and embedded them directly into the Kickstar
 4. **"They Can't Take It Away" (Asset 5):** An over-the-shoulder lifestyle shot of a user on a sailboat with their GitHub repo open.
 5. **"Built in the USA" (Asset 6):** A tactile, high-speed shot of a 5-axis CNC mill cutting the enclosure out of billet aluminum.
 
-You can view the updated document (now with the graphics embedded) here: [openplotter_kickstarter.md](file:///home/jd/.gemini/antigravity/brain/1a22fe8e-382a-4a0d-92a0-70a0f0e2d348/openplotter_kickstarter.md)
+You can view the updated document (now with the graphics embedded) here: [openplotter_kickstarter.md](file://[local path redacted])
 
 *(Note: Data-heavy graphics like the pie charts and UI elements like stretch goal bars are best laid out by a human designer in Illustrator or Figma using the exact branding and fonts defined in the guide, so I focused on providing you with the heavy-lifting photo/3D assets!)*
 
@@ -806,7 +806,7 @@ make a graphic chart of the break down of the price difference for the OpenPlott
 
 I've created a graphic breakdown of the price difference between OpenPlotter and the commercial alternatives, projecting the true cost over a 3-year period (which is when the subscription fees really start to hurt).
 
-You can review the breakdown chart and the visual graphs here: [cost_comparison_chart.md](file:///home/jd/.gemini/antigravity/brain/1a22fe8e-382a-4a0d-92a0-70a0f0e2d348/cost_comparison_chart.md)
+You can review the breakdown chart and the visual graphs here: [cost_comparison_chart.md](file://[local path redacted])
 
 I used side-by-side pie charts to visually demonstrate how much of a commercial unit's cost is actually tied up in recurring software subscriptions versus the hardware you're physically buying, which makes for a very compelling argument for the Kickstarter!
 
@@ -862,10 +862,10 @@ I have updated the Kickstarter strategy! This is a massive improvement to the bu
 Here is what I've done:
 
 1. **Updated the Kickstarter Campaign Copy:** I rewrote the subtitle, the "Solution" section, the "Hardware Reality" section, the Tier list, and the Risks matrix to reflect the new modular CM4-footprint strategy. We are now openly advertising our immunity to single-vendor supply shortages.
-   You can review the updated draft here: [openplotter_kickstarter.md](file:///home/jd/.gemini/antigravity/brain/1a22fe8e-382a-4a0d-92a0-70a0f0e2d348/openplotter_kickstarter.md)
+   You can review the updated draft here: [openplotter_kickstarter.md](file://[local path redacted])
 
 2. **Created Financial Projections & Unit Economics:** I built out a detailed profit and sales projection document. It breaks down the COGS (Cost of Goods Sold), Kickstarter platform fees, and gross margins for every tier. I also modeled out three funding scenarios: **Base Funding ($75k)**, **Moderate Success ($300k)**, and a **Breakout Hit ($1M+)** where economies of scale kick in to boost your margins.
-   You can view the financial projections here: [financial_projections.md](file:///home/jd/.gemini/antigravity/brain/1a22fe8e-382a-4a0d-92a0-70a0f0e2d348/financial_projections.md)
+   You can view the financial projections here: [financial_projections.md](file://[local path redacted])
 
 *(Note: The AI image generator is currently at capacity, so I couldn't render the new macro photograph of the modular motherboard for you right this second, but the text and financial artifacts are fully ready for your review!)* 
 
@@ -888,7 +888,7 @@ I have put together a complete social media strategy with post copy, hashtags, a
 3. **The Builder's Pride:** Highlighting the weekend-warrior DIY Kit.
 4. **The Future-Proof:** Explaining the modular, anti-supply-chain-shortage architecture.
 
-You can view all the post drafts here: [social_media_promo.md](file:///home/jd/.gemini/antigravity/brain/1a22fe8e-382a-4a0d-92a0-70a0f0e2d348/social_media_promo.md)
+You can view all the post drafts here: [social_media_promo.md](file://[local path redacted])
 
 *(I attempted to generate the final graphic images for these posts for you, but it looks like the AI image generator has hit a temporary capacity limit for the hour. However, the visual directions provided in the document will give any designer or 3D artist exactly what they need to render the graphics!)*
 
@@ -900,7 +900,7 @@ I have built out the financial projections and tiered unit economics for the **B
 
 This is an incredibly strong product pivot. Because remote monitors don't need expensive LCD touchscreens or full Linux compute modules (you can just use a cheap, highly reliable ESP32 microcontroller + an LTE modem), the **Cost of Goods Sold (COGS) is drastically lower**, which makes your profit margins much healthier even at a lower price point. 
 
-You can view the full financial projection and funding scenarios here: [byo_sim_boat_monitor_financials.md](file:///home/jd/.gemini/antigravity/brain/1a22fe8e-382a-4a0d-92a0-70a0f0e2d348/byo_sim_boat_monitor_financials.md)
+You can view the full financial projection and funding scenarios here: [byo_sim_boat_monitor_financials.md](file://[local path redacted])
 
 I've set the Base Funding goal to $30,000 since hardware like this is cheaper to prototype, and modeled a Breakout Hit up to $500k+ where you can start directly integrating cellular chips to maximize profit. Let me know what you think of this pricing structure!
 
@@ -912,7 +912,7 @@ I have drafted a completely new social media strategy specifically tailored for 
 
 This campaign attacks the specific pain points of remote boat monitoring: the absurdity of $240/year subscriptions for sending tiny amounts of text data, the need for actual marine-tough hardware (IP67 + automotive connectors), and the core freedom of buying your own $2 IoT SIM card. I also included a post aimed straight at the hacker/ESP32 community for your $49 bare board tier.
 
-You can review all the post concepts, copy, and hashtags here: [byo_sim_social_media_promo.md](file:///home/jd/.gemini/antigravity/brain/1a22fe8e-382a-4a0d-92a0-70a0f0e2d348/byo_sim_social_media_promo.md) 
+You can review all the post concepts, copy, and hashtags here: [byo_sim_social_media_promo.md](file://[local path redacted]) 
 
 Let me know if you want to tweak the tone or focus more heavily on specific platforms like Facebook Sailing groups versus Reddit!
 
@@ -932,7 +932,7 @@ I designed it specifically to take advantage of Claude's "Artifacts" feature, wh
 
 I made sure to brief Claude on the exact pricing tiers, the anti-subscription tone, and the dark-mode/marine aesthetic we developed.
 
-You can grab the prompt here: [claude_generation_prompt.md](file:///home/jd/.gemini/antigravity/brain/1a22fe8e-382a-4a0d-92a0-70a0f0e2d348/claude_generation_prompt.md)
+You can grab the prompt here: [claude_generation_prompt.md](file://[local path redacted])
 
 Let me know if there are any other angles or specifics you want to add to the prompt before you use it!
 
@@ -952,7 +952,7 @@ By launching them together, you aren't just selling a chartplotter or a monitor�
 
 I've also structured the reward tiers to heavily incentivize bundling (e.g., buying both the Hub and the Monitor at once), which will significantly drive up your Average Order Value (AOV) on Kickstarter.
 
-You can review the unified campaign blueprint here: [sentinel_ecosystem_kickstarter.md](file:///home/jd/.gemini/antigravity/brain/1a22fe8e-382a-4a0d-92a0-70a0f0e2d348/sentinel_ecosystem_kickstarter.md)
+You can review the unified campaign blueprint here: [sentinel_ecosystem_kickstarter.md](file://[local path redacted])
 
 Let me know if you want to tweak the bundle pricing or adjust any of the new stretch goals (like the NMEA 2000 certification or Satellite fallback module)!
 

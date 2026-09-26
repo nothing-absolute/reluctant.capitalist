@@ -20,13 +20,13 @@ This document presents the 3D CAD render of the custom PCB designed for the **Bi
 
 ## 3D CAD Render
 
-![BilgeGuard Custom PCB 3D Render](/home/jd/.gemini/antigravity/brain/11f12b5a-b923-4aa8-afd6-76dd5cbc047d/bilgeguard_pcb_design_1785567108075.jpg)
+![BilgeGuard Custom PCB 3D Render]([local path redacted])
 
 ---
 
 ## Board Layout & Component Highlights
 
-The 3D render represents a physical layout mapping of the schematic nets detailed in [BilgeGuard.net](file:///home/jd/.gemini/antigravity/scratch/LoRa-Boat-Monitor/BilgeGuard.net):
+The 3D render represents a physical layout mapping of the schematic nets detailed in [BilgeGuard.net](file://[local path redacted]):
 
 * **Solder Mask & Finish:** Matte dark blue solder mask with gold ENIG (Electroless Nickel Immersion Gold) contact pads and edge routing to combat salt-air corrosion.
 * **Microcontroller:** Center-mounted **ESP32-S3-WROOM-1** module, carrying integrated Wi-Fi and Bluetooth antennas.
@@ -186,7 +186,7 @@ evaluate to pick which fish boat technology could be easily recreated with open 
 
 I have completed a strategic evaluation to identify the easiest and most profitable marine electronics product to develop and launch on Kickstarter. 
 
-The detailed evaluation and comparison of the top five options is documented in the artifact: [fish_boat_tech_evaluation.md](file:///home/jd/.gemini/antigravity/brain/11f12b5a-b923-4aa8-afd6-76dd5cbc047d/fish_boat_tech_evaluation.md).
+The detailed evaluation and comparison of the top five options is documented in the artifact: [fish_boat_tech_evaluation.md](file://[local path redacted]).
 
 ### Summary of the Evaluation
 
@@ -194,7 +194,7 @@ Based on ease of development, profit margins, regulatory requirements, and marke
 
 1. **🏆 The Subscription-Free Boat Monitor (Verdict: The Winner)**
    * **BOM:** ~$35–$45 | **Retail:** $199 | **Gross Margin:** **~77%**
-   * **Why it wins:** It targets a boat owner's biggest anxiety (the boat sinking at the dock) and directly attacks the industry's most hated feature: forced $15–$25/month subscriptions. Sourcing is simple (ESP32 + pre-certified cellular LTE-M module), and software is easily adapted from existing open projects (such as [Norbert Walter's LoRa-Boat-Monitor](file:///home/jd/.gemini/antigravity/scratch/LoRa-Boat-Monitor/README.md) codebase).
+   * **Why it wins:** It targets a boat owner's biggest anxiety (the boat sinking at the dock) and directly attacks the industry's most hated feature: forced $15–$25/month subscriptions. Sourcing is simple (ESP32 + pre-certified cellular LTE-M module), and software is easily adapted from existing open projects (such as [Norbert Walter's LoRa-Boat-Monitor](file://[local path redacted]) codebase).
 2. **The Full Open Chartplotter (OpenPlotter)**
    * **BOM:** ~$180–$310 | **Retail:** $299–$649 | **Gross Margin:** **~30–50%**
    * **Why it falls short for v1:** While it has massive viral appeal, the manufacturing risk is very high (CNC aluminum tooling, display screen sourcing, volatile Raspberry Pi 5 pricing, and high liability if primary navigation fails).
@@ -209,13 +209,13 @@ Based on ease of development, profit margins, regulatory requirements, and marke
    * **Why it falls short for v1:** Bypass price-gouged OEM cables, but managing different proprietary CAN protocols and connectors across multiple engine manufacturers (Yamaha, Suzuki, Mercury) becomes a support nightmare.
 
 ### Recommended Next Step
-If you would like to move forward, we can set up a workspace in the `/home/jd/.gemini/antigravity/scratch/LoRa-Boat-Monitor` directory to inspect the open-source firmware and begin designing a custom PCB schematic for the **Subscription-Free Monitor**. Let me know how you would like to proceed!
+If you would like to move forward, we can set up a workspace in the `[local path redacted]` directory to inspect the open-source firmware and begin designing a custom PCB schematic for the **Subscription-Free Monitor**. Let me know how you would like to proceed!
 
 ---
 
 **You** · 2026-08-01 06:45
 
-set up a workspace in the /home/jd/.gemini/antigravity/scratch/LoRa-Boat-Monitor directory to inspect the open-source firmware and begin designing a custom PCB schematic for the Subscription-Free Monitor.
+set up a workspace in the [local path redacted] directory to inspect the open-source firmware and begin designing a custom PCB schematic for the Subscription-Free Monitor.
 
 ---
 
@@ -224,19 +224,19 @@ set up a workspace in the /home/jd/.gemini/antigravity/scratch/LoRa-Boat-Monitor
 I have set up the workspace for you to inspect the open-source firmware and begin designing the custom PCB schematic. 
 
 > [!TIP]
-> **Action Required:** Please set `/home/jd/.gemini/antigravity/scratch/LoRa-Boat-Monitor` as your active workspace in your IDE to directly edit, compile, or interface with this project.
+> **Action Required:** Please set `[local path redacted]` as your active workspace in your IDE to directly edit, compile, or interface with this project.
 
 ### Work Completed:
 
 1. **Firmware Analysis:**
-   * Inspected the firmware configuration in [Configuration.h](file:///home/jd/.gemini/antigravity/scratch/LoRa-Boat-Monitor/src/Configuration.h), pin assignments in [Definitions.h](file:///home/jd/.gemini/antigravity/scratch/LoRa-Boat-Monitor/src/Definitions.h), and reading functions in [Functions.h](file:///home/jd/.gemini/antigravity/scratch/LoRa-Boat-Monitor/src/Functions.h) and [LoRa_boat_monitor_abp.cpp](file:///home/jd/.gemini/antigravity/scratch/LoRa-Boat-Monitor/src/LoRa_boat_monitor_abp.cpp).
+   * Inspected the firmware configuration in [Configuration.h](file://[local path redacted]), pin assignments in [Definitions.h](file://[local path redacted]), and reading functions in [Functions.h](file://[local path redacted]) and [LoRa_boat_monitor_abp.cpp](file://[local path redacted]).
    * Verified that the original board relies on standard analog reads (`analogRead()`) for voltage and tank inputs, digital pins for optocoupled alarms, and serial ports for GPS and Victron VE.Direct integrations.
 
 2. **Custom PCB Specifications Design:**
-   * Created a detailed hardware design specification file directly inside the project root: [hardware_design_spec.md](file:///home/jd/.gemini/antigravity/scratch/LoRa-Boat-Monitor/hardware_design_spec.md).
+   * Created a detailed hardware design specification file directly inside the project root: [hardware_design_spec.md](file://[local path redacted]).
    * The specification migrates the system from the Heltec LoRa breakout to a custom, integrated **ESP32-S3** microcontroller and **SIM7080G** LTE-M/GPS module, utilizing direct native USB CDC programming, robust optocoupled inputs, active-low PWRKEY pulsing for cellular sleep modes, and low-quiescent-current DC buck regulators.
 
-You can inspect the new layout and circuit rules in the generated [hardware_design_spec.md](file:///home/jd/.gemini/antigravity/scratch/LoRa-Boat-Monitor/hardware_design_spec.md) file. Let me know if you would like me to start writing the KiCad Netlist structure or modify the firmware files to support SIM7080 UART communication!
+You can inspect the new layout and circuit rules in the generated [hardware_design_spec.md](file://[local path redacted]) file. Let me know if you would like me to start writing the KiCad Netlist structure or modify the firmware files to support SIM7080 UART communication!
 
 ---
 
@@ -248,7 +248,7 @@ creae the custom PCB design scematic
 
 **Antigravity** · 2026-08-01 06:49
 
-I have created the custom PCB schematic netlist for the **Subscription-Free Monitor (BilgeGuard)**. The full KiCad-compatible netlist file is saved in the workspace at [BilgeGuard.net](file:///home/jd/.gemini/antigravity/scratch/LoRa-Boat-Monitor/BilgeGuard.net).
+I have created the custom PCB schematic netlist for the **Subscription-Free Monitor (BilgeGuard)**. The full KiCad-compatible netlist file is saved in the workspace at [BilgeGuard.net](file://[local path redacted]).
 
 ### Schematic Architecture Summary:
 
@@ -272,7 +272,7 @@ The netlist organizes the hardware design into 41 distinct nets linking the foll
 ### How to Use the Netlist in KiCad:
 1. Open the PCB Editor in KiCad.
 2. Go to **File** -> **Import** -> **Netlist...**
-3. Select [BilgeGuard.net](file:///home/jd/.gemini/antigravity/scratch/LoRa-Boat-Monitor/BilgeGuard.net).
+3. Select [BilgeGuard.net](file://[local path redacted]).
 4. KiCad will automatically load all components with their assigned footprints (e.g., SOT-23, PowerDI5060, DIP-4, ESP32 SMT module) and display the ratsnest connection wires, allowing you to begin routing the board layout immediately.
 
 ---
@@ -287,7 +287,7 @@ generate the pcb deisgn as an image
 
 I have generated a high-quality 3D render of the BilgeGuard custom PCB design. 
 
-You can view the render image and its physical layout details in the design showcase artifact: [bilgeguard_design_showcase.md](file:///home/jd/.gemini/antigravity/brain/11f12b5a-b923-4aa8-afd6-76dd5cbc047d/bilgeguard_design_showcase.md).
+You can view the render image and its physical layout details in the design showcase artifact: [bilgeguard_design_showcase.md](file://[local path redacted]).
 
 ### Summary of Design Highlights
 * **Corrosion Resistance:** The board features a matte dark blue solder mask with gold ENIG pads to protect traces against humid marine environments.

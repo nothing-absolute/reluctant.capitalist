@@ -55,7 +55,9 @@ def make_placeholder_assets(timeline: dict, out: Path) -> int:
 def main() -> int:
     ap = argparse.ArgumentParser()
     ap.add_argument("--timeline", default="timelines/video_001_mlm_calculator.json")
-    ap.add_argument("--assets", default="", help="directory to read visual assets from")
+    ap.add_argument("--assets", default="", help="directory to write placeholder assets into")
+    ap.add_argument("--force", action="store_true",
+                    help="allow --assets to overwrite the real assets/ directory")
     ap.add_argument("--dry-run", action="store_true", help="validate the payload and stop")
     ap.add_argument("--limit", type=int, default=0, help="render only the first N segments (fast iteration)")
     args = ap.parse_args()
@@ -86,8 +88,15 @@ def main() -> int:
         print(f"  limited   {len(payload['timeline'])} segments")
 
     if args.assets:
+        real_assets = (HERE / "assets").resolve()
+        target = Path(args.assets).resolve()
+        if target == real_assets and not args.force:
+            print(f"REFUSING to write placeholder images into {target}")
+            print("That is the real asset directory; it would destroy the rendered charts.")
+            print("Point --assets at a scratch dir, or pass --force to overwrite deliberately.")
+            return 1
         worker.WORKDIR.mkdir(parents=True, exist_ok=True)
-        made = make_placeholder_assets(job, Path(args.assets).resolve())
+        made = make_placeholder_assets(job, target)
         print(f"  assets     {made} placeholder images in {args.assets}")
 
     print(f"\nrendering (workdir {worker.WORKDIR}) ... this calls edge-tts and needs ffmpeg")

@@ -29,8 +29,8 @@ Navigate to http://localhost:7000/ and check the current state. Open settings, g
 I have successfully navigated to `http://localhost:7000/`, checked the current state, and inspected the settings under both **Added Models** and **Add Models**.
 
 I have sent a detailed report to the parent agent and took two screenshots of the configuration:
-1. **Added Models Tab**: Saved to `/home/jd/.gemini/antigravity/brain/283d77af-6bd3-42af-b777-df9d9f2f98e7/added_models.png`
-2. **Add Models Tab**: Saved to `/home/jd/.gemini/antigravity/brain/283d77af-6bd3-42af-b777-df9d9f2f98e7/add_models.png`
+1. **Added Models Tab**: Saved to `[local path redacted]`
+2. **Add Models Tab**: Saved to `[local path redacted]`
 
 The recording of this session is also available in the conversation artifacts.
 

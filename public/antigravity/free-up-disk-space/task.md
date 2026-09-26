@@ -1,0 +1,6 @@
+- `[/]` Clean temporary and cache files
+  - `[ ]` Empty user cache directory (`~/.cache/`)
+  - `[ ]` Clear Gradle cache directory (`~/.gradle/caches/`)
+- `[ ]` System & Package Management
+  - `[ ]` Run Flatpak cleanup
+- `[ ]` Verify disk space usage

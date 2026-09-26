@@ -21,9 +21,9 @@ export all of Antigravity chat history and assets created to a single file. This
 
 **Antigravity** · 2026-09-24 11:29
 
-I am preparing the backup of your entire Antigravity chat history and created assets. I have started a task to compress all of this data (including chats, brain data, and artifacts) into a single file at `/home/jd/antigravity_export.tar.gz`.
+I am preparing the backup of your entire Antigravity chat history and created assets. I have started a task to compress all of this data (including chats, brain data, and artifacts) into a single file at `[local path redacted]`.
 
-Because this accesses your full `/home/jd/.gemini/antigravity` data directory, it required me to ask you for permission to bypass the sandbox. Please **Approve** the command in your interface.
+Because this accesses your full `[local path redacted]` data directory, it required me to ask you for permission to bypass the sandbox. Please **Approve** the command in your interface.
 
 Once the command finishes running, you'll find the complete backup file in your home directory ready to be transferred to your OpenCode portfolio/blog project.
 
@@ -34,7 +34,7 @@ Once the command finishes running, you'll find the complete backup file in your 
 The export of your Antigravity chat history and created assets has completed successfully! 
 
 The data has been compressed into a single archive file which you can find here:
-`/home/jd/antigravity_export.tar.gz` (Size: ~250 MB)
+`[local path redacted]` (Size: ~250 MB)
 
 *(Note: The command output showed a minor warning that a file changed during the read. This is completely normal and expected since Antigravity's own log files are continuously updating in the background while the backup is being taken. The archive is fully intact.)*
 

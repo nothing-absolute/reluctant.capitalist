@@ -258,10 +258,10 @@ All 4 files are ready. Here's what you need to do:
 
 | File | What it does |
 |---|---|
-| [sitemap.xml](file:///home/jd/.gemini/antigravity/scratch/mlm-truth-seo/sitemap.xml) | Tells Google what pages exist |
-| [robots.txt](file:///home/jd/.gemini/antigravity/scratch/mlm-truth-seo/robots.txt) | Tells crawlers they're allowed in + points to sitemap |
-| [og-image.jpg](file:///home/jd/.gemini/antigravity/scratch/mlm-truth-seo/og-image.jpg) | Social sharing preview image (the pyramid graphic above) |
-| [updated-head.html](file:///home/jd/.gemini/antigravity/scratch/mlm-truth-seo/updated-head.html) | Copy the meta tags from this into your `index.html` `<head>` |
+| [sitemap.xml](file://[local path redacted]) | Tells Google what pages exist |
+| [robots.txt](file://[local path redacted]) | Tells crawlers they're allowed in + points to sitemap |
+| [og-image.jpg](file://[local path redacted]) | Social sharing preview image (the pyramid graphic above) |
+| [updated-head.html](file://[local path redacted]) | Copy the meta tags from this into your `index.html` `<head>` |
 
 ### Steps:
 1. **Copy** `sitemap.xml`, `robots.txt`, and `og-image.jpg` into your repo root
@@ -269,7 +269,7 @@ All 4 files are ready. Here's what you need to do:
 3. **Push** to GitHub
 4. **Go to [Google Search Console](https://search.google.com/search-console)** → add your site → verify → submit the sitemap → request indexing
 
-All files are at `/home/jd/.gemini/antigravity/scratch/mlm-truth-seo/`. You should start showing up in Google search within about a week of submitting.
+All files are at `[local path redacted]/`. You should start showing up in Google search within about a week of submitting.
 
 </details>
 

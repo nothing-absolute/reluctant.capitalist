@@ -4,7 +4,7 @@ import { splitDoc } from './lib/staging.mjs';
 
 const ROOT = path.resolve(import.meta.dirname, '..');
 const CONTENT = path.join(ROOT, 'src', 'content');
-const SECTIONS = ['projects', 'blog', 'papers', 'art', 'comics', 'concepts', 'design', 'goals', 'values', 'garden'];
+const SECTIONS = ['projects', 'blog', 'papers', 'art', 'comics', 'concepts', 'design', 'goals', 'values', 'garden', 'fragments'];
 
 const posts = [];
 for (const section of SECTIONS) {
@@ -59,7 +59,8 @@ for (const p of posts) {
     goals: ['title', 'description', 'date', 'tags', 'source', 'draft', 'clarity', 'quality', 'status', 'target'],
     values: ['title', 'description', 'date', 'tags', 'source', 'draft', 'clarity', 'quality', 'weight'],
     garden: ['title', 'description', 'date', 'tags', 'source', 'draft', 'clarity', 'quality', 'vault'],
-  }[p.section];
+    fragments: ['title', 'description', 'date', 'tags', 'source', 'draft', 'clarity', 'quality', 'mechanism', 'signal', 'from'],
+  }[p.section] ?? [];
   const unknown = p.frontmatterKeys.filter((k) => !allowed.includes(k));
   if (unknown.length) issues.schema.push({ ...p, unknown });
 

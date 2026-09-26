@@ -12,12 +12,12 @@ type: "notes"
 
 ## Walkthrough - Video Graphic FX & OBS Multi-Channel Routing Engine
 
-We updated [Patchbay](file:///home/jd/.gemini/antigravity-ide/scratch/patchbay/src/App.jsx) to focus on real-time video graphic effects, multi-channel OBS-style video routing, Processing code sketch filters & masks, and disabled default MPC audio output.
+We updated [Patchbay](file://[local path redacted]) to focus on real-time video graphic effects, multi-channel OBS-style video routing, Processing code sketch filters & masks, and disabled default MPC audio output.
 
 ### Summary of Changes
 
 #### 1. Silent MPC Drum Pads (No Audio by Default)
-- Updated pad trigger handling in [`App.jsx`](file:///home/jd/.gemini/antigravity-ide/scratch/patchbay/src/App.jsx#L427-L453): MPC pads now function strictly as visual trigger and parameter modulation sources.
+- Updated pad trigger handling in [`App.jsx`](file://[local path redacted]#L427-L453): MPC pads now function strictly as visual trigger and parameter modulation sources.
 - Synth nodes default to `audioEnabled: false` (Muted), allowing MPC pads to trigger visual effects, pad indexes, and velocity modulations without playing unwanted audio unless explicitly unmuted.
 
 #### 2. OBS-Style Multi-Channel Video Routing & Nodes
@@ -28,7 +28,7 @@ We updated [Patchbay](file:///home/jd/.gemini/antigravity-ide/scratch/patchbay/s
 - **Matrix Bus Switcher Node (`video-bus`)**: Multi-input channel router (`inA`, `inB`, `inC` -> `busOut`).
 
 #### 3. Processing Code Sketches as Graphic Filters & Masks
-- Extended Processing code function signature in [`App.jsx`](file:///home/jd/.gemini/antigravity-ide/scratch/patchbay/src/App.jsx#L4-L26):
+- Extended Processing code function signature in [`App.jsx`](file://[local path redacted]#L4-L26):
   ```js
   function(ctx, w, h, time, mod, padIdx, padVel, inVideoA, inVideoB)
   ```

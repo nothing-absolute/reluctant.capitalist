@@ -32,7 +32,7 @@ Refine the **COMMONS** public-good GPU network landing page to launch an open co
 
 ##### Landing Page & Kickstarter Refinement
 
-###### [MODIFY] [index.html](file:///home/jd/.gemini/antigravity-ide/scratch/commons-landing/index.html)
+###### [MODIFY] [index.html](file://[local path redacted])
 
 - **Kickstarter & Community Funding Pool Section**:
   - Add dual-track backing options: **Financial Backer** (Funding freelance core dev bounties for fast MVP launch) and **Builder/Contributor** (Developers, P2P engineers, console hackers).

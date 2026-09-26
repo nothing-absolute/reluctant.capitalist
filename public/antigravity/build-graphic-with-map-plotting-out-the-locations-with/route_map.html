@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>RV Route Map 2026-2027</title>
+<script src="https://d3js.org/d3.v7.min.js"></script>
+<script src="https://d3js.org/topojson.v3.min.js"></script>
+<style>
+  body {
+    margin: 0;
+    padding: 0;
+    background-color: #121212;
+    color: #e0e0e0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    overflow: hidden;
+  }
+  #map-container {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    cursor: grab;
+  }
+  #map-container:active {
+    cursor: grabbing;
+  }
+  svg {
+    width: 100%;
+    height: 100%;
+  }
+  .state {
+    fill: #242424;
+    stroke: #3a3a3a;
+    stroke-width: 1;
+    transition: fill 0.2s;
+  }
+  .state:hover {
+    fill: #2c2c2c;
+  }
+  .route-line {
+    fill: none;
+    stroke: #666;
+    stroke-width: 2.5;
+    stroke-dasharray: 6 4;
+    opacity: 0.5;
+  }
+  .tier1 { fill: #ff4b4b; stroke: #ff9999; stroke-width: 2; }
+  .tier2 { fill: #f5a623; stroke: #ffd699; stroke-width: 1.5; }
+  .tier3 { fill: #4a90e2; stroke: #99c2ff; stroke-width: 1; }
+  
+  .marker-label {
+    fill: #fff;
+    font-size: 11px;
+    font-weight: 500;
+    pointer-events: none;
+    text-shadow: 1px 1px 3px #000, -1px -1px 3px #000, 1px -1px 3px #000, -1px 1px 3px #000;
+  }
+
+  /* Tooltip */
+  #tooltip {
+    position: absolute;
+    background: rgba(20, 20, 20, 0.95);
+    border: 1px solid #444;
+    padding: 14px;
+    border-radius: 8px;
+    pointer-events: none;
+    opacity: 0;
+    transition: opacity 0.15s ease-in-out;
+    font-size: 14px;
+    box-shadow: 0 6px 12px rgba(0,0,0,0.5);
+    z-index: 10;
+    min-width: 220px;
+    backdrop-filter: blur(4px);
+  }
+  #tooltip h3 {
+    margin: 0 0 10px 0;
+    color: #fff;
+    font-size: 16px;
+    border-bottom: 1px solid #444;
+    padding-bottom: 6px;
+  }
+  #tooltip p {
+    margin: 6px 0;
+    color: #ccc;
+  }
+  .highlight { color: #48bb78; font-weight: bold; font-size: 15px;}
+  
+  /* Legend Overlay */
+  #legend-panel {
+    position: absolute;
+    bottom: 30px;
+    right: 30px;
+    background: rgba(26, 26, 26, 0.92);
+    border: 1px solid #333;
+    border-radius: 12px;
+    padding: 24px;
+    width: 280px;
+    box-shadow: 0 8px 24px rgba(0,0,0,0.6);
+    backdrop-filter: blur(8px);
+  }
+  #legend-panel h2 { margin: 0 0 16px 0; font-size: 20px; color: #fff; font-weight: 600; }
+  .legend-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 12px;
+    font-size: 14px;
+    color: #ddd;
+  }
+  .legend-circle {
+    border-radius: 50%;
+    margin-right: 12px;
+  }
+  .l-t1 { width: 16px; height: 16px; background: #ff4b4b; border: 2px solid #ff9999; }
+  .l-t2 { width: 12px; height: 12px; background: #f5a623; border: 1.5px solid #ffd699; }
+  .l-t3 { width: 8px; height: 8px; background: #4a90e2; border: 1px solid #99c2ff; }
+  
+  .stats-box {
+    margin-top: 20px;
+    padding-top: 15px;
+    border-top: 1px solid #444;
+    font-size: 15px;
+    color: #ddd;
+  }
+  .stats-box div { margin-bottom: 8px; display: flex; justify-content: space-between; }
+  .stats-box strong { color: #fff; }
+  
+  .callout {
+    margin-top: 20px;
+    background: rgba(72, 187, 120, 0.1);
+    border-left: 4px solid #48bb78;
+    padding: 12px;
+    font-weight: 600;
+    color: #9ae6b4;
+    font-size: 14px;
+    border-radius: 0 4px 4px 0;
+  }
+  
+  /* Month Bands */
+  #month-panel {
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    background: rgba(26, 26, 26, 0.92);
+    border: 1px solid #333;
+    border-radius: 12px;
+    padding: 20px;
+    max-height: 80vh;
+    overflow-y: auto;
+    box-shadow: 0 8px 24px rgba(0,0,0,0.6);
+    backdrop-filter: blur(8px);
+  }
+  #month-panel h3 { margin: 0 0 16px 0; font-size: 18px; border-bottom: 1px solid #444; padding-bottom: 8px; color: #fff; }
+  .month-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    font-size: 13px;
+    padding-bottom: 4px;
+    border-bottom: 1px solid rgba(255,255,255,0.05);
+  }
+  .month-name { font-weight: 600; color: #bbb; width: 60px; }
+  .month-rev { color: #f5a623; width: 60px; text-align: right; }
+  .month-cum { color: #48bb78; width: 70px; text-align: right; font-weight: bold; }
+  
+  .header-row {
+    color: #888;
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 8px;
+    border-bottom: 1px solid #444;
+    padding-bottom: 6px;
+  }
+</style>
+</head>
+<body>
+
+<div id="map-container"></div>
+<div id="tooltip"></div>
+
+<div id="month-panel">
+  <h3>Revenue by Month</h3>
+  <div class="month-row header-row">
+    <div class="month-name">Month</div>
+    <div class="month-rev">Gross</div>
+    <div class="month-cum">Cum.</div>
+  </div>
+  <!-- populated by js -->
+</div>
+
+<div id="legend-panel">
+  <h2>Route & Revenue</h2>
+  <div class="legend-item"><div class="legend-circle l-t1"></div> Tier 1 ($$$) - Major Events</div>
+  <div class="legend-item"><div class="legend-circle l-t2"></div> Tier 2 ($$) - Mid Events</div>
+  <div class="legend-item"><div class="legend-circle l-t3"></div> Tier 3 ($) - Stays / CFB</div>
+  
+  <div class="stats-box">
+    <div>Total Nights: <strong id="val-nights">~111</strong></div>
+    <div>Total Gross: <strong id="val-gross">~$80k</strong></div>
+  </div>
+  
+  <div class="callout">
+    Unit paid off: end of Feb 2027
+  </div>
+</div>
+
+<script>
+  // Complete list of stops
+  const stops = [
+    { id: 1, month: "Sep", date: "Sep 4–7", event: "Labor Day weekend", city: "Pacific NW", lat: 47.6, lon: -122.3, nights: 3, rate: 450, tier: 2 },
+    { id: 2, month: "Sep", date: "Sep 12–19", event: "Pendleton Round-Up", city: "Pendleton, OR", lat: 45.67, lon: -118.78, nights: 3, rate: 450, tier: 2 },
+    { id: 3, month: "Sep", date: "Sep 26–27", event: "College football", city: "Boulder, CO", lat: 40.01, lon: -105.27, nights: 2, rate: 400, tier: 3 },
+    
+    { id: 4, month: "Oct", date: "Oct 3–11", event: "Balloon Fiesta", city: "Albuquerque, NM", lat: 35.08, lon: -106.65, nights: 5, rate: 600, tier: 2 },
+    { id: 5, month: "Oct", date: "Oct 17–18", event: "College football", city: "Tempe, AZ", lat: 33.42, lon: -111.94, nights: 2, rate: 400, tier: 3 },
+    { id: 6, month: "Oct", date: "Oct 31", event: "College football", city: "Boulder, CO", lat: 40.02, lon: -105.26, nights: 3, rate: 400, tier: 3 }, // Jittered Boulder slightly
+    
+    { id: 7, month: "Nov", date: "Nov 7", event: "College football", city: "Oregon/SW", lat: 43.8, lon: -120.5, nights: 2, rate: 400, tier: 3 },
+    { id: 8, month: "Nov", date: "Nov 17–23", event: "F1 Las Vegas GP", city: "Las Vegas, NV", lat: 36.17, lon: -115.14, nights: 6, rate: 1400, tier: 1 },
+    { id: 9, month: "Nov", date: "Nov 27–29", event: "Thanksgiving/rivalry", city: "Regional", lat: 36.5, lon: -116.0, nights: 4, rate: 450, tier: 3 },
+    
+    { id: 10, month: "Dec", date: "Dec 3–12", event: "NFR Rodeo", city: "Las Vegas, NV", lat: 36.19, lon: -115.12, nights: 5, rate: 800, tier: 2 }, // Jittered Vegas
+    { id: 11, month: "Dec", date: "Dec 29–Jan 2", event: "New Year's Eve", city: "Las Vegas, NV", lat: 36.15, lon: -115.16, nights: 5, rate: 850, tier: 2 }, // Jittered Vegas
+    
+    { id: 12, month: "Jan", date: "Jan 7–10", event: "CES", city: "Las Vegas, NV", lat: 36.13, lon: -115.15, nights: 3, rate: 550, tier: 2 }, // Jittered Vegas
+    { id: 13, month: "Jan", date: "mid-Jan", event: "Snowbird base", city: "Phoenix", lat: 33.6, lon: -112.0, nights: 3, rate: 300, tier: 3 },
+    { id: 14, month: "Jan", date: "Jan 31–Feb 8", event: "SUPER BOWL LXI", city: "Los Angeles, CA", lat: 34.05, lon: -118.24, nights: 7, rate: 1800, tier: 1 },
+    
+    { id: 15, month: "Feb", date: "Feb 13–15", event: "Post-Super Bowl", city: "Palm Springs, CA", lat: 33.83, lon: -116.54, nights: 3, rate: 300, tier: 3 },
+    
+    { id: 16, month: "Mar", date: "Mar", event: "March Madness/spring", city: "Vegas/LA/Palm Springs", lat: 35.0, lon: -115.5, nights: 6, rate: 350, tier: 3 },
+    
+    { id: 17, month: "Apr", date: "Apr 8–12", event: "Coachella W1", city: "Indio, CA", lat: 33.72, lon: -116.21, nights: 5, rate: 900, tier: 1 },
+    { id: 18, month: "Apr", date: "Apr 15–19", event: "Coachella W2", city: "Indio, CA", lat: 33.74, lon: -116.19, nights: 5, rate: 900, tier: 1 }, // Jittered Indio
+    { id: 19, month: "Apr", date: "Apr 22–26", event: "Stagecoach", city: "Indio, CA", lat: 33.70, lon: -116.23, nights: 4, rate: 800, tier: 1 }, // Jittered Indio
+    
+    { id: 20, month: "May", date: "May 13–17", event: "EDC Dusk", city: "Las Vegas, NV", lat: 36.27, lon: -115.05, nights: 5, rate: 900, tier: 1 }, // EDC at Speedway
+    { id: 21, month: "May", date: "May 20–24", event: "EDC Dawn", city: "Las Vegas, NV", lat: 36.25, lon: -115.03, nights: 5, rate: 900, tier: 1 }, // EDC at Speedway
+    { id: 22, month: "May", date: "May 29–31", event: "Memorial Day", city: "Las Vegas, NV", lat: 36.10, lon: -115.17, nights: 2, rate: 550, tier: 2 }, // Jittered Vegas
+    
+    { id: 23, month: "Jun", date: "Jun", event: "Summer base", city: "Lake Tahoe", lat: 39.09, lon: -120.03, nights: 6, rate: 300, tier: 3 },
+    
+    { id: 24, month: "Jul", date: "Jul 1–5", event: "July 4th week", city: "Lake Tahoe", lat: 39.11, lon: -120.01, nights: 5, rate: 400, tier: 2 }, // Jittered Tahoe
+    { id: 25, month: "Jul", date: "late Jul", event: "Cheyenne Frontier Days", city: "Cheyenne, WY", lat: 41.14, lon: -104.82, nights: 3, rate: 500, tier: 2 },
+    
+    { id: 26, month: "Aug", date: "Aug 5–12", event: "STURGIS RALLY", city: "Sturgis, SD", lat: 44.40, lon: -103.50, nights: 7, rate: 850, tier: 1 },
+    { id: 27, month: "Aug", date: "Aug 21–22", event: "Late-summer base", city: "West", lat: 43.0, lon: -110.0, nights: 2, rate: 300, tier: 3 }
+  ];
+
+  // Calculate individual totals and aggregate monthly stats
+  let totalNights = 0;
+  let totalGross = 0;
+  stops.forEach(s => {
+    s.total = s.nights * s.rate;
+    totalNights += s.nights;
+    totalGross += s.total;
+  });
+
+  // Group by month
+  const months = ["Sep", "Oct", "Nov", "Dec", "Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug"];
+  const monthlyData = {};
+  months.forEach(m => monthlyData[m] = 0);
+  
+  stops.forEach(s => {
+    monthlyData[s.month] += s.total;
+  });
+
+  // Render month panel
+  const monthPanel = document.getElementById("month-panel");
+  let cumGross = 0;
+  months.forEach(m => {
+    cumGross += monthlyData[m];
+    if (monthlyData[m] > 0) {
+      const row = document.createElement("div");
+      row.className = "month-row";
+      row.innerHTML = `
+        <div class="month-name">${m}</div>
+        <div class="month-rev">$${(monthlyData[m]/1000).toFixed(1)}k</div>
+        <div class="month-cum">$${(cumGross/1000).toFixed(1)}k</div>
+      `;
+      monthPanel.appendChild(row);
+    }
+  });
+
+  document.getElementById("val-nights").innerText = totalNights;
+  document.getElementById("val-gross").innerText = "$" + totalGross.toLocaleString();
+
+  // D3 Setup
+  const width = window.innerWidth;
+  const height = window.innerHeight;
+
+  const svg = d3.select("#map-container").append("svg")
+    .attr("width", width)
+    .attr("height", height);
+
+  const g = svg.append("g");
+
+  // AlbersUSA projection, zoomed and panned towards the West Coast
+  const projection = d3.geoAlbersUsa()
+    .scale(1600)
+    .translate([width / 2 + 350, height / 2 + 150]);
+
+  const path = d3.geoPath().projection(projection);
+
+  // Allow zooming/panning
+  const zoom = d3.zoom()
+    .scaleExtent([0.5, 8])
+    .on("zoom", (event) => {
+      g.attr("transform", event.transform);
+    });
+  svg.call(zoom);
+
+  // Fetch US map TopoJSON
+  d3.json("https://cdn.jsdelivr.net/npm/us-atlas@3/states-10m.json").then(us => {
+    
+    // 1. Draw state paths
+    g.append("g")
+      .selectAll("path")
+      .data(topojson.feature(us, us.objects.states).features)
+      .enter().append("path")
+      .attr("class", "state")
+      .attr("d", path);
+
+    // Filter out stops that couldn't be projected (though all should be in US)
+    const validStops = stops.filter(s => {
+      const coords = projection([s.lon, s.lat]);
+      if (coords) {
+        s.x = coords[0];
+        s.y = coords[1];
+        return true;
+      }
+      return false;
+    });
+
+    // 2. Draw connecting route
+    const lineGenerator = d3.line()
+      .x(d => d.x)
+      .y(d => d.y)
+      .curve(d3.curveLinear); // Straight lines to accurately connect stops
+
+    g.append("path")
+      .datum(validStops)
+      .attr("class", "route-line")
+      .attr("d", lineGenerator);
+
+    const tooltip = d3.select("#tooltip");
+
+    // 3. Draw event markers
+    const markers = g.selectAll(".marker")
+      .data(validStops)
+      .enter().append("g")
+      .attr("transform", d => `translate(${d.x},${d.y})`)
+      .style("cursor", "pointer")
+      .on("mouseover", (event, d) => {
+        // Bring hovered marker to front
+        d3.select(event.currentTarget).raise();
+        
+        tooltip.transition().duration(150).style("opacity", 1);
+        tooltip.html(`
+          <h3>${d.event}</h3>
+          <p><strong>Dates:</strong> ${d.date}</p>
+          <p><strong>Location:</strong> ${d.city}</p>
+          <p><strong>Stay:</strong> ${d.nights} nights @ $${d.rate}/nt</p>
+          <p><strong>Total Revenue:</strong> <span class="highlight">$${d.total.toLocaleString()}</span></p>
+        `)
+        .style("left", (event.pageX + 20) + "px")
+        .style("top", (event.pageY - 40) + "px");
+      })
+      .on("mouseout", () => {
+        tooltip.transition().duration(250).style("opacity", 0);
+      });
+
+    markers.append("circle")
+      .attr("class", d => "tier" + d.tier)
+      .attr("r", d => {
+        if (d.tier === 1) return 10;
+        if (d.tier === 2) return 7;
+        return 5;
+      });
+
+    // 4. Add "Home base" label for the first stop
+    const base = validStops[0];
+    if (base) {
+      g.append("text")
+        .attr("x", base.x - 12)
+        .attr("y", base.y - 20)
+        .text("🏠 Home base")
+        .attr("fill", "#fff")
+        .attr("font-size", "14px")
+        .attr("font-weight", "600")
+        .style("text-shadow", "0px 2px 4px rgba(0,0,0,0.8)");
+    }
+
+    // 5. Add selective labels for major Tier 1 and Tier 2 events
+    markers.append("text")
+      .attr("class", "marker-label")
+      .attr("x", 14)
+      .attr("y", 5)
+      .text(d => d.tier <= 1 ? d.event : "");
+  });
+
+  // Handle window resizing
+  window.addEventListener('resize', () => {
+    svg.attr("width", window.innerWidth).attr("height", window.innerHeight);
+  });
+
+</script>
+</body>
+</html>

@@ -11,7 +11,7 @@ vault: false
 ## EMAI Obsidian OS Project Exploration Report
 
 ### Overview
-The EMAI Obsidian OS project is located at /home/jd/Documents/Obsidian Vault/EMAI Starter Vault. This report provides a comprehensive analysis of the project's architecture, directory structure, and key files.
+The EMAI Obsidian OS project is located at [local path redacted] Vault/EMAI Starter Vault. This report provides a comprehensive analysis of the project's architecture, directory structure, and key files.
 
 ### Directory Structure
 The project contains the following directories:

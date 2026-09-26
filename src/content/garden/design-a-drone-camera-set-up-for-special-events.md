@@ -814,7 +814,7 @@ Both research agents are back with excellent data. Let me now synthesize everyth
 
 **Antigravity** · 2026-08-02 11:51
 
-The full concept document is ready: [AeroFrame_Business_Concept.md](file:///home/jd/.gemini/antigravity/brain/b185063d-a0ed-410e-8f5c-a4f3465c4e99/AeroFrame_Business_Concept.md)
+The full concept document is ready: [AeroFrame_Business_Concept.md](file://[local path redacted])
 
 ---
 
@@ -861,7 +861,7 @@ With a $150K goal and 8 tiers from $5 backers to $19,999 Pro kits — plus Indie
 
 **You** · 2026-08-02 16:26
 
-/browser file:///home/jd/Prototypes/skycrew/kickstarter-mock.html
+/browser file://[local path redacted]
 
 ---
 
@@ -914,7 +914,7 @@ Here is what I did to upgrade the campaign page based on your documents and the 
 - **LUMIÈRE Layout:** I replaced the layout diagram placeholder with the outdoor wedding storyboard (`3.png`) to bring the "sight-line feeds" section to life with an actual event setting.
 
 Since the browser tool encountered a system dependency issue when attempting to take screenshots for you, you can view the fully upgraded page by opening this file directly in your browser:
-[skycue-campaign-page.html](file:///home/jd/Prototypes/skycrew/skycue-campaign-page.html)
+[skycue-campaign-page.html](file://[local path redacted])
 
 The page now looks fantastic with the AI-generated imagery bringing the "SkyCue" brand (and the transition from "AeroFrame") to life. Is there anything specific on the page layout, the copy, or the Kickstarter tiers you'd like me to iterate on next?
 

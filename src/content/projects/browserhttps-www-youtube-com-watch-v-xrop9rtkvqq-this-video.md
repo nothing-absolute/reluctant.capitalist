@@ -21,7 +21,7 @@ This plan sets up a complete Remotion starter project that implements the "video
 > Since this project requires placeholder assets to render properly (images, videos, character poses), I will create simple placeholder images/videos to stand in for the assets mentioned in the breakdown. You will need to replace these placeholders with your actual assets (e.g., character poses, billionaire photos) in the `public/` directory after the project is generated.
 
 > [!NOTE]
-> The project will be created in `/home/jd/.gemini/antigravity/scratch/pillboy-style-video`. You should set this directory as your active workspace after creation.
+> The project will be created in `[local path redacted]`. You should set this directory as your active workspace after creation.
 
 ## Proposed Changes
 
@@ -29,46 +29,46 @@ This plan sets up a complete Remotion starter project that implements the "video
 
 I will use `npx create-video` to initialize a new blank Remotion project and install the necessary dependencies, including the Google Fonts mentioned in the breakdown.
 
-#### [NEW] /home/jd/.gemini/antigravity/scratch/pillboy-style-video/package.json (modified)
+#### [NEW] [local path redacted] (modified)
 I will add the required font dependencies: `@fontsource/league-gothic` and `@fontsource/bebas-neue`.
 
 ### Core Application
 
-#### [NEW] /home/jd/.gemini/antigravity/scratch/pillboy-style-video/src/Root.tsx
+#### [NEW] [local path redacted]
 Will register the main `MyVideo` composition and import the necessary fonts.
 
-#### [NEW] /home/jd/.gemini/antigravity/scratch/pillboy-style-video/src/Video.tsx
+#### [NEW] [local path redacted]
 Will assemble all the scenes together into the main timeline using Remotion `<Sequence>` components.
 
 ### Reusable Components
 
-#### [NEW] /home/jd/.gemini/antigravity/scratch/pillboy-style-video/src/components/Character.tsx
+#### [NEW] [local path redacted]
 The Character component that swaps between static poses based on a `pose` prop.
 
-#### [NEW] /home/jd/.gemini/antigravity/scratch/pillboy-style-video/src/components/StampText.tsx
+#### [NEW] [local path redacted]
 The red angled text overlay component with spring animation.
 
 ### Scenes
 
-#### [NEW] /home/jd/.gemini/antigravity/scratch/pillboy-style-video/src/scenes/TitleCard.tsx
+#### [NEW] [local path redacted]
 The introductory title card scene.
 
-#### [NEW] /home/jd/.gemini/antigravity/scratch/pillboy-style-video/src/scenes/CharacterPose.tsx
+#### [NEW] [local path redacted]
 A scene to display a character pose alongside a headline.
 
-#### [NEW] /home/jd/.gemini/antigravity/scratch/pillboy-style-video/src/scenes/PhotoEssay.tsx
+#### [NEW] [local path redacted]
 The B&W photo essay scene with slow zoom and text slide-in.
 
-#### [NEW] /home/jd/.gemini/antigravity/scratch/pillboy-style-video/src/scenes/WordCloud.tsx
+#### [NEW] [local path redacted]
 The animated word cloud background.
 
-#### [NEW] /home/jd/.gemini/antigravity/scratch/pillboy-style-video/src/scenes/MoneyRain.tsx
+#### [NEW] [local path redacted]
 The falling dollar bills particle effect.
 
-#### [NEW] /home/jd/.gemini/antigravity/scratch/pillboy-style-video/src/scenes/GoldCoin.tsx
+#### [NEW] [local path redacted]
 The spinning 3D CSS gold coin.
 
-#### [NEW] /home/jd/.gemini/antigravity/scratch/pillboy-style-video/src/scenes/BillionaireGrid.tsx
+#### [NEW] [local path redacted]
 The grid displaying photos and net worths.
 
 ### Placeholder Assets
@@ -118,7 +118,7 @@ I have successfully generated your Remotion starter project based on the editori
 
 ## How to use it
 
-1. Ensure the workspace directory is set to `/home/jd/.gemini/antigravity/scratch/pillboy-style-video`.
+1. Ensure the workspace directory is set to `[local path redacted]`.
 2. Run the development server to preview the video:
    ```bash
    npm run dev
@@ -866,7 +866,7 @@ The Remotion project has been fully generated based on the editorial style!
 
 I've created a `walkthrough.md` document for you that explains exactly what was created, how to swap out the placeholder images and videos I added, and how to start the development server (`npm run dev`) or render your final video. 
 
-The project is located at `/home/jd/.gemini/antigravity/scratch/pillboy-style-video`. Let me know if you need any help tweaking the animations or scenes!
+The project is located at `[local path redacted]`. Let me know if you need any help tweaking the animations or scenes!
 
 </details>
 

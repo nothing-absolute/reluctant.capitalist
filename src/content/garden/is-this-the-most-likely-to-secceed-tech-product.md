@@ -78,15 +78,15 @@ graph LR
 
 ### Instagram "POV" Action Shot
 Use this to demonstrate the simplicity of checking on the boat from the helm or the dock.
-![POV Dashboard Mockup](/home/jd/.gemini/antigravity/brain/d1c02eb0-64ae-4009-aa5f-0d2de5aea15a/pov_dashboard_mockup_1785379874012.jpg)
+![POV Dashboard Mockup]([local path redacted])
 
 ### Infographic Background Template
 Use this blank template to overlay text such as "Stop Paying the Marine Tax" or to drop in the Mermaid charts above for high-quality social posts.
-![Infographic Template](/home/jd/.gemini/antigravity/brain/d1c02eb0-64ae-4009-aa5f-0d2de5aea15a/infographic_background_1785379882580.jpg)
+![Infographic Template]([local path redacted])
 
 ### System Connectivity Illustration
 Use this clean, flat illustration on the website or in a pitch deck to explain how the data flows from the boat to the phone.
-![Connectivity Illustration](/home/jd/.gemini/antigravity/brain/d1c02eb0-64ae-4009-aa5f-0d2de5aea15a/connectivity_illustration_1785379908052.jpg)
+![Connectivity Illustration]([local path redacted])
 
 ## boat monitor social campaign
 
@@ -100,7 +100,7 @@ This campaign attacks the most hated aspect of marine electronics—the forced m
 **Platform Focus:** Facebook Groups, Instagram
 **Objective:** Agitate the pain point of expensive subscriptions for basic security.
 
-![Night Marina Shot](/home/jd/.gemini/antigravity/brain/d1c02eb0-64ae-4009-aa5f-0d2de5aea15a/marine_monitor_night_1785379582280.jpg)
+![Night Marina Shot]([local path redacted])
 
 **Caption:**
 Why are you paying a $20/month "marine tax" just to know if your boat is sinking? 🛑⛵
@@ -121,7 +121,7 @@ Link in bio to join the open-hardware revolution. 🔗
 **Platform Focus:** Twitter/X, Reddit (r/boating, r/diyelectronics), Instagram
 **Objective:** Highlight the open-hardware and DIY-friendly nature of the product.
 
-![Bring Your Own SIM](/home/jd/.gemini/antigravity/brain/d1c02eb0-64ae-4009-aa5f-0d2de5aea15a/bring_your_own_sim_1785379590872.jpg)
+![Bring Your Own SIM]([local path redacted])
 
 **Caption:**
 Your boat. Your hardware. Your data. 🛠️📡
@@ -140,7 +140,7 @@ Built rugged. Built open. Built for boaters who hate walled gardens.
 **Platform Focus:** Instagram Stories, Facebook Ads
 **Objective:** Emotional appeal. Focus on the end result: relaxing instead of worrying.
 
-![Peace of Mind](/home/jd/.gemini/antigravity/brain/d1c02eb0-64ae-4009-aa5f-0d2de5aea15a/peace_of_mind_owner_1785379599897.jpg)
+![Peace of Mind]([local path redacted])
 
 **Caption:**
 That feeling when the storm rolls in, but your phone says:
@@ -309,7 +309,7 @@ The campaign focuses on three distinct marketing angles to hit different emotion
 2.  **True Freedom (Bring Your Own SIM):** Appeals to the DIY/Right-to-Repair crowd, emphasizing open hardware with a bright, hands-on product shot.
 3.  **The Ultimate Peace of Mind:** Focuses on the emotional end-result (relaxing instead of worrying) with a warm lifestyle shot.
 
-You can review the full strategy, graphics, and captions here: [boat_monitor_social_campaign.md](file:///home/jd/.gemini/antigravity/brain/d1c02eb0-64ae-4009-aa5f-0d2de5aea15a/boat_monitor_social_campaign.md)
+You can review the full strategy, graphics, and captions here: [boat_monitor_social_campaign.md](file://[local path redacted])
 
 Let me know if you want to tweak any of the copy or try a different visual direction for the graphics!
 
@@ -334,7 +334,7 @@ Here is what is included in the new artifact:
 5.  **Infographic Background Template:** A high-quality, blank background with nautical styling where you can overlay text or charts for social posts.
 6.  **Connectivity Illustration:** A flat, modern vector illustration showing the data flow from the boat, through a cell tower, to a phone—great for a website or pitch deck.
 
-You can view the charts and the new graphics here: [boat_monitor_data_viz.md](file:///home/jd/.gemini/antigravity/brain/d1c02eb0-64ae-4009-aa5f-0d2de5aea15a/boat_monitor_data_viz.md) 
+You can view the charts and the new graphics here: [boat_monitor_data_viz.md](file://[local path redacted]) 
 
 Let me know if you need any adjustments to the charts or want to brainstorm more visual concepts!
 
@@ -356,15 +356,15 @@ Here are three distinct visual concepts to push that aesthetic:
 I've built a live, interactive motion graphic using Three.js. It features a glowing 3D wireframe ocean terrain, a sweeping radar effect, CRT scanlines, and brutalist data overlays with glitch animations. This would look incredible as a background loop on your landing page. 
 
 You can view the live prototype by opening this file in your browser:
-[cyberpunk_monitor.html](file:///home/jd/.gemini/antigravity/brain/d1c02eb0-64ae-4009-aa5f-0d2de5aea15a/scratch/cyberpunk_monitor.html) *(Just click to open)*
+[cyberpunk_monitor.html](file://[local path redacted]) *(Just click to open)*
 
 ### 2. The "Nostromo" Brutalist Poster
 This concept leans heavily into industrial graphic design—think heavy machinery or a terminal from the movie *Alien*. It uses high-contrast black, white, and high-vis orange with monospaced typography to scream "rugged and reliable."
-![Brutalist Poster](/home/jd/.gemini/antigravity/brain/d1c02eb0-64ae-4009-aa5f-0d2de5aea15a/brutalist_industrial_poster_1785381291078.jpg)
+![Brutalist Poster]([local path redacted])
 
 ### 3. The 16-Bit Arcade Vibe
 This concept subverts the hyper-sleek Garmin/Apple design language entirely. By using nostalgic pixel art, it highlights the open-source, DIY, "hacker" ethos of the product. It’s perfect for Reddit, Twitter, and building a cult following.
-![Pixel Art Arcade](/home/jd/.gemini/antigravity/brain/d1c02eb0-64ae-4009-aa5f-0d2de5aea15a/pixel_art_arcade_monitor_1785381282722.jpg)
+![Pixel Art Arcade]([local path redacted])
 
 If you like the live motion graphic (Concept 1), we could easily package that up as the hero section of a landing page (using a framework like Vite or Next.js) and make the data react to mouse movements or scroll events!
 

@@ -1,0 +1,5 @@
+- [x] Initialize Remotion Project
+- [x] Import Assets
+- [x] Build the Video Composition
+- [/] Render the Video
+- [ ] Create Walkthrough

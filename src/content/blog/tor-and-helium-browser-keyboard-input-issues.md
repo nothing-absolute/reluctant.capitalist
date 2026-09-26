@@ -13,7 +13,7 @@ Tor And Helium Browser Keyboard Input Issues
 
 This is an opencode working session — 13 messages.
 
-When: 2026-09-19 · Working directory: /home/jd/Prototypes
+When: 2026-09-19 · Working directory: [local path redacted]
 
 Opened with:
 > Tor browser and a few helium browser windows are not getting text input from keyboard

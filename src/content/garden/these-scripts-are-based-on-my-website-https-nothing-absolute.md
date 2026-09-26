@@ -404,7 +404,7 @@ I have processed your **5 TikTok Launch Scripts for "MLM Decoded"** and created 
 ### 🌟 Key Highlights & Enhancements Added
 
 1. **Master Production Blueprint:**
-   - Created [mlm_decoded_tiktok_launch_pack.md](file:///home/jd/.gemini/antigravity/brain/1723e474-df1d-4e2a-aa23-86abae3079ac/mlm_decoded_tiktok_launch_pack.md) containing shot-by-shot timeline breakdowns, precise audio SFX cue mapping (sub-bass drops, rising alarms, paper stamps, glass shatters), and text-overlay specs for all 5 scripts.
+   - Created [mlm_decoded_tiktok_launch_pack.md](file://[local path redacted]) containing shot-by-shot timeline breakdowns, precise audio SFX cue mapping (sub-bass drops, rising alarms, paper stamps, glass shatters), and text-overlay specs for all 5 scripts.
    - **Optimized Release Sequence:** Recommends kicking off with **Script 2** (Income Disclosure Reveal) and **Script 4** (AI Upline) to maximize initial save/share velocity and draw in broad TechTok/AntiMLM audiences before dropping the core math and emotional community videos.
 
 2. **9:16 High-Contrast Graphic Overlays Generated:**
@@ -413,7 +413,7 @@ I have processed your **5 TikTok Launch Scripts for "MLM Decoded"** and created 
    - **Script 4 (AI Threat):** Cyber-aesthetic flowchart overlay (`AI BOT` ➔ `RECRUITS YOU` ➔ `TRAINS YOU` ➔ `BLAMES YOU`).
 
 3. **Interactive Teleprompter & Launch Studio App:**
-   - Created an interactive studio app at [studio.html](file:///home/jd/.gemini/antigravity/brain/1723e474-df1d-4e2a-aa23-86abae3079ac/studio.html) featuring:
+   - Created an interactive studio app at [studio.html](file://[local path redacted]) featuring:
      - Real-time scrolling teleprompter with adjustable WPM speed control (100–220 WPM) and font scaling.
      - Color-coded audio cues (`🎵 SFX`) and visual overlays (`📹 Visual`).
      - Live TikTok mobile mockup framing with graphic card overlays and caption copy-paste tools.
@@ -424,13 +424,13 @@ I have processed your **5 TikTok Launch Scripts for "MLM Decoded"** and created 
 
 | Script 1: Exponential Math | Script 2: Income Disclosure | Script 4: AI Upline Flowchart |
 | :---: | :---: | :---: |
-| ![Math Hook Overlay](/home/jd/.gemini/antigravity/brain/1723e474-df1d-4e2a-aa23-86abae3079ac/mlm_decoded_math_hook_1788227592355.jpg) | ![Income Disclosure Overlay](/home/jd/.gemini/antigravity/brain/1723e474-df1d-4e2a-aa23-86abae3079ac/mlm_income_disclosure_card_1788227602912.jpg) | ![AI Flowchart Overlay](/home/jd/.gemini/antigravity/brain/1723e474-df1d-4e2a-aa23-86abae3079ac/mlm_ai_upline_flowchart_1788227616158.jpg) |
+| ![Math Hook Overlay]([local path redacted]) | ![Income Disclosure Overlay]([local path redacted]) | ![AI Flowchart Overlay]([local path redacted]) |
 
 ---
 
 ### 💡 Suggested Next Steps
 
-- **Voiceover Recording:** You can open [studio.html](file:///home/jd/.gemini/antigravity/brain/1723e474-df1d-4e2a-aa23-86abae3079ac/studio.html) in your browser to run the teleprompter while recording your voice tracks.
+- **Voiceover Recording:** You can open [studio.html](file://[local path redacted]) in your browser to run the teleprompter while recording your voice tracks.
 - **Specific Company Disclosures:** Would you like to generate supplementary graphics for specific companies (e.g. Amway, Herbalife, Monat, LuLaRoe) for your comment-reply videos?
 - **HTML Kinetic Animator:** If you prefer faceless video generation, we can build a lightweight HTML/JS dynamic canvas animation generator to export MP4/WebM motion graphics directly for Script 1 & 4.
 
@@ -574,7 +574,7 @@ I have updated your **Master Production Blueprint** and **Interactive Teleprompt
 
 ### 📑 Updated Launch Assets & Artifacts
 
-1. **Native Master Blueprint ([mlm_decoded_tiktok_launch_pack.md](file:///home/jd/.gemini/antigravity/brain/1723e474-df1d-4e2a-aa23-86abae3079ac/mlm_decoded_tiktok_launch_pack.md)):**
+1. **Native Master Blueprint ([mlm_decoded_tiktok_launch_pack.md](file://[local path redacted])):**
    - **Production Standard:** Native handheld selfie + raw phone screen-recordings. No motion graphics or polished lower thirds.
    - **3-Part Hooks:** landed within `<1.5s` combining spoken audio, on-screen text, and raw physical action.
    - **Pattern Interrupts (`[RE-HOOK]`):** Hard-coded at `~0:11–0:18` in every script to combat drop-off.
@@ -585,7 +585,7 @@ I have updated your **Master Production Blueprint** and **Interactive Teleprompt
      - **Video 4 (AI Upline - Reach/Comments):** Frame loop back to opening *"has it felt off?"* visual.
      - **Video 5 (50-Person Cost - Community):** Soft comment catharsis CTA (*"Comment 'me' if this hit home"*).
 
-2. **Handheld Teleprompter Studio App ([studio.html](file:///home/jd/.gemini/antigravity/brain/1723e474-df1d-4e2a-aa23-86abae3079ac/studio.html)):**
+2. **Handheld Teleprompter Studio App ([studio.html](file://[local path redacted])):**
    - Updated with your exact shot breakdowns, on-screen text overlays, spoken lines, `🔄 RE-HOOK` markers, and native sound cues (`Original audio`, `Record-scratch`, `Whoosh`, `Snap-zoom`, `Ding`).
    - Includes real-time teleprompter speed (WPM 100–220) and caption copy tools for filming on phone or desktop.
 
@@ -633,8 +633,8 @@ Here is how the live site data maps directly to your **5 TikTok Launch Scripts**
 
 ### 🛠️ Updated Assets Ready in Workspace
 
-- **Master Production Guide:** [mlm_decoded_tiktok_launch_pack.md](file:///home/jd/.gemini/antigravity/brain/1723e474-df1d-4e2a-aa23-86abae3079ac/mlm_decoded_tiktok_launch_pack.md)
-- **Interactive Teleprompter Studio App:** [studio.html](file:///home/jd/.gemini/antigravity/brain/1723e474-df1d-4e2a-aa23-86abae3079ac/studio.html)
+- **Master Production Guide:** [mlm_decoded_tiktok_launch_pack.md](file://[local path redacted])
+- **Interactive Teleprompter Studio App:** [studio.html](file://[local path redacted])
 
 All 5 scripts, re-hooks, sound triggers, and SEO captions are 100% accurate to `nothing-absolute.github.io/mlm-truth`!
 
@@ -1255,12 +1255,12 @@ Here are the generated reference images for each of the 4 scenes in **Video 3 ("
 
 | Scene 1: Conspiratorial Hook | Scene 2: Mocking "Upline Voice" |
 | :---: | :---: |
-| ![Scene 1 Hook](/home/jd/.gemini/antigravity/brain/1723e474-df1d-4e2a-aa23-86abae3079ac/minimax_scene1_hook_1788233438851.jpg) | ![Scene 2 Mocking](/home/jd/.gemini/antigravity/brain/1723e474-df1d-4e2a-aa23-86abae3079ac/minimax_scene2_mocking_1788233452229.jpg) |
+| ![Scene 1 Hook]([local path redacted]) | ![Scene 2 Mocking]([local path redacted]) |
 | *0:00–0:06: Leaning in, hand raised "hold on"* | *0:06–0:15: Sarcastic half-smile & sales pitch gesture* |
 
 | Scene 3: System Blame Realization | Scene 4: Reassuring CTA |
 | :---: | :---: |
-| ![Scene 3 Empathy](/home/jd/.gemini/antigravity/brain/1723e474-df1d-4e2a-aa23-86abae3079ac/minimax_scene3_empathy_1788233465177.jpg) | ![Scene 4 CTA](/home/jd/.gemini/antigravity/brain/1723e474-df1d-4e2a-aa23-86abae3079ac/minimax_scene4_cta_1788233477494.jpg) |
+| ![Scene 3 Empathy]([local path redacted]) | ![Scene 4 CTA]([local path redacted]) |
 | *0:15–0:25: Serious, deliberate direct eye contact* | *0:25–0:35: Warm, supportive smile & gesture* |
 
 ---

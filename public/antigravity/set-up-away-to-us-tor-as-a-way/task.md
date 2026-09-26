@@ -1,0 +1,4 @@
+- `[x]` Create the template PAC file
+- `[x]` Provide a script to quickly update the domain in the PAC file
+- `[x]` Document the exact Firefox setup steps and about:config parameters
+- `[x]` Create the final walkthrough

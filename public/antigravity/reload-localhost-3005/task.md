@@ -1,0 +1,9 @@
+- [x] Update backend/server.js to use 4 tracks instead of 6
+- [x] Update index.html to reduce footswitches to 4 and add simulated screen markup
+- [x] Update style.css to support a 2x2 footswitches grid and style the simulated LCD screen
+- [x] Update app.js to bind to 4 tracks and refresh screen visual state/progress bars
+- [x] Update pico-control.ino to use 4 tracks and pin configurations
+- [x] Update design_notes.md with SPI display connections and 4-track pinouts
+- [x] Update bom.csv with display component and pricing adjustments
+- [x] Create kickstarter_campaign.md containing Kickstarter campaign blueprints
+- [x] Verify the changes by starting the server and running simulation tests

@@ -910,7 +910,7 @@ final_timeline.write_videofile(
 Here is your complete, ready-to-run Python pipeline for generating and editing the **West Mall 7 Locked Bathroom Stall Conspiracy** video on Linux using the **ModelScope / DashScope API (`wan2.1-t2v-14b`)** and **MoviePy**.
 
 All project code and configuration files have been created in:
-📁 `/home/jd/.gemini/antigravity/scratch/west_mall_7_video/`
+📁 `[local path redacted]/`
 
 ---
 
@@ -929,7 +929,7 @@ All project code and configuration files have been created in:
 ### 🛠️ 2. Python Codebase Overview
 
 #### A. `generate_clips.py`
-[generate_clips.py](file:///home/jd/.gemini/antigravity/scratch/west_mall_7_video/generate_clips.py)
+[generate_clips.py](file://[local path redacted])
 This script automates the DashScope/ModelScope API workflow:
 - Iterates through all 14 scene definitions.
 - Submits text-to-video jobs using `wan2.1-t2v-14b`.
@@ -938,7 +938,7 @@ This script automates the DashScope/ModelScope API workflow:
 - Includes fallback REST API handling if `dashscope` SDK isn't present.
 
 #### B. `assemble_video.py`
-[assemble_video.py](file:///home/jd/.gemini/antigravity/scratch/west_mall_7_video/assemble_video.py)
+[assemble_video.py](file://[local path redacted])
 This script handles the video editing & timeline assembly with MoviePy:
 - Concatenates Part 1 (9:16 TikTok setup) and Part 2 (cinematic animation sequence).
 - Automatically scales and letterboxes 16:9 horizontal animated clips onto a vertical **1080×1920** frame.
@@ -978,7 +978,7 @@ Open a terminal on your Linux machine:
 
 ```bash
 # 1. Navigate to the project directory
-cd /home/jd/.gemini/antigravity/scratch/west_mall_7_video
+cd [local path redacted]
 
 # 2. Install dependencies
 pip install -r requirements.txt
@@ -1053,7 +1053,7 @@ Models like **Wan2.1-T2V-14B** or **Kling 1.5** (available via ModelScope) are a
 
 **You** · 2026-08-31 09:10
 
-file:///home/jd/Downloads/MiniMax%20H3_%20An%20Open%20Model%20Breaking%20the%20Boundaries%20Between%20Tasks%20and%20Modalities%20-%20MiniMax%20Research%20_%20MiniMax%20(8_31_2026%204_07_17%20AM).u.zip.html
+file://[local path redacted]%20H3_%20An%20Open%20Model%20Breaking%20the%20Boundaries%20Between%20Tasks%20and%20Modalities%20-%20MiniMax%20Research%20_%20MiniMax%20(8_31_2026%204_07_17%20AM).u.zip.html
 
 review that file. decide on a 14-15 second part of this project that would be a good fit for that video generation model. Then generate image assests for start of clip, end of clip, character reference, and a prompt for generating any dialoge/music/background sound.
 
@@ -1078,15 +1078,15 @@ Here are the visual assets I generated to help guide the model (you can upload t
 
 **1. Start of Clip (Tearing the Box)**
 This sets the gritty, dark 1990s aesthetic right before the magic happens.
-![Start of clip box tear](/home/jd/.gemini/antigravity/brain/7a752ae6-6ab1-4189-86d5-cc56e370a701/box_tear_start_1788167486792.jpg)
+![Start of clip box tear]([local path redacted])
 
 **2. End of Clip (The Heroic Reveal)**
 This is your triumphant freeze-frame. Note the stark contrast between the grimy bathroom and the golden, heroic glow of the standee.
-![End of clip standee reveal](/home/jd/.gemini/antigravity/brain/7a752ae6-6ab1-4189-86d5-cc56e370a701/standee_reveal_end_1788167519113.jpg)
+![End of clip standee reveal]([local path redacted])
 
 **3. Character Reference**
 Use this to keep the protagonist's design consistent during the sequence.
-![Character Reference Sheet](/home/jd/.gemini/antigravity/brain/7a752ae6-6ab1-4189-86d5-cc56e370a701/character_reference_1788167534572.jpg)
+![Character Reference Sheet]([local path redacted])
 
 ---
 
@@ -1103,7 +1103,7 @@ When using the MiniMax H3 model, you can explicitly prompt for the audio landsca
 
 **You** · 2026-08-31 09:15
 
-file:///home/jd/Downloads/MiniMax%20H3_%20An%20Open%20Model%20Breaking%20the%20Boundaries%20Between%20Tasks%20and%20Modalities%20-%20MiniMax%20Research%20_%20MiniMax%20(8_31_2026%204_07_17%20AM).u.zip.html
+file://[local path redacted]%20H3_%20An%20Open%20Model%20Breaking%20the%20Boundaries%20Between%20Tasks%20and%20Modalities%20-%20MiniMax%20Research%20_%20MiniMax%20(8_31_2026%204_07_17%20AM).u.zip.html
 
 review that file. decide on a 14-15 second part of this project that would be a good fit for that video generation model. Then generate image assests for start of clip, end of clip, character reference, and a prompt for generating any dialoge/music/background sound.
 
@@ -1133,15 +1133,15 @@ You can upload these assets to MiniMax H3 to guide the style, starting state, en
 
 **1. Start of Clip (Lighting the Hinge)**
 The protagonist crouches, aiming the intense flame at the green stall door.
-![Blowtorch Start](/home/jd/.gemini/antigravity/brain/7a752ae6-6ab1-4189-86d5-cc56e370a701/blowtorch_start_1788167775700.jpg)
+![Blowtorch Start]([local path redacted])
 
 **2. End of Clip (The Door Falls & Dust Swirls)**
 The door crashes down, creating a massive cloud of dust that exposes the pitch-black interior.
-![Blowtorch End](/home/jd/.gemini/antigravity/brain/7a752ae6-6ab1-4189-86d5-cc56e370a701/blowtorch_end_1788167790919.jpg)
+![Blowtorch End]([local path redacted])
 
 **3. Character Reference (Protagonist)**
 Use this character sheet to maintain uniform clothing, profile, and style across generations.
-![Explorer Reference Sheet](/home/jd/.gemini/antigravity/brain/7a752ae6-6ab1-4189-86d5-cc56e370a701/explorer_reference_1788167804386.jpg)
+![Explorer Reference Sheet]([local path redacted])
 
 ---
 

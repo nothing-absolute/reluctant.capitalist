@@ -13,14 +13,14 @@ quality: 4
 
 **What this is:** an opencode working session — 22 messages.
 
-**When:** 2026-08-31 · **Working directory:** /home/jd/Prototypes
+**When:** 2026-08-31 · **Working directory:** [local path redacted]
 
 **Opened with:**
 
 > I need to research what free LLM providers OmniRoute supports. Please do the following:
 >
 > 1. Query the OmniRoute database for all known provider types:
->    sqlite3 /home/jd/.omniroute/storage.sqlite "SELECT DISTINCT provider_type FROM provider_connections;" 2>/dev/null
+>    sqlite3 [local path redacted] "SELECT DISTINCT provider_type FROM provider_connections;" 2>/dev/null
 >
 > 2. Query for the full provider connection details:
 

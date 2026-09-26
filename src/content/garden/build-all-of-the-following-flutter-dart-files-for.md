@@ -8,14 +8,14 @@ draft: false
 vault: false
 ---
 
-Build ALL of the following Flutter Dart files for the Family Hub app at /home/jd/.gemini/antigravity/scratch/family-hub/lib/. Write COMPLETE implementations — no TODOs, no placeholder logic. Use write_to_file with Overwrite=true for EVERY file. No app is running so don't try hot reload. === FILE 1: models/family_member.dart === A simple data class for a family member. Fields: id (String), name (String), avatarColor (
+Build ALL of the following Flutter Dart files for the Family Hub app at [local path redacted] Write COMPLETE implementations — no TODOs, no placeholder logic. Use write_to_file with Overwrite=true for EVERY file. No app is running so don't try hot reload. === FILE 1: models/family_member.dart === A simple data class for a family member. Fields: id (String), name (String), avatarColor (
 
 <details>
 <summary>Chat transcript — 4 messages, 2026-08-28 → 2026-08-28</summary>
 
 **You** · 2026-08-28 18:57
 
-Build ALL of the following Flutter Dart files for the Family Hub app at /home/jd/.gemini/antigravity/scratch/family-hub/lib/. Write COMPLETE implementations — no TODOs, no placeholder logic. Use write_to_file with Overwrite=true for EVERY file. No app is running so don't try hot reload.
+Build ALL of the following Flutter Dart files for the Family Hub app at [local path redacted] Write COMPLETE implementations — no TODOs, no placeholder logic. Use write_to_file with Overwrite=true for EVERY file. No app is running so don't try hot reload.
 
 === FILE 1: models/family_member.dart ===
 A simple data class for a family member. Fields: id (String), name (String), avatarColor (int - ARGB color value), emoji (String - like 🧑 or 👩), createdAt (DateTime). Include fromJson/toJson. No third-party code gen needed, just manual fromJson/toJson.
@@ -91,26 +91,26 @@ All 12 files created successfully. No app is running so hot reload was skipped. 
 ### Models (`lib/models/`)
 | # | File | Key Notes |
 |---|------|-----------|
-| 1 | [family_member.dart](file:///home/jd/.gemini/antigravity/scratch/family-hub/lib/models/family_member.dart) | `color` getter wraps `avatarColor` int → `Color` |
-| 2 | [plan_post.dart](file:///home/jd/.gemini/antigravity/scratch/family-hub/lib/models/plan_post.dart) | `categoryColor` uses a switch expression; imports `flutter/material.dart` |
-| 3 | [task_item.dart](file:///home/jd/.gemini/antigravity/scratch/family-hub/lib/models/task_item.dart) | Nullable fields (`notes`, `assigneeId`, `dueDate`) handled via sentinel pattern in `copyWith` |
-| 4 | [money_request.dart](file:///home/jd/.gemini/antigravity/scratch/family-hub/lib/models/money_request.dart) | `isPending` / `isApproved` / `isDenied` convenience getters; sentinel `copyWith` |
-| 5 | [aria_message.dart](file:///home/jd/.gemini/antigravity/scratch/family-hub/lib/models/aria_message.dart) | `toApiMessage()` returns the slim `{role, content}` map for Ollama |
+| 1 | [family_member.dart](file://[local path redacted]) | `color` getter wraps `avatarColor` int → `Color` |
+| 2 | [plan_post.dart](file://[local path redacted]) | `categoryColor` uses a switch expression; imports `flutter/material.dart` |
+| 3 | [task_item.dart](file://[local path redacted]) | Nullable fields (`notes`, `assigneeId`, `dueDate`) handled via sentinel pattern in `copyWith` |
+| 4 | [money_request.dart](file://[local path redacted]) | `isPending` / `isApproved` / `isDenied` convenience getters; sentinel `copyWith` |
+| 5 | [aria_message.dart](file://[local path redacted]) | `toApiMessage()` returns the slim `{role, content}` map for Ollama |
 
 ### Providers (`lib/providers/`)
 | # | File | Key Notes |
 |---|------|-----------|
-| 6 | [settings_provider.dart](file:///home/jd/.gemini/antigravity/scratch/family-hub/lib/providers/settings_provider.dart) | `AppSettings` value class + `SettingsNotifier`; loads on construct |
-| 7 | [plans_provider.dart](file:///home/jd/.gemini/antigravity/scratch/family-hub/lib/providers/plans_provider.dart) | `filteredPlansProvider` family sorts pinned items first |
-| 8 | [todos_provider.dart](file:///home/jd/.gemini/antigravity/scratch/family-hub/lib/providers/todos_provider.dart) | `listNames` getter seeds 'Shopping'/'Chores' defaults; `tasksByListProvider` family |
-| 9 | [budget_provider.dart](file:///home/jd/.gemini/antigravity/scratch/family-hub/lib/providers/budget_provider.dart) | `totalPendingProvider` folds over pending amounts |
-| 10 | [aria_provider.dart](file:///home/jd/.gemini/antigravity/scratch/family-hub/lib/providers/aria_provider.dart) | Full HTTP chat loop with error state; price-watch list persisted separately |
+| 6 | [settings_provider.dart](file://[local path redacted]) | `AppSettings` value class + `SettingsNotifier`; loads on construct |
+| 7 | [plans_provider.dart](file://[local path redacted]) | `filteredPlansProvider` family sorts pinned items first |
+| 8 | [todos_provider.dart](file://[local path redacted]) | `listNames` getter seeds 'Shopping'/'Chores' defaults; `tasksByListProvider` family |
+| 9 | [budget_provider.dart](file://[local path redacted]) | `totalPendingProvider` folds over pending amounts |
+| 10 | [aria_provider.dart](file://[local path redacted]) | Full HTTP chat loop with error state; price-watch list persisted separately |
 
 ### Services (`lib/services/`)
 | # | File | Key Notes |
 |---|------|-----------|
-| 11 | [llm_service.dart](file:///home/jd/.gemini/antigravity/scratch/family-hub/lib/services/llm_service.dart) | Static class; `sendChat`, `testConnection`, `generateText`; 60 s timeout with `onTimeout` message |
-| 12 | [sync_service.dart](file:///home/jd/.gemini/antigravity/scratch/family-hub/lib/services/sync_service.dart) | `isConnected` pings `/health`; `sync()` is a documented stub for future expansion |
+| 11 | [llm_service.dart](file://[local path redacted]) | Static class; `sendChat`, `testConnection`, `generateText`; 60 s timeout with `onTimeout` message |
+| 12 | [sync_service.dart](file://[local path redacted]) | `isConnected` pings `/health`; `sync()` is a documented stub for future expansion |
 
 ### Dependencies to confirm in `pubspec.yaml`
 Make sure these are present:

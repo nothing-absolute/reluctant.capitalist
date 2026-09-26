@@ -1,6 +1,6 @@
 ---
 title: "Defining Project Directory Structure"
-description: "I initialize my project directory within /home/jd/.gemini/antigravity/scratch/pillboy-style-video by setting up src/scenes, src/components, and public/"
+description: "I initialize my project directory within [local path redacted] by setting up src/scenes, src/components, and public/"
 date: "2026-09-24"
 tags: ["tooling"]
 source: "antigravity://dc18a22d-3e7f-482a-b8d6-c65b87569ee6"
@@ -10,7 +10,7 @@ signal: 1
 from: "dc18a22d-3e7f-482a-b8d6-c65b87569ee6"
 ---
 
-I initialize my project directory within /home/jd/.gemini/antigravity/scratch/pillboy-style-video by setting up src/scenes, src/components, and public/
+I initialize my project directory within [local path redacted] by setting up src/scenes, src/components, and public/
 
 ## Where this came from
 

@@ -84,7 +84,7 @@ Here is a structured JSON file containing all 16 clip definitions and image path
     "model": "CogVideoX-5B-I2V",
     "lora": "90s Anime Style",
     "lora_weight": 0.65,
-    "start_image": "/home/jd/.gemini/antigravity/brain/22697cdb-0f37-4e29-b6fc-415299b788ed/abandoned_theater_door_1787902699719.jpg"
+    "start_image": "[local path redacted]"
   },
   {
     "clip_id": "clip_1_4",
@@ -95,7 +95,7 @@ Here is a structured JSON file containing all 16 clip definitions and image path
     "model": "CogVideoX-5B-I2V",
     "lora": "90s Anime Style",
     "lora_weight": 0.65,
-    "start_image": "/home/jd/.gemini/antigravity/brain/22697cdb-0f37-4e29-b6fc-415299b788ed/abandoned_theater_door_1787902699719.jpg"
+    "start_image": "[local path redacted]"
   },
   {
     "clip_id": "clip_2_1",
@@ -106,7 +106,7 @@ Here is a structured JSON file containing all 16 clip definitions and image path
     "model": "CogVideoX-5B-I2V",
     "lora": "90s Anime Style",
     "lora_weight": 0.65,
-    "start_image": "/home/jd/.gemini/antigravity/brain/22697cdb-0f37-4e29-b6fc-415299b788ed/abandoned_theater_door_1787902699719.jpg"
+    "start_image": "[local path redacted]"
   },
   {
     "clip_id": "clip_2_2",
@@ -128,7 +128,7 @@ Here is a structured JSON file containing all 16 clip definitions and image path
     "model": "CogVideoX-5B-I2V",
     "lora": "90s Anime Style",
     "lora_weight": 0.65,
-    "start_image": "/home/jd/.gemini/antigravity/brain/22697cdb-0f37-4e29-b6fc-415299b788ed/vintage_cardboard_box_1787902709245.jpg"
+    "start_image": "[local path redacted]"
   },
   {
     "clip_id": "clip_2_4",
@@ -139,7 +139,7 @@ Here is a structured JSON file containing all 16 clip definitions and image path
     "model": "CogVideoX-5B-I2V",
     "lora": "90s Anime Style",
     "lora_weight": 0.65,
-    "start_image": "/home/jd/.gemini/antigravity/brain/22697cdb-0f37-4e29-b6fc-415299b788ed/vintage_cardboard_box_1787902709245.jpg"
+    "start_image": "[local path redacted]"
   },
   {
     "clip_id": "clip_3_1",
@@ -150,7 +150,7 @@ Here is a structured JSON file containing all 16 clip definitions and image path
     "model": "CogVideoX-5B-I2V",
     "lora": "90s Anime Style",
     "lora_weight": 0.65,
-    "start_image": "/home/jd/.gemini/antigravity/brain/22697cdb-0f37-4e29-b6fc-415299b788ed/shipping_label_1787953452223.jpg"
+    "start_image": "[local path redacted]"
   },
   {
     "clip_id": "clip_3_2",
@@ -172,7 +172,7 @@ Here is a structured JSON file containing all 16 clip definitions and image path
     "model": "CogVideoX-5B-I2V",
     "lora": "90s Anime Style",
     "lora_weight": 0.65,
-    "start_image": "/home/jd/.gemini/antigravity/brain/22697cdb-0f37-4e29-b6fc-415299b788ed/hovering_hand_1787953461915.jpg"
+    "start_image": "[local path redacted]"
   },
   {
     "clip_id": "clip_3_4",
@@ -183,7 +183,7 @@ Here is a structured JSON file containing all 16 clip definitions and image path
     "model": "CogVideoX-5B-I2V",
     "lora": "90s Anime Style",
     "lora_weight": 0.65,
-    "start_image": "/home/jd/.gemini/antigravity/brain/22697cdb-0f37-4e29-b6fc-415299b788ed/vintage_cardboard_box_1787902709245.jpg"
+    "start_image": "[local path redacted]"
   },
   {
     "clip_id": "clip_4_1",
@@ -194,7 +194,7 @@ Here is a structured JSON file containing all 16 clip definitions and image path
     "model": "CogVideoX-5B-I2V",
     "lora": "90s Anime Style",
     "lora_weight": 0.65,
-    "start_image": "/home/jd/.gemini/antigravity/brain/22697cdb-0f37-4e29-b6fc-415299b788ed/box_cutter_1787953472014.jpg"
+    "start_image": "[local path redacted]"
   },
   {
     "clip_id": "clip_4_2",
@@ -205,7 +205,7 @@ Here is a structured JSON file containing all 16 clip definitions and image path
     "model": "CogVideoX-5B-I2V",
     "lora": "90s Anime Style",
     "lora_weight": 0.65,
-    "start_image": "/home/jd/.gemini/antigravity/brain/22697cdb-0f37-4e29-b6fc-415299b788ed/box_cutter_1787953472014.jpg"
+    "start_image": "[local path redacted]"
   },
   {
     "clip_id": "clip_4_3",
@@ -216,7 +216,7 @@ Here is a structured JSON file containing all 16 clip definitions and image path
     "model": "CogVideoX-5B-I2V",
     "lora": "90s Anime Style",
     "lora_weight": 0.65,
-    "start_image": "/home/jd/.gemini/antigravity/brain/22697cdb-0f37-4e29-b6fc-415299b788ed/flap_opening_1787953479644.jpg"
+    "start_image": "[local path redacted]"
   },
   {
     "clip_id": "clip_4_4",
@@ -227,7 +227,7 @@ Here is a structured JSON file containing all 16 clip definitions and image path
     "model": "CogVideoX-5B-I2V",
     "lora": "90s Anime Style",
     "lora_weight": 0.65,
-    "start_image": "/home/jd/.gemini/antigravity/brain/22697cdb-0f37-4e29-b6fc-415299b788ed/sliver_of_gold_1787953488253.jpg"
+    "start_image": "[local path redacted]"
   }
 ]
 ```
@@ -1083,7 +1083,7 @@ Give a breakdown of 5 second clips to be generated, the model selection, LoRA op
 
 I've put together a comprehensive generation plan for your teaser campaign that maximizes the output of your 246 ModelScope credits while prioritizing that consistent, eerie 90s cartoon vibe. 
 
-You can review the full breakdown here: [modelscope_generation_plan.md](file:///home/jd/.gemini/antigravity/brain/22697cdb-0f37-4e29-b6fc-415299b788ed/modelscope_generation_plan.md).
+You can review the full breakdown here: [modelscope_generation_plan.md](file://[local path redacted]).
 
 ### The Strategy in a Nutshell:
 *   **The Math:** You need about 16 clips (5 seconds each) to build the 4 teaser drops. At typical ModelScope credit costs (5-10 credits per clip), you have enough to run every shot on the list, plus enough leftover to reroll your most difficult shots 1-2 times to ensure smooth animation.
@@ -1104,17 +1104,17 @@ separate out all the text to images that need to be made. write them into Google
 
 I've extracted all the base images needed for the Image-to-Video shots and formatted them as Google Gemini prompts. 
 
-You can find the full list of prompts here: [gemini_image_prompts.md](file:///home/jd/.gemini/antigravity/brain/22697cdb-0f37-4e29-b6fc-415299b788ed/gemini_image_prompts.md). I explicitly added instructions for vertical (9:16) framing and the 90s cel-animation aesthetic to ensure they match the vibe perfectly.
+You can find the full list of prompts here: [gemini_image_prompts.md](file://[local path redacted]). I explicitly added instructions for vertical (9:16) framing and the 90s cel-animation aesthetic to ensure they match the vibe perfectly.
 
 To give you a preview of how well this style translates, I went ahead and generated the first two base images for you using those exact prompts!
 
 ### Preview: The Bathroom Door
 This would be the starting frame for **Drop 1 (Clip 1.3/1.4)** and the beginning of **Drop 2 (Clip 2.1)**.
-![abandoned_theater_door](/home/jd/.gemini/antigravity/brain/22697cdb-0f37-4e29-b6fc-415299b788ed/abandoned_theater_door_1787902699719.jpg)
+![abandoned_theater_door]([local path redacted])
 
 ### Preview: The Vintage Box
 This would be the starting frame for **Drop 2 (Clip 2.3)** when the camera first enters the room.
-![vintage_cardboard_box](/home/jd/.gemini/antigravity/brain/22697cdb-0f37-4e29-b6fc-415299b788ed/vintage_cardboard_box_1787902709245.jpg)
+![vintage_cardboard_box]([local path redacted])
 
 You can use these directly as your base images on ModelScope, or use the prompts in the artifact to generate the rest! Let me know if you want me to tweak any of the prompts or generate the remaining images for you.
 
@@ -1138,7 +1138,7 @@ Start image or End Image | Prompt | Model Management: selection/Checkpoint/LoRA 
 
 **Antigravity** · 2026-08-28 07:50
 
-Here's the full step-by-step plan: [modelscope_step_by_step.md](file:///home/jd/.gemini/antigravity/brain/22697cdb-0f37-4e29-b6fc-415299b788ed/modelscope_step_by_step.md)
+Here's the full step-by-step plan: [modelscope_step_by_step.md](file://[local path redacted])
 
 Every single clip now has its own dedicated block in the exact format you described. A few key callouts:
 
@@ -1185,25 +1185,25 @@ Here are the 5 remaining base images generated for your campaign:
 ---
 
 ### Image 3: The Shipping Label (For Clip 3.1)
-![shipping_label](/home/jd/.gemini/antigravity/brain/22697cdb-0f37-4e29-b6fc-415299b788ed/shipping_label_1787953452223.jpg)
+![shipping_label]([local path redacted])
 
 ### Image 4: The Hovering Hand (For Clip 3.3)
-![hovering_hand](/home/jd/.gemini/antigravity/brain/22697cdb-0f37-4e29-b6fc-415299b788ed/hovering_hand_1787953461915.jpg)
+![hovering_hand]([local path redacted])
 
 ### Image 5: The Box Cutter (For Clips 4.1 & 4.2)
-![box_cutter](/home/jd/.gemini/antigravity/brain/22697cdb-0f37-4e29-b6fc-415299b788ed/box_cutter_1787953472014.jpg)
+![box_cutter]([local path redacted])
 
 ### Image 6: Opening the Flap (For Clip 4.3)
-![flap_opening](/home/jd/.gemini/antigravity/brain/22697cdb-0f37-4e29-b6fc-415299b788ed/flap_opening_1787953479644.jpg)
+![flap_opening]([local path redacted])
 
 ### Image 7: The Sliver of Gold (For Clip 4.4)
-![sliver_of_gold](/home/jd/.gemini/antigravity/brain/22697cdb-0f37-4e29-b6fc-415299b788ed/sliver_of_gold_1787953488253.jpg)
+![sliver_of_gold]([local path redacted])
 
 ---
 
 ### Summary of Assets Ready:
 1. **7 Base Images** are generated and saved to your project artifacts directory.
-2. **Step-by-step ModelScope Plan:** [modelscope_step_by_step.md](file:///home/jd/.gemini/antigravity/brain/22697cdb-0f37-4e29-b6fc-415299b788ed/modelscope_step_by_step.md) contains every prompt, seed note, and setting field pre-filled for each of the 16 clips.
+2. **Step-by-step ModelScope Plan:** [modelscope_step_by_step.md](file://[local path redacted]) contains every prompt, seed note, and setting field pre-filled for each of the 16 clips.
 
 You are now fully set to upload these start images directly into ModelScope.ai and run your Image-to-Video generations! Let me know if you need help with post-production audio pairing, captions, or editing notes.
 
@@ -1219,7 +1219,7 @@ Is there anyway I could automate this? Like using a LLM connected to Odysseus GU
 
 Yes, absolutely! You can completely automate this process so you don't have to manually paste prompts, upload images, and click buttons for all 16 clips.
 
-I've documented the full breakdown and created a ready-to-use configuration file here: [automation_guide_and_script.md](file:///home/jd/.gemini/antigravity/brain/22697cdb-0f37-4e29-b6fc-415299b788ed/automation_guide_and_script.md).
+I've documented the full breakdown and created a ready-to-use configuration file here: [automation_guide_and_script.md](file://[local path redacted]).
 
 ---
 
@@ -1242,7 +1242,7 @@ If you want an AI agent like **Odysseus** or `browser-use` to handle it visually
 ---
 
 ### Key Automation File Created:
-Inside [automation_guide_and_script.md](file:///home/jd/.gemini/antigravity/brain/22697cdb-0f37-4e29-b6fc-415299b788ed/automation_guide_and_script.md), you'll find a complete, pre-configured **`clips_config.json`** block that links all 16 clips to the 7 generated base images on your computer!
+Inside [automation_guide_and_script.md](file://[local path redacted]), you'll find a complete, pre-configured **`clips_config.json`** block that links all 16 clips to the 7 generated base images on your computer!
 
 ---
 
@@ -1252,22 +1252,22 @@ jd@dell:~/Documents/llm/research$ pip install --break-system-packages  gradio_cl
 Defaulting to user installation because normal site-packages is not writeable
 Collecting gradio_client
   Using cached gradio_client-2.6.1-py3-none-any.whl.metadata (7.1 kB)
-Requirement already satisfied: fsspec in /home/jd/.local/lib/python3.13/site-packages (from gradio_client) (2026.4.0)
-Requirement already satisfied: httpx>=0.24.1 in /home/jd/.local/lib/python3.13/site-packages (from gradio_client) (0.28.1)
-Requirement already satisfied: huggingface-hub<2.0,>=0.19.3 in /home/jd/.local/lib/python3.13/site-packages (from gradio_client) (1.28.0)
+Requirement already satisfied: fsspec in [local path redacted] (from gradio_client) (2026.4.0)
+Requirement already satisfied: httpx>=0.24.1 in [local path redacted] (from gradio_client) (0.28.1)
+Requirement already satisfied: huggingface-hub<2.0,>=0.19.3 in [local path redacted] (from gradio_client) (1.28.0)
 Requirement already satisfied: packaging in /usr/lib/python3/dist-packages (from gradio_client) (25.0)
-Requirement already satisfied: typing-extensions~=4.0 in /home/jd/.local/lib/python3.13/site-packages (from gradio_client) (4.16.0)
+Requirement already satisfied: typing-extensions~=4.0 in [local path redacted] (from gradio_client) (4.16.0)
 Collecting click<9.0.0,>=8.4.2 (from huggingface-hub<2.0,>=0.19.3->gradio_client)
   Using cached click-8.5.0-py3-none-any.whl.metadata (2.6 kB)
-Requirement already satisfied: filelock>=3.10.0 in /home/jd/.local/lib/python3.13/site-packages (from huggingface-hub<2.0,>=0.19.3->gradio_client) (3.29.0)
-Requirement already satisfied: hf-xet<2.0.0,>=1.5.2 in /home/jd/.local/lib/python3.13/site-packages (from huggingface-hub<2.0,>=0.19.3->gradio_client) (1.6.0)
+Requirement already satisfied: filelock>=3.10.0 in [local path redacted] (from huggingface-hub<2.0,>=0.19.3->gradio_client) (3.29.0)
+Requirement already satisfied: hf-xet<2.0.0,>=1.5.2 in [local path redacted] (from huggingface-hub<2.0,>=0.19.3->gradio_client) (1.6.0)
 Requirement already satisfied: pyyaml>=5.1 in /usr/lib/python3/dist-packages (from huggingface-hub<2.0,>=0.19.3->gradio_client) (6.0.2)
 Requirement already satisfied: tqdm>=4.42.1 in /usr/lib/python3/dist-packages (from huggingface-hub<2.0,>=0.19.3->gradio_client) (4.67.1)
-Requirement already satisfied: anyio in /home/jd/.local/lib/python3.13/site-packages (from httpx>=0.24.1->gradio_client) (4.14.2)
+Requirement already satisfied: anyio in [local path redacted] (from httpx>=0.24.1->gradio_client) (4.14.2)
 Requirement already satisfied: certifi in /usr/lib/python3/dist-packages (from httpx>=0.24.1->gradio_client) (2025.1.31)
-Requirement already satisfied: httpcore==1.* in /home/jd/.local/lib/python3.13/site-packages (from httpx>=0.24.1->gradio_client) (1.0.9)
+Requirement already satisfied: httpcore==1.* in [local path redacted] (from httpx>=0.24.1->gradio_client) (1.0.9)
 Requirement already satisfied: idna in /usr/lib/python3/dist-packages (from httpx>=0.24.1->gradio_client) (3.10)
-Requirement already satisfied: h11>=0.16 in /home/jd/.local/lib/python3.13/site-packages (from httpcore==1.*->httpx>=0.24.1->gradio_client) (0.16.0)
+Requirement already satisfied: h11>=0.16 in [local path redacted] (from httpcore==1.*->httpx>=0.24.1->gradio_client) (0.16.0)
 Using cached gradio_client-2.6.1-py3-none-any.whl (62 kB)
 Using cached click-8.5.0-py3-none-any.whl (125 kB)
 Installing collected packages: click, gradio_client
@@ -1285,16 +1285,16 @@ jd@dell:~/Documents/llm/research$
 
 **Antigravity** · 2026-08-28 21:51
 
-I have created and placed the batch configuration file and the automation script directly in your working directory (`/home/jd/Documents/llm/research`):
+I have created and placed the batch configuration file and the automation script directly in your working directory (`[local path redacted]`):
 
-1. **[clips_config.json](file:///home/jd/Documents/llm/research/clips_config.json)** — Contains all 16 clip prompts, settings, and the absolute local paths to the 7 base images generated.
-2. **[run_batch_generation.py](file:///home/jd/Documents/llm/research/run_batch_generation.py)** — The Python automation script using `gradio_client`.
+1. **[clips_config.json](file://[local path redacted])** — Contains all 16 clip prompts, settings, and the absolute local paths to the 7 base images generated.
+2. **[run_batch_generation.py](file://[local path redacted])** — The Python automation script using `gradio_client`.
 
 ---
 
 ### How to Run the Automation:
 
-In your terminal at `/home/jd/Documents/llm/research`, simply execute:
+In your terminal at `[local path redacted]`, simply execute:
 
 ```bash
 python3 run_batch_generation.py "YOUR_MODELSCOPE_SPACE_URL_OR_ID"
@@ -1344,8 +1344,8 @@ Here is the upgraded strategy and how it changes your workflow:
 ---
 
 ### Updated Files:
-* 📄 **[upgraded_credit_plan.md](file:///home/jd/.gemini/antigravity/brain/22697cdb-0f37-4e29-b6fc-415299b788ed/upgraded_credit_plan.md)** — Detailed Breakdown of 448-credit allocation & upgraded shot list.
-* ⚙️ **[clips_config.json](file:///home/jd/Documents/llm/research/clips_config.json)** — Updated with 10-second hero shot durations, higher sampling steps, and upgraded parameters!
+* 📄 **[upgraded_credit_plan.md](file://[local path redacted])** — Detailed Breakdown of 448-credit allocation & upgraded shot list.
+* ⚙️ **[clips_config.json](file://[local path redacted])** — Updated with 10-second hero shot durations, higher sampling steps, and upgraded parameters!
 
 You can run `python3 run_batch_generation.py` whenever you're ready to launch!
 

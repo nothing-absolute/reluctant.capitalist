@@ -1,0 +1,3 @@
+- [x] Provide RunPod Pod configuration instructions for vLLM and Qwen2.5-Coder.
+- [x] Provide local installation instructions and script for Aider.
+- [x] Create walkthrough.md summarizing the setup process.

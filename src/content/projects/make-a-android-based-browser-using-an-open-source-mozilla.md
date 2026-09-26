@@ -22,7 +22,7 @@ We will design and implement the architecture for **Zen Android Browser** (worki
 4. **Tampermonkey & Nova YouTube Pre-configuration**: Custom userscript settings adjustable via natural language prompts instead of deep menus.
 5. **Build Variants**: Google Play flavor (with AdMob ads) and F-Droid flavor (completely ad-free and open-source).
 
-To help visualize and prototype these advanced features, we will build an **Interactive Web Prototype** of the browser's UI, and scaffold the **Android GeckoView Kotlin Codebase** in `/home/jd/.gemini/antigravity/scratch/zen-android-browser/`.
+To help visualize and prototype these advanced features, we will build an **Interactive Web Prototype** of the browser's UI, and scaffold the **Android GeckoView Kotlin Codebase** in `[local path redacted]/`.
 
 
 ## Technical Architecture
@@ -49,19 +49,19 @@ To help visualize and prototype these advanced features, we will build an **Inte
 
 ### Component 1: Android Project Scaffolding
 We will create a multi-flavor Android project with Kotlin:
-- `[NEW]` [settings.gradle.kts](file:///home/jd/.gemini/antigravity/scratch/zen-android-browser/settings.gradle.kts)
-- `[NEW]` [build.gradle.kts](file:///home/jd/.gemini/antigravity/scratch/zen-android-browser/build.gradle.kts)
-- `[NEW]` [app/build.gradle.kts](file:///home/jd/.gemini/antigravity/scratch/zen-android-browser/app/build.gradle.kts)
-- `[NEW]` [AndroidManifest.xml](file:///home/jd/.gemini/antigravity/scratch/zen-android-browser/app/src/main/AndroidManifest.xml)
-- `[NEW]` [MainActivity.kt](file:///home/jd/.gemini/antigravity/scratch/zen-android-browser/app/src/main/java/app/zen/browser/MainActivity.kt)
-- `[NEW]` [ProxyHelper.kt](file:///home/jd/.gemini/antigravity/scratch/zen-android-browser/app/src/main/java/app/zen/browser/proxy/ProxyHelper.kt)
-- `[NEW]` [ScriptPromptManager.kt](file:///home/jd/.gemini/antigravity/scratch/zen-android-browser/app/src/main/java/app/zen/browser/scripts/ScriptPromptManager.kt)
+- `[NEW]` [settings.gradle.kts](file://[local path redacted])
+- `[NEW]` [build.gradle.kts](file://[local path redacted])
+- `[NEW]` [app/build.gradle.kts](file://[local path redacted])
+- `[NEW]` [AndroidManifest.xml](file://[local path redacted])
+- `[NEW]` [MainActivity.kt](file://[local path redacted])
+- `[NEW]` [ProxyHelper.kt](file://[local path redacted])
+- `[NEW]` [ScriptPromptManager.kt](file://[local path redacted])
 
 ### Component 2: Interactive Web Simulator
 To visualize this beautiful layout, we will build a rich web simulator:
-- `[NEW]` [index.html](file:///home/jd/.gemini/antigravity/scratch/zen-android-browser/prototype/index.html)
-- `[NEW]` [style.css](file:///home/jd/.gemini/antigravity/scratch/zen-android-browser/prototype/style.css)
-- `[NEW]` [app.js](file:///home/jd/.gemini/antigravity/scratch/zen-android-browser/prototype/app.js)
+- `[NEW]` [index.html](file://[local path redacted])
+- `[NEW]` [style.css](file://[local path redacted])
+- `[NEW]` [app.js](file://[local path redacted])
 
 
 ## Verification Plan
@@ -106,25 +106,25 @@ We have successfully scaffolded the Gradle build definitions, Kotlin modules, ma
 ## Changes Made
 
 ### Android Scaffolding & Base Shell
-1. **[settings.gradle.kts](file:///home/jd/.gemini/antigravity/scratch/zen-android-browser/settings.gradle.kts)**: Configured repositories to include Mozilla's Maven repo (`https://maven.mozilla.org/maven2/`).
-2. **[build.gradle.kts](file:///home/jd/.gemini/antigravity/scratch/zen-android-browser/build.gradle.kts)**: Standard Kotlin and Android Gradle plugin definitions.
-3. **[app/build.gradle.kts](file:///home/jd/.gemini/antigravity/scratch/zen-android-browser/app/build.gradle.kts)**:
+1. **[settings.gradle.kts](file://[local path redacted])**: Configured repositories to include Mozilla's Maven repo (`https://maven.mozilla.org/maven2/`).
+2. **[build.gradle.kts](file://[local path redacted])**: Standard Kotlin and Android Gradle plugin definitions.
+3. **[app/build.gradle.kts](file://[local path redacted])**:
    - Configured GeckoView (`org.mozilla.geckoview:geckoview-stable:120.0.20231116134553`).
    - Defined `playStore` (with AdMob ads dependency) and `fdroid` (ad-free) product flavors.
-4. **[AndroidManifest.xml](file:///home/jd/.gemini/antigravity/scratch/zen-android-browser/app/src/main/AndroidManifest.xml)**: Standard internet permission setup and AdMob application ID placeholder.
-5. **[MainActivity.kt](file:///home/jd/.gemini/antigravity/scratch/zen-android-browser/app/src/main/java/app/zen/browser/MainActivity.kt)**: Setup GeckoView session, minimal bottom controller bar with shortcut buttons (Dashboard, Proxy Assistant, Nova YT Prompt, Settings), dialogs, and conditional playStore ads initializer.
-6. **[ProxyHelper.kt](file:///home/jd/.gemini/antigravity/scratch/zen-android-browser/app/src/main/java/app/zen/browser/proxy/ProxyHelper.kt)**: Mocked the FoxyProxy LLM helper that resolves blocking reasons (e.g. SOCKS5 proxy recommendation for school firewalls) and sets the GeckoView proxy config.
-7. **[ScriptPromptManager.kt](file:///home/jd/.gemini/antigravity/scratch/zen-android-browser/app/src/main/java/app/zen/browser/scripts/ScriptPromptManager.kt)**: Parses natural language commands to update Nova settings variables and outputs javascript config payloads to inject.
+4. **[AndroidManifest.xml](file://[local path redacted])**: Standard internet permission setup and AdMob application ID placeholder.
+5. **[MainActivity.kt](file://[local path redacted])**: Setup GeckoView session, minimal bottom controller bar with shortcut buttons (Dashboard, Proxy Assistant, Nova YT Prompt, Settings), dialogs, and conditional playStore ads initializer.
+6. **[ProxyHelper.kt](file://[local path redacted])**: Mocked the FoxyProxy LLM helper that resolves blocking reasons (e.g. SOCKS5 proxy recommendation for school firewalls) and sets the GeckoView proxy config.
+7. **[ScriptPromptManager.kt](file://[local path redacted])**: Parses natural language commands to update Nova settings variables and outputs javascript config payloads to inject.
 
 ### Interactive UI Prototype
 - Built a gorgeous HTML5 simulator illustrating the minimal Zen layout, history/tab combo dashboard, the FoxyProxy LLM form, and Nova prompt configurations:
-  - **[index.html](file:///home/jd/.gemini/antigravity/scratch/zen-android-browser/prototype/index.html)**
-  - **[style.css](file:///home/jd/.gemini/antigravity/scratch/zen-android-browser/prototype/style.css)**
-  - **[app.js](file:///home/jd/.gemini/antigravity/scratch/zen-android-browser/prototype/app.js)**
+  - **[index.html](file://[local path redacted])**
+  - **[style.css](file://[local path redacted])**
+  - **[app.js](file://[local path redacted])**
 
 
 ## Status and Playwright Issue
-During verification, the headless browser subsystem returned a `404 Not Found` downloading Playwright drivers, which prevented automatic screenshot capture. However, all source files are intact in `/home/jd/.gemini/antigravity/scratch/zen-android-browser/`.
+During verification, the headless browser subsystem returned a `404 Not Found` downloading Playwright drivers, which prevented automatic screenshot capture. However, all source files are intact in `[local path redacted]/`.
 
 ## Assets
 - [implementation_plan.md](/antigravity/make-a-android-based-browser-using-an-open-source-mozilla/implementation_plan.md) — MD, 4 KB

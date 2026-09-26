@@ -72,7 +72,7 @@ This plan details how we will integrate the proven design patterns and scripts f
 
 ## Proposed Changes
 
-We will introduce new firmware, script, configuration, and documentation components under `/home/jd/.gemini/antigravity/scratch/wireless-looper`.
+We will introduce new firmware, script, configuration, and documentation components under `[local path redacted]`.
 
 ```
 wireless-looper/
@@ -95,14 +95,14 @@ wireless-looper/
 
 ### 1. Firmware & Hardware Layer
 
-#### [NEW] [pico-control.ino](file:///home/jd/.gemini/antigravity/scratch/wireless-looper/firmware/pico-control/pico-control.ino)
+#### [NEW] [pico-control.ino](file://[local path redacted])
 * Write a full Arduino/C++ firmware sketch for the **RP2040 Pico**.
 * **Button Debouncing**: Implement non-blocking state debouncing for 6 momentary footswitches.
 * **LED Status Rings**: Drive 6 WS2812B rings (24 LEDs each) via NeoPixel library, showing track states matching Sooperlooper's status (Red = Rec, Green = Play, Magenta = Overdub, Orange Flash = Paused, Off = Empty).
 * **Expression Pedal**: Read analog ADC input from an expression pedal, apply a rolling average filter, and map to MIDI/OSC command ranges (0–127).
 * **Communication Protocol**: Send structured commands to the Raspberry Pi over USB Serial (e.g., `FS_PRESS <switch_id>` or `EXP <value>`).
 
-#### [NEW] [design_notes.md](file:///home/jd/.gemini/antigravity/scratch/wireless-looper/hardware/design_notes.md)
+#### [NEW] [design_notes.md](file://[local path redacted])
 * Document a professional **stereo input buffer circuit** using standard op-amps (like TL072) to match high-impedance (Hi-Z) guitar pickups (1M ohm) to the line-in of the USB audio interface, inspired by Funbox and Daisy Seed.
 * Provide KiCad wiring diagrams for RP2040 Pico GPIO pins, WS2812B data line, and expression pedal jacks.
 * Recommend enclosure layout options (e.g. Hammond 1590XX or custom layout dimensioning).
@@ -111,17 +111,17 @@ wireless-looper/
 
 ### 2. Audio Setup & OS Tuning
 
-#### [MODIFY] [setup.sh](file:///home/jd/.gemini/antigravity/scratch/wireless-looper/scripts/setup.sh)
+#### [MODIFY] [setup.sh](file://[local path redacted])
 * Update dependencies to include `avahi-daemon` (for mDNS), and networking packages like `dnsmasq` and `hostapd` for the wireless hotspot.
 * Register the custom `start-jack.sh` script as a pre-requisite for Sooperlooper systemd startup.
 
-#### [NEW] [start-jack.sh](file:///home/jd/.gemini/antigravity/scratch/wireless-looper/scripts/start-jack.sh)
+#### [NEW] [start-jack.sh](file://[local path redacted])
 * Set CPU governor to `performance` to prevent latency spikes on CPU core throttling.
 * Increase shared memory size (`/dev/shm`) to 256M for JACK's internal memory buffer.
 * Start `jackd` in real-time mode (`-R -P 80`) optimized for low latency with the Behringer interface (`48000Hz`, `64` buffer size, `2` periods).
 * Automate routing connections using `jack_connect` to link USB audio inputs to Sooperlooper and Sooperlooper outputs to USB audio playback.
 
-#### [NEW] [setup-hotspot.sh](file:///home/jd/.gemini/antigravity/scratch/wireless-looper/scripts/setup-hotspot.sh)
+#### [NEW] [setup-hotspot.sh](file://[local path redacted])
 * Configure an Access Point (`openlooper-XXXX`) using `NetworkManager` or `hostapd/dnsmasq` so a phone or tablet can connect directly to the pedal.
 * Configure `avahi-daemon` to broadcast `openlooper.local` so users do not need to memorize IP addresses to open the web app.
 
@@ -129,7 +129,7 @@ wireless-looper/
 
 ### 3. Backend OSC Bridge
 
-#### [MODIFY] [server.js](file:///home/jd/.gemini/antigravity/scratch/wireless-looper/backend/server.js)
+#### [MODIFY] [server.js](file://[local path redacted])
 * **Hybrid Mode Execution**: Add a check for environment variables (e.g., `HARDWARE_MODE=true`).
   - **In Simulation Mode (default)**: The server continues using its in-memory clock-accurate loop state machine for local web-testing.
   - **In Hardware Mode**: It opens a WebSocket client/server and bridges commands to/from **Sooperlooper** via the `osc-js` UDP port (`9951`).
@@ -161,7 +161,7 @@ This document presents the detailed cost and profit analysis designed for the **
 
 ---
 
-![OpenLooper Kickstarter Cost & Profit Infographic](/home/jd/.gemini/antigravity/brain/ddcc6c7d-a107-4868-b8d7-08e620a1b427/openlooper_financials_1785577296851.jpg)
+![OpenLooper Kickstarter Cost & Profit Infographic]([local path redacted])
 
 ---
 
@@ -259,7 +259,7 @@ This document outlines the industrial design decisions for the **OpenLooper** wi
 
 ---
 
-![OpenLooper Industrial Design Stompbox Mockup](/home/jd/.gemini/antigravity/brain/ddcc6c7d-a107-4868-b8d7-08e620a1b427/openlooper_pedal_mockup_1785579258299.jpg)
+![OpenLooper Industrial Design Stompbox Mockup]([local path redacted])
 
 ---
 
@@ -332,28 +332,28 @@ The implementation is highly modular, separating input controller hardware from 
 
 ## 🛠️ Integrated Deliverables & Structure
 
-All files reside in your workspace at `/home/jd/.gemini/antigravity/scratch/wireless-looper`.
+All files reside in your workspace at `[local path redacted]`.
 
 ### 1. RP2040 Controller Firmware
-* **Location**: [pico-control.ino](file:///home/jd/.gemini/antigravity/scratch/wireless-looper/firmware/pico-control/pico-control.ino)
+* **Location**: [pico-control.ino](file://[local path redacted])
 * **What it does**: Handles non-blocking debouncing of 6 momentary footswitches (with hold/clear threshold), drives 6 addressable WS2812B LED status rings (visualizing track status: Rec=Red, Play=Green, Overdub=Magenta, Pause=Blinking Orange), and filters expression pedal ADC input (exponential smoothing).
 * **Communication**: Communicates with the host board using standard USB CDC Serial protocols, making it instantly compatible with any OS or host architecture out-of-the-box.
 
 ### 2. Hardware Design Notes (Guitar Impedance matching & Pinout)
-* **Location**: [design_notes.md](file:///home/jd/.gemini/antigravity/scratch/wireless-looper/hardware/design_notes.md)
+* **Location**: [design_notes.md](file://[local path redacted])
 * **What it does**: Explains the generic controller pinout and documents a high-quality stereo JFET impedance-matching buffer circuit (essential to prevent "tone sucking" from high-impedance guitar pickups).
-* **Location**: [bom.csv](file:///home/jd/.gemini/antigravity/scratch/wireless-looper/hardware/bom.csv) updated to be SBC-agnostic and include the active buffer parts.
+* **Location**: [bom.csv](file://[local path redacted]) updated to be SBC-agnostic and include the active buffer parts.
 
 ### 3. SBC-Agnostic Setup & OS Provisioning Scripts
-* **Location**: [setup.sh](file:///home/jd/.gemini/antigravity/scratch/wireless-looper/scripts/setup.sh)
+* **Location**: [setup.sh](file://[local path redacted])
 * **What it does**: A portable shell script that auto-detects Debian-based (`apt-get`) or Arch-based (`pacman`) package managers. It installs audio (JACK, Sooperlooper) and server tools, and dynamically configures systemd daemon units for the logged-in user (resolving hardcoded home directories).
-* **Location**: [start-jack.sh](file:///home/jd/.gemini/antigravity/scratch/wireless-looper/scripts/start-jack.sh)
+* **Location**: [start-jack.sh](file://[local path redacted])
 * **What it does**: Optimizes the system for low latency (CPU performance frequency governor, remounts `/dev/shm` to 256M), automatically scans for the class-compliant USB audio interface (falling back gracefully if not found), and launches `jackd` with low-latency parameters (`-p 64 -n 2`) before linking audio routes.
-* **Location**: [setup-hotspot.sh](file:///home/jd/.gemini/antigravity/scratch/wireless-looper/scripts/setup-hotspot.sh)
+* **Location**: [setup-hotspot.sh](file://[local path redacted])
 * **What it does**: Uses NetworkManager (`nmcli`) to create a headless Wi-Fi Access Point (`OpenLooper-XXXX`) and configures `avahi-daemon` to broadcast `openlooper.local` for simple network auto-discovery.
 
 ### 4. Hybrid OSC Bridge Server
-* **Location**: [server.js](file:///home/jd/.gemini/antigravity/scratch/wireless-looper/backend/server.js)
+* **Location**: [server.js](file://[local path redacted])
 * **What it does**: Run in **Simulation Mode** by default (runs in-memory loops for quick PC web testing) or in **Hardware Mode** (using `--hardware` or `HARDWARE_MODE=true` env var).
 * **OSC Mapping**: Bridges commands to/from Sooperlooper using `osc-js` over UDP 9951 (e.g. `/sl/<track>/hit record`).
 * **Serial Port Mapping**: Dynamically finds and binds to the RP2040 Pico USB serial port, reading footswitches/expression inputs and writing back status updates to update the LED rings in real-time.
@@ -363,7 +363,7 @@ All files reside in your workspace at `/home/jd/.gemini/antigravity/scratch/wire
 ## 🧪 Verification & Testing Results
 
 * **Dependency Installation**: Successfully installed the required backend libraries (`osc-js` and `serialport`) in the backend project directory.
-* **Automated Integration Tests**: Ran [test-client.js](file:///home/jd/.gemini/antigravity/scratch/wireless-looper/backend/test-client.js) against the running server. The client connected via WebSockets, successfully tested Track 0 recording duration accumulation, switched track state to playing, cleared back to empty, and verified all communication packets.
+* **Automated Integration Tests**: Ran [test-client.js](file://[local path redacted]) against the running server. The client connected via WebSockets, successfully tested Track 0 recording duration accumulation, switched track state to playing, cleared back to empty, and verified all communication packets.
 * **Result**: **All WebSocket integration tests passed successfully.**
 
 ---
@@ -932,7 +932,7 @@ Requires=jack-audio-service.service
 [Service]
 Type=simple
 User=pi
-ExecStart=/usr/bin/sooperlooper -m -C /home/pi/.sooperlooper/default.sl
+ExecStart=/usr/bin/sooperlooper -m -C [local path redacted]
 Restart=on-failure
 RestartSec=5
 
@@ -1055,7 +1055,7 @@ All links are current as of August 2026. When building, download ZIP files of th
 
 I have created the implementation plan to integrate the open-source reference guide components into your **OpenLooper** workspace.
 
-Please review the [implementation_plan.md](file:///home/jd/.gemini/antigravity/brain/ddcc6c7d-a107-4868-b8d7-08e620a1b427/implementation_plan.md) artifact, which describes:
+Please review the [implementation_plan.md](file://[local path redacted]) artifact, which describes:
 1. **RP2040 Firmware**: Complete code skeleton for momentary footswitch matrix debouncing, WS2812B RGB state animation rings, and expression pedal filtering.
 2. **Audio Setup & Tuning Scripts**: Latency optimization configurations for JACK on the RPi5, along with Access Point and mDNS auto-discovery provisioning scripts.
 3. **Hybrid Backend**: An upgrade to the Node.js server that supports both standalone Simulation Mode (for PC web testing) and Hardware Mode (connecting to a live Sooperlooper engine via OSC).
@@ -1077,19 +1077,19 @@ I have successfully built and integrated the open-source hardware & software ref
 
 Following your direction, the entire system has been restructured to be **SBC-agnostic (supporting Orange Pi, Radxa Rock, or standard x86 PCs in addition to Raspberry Pi)**. This platform independence is a major selling point for a Kickstarter launch, as it shields the project from hardware shortages and allows backers to leverage whatever hardware they already own.
 
-All tasks in [task.md](file:///home/jd/.gemini/antigravity/brain/ddcc6c7d-a107-4868-b8d7-08e620a1b427/task.md) have been completed.
+All tasks in [task.md](file://[local path redacted]) have been completed.
 
 ### Summary of Completed Integration Work:
-1. **RP2040 Pico Firmware**: Created the C++ Arduino code in [pico-control.ino](file:///home/jd/.gemini/antigravity/scratch/wireless-looper/firmware/pico-control/pico-control.ino) for momentary button matrix debouncing, WS2812B NeoPixel state ring animations, and analog expression pedal filters. It functions as a generic USB controller, avoiding host-specific GPIO limits.
-2. **Hi-Z Input Buffer & Board Layout**: Added [design_notes.md](file:///home/jd/.gemini/antigravity/scratch/wireless-looper/hardware/design_notes.md) containing the op-amp stereo buffer schematic, which matches high-impedance guitar signals (1MΩ) to line inputs to prevent "tone sucking."
+1. **RP2040 Pico Firmware**: Created the C++ Arduino code in [pico-control.ino](file://[local path redacted]) for momentary button matrix debouncing, WS2812B NeoPixel state ring animations, and analog expression pedal filters. It functions as a generic USB controller, avoiding host-specific GPIO limits.
+2. **Hi-Z Input Buffer & Board Layout**: Added [design_notes.md](file://[local path redacted]) containing the op-amp stereo buffer schematic, which matches high-impedance guitar signals (1MΩ) to line inputs to prevent "tone sucking."
 3. **Platform-Agnostic Setup & Hotspot Scripts**: 
-   - [setup.sh](file:///home/jd/.gemini/antigravity/scratch/wireless-looper/scripts/setup.sh) automatically installs system dependencies on Debian/Arch-based Linux, registering dynamic systemd units.
-   - [start-jack.sh](file:///home/jd/.gemini/antigravity/scratch/wireless-looper/scripts/start-jack.sh) sets CPU governors to performance and dynamically binds to whichever USB class-compliant audio device is present.
-   - [setup-hotspot.sh](file:///home/jd/.gemini/antigravity/scratch/wireless-looper/scripts/setup-hotspot.sh) uses NetworkManager (`nmcli`) to spin up the local WiFi Access Point and sets up mDNS auto-discovery.
-4. **Hybrid Server Core**: Refactored [server.js](file:///home/jd/.gemini/antigravity/scratch/wireless-looper/backend/server.js) to support an standard **Simulation Mode** (PC local testing) and a **Hardware Mode** (which links WebSockets to a live Sooperlooper engine via `osc-js` on UDP port 9951, while listening to the RP2040 Pico Serial port).
-5. **Protocol Validation**: Ran and successfully passed the integration test suite in [test-client.js](file:///home/jd/.gemini/antigravity/scratch/wireless-looper/backend/test-client.js) against the running server.
+   - [setup.sh](file://[local path redacted]) automatically installs system dependencies on Debian/Arch-based Linux, registering dynamic systemd units.
+   - [start-jack.sh](file://[local path redacted]) sets CPU governors to performance and dynamically binds to whichever USB class-compliant audio device is present.
+   - [setup-hotspot.sh](file://[local path redacted]) uses NetworkManager (`nmcli`) to spin up the local WiFi Access Point and sets up mDNS auto-discovery.
+4. **Hybrid Server Core**: Refactored [server.js](file://[local path redacted]) to support an standard **Simulation Mode** (PC local testing) and a **Hardware Mode** (which links WebSockets to a live Sooperlooper engine via `osc-js` on UDP port 9951, while listening to the RP2040 Pico Serial port).
+5. **Protocol Validation**: Ran and successfully passed the integration test suite in [test-client.js](file://[local path redacted]) against the running server.
 
-Please refer to the [walkthrough.md](file:///home/jd/.gemini/antigravity/brain/ddcc6c7d-a107-4868-b8d7-08e620a1b427/walkthrough.md) for full instructions on running the simulator, configuring the physical hardware, and triggering the server.
+Please refer to the [walkthrough.md](file://[local path redacted]) for full instructions on running the simulator, configuring the physical hardware, and triggering the server.
 
 > [!NOTE]
 > The simulator server is running in the background. Navigate to `http://localhost:3000` to interact with the responsive visual looper dashboard!
@@ -1106,7 +1106,7 @@ build a kickstarter project graphic of possible profit and costs of hardware
 
 I have generated a professional Kickstarter campaign infographic detailing the manufacturing costs versus profit margins for your **OpenLooper** pedal, and compiled the data into a structured report. 
 
-Please review the [kickstarter_financials.md](file:///home/jd/.gemini/antigravity/brain/ddcc6c7d-a107-4868-b8d7-08e620a1b427/kickstarter_financials.md) artifact, which displays the cost and profit comparison breakdown, details the pledge levels, and outlines the funding breakeven analysis.
+Please review the [kickstarter_financials.md](file://[local path redacted]) artifact, which displays the cost and profit comparison breakdown, details the pledge levels, and outlines the funding breakeven analysis.
 
 ---
 
@@ -1120,7 +1120,7 @@ look at this: https://mod.audio/ for any design / hardware ideas to make the bui
 
 I have analyzed the open-source hardware design of the **MOD Dwarf** and documented several key engineering optimizations that we can leverage for the **OpenLooper** build.
 
-Please review the [mod_audio_hardware_ideas.md](file:///home/jd/.gemini/antigravity/brain/ddcc6c7d-a107-4868-b8d7-08e620a1b427/mod_audio_hardware_ideas.md) artifact, which covers:
+Please review the [mod_audio_hardware_ideas.md](file://[local path redacted]) artifact, which covers:
 1. **I2S Audio Codecs**: Replacing the bulky, expensive external USB interface with a dedicated low-cost stereo codec card (saving **$60–$80** per unit and reducing the physical pedal footprint).
 2. **USB Gadget Tethering**: Configuring USB Ethernet Gadget Mode on the host processor to provide a fail-safe, noise-immune, zero-latency wired backup connection for mobile device control at gig venues.
 3. **TRS 3.5mm MIDI**: Swapping out bulky 5-pin DIN ports for standard 3.5mm TRS MIDI Type-A interfaces.
@@ -1138,7 +1138,7 @@ create an updated industrial design mock up of the hardware
 
 I have created a high-fidelity industrial design mockup rendering and compiled it into a presentation layout for your Kickstarter page.
 
-Please review the [pedal_hardware_mockup.md](file:///home/jd/.gemini/antigravity/brain/ddcc6c7d-a107-4868-b8d7-08e620a1b427/pedal_hardware_mockup.md) artifact, which displays the 3D product render of the optimized stombox, details the brushed anodized aluminum finish, highlights the dynamic RGB LED ring status indicators, and outlines the compact back-panel port layouts (including USB-C wired network tethering and TRS audio jacks).
+Please review the [pedal_hardware_mockup.md](file://[local path redacted]) artifact, which displays the 3D product render of the optimized stombox, details the brushed anodized aluminum finish, highlights the dynamic RGB LED ring status indicators, and outlines the compact back-panel port layouts (including USB-C wired network tethering and TRS audio jacks).
 
 ---
 
@@ -1152,7 +1152,7 @@ create list breaking down costs of hardware with estimates of bulk price savings
 
 I have created a comprehensive hardware unit cost breakdown sheet detailing the volume discounts at multiple production scales.
 
-Please review the [hardware_bulk_costs.md](file:///home/jd/.gemini/antigravity/brain/ddcc6c7d-a107-4868-b8d7-08e620a1b427/hardware_bulk_costs.md) artifact, which displays:
+Please review the [hardware_bulk_costs.md](file://[local path redacted]) artifact, which displays:
 1. **Itemized Component Costing**: Unit cost comparison for each individual piece (SBC, I2S Codec, switches, LEDs, enclosure, PCBA) from single-unit DIY to **50+** and **500+** bulk tiers.
 2. **Gross Profit Projections**: An interactive Mermaid Gantt chart showing the profit margins scaling from **45%** (Single Unit) to **65%** (50+ units) and up to **76%** (500+ units) under a target Kickstarter pledge level of **$249.00**.
 3. **Primary Sourcing Channels**: Direct recommendations for cost-effective manufacturing pipelines (JLCPCB PCBA, Shenzhen Xunlong, Worldsemi).

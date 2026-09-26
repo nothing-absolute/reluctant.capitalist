@@ -30,18 +30,18 @@ We will create new reusable React components in the `src/` directory and refacto
 
 ### Remotion Components
 
-#### [NEW] [AnimatedText.tsx](file:///home/jd/.gemini/antigravity/scratch/xennial-concept-1/src/AnimatedText.tsx)
+#### [NEW] [AnimatedText.tsx](file://[local path redacted])
 - A reusable component that uses Remotion's `spring()` and `useCurrentFrame()` to animate text fading and sliding up onto the screen. This will be used for subtitles and key points.
 
-#### [NEW] [TitleCard.tsx](file:///home/jd/.gemini/antigravity/scratch/xennial-concept-1/src/TitleCard.tsx)
+#### [NEW] [TitleCard.tsx](file://[local path redacted])
 - A component specifically for full-screen title cards (e.g. "The Beta Testers of Real Life", "The First Cracks in the Wall"). It will feature a stylized, retro 90s aesthetic (e.g., monospace fonts or glitch effects) that animates in.
 
-#### [NEW] [SceneWrapper.tsx](file:///home/jd/.gemini/antigravity/scratch/xennial-concept-1/src/SceneWrapper.tsx)
+#### [NEW] [SceneWrapper.tsx](file://[local path redacted])
 - A wrapper component to manage the background (B-roll placeholder) and layer the text/animations on top. It will allow us to easily swap out CSS backgrounds for actual `<Video>` tags later.
 
 ### Main Video Refactor
 
-#### [MODIFY] [BetaTestersVideo.tsx](file:///home/jd/.gemini/antigravity/scratch/xennial-concept-1/src/BetaTestersVideo.tsx)
+#### [MODIFY] [BetaTestersVideo.tsx](file://[local path redacted])
 - Replace the raw HTML elements with our new `AnimatedText` and `TitleCard` components.
 - Add an `<Audio />` tag mapped to a generic `voiceover.mp3` file (which we will place in the `public/` directory).
 - Sync the timing of the animated text to the general pacing of the script.
@@ -350,19 +350,19 @@ I have successfully transformed the basic Remotion template into a dynamic, scen
 ## What Was Added
 
 ### 1. Animated Text Component
-[AnimatedText.tsx](file:///home/jd/.gemini/antigravity/scratch/xennial-concept-1/src/AnimatedText.tsx)
+[AnimatedText.tsx](file://[local path redacted])
 This component uses Remotion's `spring()` to smoothly float and fade text onto the screen. It supports custom delays so you can easily sync sentences with your voiceover.
 
 ### 2. Title Card Component
-[TitleCard.tsx](file:///home/jd/.gemini/antigravity/scratch/xennial-concept-1/src/TitleCard.tsx)
+[TitleCard.tsx](file://[local path redacted])
 A dedicated, stylized component for chapter headings (like "The First Cracks" or "The Explosion"). It scales up on a spring animation to create a punchy visual separation between segments.
 
 ### 3. Scene Wrapper
-[SceneWrapper.tsx](file:///home/jd/.gemini/antigravity/scratch/xennial-concept-1/src/SceneWrapper.tsx)
+[SceneWrapper.tsx](file://[local path redacted])
 Currently, this uses CSS gradients as a placeholder for video B-roll. When you have actual MP4 or WebM video assets, you can simply replace the CSS background with Remotion's `<Video>` tag.
 
 ### 4. Audio Scaffolding
-In [BetaTestersVideo.tsx](file:///home/jd/.gemini/antigravity/scratch/xennial-concept-1/src/BetaTestersVideo.tsx), I have set a variable at the top of the file:
+In [BetaTestersVideo.tsx](file://[local path redacted]), I have set a variable at the top of the file:
 ```tsx
 const HAS_AUDIO = false;
 ```
@@ -372,7 +372,7 @@ When you record your voiceover, simply save it as `voiceover.mp3` in the `public
 
 Open a terminal and run the development server to scrub through the timeline and see the animations in action!
 ```bash
-cd /home/jd/.gemini/antigravity/scratch/xennial-concept-1
+cd [local path redacted]
 npm run dev
 ```
 
@@ -690,7 +690,7 @@ build the videos
 
 I have built out the full, word-for-word script for **Concept 5: Where Did YOU Come From?** as the pilot episode. I've designed it to run for roughly 10 minutes and included visual cues (like text overlays and B-roll suggestions) to help guide the editing process. 
 
-You can read the full script here: [script_concept_5.md](file:///home/jd/.gemini/antigravity/brain/c707bb2e-c8bb-4b97-84ce-9052e663a132/script_concept_5.md)
+You can read the full script here: [script_concept_5.md](file://[local path redacted])
 
 This script leans heavily into your personal story—growing up in Sioux Falls with only 12 channels and being an undiagnosed neurodivergent introvert—to build a strong, relatable hook for the entire series.
 
@@ -710,19 +710,19 @@ I have written the full, 10-minute script for **Concept 1: The Beta Testers of R
 
 ### 1. The Script
 You can read the full, word-for-word script with visual cues here: 
-[script_concept_1.md](file:///home/jd/.gemini/antigravity/brain/c707bb2e-c8bb-4b97-84ce-9052e663a132/script_concept_1.md)
+[script_concept_1.md](file://[local path redacted])
 
 ### 2. The Remotion Project Setup
 I scaffolded a fresh Remotion boilerplate in a new workspace at:
-`/home/jd/.gemini/antigravity/scratch/xennial-concept-1`
+`[local path redacted]`
 
 I also laid out the initial structure for you so you can drop your audio and visuals directly into the specific scenes. 
-I created [BetaTestersVideo.tsx](file:///home/jd/.gemini/antigravity/scratch/xennial-concept-1/src/BetaTestersVideo.tsx) which contains a `<Sequence>` for each of the 6 scenes outlined in the script, set to 1080p at 30fps.
+I created [BetaTestersVideo.tsx](file://[local path redacted]) which contains a `<Sequence>` for each of the 6 scenes outlined in the script, set to 1080p at 30fps.
 
 **How to preview the Remotion video:**
 Right now, `npm install` is finishing up in the background. Once it finishes, you can preview the video setup by opening a terminal, navigating to the directory, and running the dev server:
 ```bash
-cd /home/jd/.gemini/antigravity/scratch/xennial-concept-1
+cd [local path redacted]
 npm run dev
 ```
 
@@ -736,7 +736,7 @@ The `npm install` process has finished successfully in the background!
 
 Whenever you are ready, you can start the Remotion dev server to see the scene outlines by running:
 ```bash
-cd /home/jd/.gemini/antigravity/scratch/xennial-concept-1
+cd [local path redacted]
 npm run dev
 ```
 
@@ -756,13 +756,13 @@ It looks like you might have sent that message twice, but good news—I've alrea
 
 Here is what I completed in the previous step:
 
-1. **The Script**: I wrote out the full 10-minute script for Concept 1. You can read it here: [script_concept_1.md](file:///home/jd/.gemini/antigravity/brain/c707bb2e-c8bb-4b97-84ce-9052e663a132/script_concept_1.md)
-2. **The Remotion Setup**: I scaffolded a brand new Remotion video project and installed all dependencies at `/home/jd/.gemini/antigravity/scratch/xennial-concept-1`.
-3. **The Scenes**: I built a custom composition ([BetaTestersVideo.tsx](file:///home/jd/.gemini/antigravity/scratch/xennial-concept-1/src/BetaTestersVideo.tsx)) that divides the video into the 6 scenes outlined in the script, with exact timings based on a 10-minute duration at 30 FPS.
+1. **The Script**: I wrote out the full 10-minute script for Concept 1. You can read it here: [script_concept_1.md](file://[local path redacted])
+2. **The Remotion Setup**: I scaffolded a brand new Remotion video project and installed all dependencies at `[local path redacted]`.
+3. **The Scenes**: I built a custom composition ([BetaTestersVideo.tsx](file://[local path redacted])) that divides the video into the 6 scenes outlined in the script, with exact timings based on a 10-minute duration at 30 FPS.
 
 **To view the project right now**, simply open your terminal and run:
 ```bash
-cd /home/jd/.gemini/antigravity/scratch/xennial-concept-1
+cd [local path redacted]
 npm run dev
 ```
 
@@ -780,7 +780,7 @@ start adding more code to the Remotion project (like adding actual animated text
 
 I have drafted an implementation plan to build out the Remotion video with animated text overlays, title cards, and audio scaffolding.
 
-Please review the plan here: [implementation_plan.md](file:///home/jd/.gemini/antigravity/brain/c707bb2e-c8bb-4b97-84ce-9052e663a132/implementation_plan.md)
+Please review the plan here: [implementation_plan.md](file://[local path redacted])
 
 Let me know your thoughts on the two Open Questions (regarding voiceover audio and B-roll placeholders), and click **Proceed** on the plan if everything looks good to you!
 
@@ -790,17 +790,17 @@ Let me know your thoughts on the two Open Questions (regarding voiceover audio a
 
 I have successfully built out the Remotion animations and components! 
 
-I created a `walkthrough.md` to break down everything I added, which you can read here: [walkthrough.md](file:///home/jd/.gemini/antigravity/brain/c707bb2e-c8bb-4b97-84ce-9052e663a132/walkthrough.md)
+I created a `walkthrough.md` to break down everything I added, which you can read here: [walkthrough.md](file://[local path redacted])
 
 Here is a quick summary of what is now available in your Remotion project:
-1. **[AnimatedText.tsx](file:///home/jd/.gemini/antigravity/scratch/xennial-concept-1/src/AnimatedText.tsx)**: Automatically fades and floats text up onto the screen using a spring animation.
-2. **[TitleCard.tsx](file:///home/jd/.gemini/antigravity/scratch/xennial-concept-1/src/TitleCard.tsx)**: A punchy, stylized intro card for each of the 6 scenes.
-3. **[SceneWrapper.tsx](file:///home/jd/.gemini/antigravity/scratch/xennial-concept-1/src/SceneWrapper.tsx)**: Handles the placeholder CSS gradient backgrounds (which you can easily swap out for `<Video>` tags later when you have actual B-roll).
+1. **[AnimatedText.tsx](file://[local path redacted])**: Automatically fades and floats text up onto the screen using a spring animation.
+2. **[TitleCard.tsx](file://[local path redacted])**: A punchy, stylized intro card for each of the 6 scenes.
+3. **[SceneWrapper.tsx](file://[local path redacted])**: Handles the placeholder CSS gradient backgrounds (which you can easily swap out for `<Video>` tags later when you have actual B-roll).
 4. **Audio Scaffolding**: I updated the main video file to optionally pull in a `voiceover.mp3` file from the `/public` directory whenever you're ready to record.
 
 You can preview the newly animated scenes by starting the dev server:
 ```bash
-cd /home/jd/.gemini/antigravity/scratch/xennial-concept-1
+cd [local path redacted]
 npm run dev
 ```
 
@@ -826,7 +826,7 @@ Here is what I just added:
 If you start the dev server now, you will see the actual MP4 playing in the background behind the spring-animated text overlays for every single scene!
 
 ```bash
-cd /home/jd/.gemini/antigravity/scratch/xennial-concept-1
+cd [local path redacted]
 npm run dev
 ```
 

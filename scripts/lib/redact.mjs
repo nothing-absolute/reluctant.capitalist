@@ -10,13 +10,21 @@ const RULES = [
   { name: 'aws-key', re: /\b(?:AKIA|ASIA)[0-9A-Z]{16}\b/g, replacement: '[secret redacted]' },
   { name: 'bearer', re: /\bBearer\s+[A-Za-z0-9._~+/-]{20,}=*/g, replacement: 'Bearer [secret redacted]' },
   { name: 'assigned-secret', re: /\b((?:api[_-]?key|secret|password|passwd|token)\s*[:=]\s*)(?!\s*(?:["']?\$\{|["']?none|["']?null|["']?$))["']?[A-Za-z0-9._~+/-]{12,}["']?/gi, replacement: '$1[secret redacted]' },
+  // Absolute local paths. These leak the owner's directory layout, account
+  // name, and project names when a post is published. Applied last so it can
+  // catch paths that earlier rules rewrote into. Segments deliberately exclude
+  // spaces: a path with a literal space is rare, and allowing spaces makes the
+  // match run on into the surrounding prose ("/home/jd/Vault and delivered the
+  // report" would redact the sentence too).
+  { name: 'local-path', re: /(?:\/home\/|\/media\/|\/mnt\/|\/srv\/|\/var\/www\/)[A-Za-z0-9._-]+(?:\/[A-Za-z0-9._-]+)*/g, replacement: '[local path redacted]' },
 ];
 
-export function redact(input) {
+export function redact(input, only) {
   const text = String(input ?? '');
   const counts = {};
   let out = text;
-  for (const rule of RULES) {
+  const rules = only ? RULES.filter((r) => only.includes(r.name)) : RULES;
+  for (const rule of rules) {
     out = out.replace(rule.re, (...args) => {
       counts[rule.name] = (counts[rule.name] ?? 0) + 1;
       return rule.replacement.replace(/\$(\d)/g, (_, n) => args[Number(n)] ?? '');

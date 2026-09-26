@@ -137,7 +137,8 @@ def _wrap(text: str, width: int = 26) -> str:
 
 
 def render_still_segment(image: Path, seconds: float, on_screen: str, sub: str,
-                         size: tuple[int, int], fps: int, audio: Path, out: Path) -> Path:
+                         size: tuple[int, int], fps: int, audio: Path, out: Path,
+                         text_overlay: bool = True) -> Path:
     w, h = size
     frames = max(int(round(seconds * fps)), 1)
     zoompan = (
@@ -149,13 +150,16 @@ def render_still_segment(image: Path, seconds: float, on_screen: str, sub: str,
         f":s={w}x{h}:fps={fps}"
     )
     vf = zoompan
-    if on_screen:
+    # Assets that already carry their own typography (generated charts, title
+    # cards) set text_overlay=false: burning the headline and the narration
+    # over them duplicates the text and covers axis labels and footers.
+    if on_screen and text_overlay:
         lines = _wrap(on_screen.upper(), 30)
         vf += (f",drawtext=fontfile={FONT}:text='{_escape_drawtext(lines)}'"
                f":fontcolor=white:fontsize=64:line_spacing=14:text_align=center"
                f":borderw=3:bordercolor=black@0.85"
                f":x=(w-text_w)/2:y=h*0.16")
-    if sub:
+    if sub and text_overlay:
         sl = _wrap(sub, 52)
         vf += (f",drawtext=fontfile={FONT}:text='{_escape_drawtext(sl)}'"
                f":fontcolor={ACCENT}:fontsize=34:line_spacing=10:text_align=center"
@@ -235,7 +239,8 @@ async def render(payload: dict[str, Any]) -> dict[str, Any]:
 
         if found:
             render_still_segment(found, seconds, seq["on_screen_text"],
-                                 seq["tts_dialogue"][:120], size, fps, wav, seg)
+                                 seq["tts_dialogue"][:120], size, fps, wav, seg,
+                                 text_overlay=bool(seq.get("text_overlay", True)))
             report["assets_used"].append({"sequence": n, "path": str(found)})
         else:
             kind = str(seq["visual_asset_type"])
@@ -290,10 +295,13 @@ def handler(event: dict[str, Any], context: Any = None) -> dict[str, Any]:
             "timeline": [
                 {
                     "sequence": int,
-                    "tts_dialogue": string,
-                    "visual_asset_type": string,
-                    "visual_asset_path": string,
-                    "on_screen_text": string
+                    "tts_dialogue": str,
+                    "visual_asset_type": str,
+                    "visual_asset_path": str,
+                    "on_screen_text": str,
+                    "text_overlay": bool  # optional, default true. set false when
+                                          # the asset already has its own
+                                          # typography (generated charts/cards)
                 }
             ]
         }

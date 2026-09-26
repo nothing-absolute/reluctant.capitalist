@@ -15,8 +15,8 @@ vault: false
 The browser subagent's `open_browser_url` tool failed because it was unable to initialize/download the Playwright driver (it received a 404 error from the Playwright CDN). Since this is a browser issue out of my control, I must ask you how to proceed.
 
 However, from checking your directory contents using `list_dir`, I found that the following log files in your home directory are taking up a significant amount of space:
-* [`.xsession-errors`](file:///home/jd/.xsession-errors) (~320 MB)
-* [`.xsessionErrors.old`](file:///home/jd/.xsession-errors.old) (~98 MB)
+* [`.xsession-errors`](file://[local path redacted]) (~320 MB)
+* [`.xsessionErrors.old`](file://[local path redacted]) (~98 MB)
 
 Since the disk is completely full (causing other tools to fail with `no space left on device`), would you like me to:
 1. Try to clear/truncate the `.xsession-errors` file to free up space directly via Python or another file-writing method (if possible without `run_command`)?

@@ -41,7 +41,7 @@ We will create a codebase template structured to build a standalone audio applic
 ## Proposed Changes / Project Structure
 
 We will initialize a new workspace directory for this project at:
-`/home/jd/.gemini/antigravity/scratch/op1_diy_hybrid/`
+`[local path redacted]/`
 
 Within this directory, we will structure:
 *   `hardware/`: 3D printing STL files, PCB schematics (KiCad), and wiring diagrams.
@@ -87,15 +87,15 @@ We have successfully initialized the project architecture and code framework for
 
 ## 📁 Repository Structure Created
 
-Here is the directory structure created at `/home/jd/.gemini/antigravity/scratch/op1_diy_hybrid/`:
+Here is the directory structure created at `[local path redacted]/`:
 
-*   **[docs/](file:///home/jd/.gemini/antigravity/scratch/op1_diy_hybrid/docs/)**
-    *   [schematics.md](file:///home/jd/.gemini/antigravity/scratch/op1_diy_hybrid/docs/schematics.md): Pin mappings between Raspberry Pi, Teensy 4.1, Hyperpixel 4.0 display, and PCM5102a DAC.
-    *   [build_guide.md](file:///home/jd/.gemini/antigravity/scratch/op1_diy_hybrid/docs/build_guide.md): 3D printing guidelines and step-by-step mechanical assembly instructions.
-*   **[firmware-teensy/](file:///home/jd/.gemini/antigravity/scratch/op1_diy_hybrid/firmware-teensy/)**
-    *   [firmware-teensy.ino](file:///home/jd/.gemini/antigravity/scratch/op1_diy_hybrid/firmware-teensy/firmware-teensy.ino): Teensy 4.1 C++ code scanning the 4x6 grid keyboard matrix and the 4 quadrature encoders, transmitting USB-MIDI data.
-*   **[software-pi/](file:///home/jd/.gemini/antigravity/scratch/op1_diy_hybrid/software-pi/)**
-    *   [simulator.py](file:///home/jd/.gemini/antigravity/scratch/op1_diy_hybrid/software-pi/simulator.py): A fully interactive, real-time Python/Pygame simulator running an 800x480 screen displaying OTTO-style dial rings, a running wave oscilloscope, and a virtual keyboard with dynamic DSP FM-synthesis sound generation.
+*   **[docs/](file://[local path redacted]/)**
+    *   [schematics.md](file://[local path redacted]): Pin mappings between Raspberry Pi, Teensy 4.1, Hyperpixel 4.0 display, and PCM5102a DAC.
+    *   [build_guide.md](file://[local path redacted]): 3D printing guidelines and step-by-step mechanical assembly instructions.
+*   **[firmware-teensy/](file://[local path redacted]/)**
+    *   [firmware-teensy.ino](file://[local path redacted]): Teensy 4.1 C++ code scanning the 4x6 grid keyboard matrix and the 4 quadrature encoders, transmitting USB-MIDI data.
+*   **[software-pi/](file://[local path redacted]/)**
+    *   [simulator.py](file://[local path redacted]): A fully interactive, real-time Python/Pygame simulator running an 800x480 screen displaying OTTO-style dial rings, a running wave oscilloscope, and a virtual keyboard with dynamic DSP FM-synthesis sound generation.
 
 
 ## 🕹️ How to Run the Desktop Simulator
@@ -111,7 +111,7 @@ pip install pygame
 ### 2. Launch the Simulator
 Run the Python script:
 ```bash
-python /home/jd/.gemini/antigravity/scratch/op1_diy_hybrid/software-pi/simulator.py
+python [local path redacted]
 ```
 
 ### 3. Controls Layout
@@ -127,9 +127,9 @@ python /home/jd/.gemini/antigravity/scratch/op1_diy_hybrid/software-pi/simulator
 
 ## 🛠️ Next Hardware Steps
 
-1.  Order the parts listed in the [build_guide.md](file:///home/jd/.gemini/antigravity/scratch/op1_diy_hybrid/docs/build_guide.md).
+1.  Order the parts listed in the [build_guide.md](file://[local path redacted]).
 2.  Print the Top Plate and Bottom Case using the settings provided.
-3.  Flash [firmware-teensy.ino](file:///home/jd/.gemini/antigravity/scratch/op1_diy_hybrid/firmware-teensy/firmware-teensy.ino) to your Teensy 4.1 using the Arduino IDE.
+3.  Flash [firmware-teensy.ino](file://[local path redacted]) to your Teensy 4.1 using the Arduino IDE.
 4.  Configure the Raspberry Pi with a real-time Linux kernel overlay and test with the USB MIDI inputs.
 
 

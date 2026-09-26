@@ -1,5 +1,5 @@
 ---
-title: "off load some drive space to /media/jd/6BFF-F24F/"
+title: "off load some drive space to [local path redacted]/"
 description: "Identifying large directories to free up space on a storage device."
 date: "2026-08-20"
 tags: ["storage","directory","space"]
@@ -8,7 +8,7 @@ draft: true
 vault: false
 ---
 
-## off load some drive space to /media/jd/6BFF-F24F/
+## off load some drive space to [local path redacted]/
 
 ### Check directory scanning task status
 
@@ -20,4 +20,4 @@ I will read the scan results log to identify the largest directories.
 
 ### List directory contents and sizes
 
-I will list the contents and sizes of top-level directories in `/home/jd` to find where the space is being used.
+I will list the contents and sizes of top-level directories in `[local path redacted]` to find where the space is being used.

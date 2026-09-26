@@ -60,7 +60,7 @@ I've created a CSV file that contains a comprehensive list of all the free and n
 - **Specialty/Media Free**: Veo AI Free, Chipotle Pepper AI
 
 I have saved this file for you at:
-[providers.csv](file:///home/jd/.gemini/antigravity/scratch/providers.csv)
+[providers.csv](file://[local path redacted])
 
 ### How to Import the Providers
 

@@ -1,0 +1,542 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MLM Decoded — Native Creator TikTok Studio & Teleprompter</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700;900&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg-dark: #0a0c10;
+      --card-bg: #12161f;
+      --accent-red: #ff3b30;
+      --accent-cyan: #00f0ff;
+      --accent-yellow: #ffd60a;
+      --accent-purple: #af52de;
+      --text-main: #f0f3f8;
+      --text-muted: #8a94a6;
+      --border-color: #212836;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      background-color: var(--bg-dark);
+      color: var(--text-main);
+      font-family: 'Outfit', sans-serif;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+
+    header {
+      background: rgba(18, 22, 31, 0.85);
+      backdrop-filter: blur(12px);
+      border-bottom: 1px solid var(--border-color);
+      padding: 1rem 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+    }
+
+    .brand-badge {
+      background: var(--accent-red);
+      color: white;
+      font-weight: 900;
+      padding: 0.25rem 0.6rem;
+      border-radius: 4px;
+      font-size: 0.8rem;
+      letter-spacing: 1px;
+    }
+
+    .brand h1 {
+      font-size: 1.2rem;
+      font-family: 'Space Grotesk', sans-serif;
+    }
+
+    .script-selector {
+      display: flex;
+      gap: 0.5rem;
+      overflow-x: auto;
+    }
+
+    .script-btn {
+      background: #181f2c;
+      border: 1px solid var(--border-color);
+      color: var(--text-muted);
+      padding: 0.5rem 0.9rem;
+      border-radius: 6px;
+      cursor: pointer;
+      font-size: 0.85rem;
+      font-weight: 600;
+      transition: all 0.2s ease;
+      white-space: nowrap;
+    }
+
+    .script-btn:hover {
+      border-color: var(--accent-cyan);
+      color: var(--text-main);
+    }
+
+    .script-btn.active {
+      background: linear-gradient(135deg, rgba(255,59,48,0.2), rgba(0,240,255,0.2));
+      border-color: var(--accent-cyan);
+      color: var(--accent-cyan);
+    }
+
+    main {
+      flex: 1;
+      display: grid;
+      grid-template-columns: 1fr 420px;
+      gap: 1.5rem;
+      padding: 1.5rem 2rem;
+      max-width: 1600px;
+      margin: 0 auto;
+      width: 100%;
+    }
+
+    @media (max-width: 1024px) {
+      main {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    .teleprompter-card {
+      background: var(--card-bg);
+      border: 1px solid var(--border-color);
+      border-radius: 12px;
+      display: flex;
+      flex-direction: column;
+      height: 720px;
+      overflow: hidden;
+    }
+
+    .teleprompter-controls {
+      background: #181f2e;
+      padding: 0.75rem 1.25rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      border-bottom: 1px solid var(--border-color);
+    }
+
+    .control-group {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+    }
+
+    .btn {
+      background: var(--accent-red);
+      color: white;
+      border: none;
+      padding: 0.5rem 1.25rem;
+      border-radius: 6px;
+      font-weight: 700;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+
+    .btn-secondary {
+      background: #283244;
+      color: var(--text-main);
+    }
+
+    .setting-item {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      font-size: 0.85rem;
+      color: var(--text-muted);
+    }
+
+    .setting-item input[type="range"] {
+      width: 80px;
+      accent-color: var(--accent-cyan);
+    }
+
+    .prompter-window {
+      flex: 1;
+      overflow-y: scroll;
+      padding: 3rem 2.5rem;
+      position: relative;
+      scroll-behavior: smooth;
+    }
+
+    .prompter-line {
+      font-size: 2.1rem;
+      font-weight: 700;
+      line-height: 1.5;
+      color: #5d677d;
+      margin-bottom: 2rem;
+      transition: color 0.2s ease;
+    }
+
+    .prompter-line.active {
+      color: #ffffff;
+      text-shadow: 0 0 15px rgba(0,240,255,0.4);
+    }
+
+    .cue-tag {
+      display: inline-block;
+      font-size: 0.8rem;
+      font-weight: 800;
+      padding: 0.15rem 0.5rem;
+      border-radius: 4px;
+      margin-right: 0.4rem;
+      vertical-align: middle;
+    }
+
+    .cue-sfx {
+      background: rgba(255, 59, 48, 0.25);
+      color: #ff6b6b;
+      border: 1px solid var(--accent-red);
+    }
+
+    .cue-visual {
+      background: rgba(0, 240, 255, 0.2);
+      color: var(--accent-cyan);
+      border: 1px solid var(--accent-cyan);
+    }
+
+    .cue-rehook {
+      background: rgba(175, 82, 222, 0.3);
+      color: #d8b4fe;
+      border: 1px solid var(--accent-purple);
+    }
+
+    /* TikTok Mockup */
+    .preview-sidebar {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+    }
+
+    .tiktok-mockup {
+      width: 100%;
+      height: 540px;
+      background: #000;
+      border-radius: 20px;
+      border: 3px solid #283244;
+      position: relative;
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+      padding: 1.25rem;
+    }
+
+    .tiktok-overlay-img {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      opacity: 0.8;
+    }
+
+    .tiktok-ui-elements {
+      position: relative;
+      z-index: 10;
+      color: white;
+    }
+
+    .tiktok-user {
+      font-weight: 700;
+      font-size: 0.9rem;
+      margin-bottom: 0.4rem;
+    }
+
+    .tiktok-caption {
+      font-size: 0.8rem;
+      line-height: 1.35;
+      color: #e0e6ed;
+      margin-bottom: 0.5rem;
+    }
+
+    .meta-box {
+      background: var(--card-bg);
+      border: 1px solid var(--border-color);
+      border-radius: 12px;
+      padding: 1rem;
+    }
+
+    .meta-box h3 {
+      font-size: 0.9rem;
+      color: var(--accent-cyan);
+      margin-bottom: 0.4rem;
+    }
+
+    .meta-box p {
+      font-size: 0.8rem;
+      color: var(--text-muted);
+      line-height: 1.4;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="brand">
+      <span class="brand-badge">NATIVE</span>
+      <h1>MLM Decoded — Handheld Teleprompter Studio</h1>
+    </div>
+    <div class="script-selector">
+      <button class="script-btn active" onclick="loadScript(0)">Video 1: Pyramid Math</button>
+      <button class="script-btn" onclick="loadScript(1)">Video 2: Disclosure PDF</button>
+      <button class="script-btn" onclick="loadScript(2)">Video 3: Weaponized Psych</button>
+      <button class="script-btn" onclick="loadScript(3)">Video 4: AI Upline</button>
+      <button class="script-btn" onclick="loadScript(4)">Video 5: 50-Person Cost</button>
+    </div>
+  </header>
+
+  <main>
+    <div class="teleprompter-card">
+      <div class="teleprompter-controls">
+        <div class="control-group">
+          <button class="btn" id="playBtn" onclick="togglePrompter()">▶ PLAY</button>
+          <button class="btn btn-secondary" onclick="resetPrompter()">↺ RESET</button>
+        </div>
+        <div class="control-group">
+          <div class="setting-item">
+            <label>WPM Speed:</label>
+            <input type="range" id="wpmSlider" min="100" max="220" value="155" oninput="updateWpm(this.value)">
+            <span id="wpmValue">155</span>
+          </div>
+          <div class="setting-item">
+            <label>Font Size:</label>
+            <input type="range" id="sizeSlider" min="1.5" max="3" step="0.1" value="2.1" oninput="updateFontSize(this.value)">
+          </div>
+        </div>
+      </div>
+
+      <div class="prompter-window" id="prompterWindow"></div>
+    </div>
+
+    <div class="preview-sidebar">
+      <div class="tiktok-mockup">
+        <img id="overlayImg" class="tiktok-overlay-img" src="" alt="Script Thumbnail">
+        <div class="tiktok-ui-elements">
+          <div class="tiktok-user">@mlmdecoded ✓</div>
+          <div class="tiktok-caption" id="tiktokCaption"></div>
+          <div style="font-size: 0.75rem; color: var(--accent-cyan);">🎵 Original sound - MLM Decoded</div>
+        </div>
+      </div>
+
+      <div class="meta-box">
+        <h3 id="scriptTitle"></h3>
+        <p id="scriptMeta"></p>
+      </div>
+    </div>
+  </main>
+
+  <script>
+    const scriptsData = [
+      {
+        title: "Video 1 — Pyramid Math (Calculator Test)",
+        meta: "Target Goal: Comments | Length: ~32s | Keywords: MLM math, pyramid scheme recruiting",
+        image: "mlm_decoded_math_hook_1788227592355.jpg",
+        caption: "Do this math with your own upline's recruit number and watch what happens 🧮 #mlm #antimlm #pyramidscheme #mlmmath #networkmarketing",
+        lines: [
+          { time: "0:00", text: "Pull out your calculator right now. I'm serious.", textOverlay: "TYPE THIS IN 👇", visual: "Handheld selfie, thumb over calculator", sfx: "Original audio" },
+          { time: "0:02", text: "Type 5, then the power button, then 13. That's it — recruit 5 people, 13 levels deep.", textOverlay: "5 × 5 × 5... 13 times", visual: "Screen-record: typing 5^13" },
+          { time: "0:07", text: "Hit equals. (pause)", textOverlay: "1,220,703,125", visual: "Screen-record: equals tap", sfx: "Record-scratch SFX" },
+          { time: "0:10", text: "That's over 1.2 billion people. More humans than most countries have EVER had.", textOverlay: "MORE PEOPLE THAN EXIST", visual: "Cut back to selfie" },
+          { time: "0:14", text: "But wait — it's worse than that.", textOverlay: "But here's the part they don't say", visual: "Quick zoom-in", sfx: "Whoosh SFX", rehook: true },
+          { time: "0:16", text: "There are 8.2 billion people on the entire planet. We ran out of humans before level 13 finished.", textOverlay: "8.2 BILLION humans total", visual: "Screen-record: Google 8.2B pop" },
+          { time: "0:21", text: "So when someone tells you 'there's room for everyone at the top' — there isn't room on the PLANET. It's not a business plan. It's arithmetic.", textOverlay: "'Everyone can win' is a lie", visual: "Leaning into camera" },
+          { time: "0:27", text: "Comment the number your upline told you to recruit. I'll do the math on your exact one.", textOverlay: "Try YOUR upline's recruit number 👇", visual: "Loop back to phone in hand", sfx: "Ding SFX" }
+        ]
+      },
+      {
+        title: "Video 2 — Income Disclosure Reveal (Public PDF)",
+        meta: "Target Goal: Comments + Follows | Length: ~33s | Keywords: MLM income disclosure, FTC data",
+        image: "mlm_income_disclosure_card_1788227602912.jpg",
+        caption: "MLM income disclosure statements are public — almost nobody reads them. Comment your MLM! 📄 #mlm #antimlm #incomedisclosure #ftc #mlmtruth",
+        lines: [
+          { time: "0:00", text: "MLMs are legally required to publish this. Almost nobody in the business shows it to you.", textOverlay: "PUBLIC DOCUMENT. NOBODY SHOWS THIS.", visual: "Handheld phone with PDF scrolling" },
+          { time: "0:03", text: "It's called an income disclosure. It has to show what the AVERAGE distributor actually makes.", textOverlay: "Income Disclosure Statement", visual: "Screen-record custom stat sheet" },
+          { time: "0:08", text: "Not the person in the private jet. Everyone. Averaged.", textOverlay: "Not the top earner. Everyone.", visual: "Selfie flat delivery" },
+          { time: "0:11", text: "Guess what percent actually turn a profit.", textOverlay: "Guess the number", visual: "Lean in close", sfx: "Snap-zoom SFX", rehook: true },
+          { time: "0:13", text: "(Silence — let <1% sit for 2 full seconds)", textOverlay: "<1%", visual: "Big text slam", sfx: "Impact SFX" },
+          { time: "0:16", text: "The FTC looked across the industry. Less than one percent make a profit — after mandatory monthly purchases to stay 'active.'", textOverlay: "Less than 1% make ANY profit", visual: "Selfie dry tone" },
+          { time: "0:21", text: "So when someone says 'the top earners prove it's possible' — sure. So does the lottery.", textOverlay: "Same odds as the lottery", visual: "Wry half-smile" },
+          { time: "0:25", text: "The recruiter isn't lying about the top number. They just never show you everyone else.", textOverlay: "They just don't show the 99%", visual: "Direct & sincere address" },
+          { time: "0:29", text: "Comment the MLM you were pitched. I'm pulling the real disclosure number for it next video.", textOverlay: "Comment your MLM 👇", visual: "Hold phone back up (Loop)", sfx: "Ding SFX" }
+        ]
+      },
+      {
+        title: "Video 3 — Weaponized Psychology (Science Twist)",
+        meta: "Target Goal: Saves + Shares | Length: ~40s | Keywords: MLM psychology, growth mindset MLM",
+        image: "mlm_income_disclosure_card_1788227602912.jpg",
+        caption: "Real psychology research, twisted into an MLM manipulation tactic 🧠 save and send this! #mlm #antimlm #mlmpsychology #growthmindset #cultrecovery",
+        lines: [
+          { time: "0:00", text: "A real psychologist did this research. Your upline weaponized it.", textOverlay: "REAL SCIENCE. TWISTED.", visual: "Hand raised 'hold on' gesture" },
+          { time: "0:03", text: "Carol Dweck. Growth mindset. Real, peer-reviewed — people get better at SKILLS through effort.", textOverlay: "Carol Dweck — Peer-reviewed", visual: "Selfie matter-of-fact" },
+          { time: "0:08", text: "'You didn't fail because the business is rigged. You didn't grind hard enough. Winners don't quit.'", textOverlay: "What your upline says:", visual: "Upline mocking cadence", rehook: true },
+          { time: "0:14", text: "See what just happened? A rigged structure that mathematically fails 99% of people — just became YOUR personal flaw.", textOverlay: "See what just happened?", visual: "Normal voice closer to lens" },
+          { time: "0:20", text: "The system can never be wrong. So you have to be the problem.", textOverlay: "System is never wrong. You are.", visual: "Slower, quieter delivery" },
+          { time: "0:24", text: "Same trick with 'The Secret.'", textOverlay: "Same trick, different quote:", visual: "Head tilt", sfx: "Whoosh SFX", rehook: true },
+          { time: "0:26", text: "'Your bank account reflects your belief system. Fix your mindset. Buy the training.'", textOverlay: "'Your bank account = belief'", visual: "Upline mocking cadence" },
+          { time: "0:31", text: "It's not your mindset. It's the math. No amount of positive thinking fixes a structure built for most people to lose.", textOverlay: "IT'S NOT MINDSET. IT'S MATH.", visual: "Direct close to camera" },
+          { time: "0:37", text: "If someone's ever told you to 'just believe more' — save this and send it to them.", textOverlay: "Save this. Send it to them.", visual: "Pull back warm tone", sfx: "Soft Ding SFX" }
+        ]
+      },
+      {
+        title: "Video 4 — AI Upline / Fully Automated MLM",
+        meta: "Target Goal: Reach + Comments | Length: ~38s | Keywords: AI MLM, AI upline, synthetic mentor",
+        image: "mlm_ai_upline_flowchart_1788227616158.jpg",
+        caption: "Your MLM upline might already be AI — here's how fast it happened 🤖 #mlm #antimlm #ai #syntheticmedia #mlmtruth",
+        lines: [
+          { time: "0:00", text: "If your MLM upline's messages have felt a little off lately — there's a reason.", textOverlay: "HAS YOUR UPLINE FELT OFF?", visual: "Scrolling phone, brow furrowed" },
+          { time: "0:03", text: "Writing a motivational script used to take a human upline four to eight hours. AI does it in eight seconds.", textOverlay: "8 hrs human → 8 sec AI", visual: "Selfie serious tone" },
+          { time: "0:08", text: "Clone their actual voice — two minutes. Generate a 'personal' video — five minutes. 500 DMs — 30 seconds.", textOverlay: "Voice: 2m. Video: 5m. 500 DMs: 30s", visual: "Finger counting fast cuts", sfx: "Fast tick SFX" },
+          { time: "0:15", text: "Some uplines are already doing exactly this — ChatGPT and Claude writing every script, every post. They just hit send.", textOverlay: "Some uplines do this NOW", visual: "Leaning in, dropping voice", rehook: true },
+          { time: "0:20", text: "Next stage is already close — an AI clone of your mentor's actual voice doing the check-in call. You'd think it's them.", textOverlay: "Next: AI check-in calls", visual: "Ominous pacing" },
+          { time: "0:26", text: "Final stage: a fully automated MLM. No real human anywhere in your upline. AI recruits you. AI trains you. AI blames you when it fails.", textOverlay: "Final stage: NO HUMAN UPLINE", visual: "Direct stillness" },
+          { time: "0:32", text: "So. Has it felt a little off?", textOverlay: "So — has it felt off?", visual: "Loop back to Shot 1 framing" },
+          { time: "0:35", text: "Comment below. If you already suspected it — you're probably right.", textOverlay: "Comment below. You're right.", visual: "CTA card hold", sfx: "Ding SFX" }
+        ]
+      },
+      {
+        title: "Video 5 — Social/Relationship Cost",
+        meta: "Target Goal: Follows + Community | Length: ~39s | Keywords: MLM relationships, ruined friendships",
+        image: "mlm_decoded_math_hook_1788227592355.jpg",
+        caption: "The MLM cost that never shows up on an income disclosure 💔 comment 'me' if this hit home #mlm #antimlm #mlmtruth #friendship #recovery",
+        lines: [
+          { time: "0:00", text: "Nobody tells you the real cost of an MLM is 50 people.", textOverlay: "50 PEOPLE. THAT'S THE PRICE.", visual: "Sitting, quieter framing" },
+          { time: "0:03", text: "The average distributor pitches over fifty people from their own life before they quit. Not strangers — people who already trusted them.", textOverlay: "Pitches 50+ people they know", visual: "Gentle pace" },
+          { time: "0:09", text: "Close friends. Family. Coworkers. Your kid's soccer parents.", textOverlay: "Friends. Family. Coworkers.", visual: "Look away, reflective beat" },
+          { time: "0:13", text: "And it changes the relationship — even when nobody says a word out loud. Calls get screened. Invitations stop.", textOverlay: "Changes things silently", visual: "Quieter match tone", rehook: true },
+          { time: "0:19", text: "You're taught your 'warm market' is your first ninety days of leads. The people who love you are the starter inventory.", textOverlay: "Warm market = starter inventory", visual: "Pointed delivery" },
+          { time: "0:25", text: "Money can be earned back. A friendship that went quiet for two years is a lot harder to rebuild.", textOverlay: "Money comes back. Friends don't.", visual: "Slower pause" },
+          { time: "0:30", text: "This is the cost that's not in any income disclosure. And it's usually the one people regret most.", textOverlay: "Not in income disclosure", visual: "Sincere close address" },
+          { time: "0:35", text: "If this hit home — comment 'me.' You're not alone in this.", textOverlay: "Comment 'me' 👇 You're not alone.", visual: "Warm still CTA" }
+        ]
+      }
+    ];
+
+    let currentScriptIdx = 0;
+    let isPlaying = false;
+    let prompterInterval = null;
+    let currentLineIdx = 0;
+    let wpm = 155;
+
+    function loadScript(idx) {
+      currentScriptIdx = idx;
+      resetPrompter();
+
+      document.querySelectorAll('.script-btn').forEach((btn, i) => {
+        btn.classList.toggle('active', i === idx);
+      });
+
+      const script = scriptsData[idx];
+      document.getElementById('scriptTitle').innerText = script.title;
+      document.getElementById('scriptMeta').innerText = script.meta;
+      document.getElementById('tiktokCaption').innerText = script.caption;
+      document.getElementById('overlayImg').src = script.image;
+
+      const windowEl = document.getElementById('prompterWindow');
+      windowEl.innerHTML = '';
+      script.lines.forEach((line, i) => {
+        const lineEl = document.createElement('div');
+        lineEl.className = `prompter-line ${i === 0 ? 'active' : ''}`;
+        lineEl.id = `line-${i}`;
+        
+        let tagsHtml = `<span style="font-size: 0.85rem; color: var(--accent-yellow); margin-right: 0.4rem;">[${line.time}]</span>`;
+        if (line.rehook) tagsHtml += `<span class="cue-tag cue-rehook">🔄 RE-HOOK</span>`;
+        if (line.sfx) tagsHtml += `<span class="cue-tag cue-sfx">🎵 ${line.sfx}</span>`;
+        if (line.visual) tagsHtml += `<span class="cue-tag cue-visual">📹 ${line.visual}</span>`;
+
+        lineEl.innerHTML = `<div>${tagsHtml}</div><div style="font-size: 0.95rem; color: var(--accent-cyan); margin-bottom: 0.3rem;">On-Screen: "${line.textOverlay}"</div><div>${line.text}</div>`;
+        windowEl.appendChild(lineEl);
+      });
+    }
+
+    function togglePrompter() {
+      isPlaying = !isPlaying;
+      const playBtn = document.getElementById('playBtn');
+      if (isPlaying) {
+        playBtn.innerText = "⏸ PAUSE";
+        playBtn.style.background = "var(--accent-cyan)";
+        playBtn.style.color = "#000";
+        startScrolling();
+      } else {
+        playBtn.innerText = "▶ PLAY";
+        playBtn.style.background = "var(--accent-red)";
+        playBtn.style.color = "#fff";
+        clearInterval(prompterInterval);
+      }
+    }
+
+    function startScrolling() {
+      clearInterval(prompterInterval);
+      const intervalMs = (60 / wpm) * 1000 * 7;
+      prompterInterval = setInterval(() => {
+        const lines = scriptsData[currentScriptIdx].lines;
+        if (currentLineIdx < lines.length - 1) {
+          currentLineIdx++;
+          updateActiveLine();
+        } else {
+          togglePrompter();
+        }
+      }, intervalMs);
+    }
+
+    function updateActiveLine() {
+      document.querySelectorAll('.prompter-line').forEach((el, i) => {
+        el.classList.toggle('active', i === currentLineIdx);
+      });
+      const activeEl = document.getElementById(`line-${currentLineIdx}`);
+      if (activeEl) {
+        activeEl.scrollIntoView({ behavior: 'smooth', block: 'center' });
+      }
+    }
+
+    function resetPrompter() {
+      isPlaying = false;
+      clearInterval(prompterInterval);
+      currentLineIdx = 0;
+      const playBtn = document.getElementById('playBtn');
+      playBtn.innerText = "▶ PLAY";
+      playBtn.style.background = "var(--accent-red)";
+      playBtn.style.color = "#fff";
+      const windowEl = document.getElementById('prompterWindow');
+      if (windowEl) windowEl.scrollTop = 0;
+      updateActiveLine();
+    }
+
+    function updateWpm(val) {
+      wpm = val;
+      document.getElementById('wpmValue').innerText = val;
+      if (isPlaying) startScrolling();
+    }
+
+    function updateFontSize(val) {
+      document.querySelectorAll('.prompter-line').forEach(el => {
+        el.style.fontSize = `${val}rem`;
+      });
+    }
+
+    window.onload = () => loadScript(0);
+  </script>
+</body>
+</html>

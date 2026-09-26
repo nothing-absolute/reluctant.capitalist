@@ -1,6 +1,6 @@
 ---
 title: "Write a comprehensive needlepoint inventory database JSON file to…"
-description: "Write a comprehensive needlepoint inventory database JSON file to /home/jd/.gemini/antigravity/scratch/barbaras-needlepoint/inventory-database.json The JSON must have this…"
+description: "Write a comprehensive needlepoint inventory database JSON file to [local path redacted] The JSON must have this…"
 date: "2026-07-24"
 tags: ["antigravity","chat","note"]
 source: "antigravity://b0b0208b-c4ea-4a70-83aa-6962e4c6e04b"
@@ -8,14 +8,14 @@ draft: true
 vault: false
 ---
 
-Write a comprehensive needlepoint inventory database JSON file to /home/jd/.gemini/antigravity/scratch/barbaras-needlepoint/inventory-database.json The JSON must have this top-level structure: { "store": { "name": "Barbara's Needlepoint", "location": "[address redacted] 1, Sioux Falls, SD [zip redacted]", "phone": "[phone redacted]", "email": "[email redacted]", "website": "https://www.barbarasneedlepoint.com",
+Write a comprehensive needlepoint inventory database JSON file to [local path redacted] The JSON must have this top-level structure: { "store": { "name": "Barbara's Needlepoint", "location": "[address redacted] 1, Sioux Falls, SD [zip redacted]", "phone": "[phone redacted]", "email": "[email redacted]", "website": "https://www.barbarasneedlepoint.com",
 
 <details>
 <summary>Chat transcript — 1 messages, 2026-07-24 → 2026-07-24</summary>
 
 **You** · 2026-07-24 12:47
 
-Write a comprehensive needlepoint inventory database JSON file to /home/jd/.gemini/antigravity/scratch/barbaras-needlepoint/inventory-database.json
+Write a comprehensive needlepoint inventory database JSON file to [local path redacted]
 
 The JSON must have this top-level structure:
 {

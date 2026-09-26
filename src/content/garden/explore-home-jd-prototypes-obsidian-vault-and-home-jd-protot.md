@@ -1,5 +1,5 @@
 ---
-title: "Explore /home/jd/Prototypes/Obsidian Vault/ and /home/jd/Prototypes/ to understand the prototype/development s"
+title: "Explore [local path redacted] Vault/ and [local path redacted]/ to understand the prototype/development s"
 description: "Exploration of Obsidian vaults and prototypes for the EMAI project"
 date: "2026-07-27"
 tags: ["obsidian","prototype","development","ema","vault"]
@@ -8,12 +8,12 @@ draft: true
 vault: false
 ---
 
-Explore /home/jd/Prototypes/Obsidian Vault/ and /home/jd/Prototypes/ to understand the prototype/development side of the EMAI project.
+Explore [local path redacted] Vault/ and [local path redacted]/ to understand the prototype/development side of the EMAI project.
 
-1. List the full directory tree of /home/jd/Prototypes/ (up to 4 levels deep)
-2. Read Welcome.md, Untitled.md, yakuake.shortcuts.md in /home/jd/Prototypes/Obsidian Vault/
-3. Explore /home/jd/Prototypes/Obsidian Vault/EMAI Starter Vault/ fully — list all dirs and read all files
-4. Check if /home/jd/Prototypes/ has a .obsidian directory at the root level and explore its config
+1. List the full directory tree of [local path redacted]/ (up to 4 levels deep)
+2. Read Welcome.md, Untitled.md, yakuake.shortcuts.md in [local path redacted] Vault/
+3. Explore [local path redacted] Vault/EMAI Starter Vault/ fully — list all dirs and read all files
+4. Check if [local path redacted]/ has a .obsidian directory at the root level and explore its config
 5. Check for any git repos and recent history
 6. Look for any scripts, automation, build files, or development artifacts
 
@@ -26,5 +26,5 @@ Return a comprehensive report on:
 
 ## Related
 
-- [Thoroughly explore the EMAI Obsidian OS project at /home/jd/Documents/Obsidian…](/garden/thoroughly-explore-the-emai-obsidian-os-project-at-home-jd-d/)
-- [Explore the main Obsidian vault at /home/jd/ObsidianVault to understand its structure…]
+- [Thoroughly explore the EMAI Obsidian OS project at [local path redacted]…](/garden/thoroughly-explore-the-emai-obsidian-os-project-at-home-jd-d/)
+- [Explore the main Obsidian vault at [local path redacted] to understand its structure…]

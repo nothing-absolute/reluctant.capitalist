@@ -19,7 +19,7 @@ opencode session working on a busniess for fixing cars that have a bug that can 
 
 ## 📸 Hero Visual Preview
 
-![DriveShield Hero Graphic](/home/jd/.gemini/antigravity/brain/e2ad6295-91b6-43be-aba1-be665bd6d30c/car_security_hero_1787943982527.jpg)
+![DriveShield Hero Graphic]([local path redacted])
 
 ---
 
@@ -55,11 +55,11 @@ opencode session working on a busniess for fixing cars that have a bug that can 
 ## 📂 Project Location
 
 The complete standalone web application code is stored at:
-- [`index.html`](file:///home/jd/.gemini/antigravity/scratch/driveshield/index.html)
-- [`hero.jpg`](file:///home/jd/.gemini/antigravity/scratch/driveshield/hero.jpg)
+- [`index.html`](file://[local path redacted])
+- [`hero.jpg`](file://[local path redacted])
 
 > [!TIP]
-> You can set `/home/jd/.gemini/antigravity/scratch/driveshield` as your active workspace or open `index.html` directly in any web browser.
+> You can set `[local path redacted]` as your active workspace or open `index.html` directly in any web browser.
 
 ## Assets
 ![car_security_hero_1787943982527](/antigravity/opencode-session-working-on-a-busniess-for-fixing-cars/car_security_hero_1787943982527.jpg)
@@ -113,7 +113,7 @@ Here's what I found:
 
 ## ✅ Found Your Business Idea Notes
 
-Your idea is saved in **[bizidea.text](file:///home/jd/bizidea.text)** with the YouTube link: `https://www.youtube.com/watch?v=FwA3CuJxbk4`
+Your idea is saved in **[bizidea.text](file://[local path redacted])** with the YouTube link: `https://www.youtube.com/watch?v=FwA3CuJxbk4`
 
 Based on the search, this appears to be a **WIRED** video about a universal car hacking vulnerability — likely covering a hidden device installed in **millions of cars** that allows remote hacking, carjacking, or silent theft (this aligns with the recent **KARR alarm system** vulnerability affecting Honda, Toyota, Mazda, Ford, Jeep and others).
 
@@ -208,10 +208,10 @@ I have built the landing page for **DriveShield** — a business that diagnoses 
 - **Lead Generation Form**: Complete appointment booking form for vehicle make, model, year, and service selection.
 
 ### 📁 Files Created
-- Landing Page HTML: [`index.html`](file:///home/jd/.gemini/antigravity/scratch/driveshield/index.html)
-- Visual Artifacts & Details: [`walkthrough.md`](file:///home/jd/.gemini/antigravity/brain/e2ad6295-91b6-43be-aba1-be665bd6d30c/walkthrough.md)
+- Landing Page HTML: [`index.html`](file://[local path redacted])
+- Visual Artifacts & Details: [`walkthrough.md`](file://[local path redacted])
 
-> **Recommendation**: You can set `/home/jd/.gemini/antigravity/scratch/driveshield` as your active workspace to inspect or extend the codebase.
+> **Recommendation**: You can set `[local path redacted]` as your active workspace to inspect or extend the codebase.
 
 ---
 
@@ -226,9 +226,9 @@ resume
 The **DriveShield** automotive cybersecurity landing page and visual assets are fully built and ready.
 
 ### Summary of Completed Work
-- **Landing Page**: Created [`index.html`](file:///home/jd/.gemini/antigravity/scratch/driveshield/index.html) featuring a dark cyberpunk glassmorphism aesthetic, live threat ticker, threat cards (KARR Bluetooth bug, Relay attacks, OBD port exploits), service tiers, and interactive booking form.
+- **Landing Page**: Created [`index.html`](file://[local path redacted]) featuring a dark cyberpunk glassmorphism aesthetic, live threat ticker, threat cards (KARR Bluetooth bug, Relay attacks, OBD port exploits), service tiers, and interactive booking form.
 - **Hero Image**: Generated and embedded custom futuristic 16:9 car shield graphics (`hero.jpg`).
-- **Documentation**: Generated project walkthrough artifact in [`walkthrough.md`](file:///home/jd/.gemini/antigravity/brain/e2ad6295-91b6-43be-aba1-be665bd6d30c/walkthrough.md).
+- **Documentation**: Generated project walkthrough artifact in [`walkthrough.md`](file://[local path redacted]).
 
 Let me know if you would like to add any extra features, refine any sections, or start a new task!
 

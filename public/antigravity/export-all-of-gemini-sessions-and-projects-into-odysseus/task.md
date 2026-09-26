@@ -1,0 +1,3 @@
+- `[x]` Create and execute the session migration script (`migrate_sessions.py`)
+- `[x]` Copy scratch project workspaces to Odysseus (`personal_docs/projects`)
+- `[x]` Verify database entries and copied projects

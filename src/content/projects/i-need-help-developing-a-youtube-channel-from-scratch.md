@@ -433,17 +433,17 @@ We will build the actual scripts for the first three videos of the channel. Thes
 ## Proposed Changes
 
 ### Scripts Directory
-We will create a new directory for scripts at `/home/jd/.gemini/antigravity/brain/799046e9-72e2-404a-9a27-03e2a5eacfcf/scripts/` and generate the following script files:
+We will create a new directory for scripts at `[local path redacted]/` and generate the following script files:
 
-#### [NEW] [video_1_propagandhi.md](file:///home/jd/.gemini/antigravity/brain/799046e9-72e2-404a-9a27-03e2a5eacfcf/scripts/video_1_propagandhi.md)
+#### [NEW] [video_1_propagandhi.md](file://[local path redacted])
 * **Title:** *Propagandhi Made Me a Vegan Anarchist at 13, and I'm Still Mad About It*
 * **Focus:** Deep track-by-track breakdown of *Less Talk, More Rock*, woven with memoir about growing up with a conservative father, discovering veganism/politics, and how the album holds up in 2026.
 
-#### [NEW] [video_2_saddle_creek.md](file:///home/jd/.gemini/antigravity/brain/799046e9-72e2-404a-9a27-03e2a5eacfcf/scripts/video_2_saddle_creek.md)
+#### [NEW] [video_2_saddle_creek.md](file://[local path redacted])
 * **Title:** *How Conor Oberst Made a Cassette at 13 That Changed Everything*
 * **Focus:** The rise of Saddle Creek Records in Omaha, the DIY ethos, and how a group of midwestern teenagers built a global indie rock empire from a basement.
 
-#### [NEW] [video_3_narcissistic_father.md](file:///home/jd/.gemini/antigravity/brain/799046e9-72e2-404a-9a27-03e2a5eacfcf/scripts/video_3_narcissistic_father.md)
+#### [NEW] [video_3_narcissistic_father.md](file://[local path redacted])
 * **Title:** *The Things My Father Taught Me About Money (And Why He Was Wrong About All of It)*
 * **Focus:** The personal memoir of growing up under a narcissistic, pro-capitalist father who almost bankrupted the family, contrasted with the mother who saved them, and how DIY ethics re-framed value and success.
 
@@ -475,17 +475,17 @@ We have successfully drafted the first three video scripts for the channel. Each
 ## Completed Assets
 
 ### 1. Video #1: Propagandhi
-- **File:** [video_1_propagandhi.md](file:///home/jd/.gemini/antigravity/brain/799046e9-72e2-404a-9a27-03e2a5eacfcf/scripts/video_1_propagandhi.md)
+- **File:** [video_1_propagandhi.md](file://[local path redacted])
 - **Title:** *Propagandhi Made Me a Vegan Anarchist at 13, and I'm Still Mad About It*
 - **Contents:** Wears its political hearts on its sleeve. Interweaves an analysis of *Less Talk, More Rock* tracks (such as "PC Fascist," "Nailing Descartes," "Pre-Teen McCarthyist," and "Refusing to Be a Man") with the personal story of confronting a conservative father's worldview at the family dinner table.
 
 ### 2. Video #2: Saddle Creek Records
-- **File:** [video_2_saddle_creek.md](file:///home/jd/.gemini/antigravity/brain/799046e9-72e2-404a-9a27-03e2a5eacfcf/scripts/video_2_saddle_creek.md)
+- **File:** [video_2_saddle_creek.md](file://[local path redacted])
 - **Title:** *How Conor Oberst Made a Cassette at 13 That Changed Everything*
 - **Contents:** Explores the rise of Saddle Creek Records, Lumberjack Records, Conor Oberst, and Tim Kasher. Contrasts the isolation and suburban boredom of Omaha with the raw emotional vulnerability that defined the "Omaha Sound" and challenged traditional notions of masculinity.
 
 ### 3. Video #3: Narcissistic Father & Capitalism
-- **File:** [video_3_narcissistic_father.md](file:///home/jd/.gemini/antigravity/brain/799046e9-72e2-404a-9a27-03e2a5eacfcf/scripts/video_3_narcissistic_father.md)
+- **File:** [video_3_narcissistic_father.md](file://[local path redacted])
 - **Title:** *The Things My Father Taught Me About Money (And Why He Was Wrong About All of It)*
 - **Contents:** A personal memoir contrasting a father's performative, market-obsessed identity with a mother's quiet, life-saving financial resourcefulness. Connects these private family struggles back to the mutual aid and cooperative economics of the DIY music scene.
 
@@ -520,7 +520,7 @@ Now I have everything I need. Let me put together the full research document and
 
 **Antigravity** · 2026-07-24 06:18
 
-Here's everything pulled together in the [channel_research.md](file:///home/jd/.gemini/antigravity/brain/799046e9-72e2-404a-9a27-03e2a5eacfcf/channel_research.md) artifact. Here's the summary:
+Here's everything pulled together in the [channel_research.md](file://[local path redacted]) artifact. Here's the summary:
 
 ---
 
@@ -571,7 +571,7 @@ I have created the implementation plan to draft the first three video scripts fo
 2. **Video #2: Saddle Creek Records** (*How Conor Oberst Made a Cassette at 13 That Changed Everything*)
 3. **Video #3: Narcissistic Father** (*The Things My Father Taught Me About Money — And Why He Was Wrong About All of It*)
 
-You can view the full design and file mapping in the [implementation_plan.md](file:///home/jd/.gemini/antigravity/brain/799046e9-72e2-404a-9a27-03e2a5eacfcf/implementation_plan.md). 
+You can view the full design and file mapping in the [implementation_plan.md](file://[local path redacted]). 
 
 Please review the plan and click **Proceed** (or reply here) when you are ready for me to execute and build out these scripts.
 
@@ -583,10 +583,10 @@ I have built out the full scripts for the first three videos of your channel. Th
 
 Here are the scripts and the walkthrough:
 
-1. **Walkthrough:** [walkthrough.md](file:///home/jd/.gemini/antigravity/brain/799046e9-72e2-404a-9a27-03e2a5eacfcf/walkthrough.md) — A summary of the assets built, layout structure, and advice on production/editing.
-2. **Video #1: Propagandhi:** [video_1_propagandhi.md](file:///home/jd/.gemini/antigravity/brain/799046e9-72e2-404a-9a27-03e2a5eacfcf/scripts/video_1_propagandhi.md) — *Propagandhi Made Me a Vegan Anarchist at 13, and I'm Still Mad About It*.
-3. **Video #2: Saddle Creek Records:** [video_2_saddle_creek.md](file:///home/jd/.gemini/antigravity/brain/799046e9-72e2-404a-9a27-03e2a5eacfcf/scripts/video_2_saddle_creek.md) — *How Conor Oberst Made a Cassette at 13 That Changed Everything*.
-4. **Video #3: Narcissistic Father:** [video_3_narcissistic_father.md](file:///home/jd/.gemini/antigravity/brain/799046e9-72e2-404a-9a27-03e2a5eacfcf/scripts/video_3_narcissistic_father.md) — *The Things My Father Taught Me About Money (And Why He Was Wrong About All of It)*.
+1. **Walkthrough:** [walkthrough.md](file://[local path redacted]) — A summary of the assets built, layout structure, and advice on production/editing.
+2. **Video #1: Propagandhi:** [video_1_propagandhi.md](file://[local path redacted]) — *Propagandhi Made Me a Vegan Anarchist at 13, and I'm Still Mad About It*.
+3. **Video #2: Saddle Creek Records:** [video_2_saddle_creek.md](file://[local path redacted]) — *How Conor Oberst Made a Cassette at 13 That Changed Everything*.
+4. **Video #3: Narcissistic Father:** [video_3_narcissistic_father.md](file://[local path redacted]) — *The Things My Father Taught Me About Money (And Why He Was Wrong About All of It)*.
 
 All files have been saved to your workspace artifacts directory. Good luck with the channel development, and let me know if you want to tweak any of these or start writing scripts for the next series ideas!
 

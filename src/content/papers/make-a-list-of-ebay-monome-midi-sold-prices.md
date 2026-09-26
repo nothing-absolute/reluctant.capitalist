@@ -23,7 +23,7 @@ Below is the design breakdown, technical architecture, and bulk manufacturing Bi
 
 Here is the concept render of the prototype Grid 128 showing a sleek, anodized aluminum enclosure, low-profile translucent silicone key buttons, and a clean USB-C interface.
 
-![Monome Grid 128 Prototype Design](/home/jd/.gemini/antigravity/brain/08bd1d17-671f-4f62-9079-1b22206c77c3/monome_prototype_render_1785580621953.jpg)
+![Monome Grid 128 Prototype Design]([local path redacted])
 
 ---
 
@@ -112,7 +112,7 @@ Below is the design breakdown, electrical architecture, and bulk manufacturing B
 
 Here is the concept render of the prototype Norns Clone featuring a rugged, CNC-milled anodized aluminum chassis, a high-contrast monochrome OLED screen, premium rotary encoders, mechanical keys, and a portable, battery-powered form factor.
 
-![Custom Norns Clone Prototype Design](/home/jd/.gemini/antigravity/brain/08bd1d17-671f-4f62-9079-1b22206c77c3/norns_prototype_render_1785580925942.jpg)
+![Custom Norns Clone Prototype Design]([local path redacted])
 
 ---
 
@@ -290,7 +290,7 @@ barChart
 
 ## 🖥️ Interactive Dashboard
 A beautiful, interactive analytics dashboard has been generated to view this data dynamically. You can filter by category, see visual KPI metrics, and interact with the chart:
-👉 **[Open Interactive Dashboard (monome_dashboard.html)](file:///home/jd/.gemini/antigravity/brain/08bd1d17-671f-4f62-9079-1b22206c77c3/monome_dashboard.html)**
+👉 **[Open Interactive Dashboard (monome_dashboard.html)](file://[local path redacted])**
 
 ---
 
@@ -425,7 +425,7 @@ make a list of ebay monome midi sold prices
 I have compiled a comprehensive list of sold prices for Monome MIDI controllers (Grid 64, Grid 128, Grid 256, Arc, and Norns / Norns Shield) based on historical completed sales on eBay and Reverb.
 
 You can view the detailed breakdown, tables, and transaction history in the generated price guide:
-👉 **[monome_sold_prices.md](file:///home/jd/.gemini/antigravity/brain/08bd1d17-671f-4f62-9079-1b22206c77c3/monome_sold_prices.md)**
+👉 **[monome_sold_prices.md](file://[local path redacted])**
 
 ### Key Highlights:
 * **Monome Grid 64:** Typically sells between **$250 – $425 USD** depending on condition and enclosure material (walnut vs. metal).
@@ -446,8 +446,8 @@ build a chart of listing when the monome version was last sold along with number
 I have updated the pricing guide and created an interactive dashboard that tracks when each Monome version was last sold, along with the volume of units sold over the last year:
 
 ### 📊 Artifacts Generated
-* **Interactive Dashboard:** 👉 **[monome_dashboard.html](file:///home/jd/.gemini/antigravity/brain/08bd1d17-671f-4f62-9079-1b22206c77c3/monome_dashboard.html)** — *Includes KPI metrics, filterable tables, and dynamic visual charts showing sales volumes.*
-* **Markdown Pricing Guide:** 👉 **[monome_sold_prices.md](file:///home/jd/.gemini/antigravity/brain/08bd1d17-671f-4f62-9079-1b22206c77c3/monome_sold_prices.md)** — *Contains a complete markdown summary table and a volume chart.*
+* **Interactive Dashboard:** 👉 **[monome_dashboard.html](file://[local path redacted])** — *Includes KPI metrics, filterable tables, and dynamic visual charts showing sales volumes.*
+* **Markdown Pricing Guide:** 👉 **[monome_sold_prices.md](file://[local path redacted])** — *Contains a complete markdown summary table and a volume chart.*
 
 ### 🔑 Key Trends:
 * **High-Volume Sellers:** The **Norns Shield (DIY)** (30 sold) and **Monome Grid 64** (18 sold) are the most frequently traded on the secondary market. Their latest sales were recorded in **July 2026** and **June 2026**, respectively.
@@ -466,7 +466,7 @@ which one of the monome devices would be best for a kickstarter
 I have created a comprehensive strategic analysis comparing the three core Monome device categories (Grid, Arc, and Norns) for their crowdfunding viability.
 
 You can read the full report here:
-👉 **[kickstarter_analysis.md](file:///home/jd/.gemini/antigravity/brain/08bd1d17-671f-4f62-9079-1b22206c77c3/kickstarter_analysis.md)**
+👉 **[kickstarter_analysis.md](file://[local path redacted])**
 
 ### Summary of Findings:
 * **The Winner:** A **Norns Clone or Remix (Sound Computer)** is the best choice for a Kickstarter campaign. 
@@ -488,7 +488,7 @@ https://www.adafruit.com/search?q=midi look at the parts on that site. Wouldn't 
 I have created a detailed analysis evaluating the viability of using Adafruit Trellis / NeoTrellis hardware modules for a commercial Monome Grid Kickstarter campaign.
 
 You can read the full report here:
-👉 **[trellis_option_analysis.md](file:///home/jd/.gemini/antigravity/brain/08bd1d17-671f-4f62-9079-1b22206c77c3/trellis_option_analysis.md)**
+👉 **[trellis_option_analysis.md](file://[local path redacted])**
 
 ### Key Takeaways:
 * **The Sourcing Problem:** At retail prices, just the keypads and NeoTrellis PCBs for a Grid 128 cost **~$140 USD**. The final per-unit production cost rises to **~$200 USD**, requiring a Kickstarter price of **$599+ USD** to maintain healthy business margins.
@@ -508,7 +508,7 @@ k break down a custom 8x16 PCB design that will replicate Monome's tactile respo
 I have created a complete engineering and financial breakdown for a custom 8x16 Monome-compatible grid design.
 
 You can view the detailed technical specifications, schematic logic, and bulk 1,000-unit BOM in the generated document:
-👉 **[custom_grid_design.md](file:///home/jd/.gemini/antigravity/brain/08bd1d17-671f-4f62-9079-1b22206c77c3/custom_grid_design.md)**
+👉 **[custom_grid_design.md](file://[local path redacted])**
 
 ### Key Design Highlights:
 * **Tactile Responsiveness:** Replaced mushy carbon-pill pads with low-profile, surface-mount **metal dome tactile switches** (1.3N–1.6N actuation force, 0.25mm travel) paired with internal silicone plunger actuators to match Monome's clicky and fast key response.
@@ -528,7 +528,7 @@ do the same as last message but for a Norns clone
 I have created a complete engineering and financial design breakdown for a custom, standalone, and battery-powered **Monome Norns-compatible sound computer**.
 
 You can read the full specification, audio routing schematic logic, and 1,000-unit bulk BOM in the generated document:
-👉 **[custom_norns_design.md](file:///home/jd/.gemini/antigravity/brain/08bd1d17-671f-4f62-9079-1b22206c77c3/custom_norns_design.md)**
+👉 **[custom_norns_design.md](file://[local path redacted])**
 
 ### Key Design Highlights:
 * **The Brain:** Utilizes a **Raspberry Pi Compute Module 4 (CM4)** rather than a standard Raspberry Pi board, keeping the device thickness under 15mm.

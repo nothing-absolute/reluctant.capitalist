@@ -19,7 +19,7 @@ vault: false
 - ✅ Ollama endpoint exists (`host.docker.internal:11434`) but has **no models pulled**
 - ❌ "Select model" dropdown is empty — nothing to chat with yet
 
-![Main dashboard — logged in, no model selected](/home/jd/.gemini/antigravity/brain/a38447ef-2a2f-4b65-9627-8ab3a9e20ab4/07_main_dashboard.png)
+![Main dashboard — logged in, no model selected]([local path redacted])
 
 ---
 
@@ -103,13 +103,13 @@ Should return JSON with your model listed.
 
 At `http://localhost:7000`, click the **⚙️ gear icon** in the bottom-left sidebar.
 
-![Settings — Added Models (shows existing empty Ollama entry)](/home/jd/.gemini/antigravity/brain/a38447ef-2a2f-4b65-9627-8ab3a9e20ab4/03_added_models.png)
+![Settings — Added Models (shows existing empty Ollama entry)]([local path redacted])
 
 > **Note:** There's already an entry for `host.docker.internal:11434` — that points to Ollama on your local PC. Since you want to use the **Tank Pro 3 over Wi-Fi**, you'll add a **new** endpoint for it.
 
 ### 2-B. Click the "Add Models" tab
 
-![Add Models tab — paste your endpoint URL here](/home/jd/.gemini/antigravity/brain/a38447ef-2a2f-4b65-9627-8ab3a9e20ab4/09_add_models_full.png)
+![Add Models tab — paste your endpoint URL here]([local path redacted])
 
 ### 2-C. Add the Tank Pro 3 as a Local Endpoint
 
@@ -127,7 +127,7 @@ In the **"Add Local Models (Endpoint)"** section:
 
 Go to the **"AI Defaults"** tab:
 
-![AI Defaults tab — set your default model here](/home/jd/.gemini/antigravity/brain/a38447ef-2a2f-4b65-9627-8ab3a9e20ab4/04_ai_defaults.png)
+![AI Defaults tab — set your default model here]([local path redacted])
 
 1. Under **Default Chat Model**, click the endpoint dropdown
 2. Select your Tank Pro 3 endpoint (`192.168.1.47:11434`)
@@ -478,7 +478,7 @@ I've launched the browser subagent again to inspect `http://localhost:7000/`. Le
 
 The browser subagent has successfully loaded the page, and we have a fresh look at your Odysseus instance:
 
-![Live Dashboard Screenshot](/home/jd/.gemini/antigravity/brain/a38447ef-2a2f-4b65-9627-8ab3a9e20ab4/live_dashboard_screenshot.png)
+![Live Dashboard Screenshot]([local path redacted])
 
 As you can see right in the center of the screen, the system is explicitly prompting you to add a model:
 > **"Add an AI endpoint from Settings in the sidebar, or paste an endpoint/API key into the chat."**
@@ -500,7 +500,7 @@ This lines up perfectly with the steps I outlined earlier. To connect the models
 
 Once that's done, you can click the "Select model" dropdown (in the message input box at the bottom right) to pick the model you pulled on your phone and start chatting!
 
-You can check out the full detailed artifact [Odysseus Setup Guide](file:///home/jd/.gemini/antigravity/brain/a38447ef-2a2f-4b65-9627-8ab3a9e20ab4/odysseus_model_setup.md) for more in-depth troubleshooting if you run into any network issues between your PC and the phone. Let me know if you need help getting Ollama running properly in Termux!
+You can check out the full detailed artifact [Odysseus Setup Guide](file://[local path redacted]) for more in-depth troubleshooting if you run into any network issues between your PC and the phone. Let me know if you need help getting Ollama running properly in Termux!
 
 ---
 
@@ -522,7 +522,7 @@ To input the correct endpoint, **what is the IP address of your Tank Pro 3?** (O
 
 The browser subagent has successfully navigated to the **Add Models** tab:
 
-![Add Models Tab Live](/home/jd/.gemini/antigravity/brain/a38447ef-2a2f-4b65-9627-8ab3a9e20ab4/add_models_tab_live.png)
+![Add Models Tab Live]([local path redacted])
 
 It's ready to input the URL under **Add Local Models (Endpoint)**.
 
@@ -548,7 +548,7 @@ The browser subagent has successfully added the endpoint `http://10.218.143.108:
 
 Here is the updated **Added Models** tab showing the configuration:
 
-![Added Models Tab New](/home/jd/.gemini/antigravity/brain/a38447ef-2a2f-4b65-9627-8ab3a9e20ab4/added_models_tab_new.png)
+![Added Models Tab New]([local path redacted])
 
 ### ⚠️ Status: "no models"
 As shown in the screenshot, the connection itself is active and responding, but it currently reports **no models** are loaded/downloaded on your Ollama server on the Tank Pro 3. Because of this, Odysseus doesn't have any models to show in your chat interface yet.

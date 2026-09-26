@@ -1,0 +1,16 @@
+- [x] Initialize Remotion project `pillboy-style-video`
+- [x] Install fonts (`@fontsource/league-gothic`, `@fontsource/bebas-neue`)
+- [x] Create placeholder assets in `public/`
+- [x] Implement `src/components/`
+    - [x] `Character.tsx`
+    - [x] `StampText.tsx`
+- [x] Implement `src/scenes/`
+    - [x] `TitleCard.tsx`
+    - [x] `CharacterPose.tsx`
+    - [x] `PhotoEssay.tsx`
+    - [x] `WordCloud.tsx`
+    - [x] `MoneyRain.tsx`
+    - [x] `GoldCoin.tsx`
+    - [x] `BillionaireGrid.tsx`
+- [x] Assemble `Video.tsx`
+- [x] Register `MyVideo` in `Root.tsx`

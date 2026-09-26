@@ -94,7 +94,7 @@ help me come up with ways to measure to possible market fot the BYO boat monitor
 
 I have created a comprehensive market validation strategy for your BYO boat monitor project, which includes a drafted survey that you can use on Reddit and other boating communities.
 
-You can view the full strategy here: [market_validation_strategy.md](file:///home/jd/.gemini/antigravity/brain/49068812-fa3e-4625-92fa-d4a65a287ac8/market_validation_strategy.md)
+You can view the full strategy here: [market_validation_strategy.md](file://[local path redacted])
 
 Here is a summary of the approach outlined in the document:
 
@@ -128,7 +128,7 @@ I've set up the groundwork for you to deploy both the survey and the "smoke test
 ### 1. Deploying the Survey (The Quick Way)
 The easiest, free way to launch the survey is using Google Forms or Typeform:
 1. Head over to [Google Forms](https://forms.google.com/) and create a new blank form.
-2. Copy and paste the questions I drafted in the [market_validation_strategy.md](file:///home/jd/.gemini/antigravity/brain/49068812-fa3e-4625-92fa-d4a65a287ac8/market_validation_strategy.md) document. 
+2. Copy and paste the questions I drafted in the [market_validation_strategy.md](file://[local path redacted]) document. 
 3. Click "Send" in the top right, go to the link icon, and click "Shorten URL".
 4. You now have a shareable link you can post on Reddit and forums!
 
@@ -137,13 +137,13 @@ I took the liberty of designing a stunning, modern HTML landing page for your wa
 
 👉 **[Preview the landing page locally: http://localhost:8080](http://localhost:8080)**
 
-The code is saved in `[byo-boat-monitor-landing](file:///home/jd/.gemini/antigravity/scratch/byo-boat-monitor-landing)`.
+The code is saved in `[byo-boat-monitor-landing](file://[local path redacted])`.
 
 Once you are happy with the design and want to make it live on the internet, here is the easiest way to deploy it for free:
 
 **Option A: Netlify Drop (Easiest)**
 1. Go to [Netlify Drop](https://app.netlify.com/drop).
-2. Open your file explorer to `/home/jd/.gemini/antigravity/scratch/` and simply drag and drop the entire `byo-boat-monitor-landing` folder into the Netlify page.
+2. Open your file explorer to `[local path redacted]/` and simply drag and drop the entire `byo-boat-monitor-landing` folder into the Netlify page.
 3. It will instantly deploy and give you a live URL (which you can later customize or link to a custom domain like `openboatmonitor.com`).
 
 **Option B: Vercel (Developer Friendly)**

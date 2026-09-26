@@ -27,7 +27,7 @@ This plan addresses connection issues, database setup, and AI/API integrations f
 
 ### Database Configuration
 
-#### [MODIFY] [database.py](file:///home/jd/Prototypes/collectibles-vault/backend/database.py)
+#### [MODIFY] [database.py](file://[local path redacted])
 * Modify the default `DATABASE_URL` to fallback to SQLite (`sqlite:///./collectibles.db`) if no PostgreSQL connection environment variable is present.
 * Configure `create_engine` with `connect_args={"check_same_thread": False}` when SQLite is active to prevent multi-threading errors.
 
@@ -35,7 +35,7 @@ This plan addresses connection issues, database setup, and AI/API integrations f
 
 ### Frontend Proxy Configuration
 
-#### [MODIFY] [vite.config.js](file:///home/jd/Prototypes/collectibles-vault/frontend/vite.config.js)
+#### [MODIFY] [vite.config.js](file://[local path redacted])
 * Change proxy target to use `http://127.0.0.1:8000` or allow customization via an environment variable (`VITE_API_TARGET` or default to `http://127.0.0.1:8000` when running locally).
 * In Docker Compose, we can pass `VITE_API_TARGET=http://backend:8000` or fallback dynamically.
 
@@ -43,7 +43,7 @@ This plan addresses connection issues, database setup, and AI/API integrations f
 
 ### Verification and Setup Script
 
-#### [MODIFY] [setup_server.sh](file:///home/jd/Prototypes/collectibles-vault/scripts/setup_server.sh)
+#### [MODIFY] [setup_server.sh](file://[local path redacted])
 * Ensure Python dependencies (`bitsandbytes`, `accelerate`, `transformers`, `torch`) are installed correctly.
 * Verify if the LLaVA model can load on GPU correctly.
 
@@ -74,17 +74,17 @@ We have successfully updated the Collectibles Vault application codebase to addr
 ## Changes Made
 
 ### 1. Database Configuration
-* **File:** [database.py](file:///home/jd/Prototypes/collectibles-vault/backend/database.py)
+* **File:** [database.py](file://[local path redacted])
 * **Change:** Configured the database connection string to dynamically fall back to a local SQLite database (`sqlite:///./collectibles.db`) if no PostgreSQL environment variable is present (`DATABASE_URL`).
 * **Why:** This allows the backend to start up instantly outside of a Docker network (e.g. running directly on the RunPod GPU host with `python3 main.py`).
 
 ### 2. Frontend Proxy Configuration
-* **File:** [vite.config.js](file:///home/jd/Prototypes/collectibles-vault/frontend/vite.config.js)
+* **File:** [vite.config.js](file://[local path redacted])
 * **Change:** Made the proxy target dynamic. It now reads `process.env.VITE_API_TARGET` or defaults to `http://127.0.0.1:8000`.
 * **Why:** The previous hardcoded value `http://backend:8000` was only resolvable inside a Docker Compose network. Running the Vite dev server directly on the host now correctly proxies API calls to `127.0.0.1:8000`.
 
 ### 3. Setup Verification Script
-* **File:** [verify_setup.py](file:///home/jd/Prototypes/collectibles-vault/backend/verify_setup.py)
+* **File:** [verify_setup.py](file://[local path redacted])
 * **Change:** Added a script to check that python packages (`torch`, `transformers`, `fastapi`), SQLite database connection, and CUDA/GPU are all functional.
 
 ---
@@ -461,7 +461,7 @@ Paste the `ss` output (and those two HTTP codes if you can), and I’ll tell you
 
 **Antigravity** · 2026-08-20 04:36
 
-I have created a comprehensive [implementation_plan.md](file:///home/jd/.gemini/antigravity/brain/2163af39-ee81-4fad-a665-92194e6e6f77/implementation_plan.md) to address the connection issues and prepare the LLaVA + eBay API integrations for your Collectibles Vault app. 
+I have created a comprehensive [implementation_plan.md](file://[local path redacted]) to address the connection issues and prepare the LLaVA + eBay API integrations for your Collectibles Vault app. 
 
 Please review the plan and click **Proceed** (or reply here) once you're ready to proceed with the execution.
 
@@ -472,11 +472,11 @@ Please review the plan and click **Proceed** (or reply here) once you're ready t
 I have successfully implemented all configuration changes to fix database connectivity and frontend-to-backend routing, and created a walkthrough.
 
 ### Summary of Changes
-1. **SQLite Database Fallback:** Modified [database.py](file:///home/jd/Prototypes/collectibles-vault/backend/database.py) to use a local SQLite database (`sqlite:///./collectibles.db`) when running outside Docker (such as directly on the RunPod GPU host), while retaining PostgreSQL support inside Docker.
-2. **Dynamic Vite API Proxy:** Updated [vite.config.js](file:///home/jd/Prototypes/collectibles-vault/frontend/vite.config.js) to dynamically resolve the API target. It defaults to `http://127.0.0.1:8000` for host-level execution instead of failing on the container-only host name `http://backend:8000`.
-3. **Environment Checker:** Added a script [verify_setup.py](file:///home/jd/Prototypes/collectibles-vault/backend/verify_setup.py) to check Python package dependencies, GPU availability, and database connections.
+1. **SQLite Database Fallback:** Modified [database.py](file://[local path redacted]) to use a local SQLite database (`sqlite:///./collectibles.db`) when running outside Docker (such as directly on the RunPod GPU host), while retaining PostgreSQL support inside Docker.
+2. **Dynamic Vite API Proxy:** Updated [vite.config.js](file://[local path redacted]) to dynamically resolve the API target. It defaults to `http://127.0.0.1:8000` for host-level execution instead of failing on the container-only host name `http://backend:8000`.
+3. **Environment Checker:** Added a script [verify_setup.py](file://[local path redacted]) to check Python package dependencies, GPU availability, and database connections.
 
-Please refer to the [walkthrough.md](file:///home/jd/.gemini/antigravity/brain/2163af39-ee81-4fad-a665-92194e6e6f77/walkthrough.md) for detailed instructions on how to verify and run the stack directly or via Docker on your RunPod instance.
+Please refer to the [walkthrough.md](file://[local path redacted]) for detailed instructions on how to verify and run the stack directly or via Docker on your RunPod instance.
 
 </details>
 

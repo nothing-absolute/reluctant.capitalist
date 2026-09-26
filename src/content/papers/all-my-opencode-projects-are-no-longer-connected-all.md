@@ -56,9 +56,9 @@ The old database that held all your session data was overwritten. The current DB
 ## Your Old Sessions (from debug log, Jul 8 – Aug 27)
 
 Over 50 unique sessions were found spanning multiple workspaces:
-- `/home/jd/Documents/New OpenCode Project` (primary workspace)
-- `/home/jd` (home directory sessions)
-- `/home/jd/Prototypes` (prototypes workspace)
+- `[local path redacted] OpenCode Project` (primary workspace)
+- `[local path redacted]` (home directory sessions)
+- `[local path redacted]` (prototypes workspace)
 
 Key sessions with meaningful titles included:
 - "Find archived sessions location"
@@ -68,7 +68,7 @@ Key sessions with meaningful titles included:
 - "Find odysseus Docker files"
 - "Explore Remotion project structure"
 - "Explore project structure"
-- "Explore /home/jd/ directory structure"
+- "Explore [local path redacted]/ directory structure"
 
 ## Assets
 - [analysis_results.md](/antigravity/all-my-opencode-projects-are-no-longer-connected-all/analysis_results.md) — MD, 4 KB

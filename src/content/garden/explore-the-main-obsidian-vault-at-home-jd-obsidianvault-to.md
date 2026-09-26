@@ -1,5 +1,5 @@
 ---
-title: "Explore the main Obsidian vault at /home/jd/ObsidianVault to understand its structure"
+title: "Explore the main Obsidian vault at [local path redacted] to understand its structure"
 description: "Exploring the structure of the main Obsidian vault and its relation to the EMAI Starter Vault"
 date: "2026-07-27"
 tags: ["obsidian","vault","structure","productivity"]
@@ -8,7 +8,7 @@ draft: true
 vault: false
 ---
 
-Explore the main Obsidian vault at /home/jd/ObsidianVault to understand its structure and how it relates to the EMAI Starter Vault.
+Explore the main Obsidian vault at [local path redacted] to understand its structure and how it relates to the EMAI Starter Vault.
 
 1. Read README.md, AI Setup Guide.md, Workflow Guide.md
 2. List contents of each numbered folder: 00-AREA, 01-PARALLEL, 02-ARCHIVE, 03-TEMPLATES, 04-ATTACHMENTS, 05-DAILY, 06-ZETTELKASTEN, 07-MAP-OF-CONTENT
@@ -28,4 +28,4 @@ Return a comprehensive report covering:
 
 ## Related
 
-- [Thoroughly explore the EMAI Obsidian OS project at /home/jd/Documents/Obsidian…](/garden/thoroughly-explore-the-emai-obsidian-os-project-at-home-jd-d/)
+- [Thoroughly explore the EMAI Obsidian OS project at [local path redacted]…](/garden/thoroughly-explore-the-emai-obsidian-os-project-at-home-jd-d/)

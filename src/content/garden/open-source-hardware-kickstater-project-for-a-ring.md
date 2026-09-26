@@ -288,7 +288,7 @@ Here is the industrial design mockup and the financial projections for the Kicks
 
 This is the proposed aesthetic for the OpenDoor Video Doorbell. It features a rugged, matte metal finish, exposed hex screws for easy repairability, and the top-mounted integrated solar panel. The tactile button is surrounded by a programmable LED ring for visual feedback.
 
-![OpenDoor Solar Mockup](/home/jd/.gemini/antigravity/brain/91fbcd74-1c9b-4cfb-be38-fe99f60e1b9b/doorbell_solar_mockup_1785592369940.jpg)
+![OpenDoor Solar Mockup]([local path redacted])
 
 ## Financial Projections (30-Day Campaign)
 
@@ -296,7 +296,7 @@ Based on a blended average pledge of $150 (assuming a majority of backers opt fo
 
 The curve models a standard Kickstarter trajectory: a heavy spike in the first 72 hours driven by early-bird marketing, a flattened middle period ("the slump"), and a final surge in the last 72 hours as the campaign closes.
 
-![Revenue Projection Chart](/home/jd/.gemini/antigravity/brain/91fbcd74-1c9b-4cfb-be38-fe99f60e1b9b/revenue_projection.png)
+![Revenue Projection Chart]([local path redacted])
 
 ### Key Metrics Model:
 *   **Total Expected Backers:** ~1,450
@@ -327,7 +327,7 @@ open source / hardware kickstater project for a Ring doorbell replacement. usin
 
 I've researched existing open-source and DIY doorbell projects from Hackaday and Thingiverse and synthesized them into a complete Kickstarter project blueprint for a Ring replacement. 
 
-You can view the full proposal here: [kickstarter_doorbell_pitch.md](file:///home/jd/.gemini/antigravity/brain/91fbcd74-1c9b-4cfb-be38-fe99f60e1b9b/kickstarter_doorbell_pitch.md).
+You can view the full proposal here: [kickstarter_doorbell_pitch.md](file://[local path redacted]).
 
 Here are the key takeaways for building a viable, open-source Ring alternative:
 
@@ -348,7 +348,7 @@ Would you like to dive deeper into prototyping the hardware Bill of Materials (B
 
 **Antigravity** · 2026-08-01 13:34
 
-I have updated the Kickstarter pitch to reflect your choices: [kickstarter_doorbell_pitch.md](file:///home/jd/.gemini/antigravity/brain/91fbcd74-1c9b-4cfb-be38-fe99f60e1b9b/kickstarter_doorbell_pitch.md). 
+I have updated the Kickstarter pitch to reflect your choices: [kickstarter_doorbell_pitch.md](file://[local path redacted]). 
 
 It now outlines a highly compelling consumer-ready product: Battery/Solar powered, a dedicated plug-in Wi-Fi chime, and an optional "OpenBase" station for robust local recording (with MicroSD fallback on the doorbell itself).
 
@@ -361,7 +361,7 @@ Let's continue down the design tree. Next up is the physical aesthetic and enclo
 That concludes our design grill session! The choices you've made outline a really compelling, highly marketable Kickstarter project that directly addresses the pain points of modern commercial doorbells.
 
 I've finalized the project blueprint artifact to reflect the entire hardware and software ecosystem:
-[kickstarter_doorbell_pitch.md](file:///home/jd/.gemini/antigravity/brain/91fbcd74-1c9b-4cfb-be38-fe99f60e1b9b/kickstarter_doorbell_pitch.md)
+[kickstarter_doorbell_pitch.md](file://[local path redacted])
 
 **The Final Vision:**
 *   **Hardware:** Rugged, consumer-ready, battery/solar powered ESP32 doorbell.
@@ -389,7 +389,7 @@ Start drafting a schematic or Bill of Materials (BOM) for the doorbell PCB.
 
 I've drafted a comprehensive Bill of Materials (BOM) and high-level hardware architecture for the custom OpenDoor PCB. 
 
-You can view it here: [doorbell_bom.md](file:///home/jd/.gemini/antigravity/brain/91fbcd74-1c9b-4cfb-be38-fe99f60e1b9b/doorbell_bom.md).
+You can view it here: [doorbell_bom.md](file://[local path redacted]).
 
 **Key Hardware Decisions:**
 *   **MCU:** ESP32-S3 (specifically the 1U variant so we can use an external Wi-Fi antenna, crucial for punching through exterior walls).
@@ -412,7 +412,7 @@ Draft the actual Kickstarter campaign copy and reward structures in detail.
 
 I've drafted the complete Kickstarter campaign copy and reward structures for OpenDoor. 
 
-You can read the full campaign draft here: [kickstarter_campaign_copy.md](file:///home/jd/.gemini/antigravity/brain/91fbcd74-1c9b-4cfb-be38-fe99f60e1b9b/kickstarter_campaign_copy.md).
+You can read the full campaign draft here: [kickstarter_campaign_copy.md](file://[local path redacted]).
 
 It covers all the crucial marketing beats for a hardware Kickstarter:
 *   **The Hook:** A video script outline that immediately highlights the pain of subscriptions and data mining, contrasting it with the freedom of OpenDoor.
@@ -433,7 +433,7 @@ build a industrial design mock up of the doorbell with solarpalel built in. then
 
 I've generated the industrial design mockup and the financial projections you requested. 
 
-You can view both in this visual artifact: [kickstarter_visuals.md](file:///home/jd/.gemini/antigravity/brain/91fbcd74-1c9b-4cfb-be38-fe99f60e1b9b/kickstarter_visuals.md)
+You can view both in this visual artifact: [kickstarter_visuals.md](file://[local path redacted])
 
 **Highlights:**
 *   **The Mockup:** The design leans heavily into the "rugged and industrial" aesthetic we discussed during the grill session. It features an integrated, angled solar panel on top, a large camera lens, and the classic tactile button with an LED status ring.
@@ -453,7 +453,7 @@ create a claude promt for creating the kickstater page
 
 I've put together a comprehensive prompt that you can copy and paste directly into Claude (or any other LLM) to generate a highly-polished, professional Kickstarter campaign page. 
 
-You can find it here: [claude_kickstarter_prompt.md](file:///home/jd/.gemini/antigravity/brain/91fbcd74-1c9b-4cfb-be38-fe99f60e1b9b/claude_kickstarter_prompt.md).
+You can find it here: [claude_kickstarter_prompt.md](file://[local path redacted]).
 
 It feeds the AI all the context we've built up—the hardware architecture, the subscription-free hook, the exact reward tiers, and the rugged aesthetic—and instructs it to output a structured page complete with placeholders for lifestyle images and GIFs. 
 
@@ -656,7 +656,7 @@ This is an incredibly sharp and pragmatic hardware brief. You've correctly ident
 
 Your analysis of the **AXP2101 PMU** and the **Seeed XIAO ESP32S3 Sense** as the blueprint for the production PCB is spot on. Slapping a solar panel on a board that draws 1.2mA in sleep is a losing battle; driving that down to ~14µA changes the math completely and makes a 3W integrated panel actually viable. The idea to use ESP-NOW for the button-to-chime trigger to bypass the 2-second Wi-Fi negotiation is also a brilliant UX optimization.
 
-I have updated the official hardware blueprint to reflect this architecture exactly: [doorbell_bom.md](file:///home/jd/.gemini/antigravity/brain/91fbcd74-1c9b-4cfb-be38-fe99f60e1b9b/doorbell_bom.md).
+I have updated the official hardware blueprint to reflect this architecture exactly: [doorbell_bom.md](file://[local path redacted]).
 
 Since you've outlined a clear two-stage plan (Prototype now on the LILYGO T-Camera S3, Production later on custom PCB), where do you want to focus next? 
 1. I can start drafting the **ESPHome firmware configuration** optimized for the LILYGO T-Camera S3 prototype (setting up the deep sleep cycle and PIR triggers).
@@ -674,11 +674,11 @@ We can update the Kickstarter copy/Claude prompt to heavily emphasize these spec
 
 Both artifacts have been updated to heavily emphasize those critical engineering decisions!
 
-1.  **The Campaign Pitch**: [kickstarter_campaign_copy.md](file:///home/jd/.gemini/antigravity/brain/91fbcd74-1c9b-4cfb-be38-fe99f60e1b9b/kickstarter_campaign_copy.md)
+1.  **The Campaign Pitch**: [kickstarter_campaign_copy.md](file://[local path redacted])
     *   I added a new section called **"Deep Dive: Real Engineering, No White-Labels"**.
     *   It breaks down the AXP2101 PMU, the ~14µA deep sleep, the 3W solar math, and the brilliant ESP-NOW zero-latency chime trigger in a way that is easily digestible but proves our technical chops.
 
-2.  **The Claude Prompt**: [claude_kickstarter_prompt.md](file:///home/jd/.gemini/antigravity/brain/91fbcd74-1c9b-4cfb-be38-fe99f60e1b9b/claude_kickstarter_prompt.md)
+2.  **The Claude Prompt**: [claude_kickstarter_prompt.md](file://[local path redacted])
     *   I added a **"CRITICAL: The Engineering Deep Dive"** section to the system instructions.
     *   This forces the LLM to feature those exact specifications (the PMU, the EKMC PIR sensor, the ESP-NOW broadcast) prominently when it generates the final layout, ensuring the campaign sounds like it was written by actual hardware engineers.
 

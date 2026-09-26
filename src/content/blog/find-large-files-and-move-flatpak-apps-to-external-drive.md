@@ -13,7 +13,7 @@ quality: 4
 
 This is an opencode working session — 36 messages.
 
-When: 2026-09-19 · Working directory: /home/jd/Prototypes
+When: 2026-09-19 · Working directory: [local path redacted]
 
 Opened with:
 > Find which folders or programs are taking up the most hard drive space on the laptop. Find as many large files that can either be removed because they are not used by me…

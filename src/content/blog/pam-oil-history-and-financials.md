@@ -13,7 +13,7 @@ Pam Oil History and Financials
 
 This is an opencode working session — 32 messages.
 
-Date: 2026-09-19 · Working directory: /home/jd/Prototypes
+Date: 2026-09-19 · Working directory: [local path redacted]
 
 Opened with:
 

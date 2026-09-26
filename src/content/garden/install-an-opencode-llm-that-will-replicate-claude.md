@@ -34,18 +34,18 @@ I have completed setting up the **open-source coding LLM** (Qwen2.5-Coder) acros
 
 ### What Was Configured
 
-#### 1. OpenCode Terminal CLI (`/home/jd/.opencode/bin/opencode`)
+#### 1. OpenCode Terminal CLI (`[local path redacted]`)
 * **Open-Source Model**: Integrated **`qwen2.5-coder:7b-instruct`** via local Ollama (`http://localhost:11434/v1`).
 * **Configurations Updated**:
-  * [opencode.jsonc](file:///home/jd/.config/opencode/opencode.jsonc)
-  * [opencode.json](file:///home/jd/.opencode/opencode.json)
+  * [opencode.jsonc](file://[local path redacted])
+  * [opencode.json](file://[local path redacted])
 * **Usage**: You can launch OpenCode in any workspace terminal to run local agentic coding tasks:
   ```bash
   opencode --model ollama/qwen2.5-coder:7b-instruct
   ```
 
 #### 2. Odysseus Web Application (`http://localhost:7000`)
-* **Default Model**: Updated [settings.json](file:///media/jd/500gb/LINUX/Odysseus/odysseus/data/settings.json) to set **`qwen2.5-coder:7b-instruct`** (Endpoint ID `480f21d9`) as the primary active default model.
+* **Default Model**: Updated [settings.json](file://[local path redacted]) to set **`qwen2.5-coder:7b-instruct`** (Endpoint ID `480f21d9`) as the primary active default model.
 * **Frontier Claude Access**: Your local **OmniRoute** endpoint (`localhost:20128`) remains configured in Odysseus if you wish to toggle to `bzl/claude-opus-4.8` or `bzl/claude-sonnet-4.6` at any time.
 
 
@@ -72,13 +72,13 @@ The **`qwen2.5-coder:7b-instruct`** model and Ollama setup are configured to run
 
 ### 1. Storage Location on 500GB Drive
 Ollama's system service environment (`/etc/systemd/system/ollama.service.d/override.conf`) points `OLLAMA_MODELS` directly to your external drive:
-* **Model Directory**: `/media/jd/500gb/LINUX/Odysseus/odysseus/data/models/ollama`
+* **Model Directory**: `[local path redacted]`
 * All model blobs and manifests for `qwen2.5-coder:7b-instruct` are saved directly to this folder on your 500GB partition.
 
 
 ### 2. Odysseus Configuration
 * **Endpoint**: Points to local Ollama on port `11434` (`http://localhost:11434/v1`, Endpoint ID `480f21d9`).
-* **Active Model**: Set as default model in `/media/jd/500gb/LINUX/Odysseus/odysseus/data/settings.json`:
+* **Active Model**: Set as default model in `[local path redacted]`:
   ```json
   "default_endpoint_id": "480f21d9",
   "default_model": "qwen2.5-coder:7b-instruct"
@@ -86,7 +86,7 @@ Ollama's system service environment (`/etc/systemd/system/ollama.service.d/overr
 
 
 ### 3. Current Status
-* The model download process (`task-90`) is actively pulling `qwen2.5-coder:7b-instruct` straight to `/media/jd/500gb/LINUX/Odysseus/odysseus/data/models/ollama`.
+* The model download process (`task-90`) is actively pulling `qwen2.5-coder:7b-instruct` straight to `[local path redacted]`.
 * Once finished, you can open **Odysseus** at `http://localhost:7000` and start chatting with **Qwen 2.5 Coder** immediately.
 
 
@@ -97,9 +97,9 @@ Ollama's system service environment (`/etc/systemd/system/ollama.service.d/overr
 The download and installation of **`qwen2.5-coder:7b-instruct`** on your 500GB drive is complete!
 
 ### Summary:
-1. **Stored on 500GB Drive**: Model files (4.7 GB) are verified at `/media/jd/500gb/LINUX/Odysseus/odysseus/data/models/ollama/`.
+1. **Stored on 500GB Drive**: Model files (4.7 GB) are verified at `[local path redacted]/`.
 2. **Ready in Odysseus**: Set as default active model in Odysseus (`http://localhost:7000`).
-3. **Ready in OpenCode CLI**: Available via `/home/jd/.opencode/bin/opencode`.
+3. **Ready in OpenCode CLI**: Available via `[local path redacted]`.
 
 
 ---
@@ -124,7 +124,7 @@ install an llm in Odysseus that will replicate Claude installed into and run on 
 
 2. **Model Details**:
    * **Model**: `qwen2.5-coder:7b-instruct` (4-bit quantized `Q4_K_M`, ~4.7 GB RAM usage).
-   * **Storage**: Mounted on your 500GB drive at `/media/jd/500gb/LINUX/Odysseus/odysseus/data/models/ollama/`.
+   * **Storage**: Mounted on your 500GB drive at `[local path redacted]/`.
 
 3. **Odysseus Integration**:
    * **Default Endpoint**: Ollama (`http://localhost:11434/v1`, Endpoint `480f21d9`).
@@ -147,7 +147,7 @@ Install qwen2.5-coder:3b-instruct on 500GB drive
 
 The download for **`qwen2.5-coder:3b-instruct`** (1.9 GB) has been launched in the background.
 
-* **Destination Path**: `/media/jd/500gb/LINUX/Odysseus/odysseus/data/models/ollama/` (on your 500GB drive)
+* **Destination Path**: `[local path redacted]/` (on your 500GB drive)
 * **Execution Mode**: CPU-only optimized.
 
 I will notify you as soon as the download and verification complete.
@@ -163,7 +163,7 @@ The installation of **`qwen2.5-coder:3b-instruct`** (1.9 GB) is complete and ver
 * **`qwen2.5-coder:3b-instruct`** (1.9 GB) — Ultra-fast CPU inference model for quick edits & lightweight coding tasks.
 * **`qwen2.5-coder:7b-instruct`** (4.7 GB) — Full 7B model for complex coding logic & step-by-step reasoning.
 
-Both models are stored at `/media/jd/500gb/LINUX/Odysseus/odysseus/data/models/ollama/` and available directly inside **Odysseus** (`http://localhost:7000`) and **OpenCode CLI**.
+Both models are stored at `[local path redacted]/` and available directly inside **Odysseus** (`http://localhost:7000`) and **OpenCode CLI**.
 
 </details>
 

@@ -26,10 +26,16 @@ snapshots/
 .private-imports/
 
 # derived assets copied out of the Antigravity brain (145M of screenshots, media and
-# scratch files). Not source: regenerate with `node scripts/import-antigravity.mjs --prune`.
-# They still ship into dist/ on every build, so anything sensitive must be blocked in the
-# importer's SENSITIVE_ARTIFACT list, not hidden by ignoring it here.
-public/antigravity/
+# scratch files). Originally ignored as "not source" — but ~59 posts reference 341 of
+# these files, so a CI build without them 404s every image. Committed deliberately so a
+# clean checkout builds a complete site. Regenerable with
+# `node scripts/import-antigravity.mjs --prune`; redact before committing:
+# `node scripts/redact-paths.mjs`.
+# public/antigravity/
+
+# review + audit working state (230M of reports, draft previews and quarantine copies).
+# Regenerable by the scripts in scripts/; kept local so it stays out of the public repo.
+reviews/
 
 # video render scratch (local test artifacts)
 video/.venv/
