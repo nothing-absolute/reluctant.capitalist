@@ -44,6 +44,12 @@ jobs:
         env:
           PAGES_BASE: /reluctant.capitalist
 
+      # Generated rather than via @astrojs/sitemap: no new dependency (the
+      # working copy is on eFAT) and it sees the same paths that actually ship.
+      - run: node scripts/build-sitemap.mjs
+        env:
+          PAGES_BASE: /reluctant.capitalist
+
       - uses: actions/upload-pages-artifact@v3
         with:
           path: dist

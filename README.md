@@ -50,32 +50,33 @@ The vault stays private. `scripts/sync-garden.mjs` copies only notes that pass t
 npm run sync:garden
 ```
 
-The default config publishes **only `~/Documents/Projects`** with a 40-note cap and strips private frontmatter keys (`aliases`, `excalidraw-plugin`, …). Edit the config — never publish a whole vault.
+The default config reads `~/Documents/UnifiedVault` and publishes only these folders — `Projects`, `projects`, `Areas`, `Knowledge`, `Daily`, `Goals`, `Inbox` — capped at 250 notes and 120 KB per note, and it strips private frontmatter keys (`aliases`, `excalidraw-plugin`, …). Edit the config — never publish a whole vault.
 
-## Chat with your models
+Most garden posts currently in `src/content/garden/` come from Antigravity conversation exports (`antigravity://…` ids) rather than the vault; those are ingested by `npm run ingest` and classified with `npm run classify`.
 
-`/api/chat` proxies to any OpenAI-compatible endpoint with streaming:
+## Chat
 
-- **Hosted:** `OPENAI_API_KEY` + `OPENAI_BASE_URL` + `OPENAI_MODEL`
-- **Local:** `LLM_MODELS="local://qwen2.5:7b"` + `OPENAI_LOCAL_BASE_URL` (works with Ollama, LM Studio, vLLM, RunPod, Groq, …)
-- **Multiple models:** comma-separate `LLM_MODELS` to get a picker
-- `CHAT_SYSTEM_PROMPT` sets the persona
+`/chat/` is a **static demo**. It renders a scripted widget and posts nowhere — there is no `/api/chat` route and no adapter, because the site is a fully static build. To make it real you would need to add a server endpoint (or point the widget at a hosted one); see the deploy section for why that is not set up here.
 
 ## Deploy
 
-All content pages are static; only `/api/*` runs on-demand. The project ships with the **Node standalone adapter** (`@astrojs/node`), so `npm run build` produces a runnable server:
+The site is **fully static** (`output: 'static'`, no adapter). `npm run build` writes plain HTML to `dist/`, which can be served by any static host.
+
+Deployment is automated via GitHub Actions — `.github/workflows/deploy.yml` builds and publishes to GitHub Pages on every push to `main`. Never deploy outside that path.
+
+Two things are required for a project Pages site (served from a subpath, not the domain root):
+
+- `PAGES_BASE` must be set to the project path, or Astro emits root-absolute links (`/blog/…`) that 404 off-prefix.
+- `public/antigravity/` is **committed** (~145 MB). It was originally gitignored as regenerable data, but 59 posts reference 341 of those files, so a CI checkout without them 404s every image.
 
 ```bash
-npm run build
-PORT=4321 node dist/server/entry.mjs
+# reproduce the CI build locally
+PAGES_BASE=/reluctant.capitalist npm run build
+node scripts/fix-base-media.mjs   # prefix literal <img src="/antigravity/…"> in content
+node scripts/build-sitemap.mjs    # emit dist/sitemap.xml
 ```
 
-Deployment options:
-
-- **Node hosts** (Render, Fly, Railway, any VPS): run the entry script directly.
-- **Netlify / Vercel / Cloudflare Pages**: swap `@astrojs/node` for that platform's adapter (same config shape, then redeploy). Env vars only matter for the chat endpoints.
-
-If you never intend to use the chat, you can drop the adapter and the API routes and deploy as pure static HTML.
+`scripts/fix-base-media.mjs` exists because Astro rewrites its own links for `base` but not literal HTML inside markdown. Both scripts are idempotent and touch only `dist/`.
 
 ## Customize
 

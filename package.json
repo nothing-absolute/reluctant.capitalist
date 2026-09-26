@@ -9,6 +9,7 @@
     "build": "astro build",
     "preview": "astro preview",
     "snapshot": "node scripts/snapshot-notes.mjs",
+    "sync:garden": "node scripts/sync-garden.mjs",
     "ingest": "node scripts/ingest-opencode.mjs && node scripts/ingest-antigravity.mjs",
     "classify": "node scripts/review-notes.mjs",
     "promote": "node scripts/promote.mjs",

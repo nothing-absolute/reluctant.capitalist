@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+
+# Derived build artifacts (raw Antigravity conversation exports and media).
+# They are linked from posts but are not standalone pages worth indexing.
+Disallow: /antigravity/
+
+Sitemap: https://nothing-absolute.github.io/reluctant.capitalist/sitemap.xml
