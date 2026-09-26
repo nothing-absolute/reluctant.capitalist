@@ -218,7 +218,11 @@ if (kept === 0) {
   process.exit(1);
 }
 
-if (cfg.welcomeNote && !existsSync(join(outDir, '_welcome.md'))) {
+if (
+  cfg.welcomeNote &&
+  !existsSync(join(outDir, '_welcome.md')) &&
+  !existsSync(join(outDir, 'welcome.md'))
+) {
   writeFileSync(
     join(outDir, '_welcome.md'),
     [
